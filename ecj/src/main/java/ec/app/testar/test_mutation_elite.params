@@ -1,0 +1,17 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = test.params
+generations		= 10
+pop.subpop.0.size 		= 1000
+
+pop.subpop.0.species.pipe = ec.breed.MultiBreedingPipeline
+# Koza's decision here was odd...
+pop.subpop.0.species.pipe.generate-max = false
+# Subsidiary pipelines:
+pop.subpop.0.species.pipe.num-sources = 1
+pop.subpop.0.species.pipe.source.0 = ec.gp.koza.MutationPipeline
+pop.subpop.0.species.pipe.source.0.prob = 1.0
+
+breed.elite.0=10
