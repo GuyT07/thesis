@@ -8,22 +8,21 @@ import java.util.Date;
 public class StrategyWindow extends JFrame {
     boolean isPaused = false;
 
-    JPanel panel;
-    JTextArea strategyArea;
-    JLabel simplifiedLabel = new JLabel("Is simplified: ");
-    JLabel simplifiedValue = new JLabel();
-    JLabel generationLabel = new JLabel("Generation: ");
-    JLabel generationValue = new JLabel();
-    JLabel individualLabel = new JLabel("Individual: ");
-    JLabel individualValue = new JLabel();
-    JLabel runLabel = new JLabel("Run: ");
-    JLabel runValue = new JLabel();
-    JLabel startTimeLabel = new JLabel("Start time: ");
-    JLabel startTimeValue = new JLabel(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
-    JLabel indStartTimeLabel = new JLabel("Ind start time: ");
-    JLabel indStartTimeValue = new JLabel("");
-    JButton pauseButton = new JButton();
-    JButton stopButton = new JButton();
+    private JTextArea strategyArea;
+    private JLabel simplifiedLabel = new JLabel("Is simplified: ");
+    private JLabel simplifiedValue = new JLabel();
+    private JLabel generationLabel = new JLabel("Generation: ");
+    private JLabel generationValue = new JLabel();
+    private JLabel individualLabel = new JLabel("Individual: ");
+    private JLabel individualValue = new JLabel();
+    private JLabel runLabel = new JLabel("Run: ");
+    private JLabel runValue = new JLabel();
+    private JLabel startTimeLabel = new JLabel("Start time: ");
+    private JLabel startTimeValue = new JLabel(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+    private JLabel indStartTimeLabel = new JLabel("Ind start time: ");
+    private JLabel indStartTimeValue = new JLabel("");
+    private JButton pauseButton = new JButton();
+    private JButton stopButton = new JButton();
 
     public StrategyWindow(Evaluator evaluator) {
         init(evaluator);
@@ -33,7 +32,7 @@ public class StrategyWindow extends JFrame {
         setBounds(1500, 20, 320, 600);
 
 
-        panel = new JPanel();
+        JPanel panel = new JPanel();
         this.add(panel);
 
         strategyArea = new JTextArea();

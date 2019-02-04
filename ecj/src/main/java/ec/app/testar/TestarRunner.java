@@ -5,12 +5,11 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
-    String path = "output\\metrics\\";
-    ResultsReader reader = new ResultsReader();
-    int sequenceLength;
-    StrategyWriter writer = new StrategyWriter();
-    int nrOfTries;
-    private Result result;
+    private String path = "output\\metrics\\";
+    private ResultsReader reader = new ResultsReader();
+    private int sequenceLength;
+    private StrategyWriter writer = new StrategyWriter();
+    private int nrOfTries;
     private int counter = 1;
     private boolean didTestarRun = false;
 
@@ -36,10 +35,7 @@ public class TestarRunner {
             process.waitFor();
             process.destroy();
 
-        } catch (IOException e) {
-            System.out.println("Something went wrong with trying to run TESTAR: " + e);
-            e.printStackTrace();
-        } catch (InterruptedException e) {
+        } catch (IOException | InterruptedException e) {
             System.out.println("Something went wrong with trying to run TESTAR: " + e);
             e.printStackTrace();
         }
@@ -47,8 +43,7 @@ public class TestarRunner {
     }
 
     public Result getResult() {
-        result = new Result(reader.getResults(counter));
-        return result;
+        return new Result(reader.getResults(counter));
     }
 
     public int getCounter() {

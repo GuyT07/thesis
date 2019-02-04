@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class StrategyFactory {
-    private Queue<Function> queue = new LinkedList<Function>();
+    private Queue<Function> queue = new LinkedList<>();
 
     public StrategyNode makeStrategy(String strategy) {
         makeQueue(strategy);

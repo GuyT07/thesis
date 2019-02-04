@@ -10,7 +10,6 @@ import ec.Evolve;
 import ec.util.Parameter;
 import ec.util.ParameterDatabase;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -28,13 +27,13 @@ import org.junit.runners.Parameterized;
 /**
  * System tests that run every example parameter file for a couple generations
  * and ensure that they don't crash.
- * 
+ *
  * @author Eric O. Scott
  */
 @RunWith(Parameterized.class)
 public class AppsTest
 {
-    
+
     @BeforeClass
     public static void beforeClass ()
     {
@@ -45,27 +44,19 @@ public class AppsTest
         if (r.isFile())
             r.delete();*/
     }
-    
+
     /** List the subdirectories of a directory. */
-    private static List<File> getSubdirectories(final File dir)
+    private static ArrayList getSubdirectories(final File dir)
     {
         assert(dir != null);
         assert(dir.isDirectory());
-        final File[] subdirs = dir.listFiles(new FileFilter()
-        {
-            @Override
-            public boolean accept(File f)
-            {
-                return f.isDirectory();
-            }
-        });
-        final List<File> result = new ArrayList();
-        result.addAll(Arrays.asList(subdirs));
-        return result;
+        final File[] subdirs = dir.listFiles(File::isDirectory);
+        assert subdirs != null;
+        return new ArrayList(Arrays.asList(subdirs));
     }
-    
+
     /** List the parameter files in a directory. */
-    public static List<Object[]> getParamFiles(final File dir, final List<String> exclude)
+    static List<Object[]> getParamFiles(final File dir)
     {
         assert(dir != null);
         final File[] appParams = dir.listFiles(new FilenameFilter()
@@ -76,48 +67,46 @@ public class AppsTest
                 return name.endsWith(".params");
             }
         });
-        final List<Object[]> result = new ArrayList();
+        final ArrayList result = new ArrayList();
+        assert appParams != null;
         for (File f : appParams)
-            if (!exclude.contains(f.getAbsolutePath()))
+            if (!AppsTest.exclude.contains(f.getAbsolutePath()))
                 result.add(new Object[] { f.getPath() });
         return result;
     }
-    
-    public final static List<String> exclude = Arrays.asList(new String[]
-    {
-        // Parent files; can't be run directly
-        new File("src/main/resources/ec/app/moosuite/moosuite.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/moosuite/nsga2.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/moosuite/nsga3.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/moosuite/spea2.params").getAbsolutePath(),
 
-        // Distributed examples; need their own test runner.
-        new File("src/main/resources/ec/app/star/ant.master.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/ant.slave.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/coevolve1.master.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/coevolve1.slave.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/coevolve2.master.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/coevolve2.slave.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/mastermeta.params").getAbsolutePath(),
-        new File("src/main/resources/ec/app/star/slavemeta.params").getAbsolutePath(),
+    private final static List<String> exclude = Arrays.asList(// Parent files; can't be run directly
+            new File("src/main/resources/ec/app/moosuite/moosuite.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/moosuite/nsga2.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/moosuite/nsga3.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/moosuite/spea2.params").getAbsolutePath(),
 
-        // Too expensive to bother with
-        new File("src/main/resources/ec/app/cartpole/cartpole.params").getAbsolutePath()
-    });
-    
+            // Distributed examples; need their own test runner.
+            new File("src/main/resources/ec/app/star/ant.master.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/ant.slave.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/coevolve1.master.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/coevolve1.slave.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/coevolve2.master.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/coevolve2.slave.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/mastermeta.params").getAbsolutePath(),
+            new File("src/main/resources/ec/app/star/slavemeta.params").getAbsolutePath(),
+
+            // Too expensive to bother with
+            new File("src/main/resources/ec/app/cartpole/cartpole.params").getAbsolutePath());
+
     @Parameterized.Parameters(name = "{index}: {0}")
-    /** Loads all parameter files in the ec/app subdirectories for testing, except for those in the hard-coded exclude list. */
+    /* Loads all parameter files in the ec/app subdirectories for testing, except for those in the hard-coded exclude list. */
     public static Collection<Object[]> data() {
         final ArrayList<Object[]> paramFiles = new ArrayList();
         // Test all the parameter files inside each app directory
         final File appsRoot = new File("src/main/resources/ec/app/");
         final List<File> appDirs = getSubdirectories(appsRoot);
         for (File d : appDirs) {
-            paramFiles.addAll(getParamFiles(d, exclude));
+            paramFiles.addAll(getParamFiles(d));
         }
         return paramFiles;
     }
-    
+
     @Parameterized.Parameter
     public String examplePath;
 
@@ -147,7 +136,7 @@ public class AppsTest
         final List<Integer> convergence_gen = new ArrayList();
         final File exampleFile = new File(examplePath);
         final String appName = exampleFile.getName();
-        
+
         final Writer resultsWriter;
         try {
             resultsWriter = new BufferedWriter(new FileWriter("testResults/appResults.csv", true));

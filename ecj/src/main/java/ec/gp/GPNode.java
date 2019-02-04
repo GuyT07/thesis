@@ -103,7 +103,7 @@ public abstract class GPNode implements GPNodeParent, Prototype
 
     /** The GPNode's parent.  4 bytes.  :-(  But it really helps simplify breeding. */
     public GPNodeParent parent;
-    public GPNode children[];
+    public GPNode[] children;
     /** The argument position of the child in its parent. 
         This is a byte to save space (GPNode is the critical object space-wise) -- 
         besides, how often do you have 256 children? You can change this to a short

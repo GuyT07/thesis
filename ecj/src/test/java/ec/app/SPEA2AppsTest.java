@@ -20,23 +20,23 @@ import static org.junit.Assert.*;
 
 /**
  * Custom system tests to supplement the automatic harness given by AppsTest.
- * 
+ *
  * @author Eric O. Scott
  */
 public class SPEA2AppsTest
 {
-    
+
     public SPEA2AppsTest()
     {
     }
-    
+
     @Before
     public void setUp()
     {
     }
-    
+
     /**  Moosuite apps inhereit from nsga2.params by default, but we want to
-     * test SPEA2 instead.  This test runs all the moosuite examples after asking 
+     * test SPEA2 instead.  This test runs all the moosuite examples after asking
      * them to inhereit from spea2.params.
      */
     @Test
@@ -44,7 +44,7 @@ public class SPEA2AppsTest
     {
         final File moosuiteRoot = new File("src/main/resources/ec/app/moosuite");
         // Get the paths to all the parameter files inside the moosuite app, except those on AppsTest's exclude list.
-        final List<Object[]> paramFiles = AppsTest.getParamFiles(moosuiteRoot, AppsTest.exclude);
+        final List<Object[]> paramFiles = AppsTest.getParamFiles(moosuiteRoot);
         for (final Object[] f : paramFiles)
             {
             assert(f.length == 1);

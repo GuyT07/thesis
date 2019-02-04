@@ -8,21 +8,21 @@ import java.io.IOException;
 import java.util.TreeMap;
 
 public class ArchiveReader {
-    String path = "..\\ecjapp\\";
+    private String path = "..\\ecjapp\\";
 
     public TreeMap<String, Result> getArchive(String SUT, int sequenceLength) {
-        TreeMap<String, Result> archive = new TreeMap<String, Result>();
-        TreeMap<String, String> lineValues = new TreeMap<String, String>();
+        TreeMap<String, Result> archive = new TreeMap<>();
+        TreeMap<String, String> lineValues = new TreeMap<>();
         Result result;
         String strategy;
 
-        BufferedReader br = null;
-        String line = "";
+        BufferedReader br;
+        String line;
         String cvsSplitBy = ",";
-        String[] keys = null;
-        String[] values = null;
-        boolean existing = false;
-        boolean full = false;
+        String[] keys;
+        String[] values;
+        boolean existing;
+        boolean full;
 
         File csvFile = new File(path + "archive_" + SUT + "_" + sequenceLength + ".csv");
 

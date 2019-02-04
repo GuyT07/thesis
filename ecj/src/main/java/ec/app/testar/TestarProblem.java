@@ -21,8 +21,6 @@ import java.util.Properties;
 public class TestarProblem extends GPProblem implements SimpleProblemForm {
     private static final long serialVersionUID = 1;
 
-    private int numberOfRuns;
-    private int sequenceLength;
     private String runMode;
 
     private Evaluator evaluator;
@@ -42,9 +40,9 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
             in = new FileInputStream("..\\ecjapp\\evolution.properties");
             defaultProps.load(in);
             in.close();
-            numberOfRuns = Integer.parseInt(defaultProps.getProperty("numberOfRuns"));
+            int numberOfRuns = Integer.parseInt(defaultProps.getProperty("numberOfRuns"));
             int maxNumberOfRuns = Integer.parseInt(defaultProps.getProperty("maxNumberOfRuns"));
-            sequenceLength = Integer.parseInt(defaultProps.getProperty("sequenceLength"));
+            int sequenceLength = Integer.parseInt(defaultProps.getProperty("sequenceLength"));
             runMode = defaultProps.getProperty("runMode");
             String SUT = defaultProps.getProperty("SUT");
 
@@ -66,12 +64,6 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
         GPIndividual gpind = (GPIndividual) ind;
         StrategyNode mainNode = (StrategyNode) gpind.trees[0].child.clone();
         Strategy strategy = new Strategy(mainNode);
-		
-		/*if (strategy.didItChange()) {
-			System.out.println("Original: " + strategy.getOriginal());
-			System.out.println("Simplified: " + strategy.getSimple());
-
-		}*/
 
         writer.writeResult(state.generation, strategy);
 
