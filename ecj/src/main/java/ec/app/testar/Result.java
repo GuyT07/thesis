@@ -6,19 +6,19 @@ import java.util.List;
 import java.util.TreeMap;
 
 public class Result {
-    public static final String[] allMetrics = {
+    static final String[] allMetrics = {
             "maxpath", "graph-states", "graph-actions",
             "minCvg(%)", "maxCvg(%)", "abstract-states",
             "test-actions", "SUTRAM(KB)", "SUTCPU(%)",
             "TestRAM(MB)", "TestCPU(s)", "FAILS", "random-actions"};
-    private static int MAXEXECUTIONS = 20;
-    Double fitness;
-    int executions = 0;
-    TreeMap<String, Double> avgResult = new TreeMap<>();
-    TreeMap<String, Double> medianResult = new TreeMap<>();
-    ArrayList<TreeMap<String, Double>> allResults = new ArrayList<>();
+    private static int MAX_EXECUTIONS = 20;
+    private Double fitness;
+    private int executions = 0;
+    private TreeMap<String, Double> avgResult = new TreeMap<>();
+    private TreeMap<String, Double> medianResult = new TreeMap<>();
+    private ArrayList<TreeMap<String, Double>> allResults = new ArrayList<>();
 
-    public Result() {
+    Result() {
         TreeMap<String, Double> thisResult = new TreeMap<>();
         for (String key : allMetrics) {
             thisResult.put(key, Math.random() * 100);
@@ -26,7 +26,7 @@ public class Result {
         addExecution(thisResult);
     }
 
-    public Result(TreeMap<String, String> results) {
+    Result(TreeMap<String, String> results) {
         TreeMap<String, Double> thisResult = new TreeMap<>();
         for (String key : allMetrics) {
             thisResult.put(key, Double.parseDouble(results.get(key)));
@@ -35,23 +35,19 @@ public class Result {
     }
 
     public static void setMax(int max) {
-        MAXEXECUTIONS = max;
+        MAX_EXECUTIONS = max;
     }
 
-    public void addResult(Result result2) {
-        if (executions >= MAXEXECUTIONS) {
+    void addResult(Result result2) {
+        if (executions >= MAX_EXECUTIONS) {
             System.out.println("Max executions reached");
-            return;
+        } else {
+            result2.allResults.forEach(this::addExecution);
         }
-
-        for (TreeMap<String, Double> oneResult : result2.allResults) {
-            addExecution(oneResult);
-        }
-
     }
 
     private void calculateFitness() {
-        Double fitfactor = medianResult.get("maxpath") + medianResult.get("graph-states");
+        double fitfactor = medianResult.get("maxpath") + medianResult.get("graph-states");
         // Calculate that into a value with 0 as optimum
         fitness = 10 / Math.sqrt(Math.max(1.0, fitfactor));
     }
@@ -80,7 +76,7 @@ public class Result {
     }
 
     public boolean maxReached() {
-        return executions == MAXEXECUTIONS;
+        return executions == MAX_EXECUTIONS;
     }
 
     public Double getFitness() {
@@ -88,7 +84,7 @@ public class Result {
     }
 
     public String toString(boolean didTestarRun) {
-        String string = "";
+        StringBuilder string = new StringBuilder();
         TreeMap<String, Double> printResult;
 
         if (didTestarRun) {
@@ -97,10 +93,10 @@ public class Result {
             printResult = medianResult;
         }
         for (String key : allMetrics) {
-            string += printResult.get(key) + ",";
+            string.append(printResult.get(key)).append(",");
         }
-        string += fitness;
-        return string;
+        string.append(fitness);
+        return string.toString();
     }
 
     private void addExecution(TreeMap<String, Double> thisResult) {
@@ -115,7 +111,7 @@ public class Result {
         }
 
         calculateFitness();
-        if (executions == MAXEXECUTIONS) {
+        if (executions == MAX_EXECUTIONS) {
             allResults.clear();
             allResults.add(medianResult);
         }

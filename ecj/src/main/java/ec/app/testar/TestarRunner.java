@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
-    private String path = "output\\metrics\\";
+    private String path = "output" + File.separator + "metrics" + File.separator;
     private ResultsReader reader = new ResultsReader();
     private int sequenceLength;
     private StrategyWriter writer = new StrategyWriter();
@@ -13,7 +13,7 @@ public class TestarRunner {
     private int counter = 1;
     private boolean didTestarRun = false;
 
-    public boolean runWith(String strategy, int sequenceLength) {
+    boolean runWith(String strategy, int sequenceLength) {
         writer.writeStrategy(strategy);
         this.sequenceLength = sequenceLength;
         didTestarRun = false;
@@ -47,11 +47,7 @@ public class TestarRunner {
     }
 
     public int getCounter() {
-        if (didTestarRun) {
-            return counter;
-        } else {
-            return 0;
-        }
+        return didTestarRun ? counter : 0;
     }
 
     public void didNotRun() {

@@ -48,7 +48,7 @@ public class ArchiveReader {
                     strategy = lineValues.get("Simplified strategy");
                     result = new Result(lineValues);
                     existing = archive.containsKey(strategy);
-                    full = existing ? archive.get(strategy).maxReached() : false;
+                    full = existing && archive.get(strategy).maxReached();
 
                     if (existing && !full) {
                         archive.get(strategy).addResult(result);

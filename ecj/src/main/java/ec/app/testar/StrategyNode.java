@@ -17,9 +17,13 @@ public abstract class StrategyNode extends GPNode {
     int expectedChildren;
     int complexity = 0;
 
-    public void eval(final EvolutionState state, final int thread,
-                     final GPData input, final ADFStack stack,
-                     final GPIndividual individual, final Problem problem) {
+    public void eval(final EvolutionState state,
+                     final int thread,
+                     final GPData input,
+                     final ADFStack stack,
+                     final GPIndividual individual,
+                     final Problem problem
+    ) {
         DoubleData rd = ((DoubleData) (input));
         rd.x = 1;
     }
@@ -32,7 +36,7 @@ public abstract class StrategyNode extends GPNode {
         for (int i = 0; i < children.length; i++) {
             children[i] = child(i).getSimplifiedTree();
         }
-        StrategyNode result = (StrategyNode) getSimplifiedNode();
+        StrategyNode result = getSimplifiedNode();
         result.parent = this.parent;
         return result;
     }

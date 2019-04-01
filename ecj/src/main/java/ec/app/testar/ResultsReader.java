@@ -2,50 +2,55 @@ package ec.app.testar;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Optional;
 import java.util.TreeMap;
+import java.util.stream.Stream;
 
 public class ResultsReader {
-    String path = "output\\metrics\\";
+    private String path = "output" + File.separator + "metrics" + File.separator;
 
+    TreeMap<String, String> getResults(final int counter) {
+        TreeMap<String, String> results = new TreeMap<>();
 
-    public TreeMap<String, String> getResults(int counter) {
-        TreeMap<String, String> results = new TreeMap<String, String>();
-
-        BufferedReader br = null;
-        String line = "";
-        String cvsSplitBy = ",";
+        final BufferedReader br;
+        final String cvsSeparator = ",";
+        String line;
         String[] keys = null;
         String[] values = null;
+        Optional<Path> filePath = Optional.empty();
 
-        File csvFile = new File(path + "ecj_sequence" + counter + ".csv");
 
-        try {
-            br = new BufferedReader(new FileReader(csvFile));
-            line = br.readLine();
-            keys = line.split(cvsSplitBy);
-            line = br.readLine();
-            values = line.split(cvsSplitBy);
-            br.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Cannot find the file to read.");
-            e.printStackTrace();
+        try (Stream<Path> paths = Files.walk(Paths.get(path))) {
+            filePath = paths
+                    .filter(Files::isRegularFile)
+                    .filter(file -> file.endsWith("(" + counter + ").csv"))
+                    .findFirst();
         } catch (IOException e) {
-            System.out.println("Cannot read the file.");
             e.printStackTrace();
         }
-        if (keys != null && values != null) {
-            int i = 0;
 
-            for (String k : keys) {
-                String key = k.replaceAll("\\s+", "");
-                String value = values[i].replaceAll("\\s+", "");
-                results.put(key, value);
+        try {
 
-                i++;
-            }
+            line = Files.readAllLines(filePath.orElseThrow(RuntimeException::new).toAbsolutePath()).get(0);
+            keys = line.split(cvsSeparator);
+            line = Files.readAllLines(filePath.orElseThrow(RuntimeException::new).toAbsolutePath()).get(counter);
+            values = line.split(cvsSeparator);
+        } catch (IOException e) {
+            throw new RuntimeException("Could not read file");
+        }
+
+        int i = 0;
+
+        for (String k : keys) {
+            String key = k.replaceAll("\\s+", "");
+            String value = values[i].replaceAll("\\s+", "");
+            results.put(key, value);
+
+            i++;
         }
         return results;
     }

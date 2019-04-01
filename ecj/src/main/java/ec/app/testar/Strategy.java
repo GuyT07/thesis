@@ -1,7 +1,7 @@
 package ec.app.testar;
 
 public class Strategy {
-    static StrategyFactory factory = new StrategyFactory();
+    private static StrategyFactory factory = new StrategyFactory();
     private String original = "";
     private String shortOriginal = "";
     private String simple = "";
@@ -37,48 +37,35 @@ public class Strategy {
         return original;
     }
 
-    public String getShortOriginal() {
-        if (shortOriginal != "") {
-            return shortOriginal;
-        } else {
-            return original;
-        }
+    String getShortOriginal() {
+        return !shortOriginal.equals("") ? shortOriginal : original;
     }
 
     public String getSimple() {
-        if (simple != "") {
-            return simple;
-        } else {
-            return original;
-        }
-
+        return !simple.equals("") ? simple : original;
     }
 
-    public String getShortSimple() {
-        if (shortSimple != "") {
-            return shortSimple;
-        } else {
-            return original;
-        }
+    String getShortSimple() {
+        return !shortSimple.equals("") ? shortSimple : original;
     }
 
-    public int getOriginalDepth() {
+    int getOriginalDepth() {
         return originalDepth;
     }
 
-    public int getSimpleDepth() {
+    int getSimpleDepth() {
         return simpleDepth;
     }
 
-    public int getOriginalComplexity() {
+    int getOriginalComplexity() {
         return originalComplexity;
     }
 
-    public int getSimpleComplexity() {
+    int getSimpleComplexity() {
         return simpleComplexity;
     }
 
-    public boolean didItChange() {
+    boolean didItChange() {
         return !shortOriginal.equals(shortSimple) && !shortSimple.equals("");
     }
 }

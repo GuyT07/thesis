@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class StrategySetRunner {
     static File file = new File("..\\ecjapp\\strategylist.txt");
-    static StrategyReader reader = new StrategyReader(file);
+    private static StrategyReader reader = new StrategyReader(file);
     private static SimplifiedStrategyWriter writer = new SimplifiedStrategyWriter();
     private static int numberOfRuns;
     private static int sequenceLength;

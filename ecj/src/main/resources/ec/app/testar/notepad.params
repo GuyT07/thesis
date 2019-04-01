@@ -4,7 +4,7 @@
 
 parent.0 = ../../gp/koza/koza.params
 generations		= 1
-pop.subpop.0.size 		= 1000
+pop.subpop.0.size 		= 1000000
 
 jobs = 1
 
@@ -97,7 +97,7 @@ gp.nc.3.size = 3
 gp.nc.3.child.0 = boolean
 gp.nc.3.child.1 = action
 gp.nc.3.child.2 = action
- 
+
 gp.nc.4 = ec.gp.GPNodeConstraints
 gp.nc.4.name = acttype
 gp.nc.4.returns = actiontype

@@ -137,8 +137,8 @@ public class StrategyWindow extends JFrame {
 
     }
 
-    public void updateFields(Strategy strategy, int generation, int individual,
-                             int run) {
+    void updateFields(Strategy strategy, int generation, int individual,
+                      int run) {
         strategyArea.setText("Strategy: " + strategy.getSimple());
         simplifiedValue.setText("" + strategy.didItChange());
         generationValue.setText("" + generation);
@@ -148,13 +148,11 @@ public class StrategyWindow extends JFrame {
         repaint();
     }
 
-    public void togglePause(boolean isPaused) {
+    void togglePause(boolean isPaused) {
         if (isPaused) {
             pauseButton.setText("Paused");
         } else {
             pauseButton.setText("Pause");
         }
-
     }
-
 }

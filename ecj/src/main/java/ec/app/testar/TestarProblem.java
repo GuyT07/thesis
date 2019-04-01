@@ -31,13 +31,12 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
         if (!(input instanceof DoubleData)) {
-            state.output.fatal("GPData class must subclass from "
-                    + DoubleData.class, base.push(P_DATA), null);
+            state.output.fatal("GPData class must subclass from " + DoubleData.class, base.push(P_DATA), null);
         }
         Properties defaultProps = new Properties();
         FileInputStream in;
         try {
-            in = new FileInputStream("..\\ecjapp\\evolution.properties");
+            in = new FileInputStream("evolution.properties");
             defaultProps.load(in);
             in.close();
             int numberOfRuns = Integer.parseInt(defaultProps.getProperty("numberOfRuns"));

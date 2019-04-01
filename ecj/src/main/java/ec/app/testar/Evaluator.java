@@ -10,16 +10,15 @@ public class Evaluator implements ActionListener {
     private int generation;
     private int indCounter = 0;
     private ResultWriter resultwriter = new ResultWriter();
-    private TreeMap<String, Result> previousStrategies = new TreeMap<>();
+    private TreeMap<String, Result> previousStrategies;
     private TestarRunner testar = new TestarRunner();
     private boolean isPaused = false;
-    private ArchiveReader archivereader = new ArchiveReader();
     private StrategyWindow window;
 
     public Evaluator(int runs, int sequenceLength, String SUT) {
         nrOfRunsPerEval = runs;
         this.sequenceLength = sequenceLength;
-        previousStrategies = archivereader.getArchive(SUT, sequenceLength);
+        previousStrategies = new ArchiveReader().getArchive(SUT, sequenceLength);
     }
 
     public void setWindow(StrategyWindow window) {
