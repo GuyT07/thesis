@@ -33,8 +33,8 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
         if (!(input instanceof DoubleData)) {
             state.output.fatal("GPData class must subclass from " + DoubleData.class, base.push(P_DATA), null);
         }
-        Properties defaultProps = new Properties();
-        FileInputStream in;
+        final Properties defaultProps = new Properties();
+        final FileInputStream in;
         try {
             in = new FileInputStream("evolution.properties");
             defaultProps.load(in);
@@ -56,23 +56,18 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
 
     }
 
-    public void evaluate(final EvolutionState state, final Individual ind,
-                         final int subpopulation, final int threadnum) {
-
+    public void evaluate(final EvolutionState state, final Individual ind, final int subPopulation, final int threadNum) {
         window.setVisible(true);
-        GPIndividual gpind = (GPIndividual) ind;
-        StrategyNode mainNode = (StrategyNode) gpind.trees[0].child.clone();
-        Strategy strategy = new Strategy(mainNode);
+        final GPIndividual gpind = (GPIndividual) ind;
+        final StrategyNode mainNode = (StrategyNode) gpind.trees[0].child.clone();
+        final Strategy strategy = new Strategy(mainNode);
 
         writer.writeResult(state.generation, strategy);
 
-        double fitness = 0;
-        fitness = evaluator.evaluate(strategy, state.generation, runMode);
+        double fitness = evaluator.evaluate(strategy, state.generation, runMode);
 
-        KozaFitness f = ((KozaFitness) ind.fitness);
-        f.setStandardizedFitness(state, fitness);
+        ((KozaFitness) ind.fitness).setStandardizedFitness(state, fitness);
         ind.evaluated = true;
-
     }
 
 }
