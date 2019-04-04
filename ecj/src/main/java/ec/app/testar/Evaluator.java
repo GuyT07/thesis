@@ -3,36 +3,22 @@ package ec.app.testar;
 import ec.app.testar.io.ArchiveReader;
 import ec.app.testar.io.ResultWriter;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.TreeMap;
 
-public class Evaluator implements ActionListener {
-    private int nrOfRunsPerEval;
-    private int sequenceLength;
+public class Evaluator {
+
     private int generation;
-    private int indCounter = 0;
     private ResultWriter resultwriter = new ResultWriter();
     private TreeMap<String, Result> previousStrategies;
     private TestarRunner testar = new TestarRunner();
-    private boolean isPaused = false;
-    private StrategyWindow window;
+    private Properties properties = Properties.getInstance();
 
-    public Evaluator(int runs, int sequenceLength, String SUT) {
-        nrOfRunsPerEval = runs;
-        this.sequenceLength = sequenceLength;
-        previousStrategies = new ArchiveReader().getArchive(SUT, sequenceLength);
-    }
-
-    public void setWindow(StrategyWindow window) {
-        this.window = window;
+    public Evaluator() {
+        this.previousStrategies = new ArchiveReader().getArchive();
     }
 
     public double evaluate(Strategy strategy, int generation, String runMode) {
-        if (this.generation == generation) {
-            indCounter += 1;
-        } else {
-            indCounter = 0;
+        if (this.generation != generation) {
             this.generation = generation;
         }
         Result result = null;
@@ -51,17 +37,14 @@ public class Evaluator implements ActionListener {
             testar.didNotRun();
             resultwriter.writeResult(generation, testar, strategy, result);
         }
-        while (runNr < nrOfRunsPerEval && !maxReached) {
-            if (isPaused) pause();
-            window.updateFields(strategy, generation, indCounter, runNr);
+        while (runNr < this.properties.getNumberOfRuns() && !maxReached) {
 
             if (runMode.equals("Random")) {
                 newResult = new Result();
-            } else if (testar.runWith(strategy.getSimple(), sequenceLength)) {
+            } else if (testar.runWith(strategy.getSimple(), this.properties.getSequenceLength())) {
                 newResult = testar.getResult();
             } else {
                 System.out.println("An error occurred.");
-                isPaused = true;
                 break;
             }
 
@@ -81,26 +64,5 @@ public class Evaluator implements ActionListener {
 
         fitness = result.getFitness();
         return fitness;
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if (e.getActionCommand() == "pause") {
-            isPaused = !isPaused;
-            window.togglePause(isPaused);
-        } else if (e.getActionCommand() == "stop") {
-            System.exit(0);
-        }
-
-    }
-
-    private void pause() {
-        while (isPaused) {
-            try {
-                Thread.sleep(1);
-            } catch (InterruptedException ie) {
-                ie.printStackTrace();
-            }
-        }
     }
 }

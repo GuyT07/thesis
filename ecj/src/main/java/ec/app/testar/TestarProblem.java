@@ -16,40 +16,20 @@ import ec.gp.koza.KozaFitness;
 import ec.simple.SimpleProblemForm;
 import ec.util.Parameter;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-
 public class TestarProblem extends GPProblem implements SimpleProblemForm {
     private static final long serialVersionUID = 1;
 
-    private String runMode;
-
     private Evaluator evaluator;
     private SimplifiedStrategyWriter writer = new SimplifiedStrategyWriter();
+    private Properties properties = Properties.getInstance();
 
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
         if (!(input instanceof DoubleData)) {
             state.output.fatal("GPData class must subclass from " + DoubleData.class, base.push(P_DATA), null);
         }
-        final Properties defaultProps = new Properties();
-        final FileInputStream in;
-        try {
-            in = new FileInputStream("evolution.properties");
-            defaultProps.load(in);
-            in.close();
-            int numberOfRuns = Integer.parseInt(defaultProps.getProperty("numberOfRuns"));
-            int maxNumberOfRuns = Integer.parseInt(defaultProps.getProperty("maxNumberOfRuns"));
-            int sequenceLength = Integer.parseInt(defaultProps.getProperty("sequenceLength"));
-            runMode = defaultProps.getProperty("runMode");
-            String SUT = defaultProps.getProperty("SUT");
-
-            evaluator = new Evaluator(numberOfRuns, sequenceLength, SUT);
-            Result.setMax(maxNumberOfRuns);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        evaluator = new Evaluator();
+        Result.setMax(properties.getMaxNumberOfRuns());
     }
 
     public void evaluate(final EvolutionState state, final Individual ind, final int subPopulation, final int threadNum) {
@@ -60,7 +40,7 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
 
         writer.writeResult(state.generation, strategy);
 
-        double fitness = evaluator.evaluate(strategy, state.generation, runMode);
+        double fitness = evaluator.evaluate(strategy, state.generation, properties.getRunMode());
 
         ((KozaFitness) ind.fitness).setStandardizedFitness(state, fitness);
         ind.evaluated = true;

@@ -1,5 +1,6 @@
 package ec.app.testar.io;
 
+import ec.app.testar.Properties;
 import ec.app.testar.Result;
 
 import java.io.*;
@@ -7,8 +8,9 @@ import java.util.TreeMap;
 
 public class ArchiveReader {
     private String path = "..\\ecjapp\\";
+    private Properties properties = Properties.getInstance();
 
-    public TreeMap<String, Result> getArchive(String SUT, int sequenceLength) {
+    public TreeMap<String, Result> getArchive() {
         TreeMap<String, Result> archive = new TreeMap<>();
         TreeMap<String, String> lineValues = new TreeMap<>();
         Result result;
@@ -22,7 +24,7 @@ public class ArchiveReader {
         boolean existing;
         boolean full;
 
-        File csvFile = new File(path + "archive_" + SUT + "_" + sequenceLength + ".csv");
+        File csvFile = new File(path + "archive_" + this.properties.getSUT() + "_" + this.properties.getSequenceLength() + ".csv");
 
         try {
             br = new BufferedReader(new FileReader(csvFile));
