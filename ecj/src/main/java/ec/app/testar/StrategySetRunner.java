@@ -1,5 +1,8 @@
 package ec.app.testar;
 
+import ec.app.testar.io.SimplifiedStrategyWriter;
+import ec.app.testar.io.StrategyReader;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

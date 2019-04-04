@@ -1,5 +1,8 @@
 package ec.app.testar;
 
+import ec.app.testar.io.ArchiveReader;
+import ec.app.testar.io.ResultWriter;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.TreeMap;

@@ -2,6 +2,7 @@ package ec.app.testar;
 
 import ec.EvolutionState;
 import ec.Problem;
+import ec.app.testar.nodes.DoubleData;
 import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
@@ -12,10 +13,10 @@ import java.util.ArrayList;
 public abstract class StrategyNode extends GPNode {
 
     private static final long serialVersionUID = 1L;
-    String name;
-    char letter;
-    int expectedChildren;
-    int complexity = 0;
+    public String name;
+    public char letter;
+    public int expectedChildren;
+    public int complexity = 0;
 
     public void eval(final EvolutionState state,
                      final int thread,

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 public class Result {
-    static final String[] allMetrics = {
+    public static final String[] allMetrics = {
             "maxpath", "graph-states", "graph-actions",
             "minCvg(%)", "maxCvg(%)", "abstract-states",
             "test-actions", "SUTRAM(KB)", "SUTCPU(%)",
@@ -26,7 +26,7 @@ public class Result {
         addExecution(thisResult);
     }
 
-    Result(TreeMap<String, String> results) {
+    public Result(TreeMap<String, String> results) {
         TreeMap<String, Double> thisResult = new TreeMap<>();
         for (String key : allMetrics) {
             thisResult.put(key, Double.parseDouble(results.get(key)));
@@ -38,7 +38,7 @@ public class Result {
         MAX_EXECUTIONS = max;
     }
 
-    void addResult(Result result2) {
+    public void addResult(Result result2) {
         if (executions >= MAX_EXECUTIONS) {
             System.out.println("Max executions reached");
         } else {

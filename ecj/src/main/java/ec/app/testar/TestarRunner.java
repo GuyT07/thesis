@@ -1,7 +1,12 @@
 package ec.app.testar;
 
+import ec.app.testar.io.ResultsReader;
+import ec.app.testar.io.StrategyWriter;
+
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
@@ -29,7 +34,8 @@ public class TestarRunner {
 
     private void run() {
         try {
-            Process process = Runtime.getRuntime().exec("cmd /c start run.bat -Dheadless=true -DTG=tree-based_strategy -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
+            System.out.print("cmd /c start java -jar " + this.getTestarPath() + " -DTG=tree-based_strategy -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
+            Process process = Runtime.getRuntime().exec("cmd /c start java -jar " + this.getTestarPath() + " -DTG=tree-based_strategy -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
             process.waitFor();
             waitForTestar();
             process.waitFor();
@@ -39,7 +45,17 @@ public class TestarRunner {
             System.out.println("Something went wrong with trying to run TESTAR: " + e);
             e.printStackTrace();
         }
+    }
 
+    private String getTestarPath() {
+        final Properties defaultProps = new Properties();
+        try (final FileInputStream in = new FileInputStream("evolution.properties")) {
+            defaultProps.load(in);
+            in.close();
+            return defaultProps.getProperty("pathToTestarExecutable");
+        } catch (IOException e) {
+            throw new RuntimeException("Could not get path to Testar");
+        }
     }
 
     public Result getResult() {

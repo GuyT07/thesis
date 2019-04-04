@@ -1,5 +1,7 @@
 package ec.app.testar;
 
+import ec.app.testar.nodes.*;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;

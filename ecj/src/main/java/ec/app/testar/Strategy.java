@@ -37,7 +37,7 @@ public class Strategy {
         return original;
     }
 
-    String getShortOriginal() {
+    public String getShortOriginal() {
         return !shortOriginal.equals("") ? shortOriginal : original;
     }
 
@@ -45,23 +45,23 @@ public class Strategy {
         return !simple.equals("") ? simple : original;
     }
 
-    String getShortSimple() {
+    public String getShortSimple() {
         return !shortSimple.equals("") ? shortSimple : original;
     }
 
-    int getOriginalDepth() {
+    public int getOriginalDepth() {
         return originalDepth;
     }
 
-    int getSimpleDepth() {
+    public int getSimpleDepth() {
         return simpleDepth;
     }
 
-    int getOriginalComplexity() {
+    public int getOriginalComplexity() {
         return originalComplexity;
     }
 
-    int getSimpleComplexity() {
+    public int getSimpleComplexity() {
         return simpleComplexity;
     }
 

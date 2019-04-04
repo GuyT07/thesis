@@ -8,6 +8,8 @@ package ec.app.testar;
 
 import ec.EvolutionState;
 import ec.Individual;
+import ec.app.testar.io.SimplifiedStrategyWriter;
+import ec.app.testar.nodes.DoubleData;
 import ec.gp.GPIndividual;
 import ec.gp.GPProblem;
 import ec.gp.koza.KozaFitness;
@@ -25,8 +27,6 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
 
     private Evaluator evaluator;
     private SimplifiedStrategyWriter writer = new SimplifiedStrategyWriter();
-    private StrategyWindow window;
-
 
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
@@ -46,18 +46,14 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
             String SUT = defaultProps.getProperty("SUT");
 
             evaluator = new Evaluator(numberOfRuns, sequenceLength, SUT);
-            window = new StrategyWindow(evaluator);
-            evaluator.setWindow(window);
             Result.setMax(maxNumberOfRuns);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        window.setVisible(true);
-
     }
 
     public void evaluate(final EvolutionState state, final Individual ind, final int subPopulation, final int threadNum) {
-        window.setVisible(true);
+        // window.setVisible(true);
         final GPIndividual gpind = (GPIndividual) ind;
         final StrategyNode mainNode = (StrategyNode) gpind.trees[0].child.clone();
         final Strategy strategy = new Strategy(mainNode);

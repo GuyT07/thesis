@@ -2,17 +2,15 @@ package ec.app.testar;
 
 import ec.EvolutionState;
 import ec.Problem;
+import ec.app.testar.nodes.And;
+import ec.app.testar.nodes.DoubleData;
 import ec.gp.ADFStack;
 import ec.gp.GPData;
 import ec.gp.GPIndividual;
 import ec.gp.GPNode;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mockito;
 import org.mockito.Spy;
-
-import java.util.ArrayList;
-import java.util.Collections;
 
 import static org.junit.Assert.assertEquals;
 
