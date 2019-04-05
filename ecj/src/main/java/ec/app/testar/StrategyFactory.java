@@ -19,8 +19,8 @@ public class StrategyFactory {
         ArrayList<StrategyNode> children = new ArrayList<>();
         StrategyNode result;
 
+        assert f != null;
         switch (f) {
-
             case AND:
             case A:
                 children.add(getNode());
@@ -213,10 +213,10 @@ public class StrategyFactory {
                 result = null;
                 break;
         }
+        assert result != null;
         result.setChildren(children);
 
         return result;
-
     }
 
     private void makeQueue(String strategy) {
