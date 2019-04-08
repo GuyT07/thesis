@@ -6,12 +6,14 @@ import java.io.IOException;
 public class Properties {
 
     private static Properties instance;
-    private int numberOfRuns = 0;
-    private int maxNumberOfRuns = 0;
-    private int sequenceLength = 0;
-    private String runMode = "";
-    private String SUT = "";
-    private String pathToTestarExecutable = "";
+    private int numberOfRuns;
+    private int maxNumberOfRuns;
+    private int sequenceLength;
+    private String runMode;
+    private String SUT;
+    private String pathToTestarExecutable;
+    private String pathToStrategyList;
+    private String fileToWriteStrategyTo;
 
     private Properties() {
         final java.util.Properties defaultProps = new java.util.Properties();
@@ -26,6 +28,9 @@ public class Properties {
             runMode = defaultProps.getProperty("runMode");
             SUT = defaultProps.getProperty("SUT");
             pathToTestarExecutable = defaultProps.getProperty("pathToTestarExecutable");
+            pathToStrategyList = defaultProps.getProperty("pathToStrategyList");
+            fileToWriteStrategyTo = defaultProps.getProperty("fileToWriteStrategyTo");
+
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException("Could not read properties (evolution.properties)");
@@ -62,4 +67,14 @@ public class Properties {
     public String getPathToTestarExecutable() {
         return pathToTestarExecutable;
     }
+
+    public String getPathToStrategyList() {
+        return pathToStrategyList;
+    }
+
+    public String getFileToWriteStrategyTo() {
+        return fileToWriteStrategyTo;
+    }
+
+
 }
