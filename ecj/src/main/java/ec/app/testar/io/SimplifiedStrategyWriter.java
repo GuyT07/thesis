@@ -37,12 +37,12 @@ public class SimplifiedStrategyWriter {
 
         try {
             PrintWriter out = new PrintWriter(new FileWriter(file, true));
-            String resultline = generation + "," + strategy.getOriginal() + ","
+            String resultLine = generation + "," + strategy.getOriginal() + ","
                     + strategy.getShortOriginal() + "," + strategy.getSimple()
                     + "," + strategy.getShortSimple() + "," + strategy.getOriginalDepth()
                     + "," + strategy.getSimpleDepth() + "," + strategy.getOriginalComplexity()
                     + "," + strategy.getSimpleComplexity();
-            out.println(resultline);
+            out.println(resultLine);
             out.close();
         } catch (IOException e) {
             System.out.println("Something went wrong in writing the results.");

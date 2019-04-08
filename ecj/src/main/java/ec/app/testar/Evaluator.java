@@ -17,7 +17,7 @@ public class Evaluator {
         this.previousStrategies = new ArchiveReader().getArchive();
     }
 
-    public double evaluate(Strategy strategy, int generation, String runMode) {
+    public double evaluate(final Strategy strategy, final int generation) {
         if (this.generation != generation) {
             this.generation = generation;
         }
@@ -39,9 +39,9 @@ public class Evaluator {
         }
         while (runNr < this.properties.getNumberOfRuns() && !maxReached) {
 
-            if (runMode.equals("Random")) {
+            if (this.properties.getRunMode().equals("Random")) {
                 newResult = new Result();
-            } else if (testar.runWith(strategy.getSimple(), this.properties.getSequenceLength())) {
+            } else if (testar.runWith(strategy.getSimple())) {
                 newResult = testar.getResult();
             } else {
                 System.out.println("An error occurred.");

@@ -33,14 +33,13 @@ public class TestarProblem extends GPProblem implements SimpleProblemForm {
     }
 
     public void evaluate(final EvolutionState state, final Individual ind, final int subPopulation, final int threadNum) {
-        // window.setVisible(true);
         final GPIndividual gpind = (GPIndividual) ind;
         final StrategyNode mainNode = (StrategyNode) gpind.trees[0].child.clone();
         final Strategy strategy = new Strategy(mainNode);
 
         writer.writeResult(state.generation, strategy);
 
-        double fitness = evaluator.evaluate(strategy, state.generation, properties.getRunMode());
+        double fitness = evaluator.evaluate(strategy, state.generation);
 
         ((KozaFitness) ind.fitness).setStandardizedFitness(state, fitness);
         ind.evaluated = true;

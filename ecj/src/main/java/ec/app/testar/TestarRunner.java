@@ -4,9 +4,7 @@ import ec.app.testar.io.ResultsReader;
 import ec.app.testar.io.StrategyWriter;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
@@ -17,10 +15,11 @@ public class TestarRunner {
     private int nrOfTries;
     private int counter = 1;
     private boolean didTestarRun = false;
+    private Properties properties = Properties.getInstance();
 
-    boolean runWith(String strategy, int sequenceLength) {
+    boolean runWith(final String strategy) {
         writer.writeStrategy(strategy);
-        this.sequenceLength = sequenceLength;
+        this.sequenceLength = this.properties.getSequenceLength();
         didTestarRun = false;
 
         nrOfTries = 0;
@@ -34,8 +33,8 @@ public class TestarRunner {
 
     private void run() {
         try {
-            System.out.print("cmd /c start java -jar " + this.getTestarPath() + " -DTG=tree-based_strategy -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
-            Process process = Runtime.getRuntime().exec("cmd /c start java -jar " + this.getTestarPath() + " -DTG=tree-based_strategy -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
+            System.out.print("cmd /c start java -jar " + this.properties.getPathToTestarExecutable() + " -Dsse=desktop_gp_ecj -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
+            final Process process = Runtime.getRuntime().exec("cmd /c start " + this.properties.getPathToTestarExecutable() + " -Dsse=desktop_gp_ecj -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
             process.waitFor();
             waitForTestar();
             process.waitFor();
@@ -44,17 +43,6 @@ public class TestarRunner {
         } catch (IOException | InterruptedException e) {
             System.out.println("Something went wrong with trying to run TESTAR: " + e);
             e.printStackTrace();
-        }
-    }
-
-    private String getTestarPath() {
-        final Properties defaultProps = new Properties();
-        try (final FileInputStream in = new FileInputStream("evolution.properties")) {
-            defaultProps.load(in);
-            in.close();
-            return defaultProps.getProperty("pathToTestarExecutable");
-        } catch (IOException e) {
-            throw new RuntimeException("Could not get path to Testar");
         }
     }
 

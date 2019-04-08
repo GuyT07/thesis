@@ -1,14 +1,15 @@
 package ec.app.testar.io;
 
+import ec.app.testar.Properties;
+
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 public class StrategyWriter {
-    private static final String path = "settings\\";
+    private static Properties properties = Properties.getInstance();
 
     public void writeStrategy(String strategy) {
-        try (PrintWriter out = new PrintWriter(path + "strategy.txt");) {
-
+        try (final PrintWriter out = new PrintWriter(properties.getFileToWriteStrategyTo())) {
             out.print(strategy);
         } catch (FileNotFoundException e) {
             System.out.println("Cannot find the file strategy.txt to write the strategy in.");

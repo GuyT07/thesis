@@ -1,21 +1,23 @@
 package ec.app.testar.io;
 
+import ec.app.testar.Properties;
 import ec.app.testar.Strategy;
 
 import java.io.*;
 import java.util.ArrayList;
 
 public class StrategyReader {
-    File file;
-    ArrayList<Strategy> strategies = new ArrayList<>();
 
-    public StrategyReader(File file) {
-        this.file = file;
+    private static Properties properties = Properties.getInstance();
+    private static File file = new File(properties.getPathToStrategyList());
+    private ArrayList<Strategy> strategies = new ArrayList<>();
+
+    public StrategyReader() {
     }
 
     public ArrayList<Strategy> getStrategies() {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("..\\ecj\\" + file));
+            final BufferedReader br = new BufferedReader(new FileReader(file));
             String line;
             while ((line = br.readLine()) != null) {
                 strategies.add(new Strategy(line));
