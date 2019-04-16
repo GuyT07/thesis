@@ -11,9 +11,10 @@ public class Properties {
     private int sequenceLength;
     private String runMode;
     private String SUT;
-    private String pathToTestarExecutable;
     private String pathToStrategyList;
     private String fileToWriteStrategyTo;
+    private String pathToJDK;
+    private String pathToTestarDir;
 
     private Properties() {
         final java.util.Properties defaultProps = new java.util.Properties();
@@ -27,9 +28,10 @@ public class Properties {
             sequenceLength = Integer.parseInt(defaultProps.getProperty("sequenceLength"));
             runMode = defaultProps.getProperty("runMode");
             SUT = defaultProps.getProperty("SUT");
-            pathToTestarExecutable = defaultProps.getProperty("pathToTestarExecutable");
-            pathToStrategyList = defaultProps.getProperty("pathToStrategyList");
-            fileToWriteStrategyTo = defaultProps.getProperty("fileToWriteStrategyTo");
+            pathToTestarDir = System.getenv("USERPROFILE") + defaultProps.getProperty("pathToTestarDir");
+            pathToJDK = defaultProps.getProperty("pathToJDK");
+            pathToStrategyList = pathToTestarDir + defaultProps.getProperty("pathToStrategyList");
+            fileToWriteStrategyTo = pathToTestarDir + defaultProps.getProperty("fileToWriteStrategyTo");
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -64,8 +66,12 @@ public class Properties {
         return SUT;
     }
 
-    public String getPathToTestarExecutable() {
-        return pathToTestarExecutable;
+    public String getPathToJDK() {
+        return pathToJDK;
+    }
+
+    public String getPathToTestarDir() {
+        return pathToTestarDir;
     }
 
     public String getPathToStrategyList() {

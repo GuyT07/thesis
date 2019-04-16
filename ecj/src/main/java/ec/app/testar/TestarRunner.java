@@ -33,8 +33,9 @@ public class TestarRunner {
 
     private void run() {
         try {
-            System.out.print("cmd /c start java -jar " + this.properties.getPathToTestarExecutable() + " -Dsse=desktop_gp_ecj -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
-            final Process process = Runtime.getRuntime().exec("cmd /c start " + this.properties.getPathToTestarExecutable() + " -Dsse=desktop_gp_ecj -Dstrategy=strategy.txt -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter);
+            final String cmd = "cmd /c cd " + this.properties.getPathToTestarDir() + " && " + this.properties.getPathToJDK() + " -Dheadless=true  -DSUTConnector=desktop_gp_ecj -DStrategyFile=" + this.properties.getFileToWriteStrategyTo() + " -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter + " -cp \"testar.jar;lib/*\" org.fruit.monkey.Main";
+            System.out.println(cmd);
+            final Process process = Runtime.getRuntime().exec(cmd);
             process.waitFor();
             waitForTestar();
             process.waitFor();
