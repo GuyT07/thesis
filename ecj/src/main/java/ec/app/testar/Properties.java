@@ -1,20 +1,22 @@
 package ec.app.testar;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Properties {
 
     private static Properties instance;
-    private int numberOfRuns;
-    private int maxNumberOfRuns;
-    private int sequenceLength;
-    private String runMode;
-    private String SUT;
-    private String pathToStrategyList;
-    private String fileToWriteStrategyTo;
-    private String pathToJDK;
-    private String pathToTestarDir;
+    private final int numberOfRuns;
+    private final int maxNumberOfRuns;
+    private final int sequenceLength;
+    private final String runMode;
+    private final String SUT;
+    private final String pathToStrategyList;
+    private final String fileToWriteStrategyTo;
+    private final String pathToJDK;
+    private final String pathToTestarDir;
+    private final String pathToMetricsDir;
 
     private Properties() {
         final java.util.Properties defaultProps = new java.util.Properties();
@@ -32,7 +34,7 @@ public class Properties {
             pathToJDK = defaultProps.getProperty("pathToJDK");
             pathToStrategyList = pathToTestarDir + defaultProps.getProperty("pathToStrategyList");
             fileToWriteStrategyTo = pathToTestarDir + defaultProps.getProperty("fileToWriteStrategyTo");
-
+            pathToMetricsDir = pathToTestarDir + File.separator + "resources\\output" + File.separator + "metrics" + File.separator;
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException("Could not read properties (evolution.properties)");
@@ -82,5 +84,7 @@ public class Properties {
         return fileToWriteStrategyTo;
     }
 
-
+    public String getPathToMetricsDir() {
+        return pathToMetricsDir;
+    }
 }
