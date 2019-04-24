@@ -8,14 +8,14 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
-    private String path = "output" + File.separator + "metrics" + File.separator;
+    private Properties properties = Properties.getInstance();
+    private String path = properties.getPathToMetricsDir();
     private ResultsReader reader = new ResultsReader();
     private int sequenceLength;
     private StrategyWriter writer = new StrategyWriter();
     private int nrOfTries;
     private int counter = 1;
     private boolean didTestarRun = false;
-    private Properties properties = Properties.getInstance();
 
     boolean runWith(final String strategy) {
         writer.writeStrategy(strategy);
@@ -33,7 +33,7 @@ public class TestarRunner {
 
     private void run() {
         try {
-            final String cmd = "cmd /c cd " + this.properties.getPathToTestarDir() + " && " + this.properties.getPathToJDK() + " -Dheadless=true  -DSUTConnector=desktop_gp_ecj -DStrategyFile=" + this.properties.getFileToWriteStrategyTo() + " -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter + " -cp \"testar.jar;lib/*\" org.fruit.monkey.Main";
+            final String cmd = "cmd /c cd " + this.properties.getPathToTestarDir() + " && START \"\" " + this.properties.getPathToJDK() + " -Dheadless=true  -DSUTConnector=desktop_gp_ecj -DStrategyFile=" + this.properties.getFileToWriteStrategyTo() + " -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter + " -cp \"testar.jar;lib/*\" org.fruit.monkey.Main";
             System.out.println(cmd);
             final Process process = Runtime.getRuntime().exec(cmd);
             process.waitFor();
@@ -64,17 +64,17 @@ public class TestarRunner {
     }
 
     private int getCounter(int counter) {
-        File csvFile = new File(path + "ecj_sequence" + counter + ".csv");
+        File csvFile = new File(path + "ecj_sequence_" + counter + ".csv");
         while (csvFile.exists()) {
             counter += 1;
-            csvFile = new File(path + "ecj_sequence" + counter + ".csv");
+            csvFile = new File(path + "ecj_sequence_" + counter + ".csv");
         }
         System.out.println("Counter: " + counter);
         return counter;
     }
 
     private void waitForTestar() {
-        File csvFile = new File(path + "ecj_sequence" + counter + ".csv");
+        File csvFile = new File(path + "ecj_sequence_" + counter + ".csv");
         int timer = 0;
         System.out.print("Waiting for Testar");
         try {
