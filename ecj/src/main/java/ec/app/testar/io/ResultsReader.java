@@ -1,7 +1,8 @@
 package ec.app.testar.io;
 
+import ec.app.testar.Properties;
+
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -11,7 +12,8 @@ import java.util.TreeMap;
 import java.util.stream.Stream;
 
 public class ResultsReader {
-    private String path = "output" + File.separator + "metrics" + File.separator;
+    private Properties properties = Properties.getInstance();
+    private String path = properties.getPathToMetricsDir();
 
     public TreeMap<String, String> getResults(final int counter) {
         TreeMap<String, String> results = new TreeMap<>();
@@ -27,7 +29,7 @@ public class ResultsReader {
         try (Stream<Path> paths = Files.walk(Paths.get(path))) {
             filePath = paths
                     .filter(Files::isRegularFile)
-                    .filter(file -> file.endsWith("(" + counter + ").csv"))
+                    .filter(file -> file.endsWith("ecj_sequence_" + counter + ".csv"))
                     .findFirst();
         } catch (IOException e) {
             e.printStackTrace();
@@ -37,7 +39,7 @@ public class ResultsReader {
 
             line = Files.readAllLines(filePath.orElseThrow(RuntimeException::new).toAbsolutePath()).get(0);
             keys = line.split(cvsSeparator);
-            line = Files.readAllLines(filePath.orElseThrow(RuntimeException::new).toAbsolutePath()).get(counter);
+            line = Files.readAllLines(filePath.orElseThrow(RuntimeException::new).toAbsolutePath()).get(1);
             values = line.split(cvsSeparator);
         } catch (IOException e) {
             throw new RuntimeException("Could not read file");
