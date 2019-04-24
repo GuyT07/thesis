@@ -7,12 +7,18 @@ import java.util.TreeMap;
 
 public class Result {
     public static final String[] allMetrics = {
-            "maxpath", "graph-states", "graph-actions",
-            "minCvg(%)", "maxCvg(%)", "abstract-states",
-            "test-actions", "SUTRAM(KB)", "SUTCPU(%)",
-            "TestRAM(MB)", "TestCPU(s)", "FAILS", "random-actions"};
+            "Sequence", // Sequence
+            "Duration", // Time it took to execute sequence
+            "States", // # of abstract states visited
+            "Actions", // # of actions executed
+            "UniqueStates", // # of unique states visited
+            "UniqueActions", // # of unique actions executed
+            "NotFoundActions", // # of actions that were selected but not found (eg. click action is selected, only type actions are available)
+            "IrregularActions",
+            "Severity"
+    };
     private static int MAX_EXECUTIONS = 20;
-    private Double fitness;
+    private Double fitnessValue;
     private int executions = 0;
     private TreeMap<String, Double> avgResult = new TreeMap<>();
     private TreeMap<String, Double> medianResult = new TreeMap<>();
@@ -46,10 +52,8 @@ public class Result {
         }
     }
 
-    private void calculateFitness() {
-        double fitfactor = medianResult.get("maxpath") + medianResult.get("graph-states");
-        // Calculate that into a value with 0 as optimum
-        fitness = 10 / Math.sqrt(Math.max(1.0, fitfactor));
+    private void setFitnessValue() {
+        fitnessValue = medianResult.get("UniqueStates") * ((medianResult.get("Severity") + 1));
     }
 
     private void calculateAverage() {
@@ -79,8 +83,8 @@ public class Result {
         return executions == MAX_EXECUTIONS;
     }
 
-    public Double getFitness() {
-        return fitness;
+    public Double getFitnessValue() {
+        return fitnessValue;
     }
 
     public String toString(boolean didTestarRun) {
@@ -95,7 +99,7 @@ public class Result {
         for (String key : allMetrics) {
             string.append(printResult.get(key)).append(",");
         }
-        string.append(fitness);
+        string.append(fitnessValue);
         return string.toString();
     }
 
@@ -110,7 +114,7 @@ public class Result {
             calculateMedian();
         }
 
-        calculateFitness();
+        setFitnessValue();
         if (executions == MAX_EXECUTIONS) {
             allResults.clear();
             allResults.add(medianResult);
