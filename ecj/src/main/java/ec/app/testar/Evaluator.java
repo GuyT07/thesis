@@ -56,13 +56,13 @@ public class Evaluator {
                 isFirstRun = false;
             }
 
-            fitness = result.getFitness();
+            fitness = result.getFitnessValue();
             resultwriter.writeResult(generation, testar, strategy, result);
             runNr++;
             maxReached = result.maxReached();
         }
 
-        fitness = result.getFitness();
+        fitness = result.getFitnessValue();
         return fitness;
     }
 }
