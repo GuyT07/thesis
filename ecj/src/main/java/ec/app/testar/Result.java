@@ -53,7 +53,7 @@ public class Result {
     }
 
     private void setFitnessValue() {
-        fitnessValue = medianResult.get("UniqueStates") * ((medianResult.get("Severity") + 1));
+        fitnessValue = (1 / (1 + (medianResult.get("UniqueStates") * (medianResult.get("Severity") + 1))));
     }
 
     private void calculateAverage() {
