@@ -3,12 +3,15 @@
 # See the file "LICENSE" for more information
 
 parent.0 = ../../gp/koza/koza.params
-generations		= 1
-pop.subpop.0.size 		= 1000
+
+generations = 4
+
+pop.subpop.0.size = 1000
 
 jobs = 1
 
 select.tournament.size = 7
+breed.elite.0 = 1
 
 gp.koza.half.min-depth = 1
 gp.koza.half.max-depth = 8
@@ -50,11 +53,6 @@ gp.breed.mutate-all-nodes.ns.0 = ec.gp.koza.KozaNodeSelector
 gp.breed.mutate-all-nodes.ns.1 = same
 gp.breed.mutate-all-nodes.maxdepth = 17
 gp.breed.mutate-all-nodes.tries = 1
-
-
-breed.elite.0=10
-
-
 
 #Data types
 gp.type.a.size = 4
