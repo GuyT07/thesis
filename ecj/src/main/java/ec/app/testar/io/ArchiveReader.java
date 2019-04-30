@@ -7,8 +7,8 @@ import java.io.*;
 import java.util.TreeMap;
 
 public class ArchiveReader {
-    private String path = "..\\ecjapp\\";
     private Properties properties = Properties.getInstance();
+    private String path = properties.getPathToArchive();
 
     public TreeMap<String, Result> getArchive() {
         TreeMap<String, Result> archive = new TreeMap<>();
@@ -24,7 +24,7 @@ public class ArchiveReader {
         boolean existing;
         boolean full;
 
-        File csvFile = new File(path + "archive_" + this.properties.getSUT() + "_" + this.properties.getSequenceLength() + ".csv");
+        File csvFile = new File(path + File.separator + "archive_" + this.properties.getSUT() + "_" + this.properties.getSequenceLength() + ".csv");
 
         try {
             br = new BufferedReader(new FileReader(csvFile));

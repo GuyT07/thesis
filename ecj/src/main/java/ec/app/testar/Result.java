@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 public class Result {
+    private Properties properties = Properties.getInstance();
     public static final String[] allMetrics = {
             "Sequence", // Sequence
             "Duration", // Time it took to execute sequence
@@ -53,7 +54,7 @@ public class Result {
     }
 
     private void setFitnessValue() {
-        fitnessValue = (1 / (1 + (medianResult.get("UniqueStates") * (medianResult.get("Severity") + 1))));
+        fitnessValue = 1 / (medianResult.get("UniqueStates") + (medianResult.get("Severity") + 1));
     }
 
     private void calculateAverage() {

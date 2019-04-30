@@ -17,6 +17,8 @@ public class Properties {
     private final String pathToJDK;
     private final String pathToTestarDir;
     private final String pathToMetricsDir;
+    private final String pathToSimplifiedStrategy;
+    private final String pathToArchive;
 
     private Properties() {
         final java.util.Properties defaultProps = new java.util.Properties();
@@ -33,8 +35,10 @@ public class Properties {
             pathToTestarDir = System.getenv("USERPROFILE") + defaultProps.getProperty("pathToTestarDir");
             pathToJDK = defaultProps.getProperty("pathToJDK");
             pathToStrategyList = pathToTestarDir + defaultProps.getProperty("pathToStrategyList");
+            pathToSimplifiedStrategy = pathToTestarDir + defaultProps.getProperty("pathToSimplifiedStrategy");
+            pathToArchive = pathToTestarDir + defaultProps.getProperty("pathToArchive");
             fileToWriteStrategyTo = pathToTestarDir + defaultProps.getProperty("fileToWriteStrategyTo");
-            pathToMetricsDir = pathToTestarDir + File.separator + "resources\\output" + File.separator + "metrics" + File.separator;
+            pathToMetricsDir = pathToTestarDir + File.separator + "resources" + File.separator + "output" + File.separator + "metrics" + File.separator;
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException("Could not read properties (evolution.properties)");
@@ -86,5 +90,13 @@ public class Properties {
 
     public String getPathToMetricsDir() {
         return pathToMetricsDir;
+    }
+
+    public String getPathToSimplifiedStrategy() {
+        return pathToSimplifiedStrategy;
+    }
+
+    public String getPathToArchive() {
+        return pathToArchive;
     }
 }

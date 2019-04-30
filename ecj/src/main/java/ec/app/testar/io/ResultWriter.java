@@ -1,5 +1,6 @@
 package ec.app.testar.io;
 
+import ec.app.testar.Properties;
 import ec.app.testar.Result;
 import ec.app.testar.Strategy;
 import ec.app.testar.TestarRunner;
@@ -12,14 +13,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ResultWriter {
-    private static final String path = "..\\ecj\\";
     private File file;
 
     public ResultWriter() {
         int i = 0;
         while (file == null || file.exists()) {
             i++;
-            file = new File(path + "testresult" + i + ".csv");
+            Properties properties = Properties.getInstance();
+            file = new File(properties.getPathToMetricsDir() + File.separator + "testresult" + i + ".csv");
         }
         try {
             file.createNewFile();
