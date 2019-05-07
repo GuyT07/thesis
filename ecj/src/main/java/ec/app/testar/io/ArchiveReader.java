@@ -24,7 +24,7 @@ public class ArchiveReader {
         boolean existing;
         boolean full;
 
-        File csvFile = new File(path + File.separator + "archive_" + this.properties.getSUT() + "_" + this.properties.getSequenceLength() + ".csv");
+        File csvFile = new File(path + File.separator + "testresult" + this.properties.getSequenceLength() + ".csv");
 
         try {
             br = new BufferedReader(new FileReader(csvFile));
