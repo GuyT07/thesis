@@ -1,12 +1,14 @@
 package ec.app.testar;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
-import java.util.TreeMap;
+import java.util.Map;
 
 public class Result {
-    private Properties properties = Properties.getInstance();
+    private static Properties properties = Properties.getInstance();
     public static final String[] allMetrics = {
             "Sequence", // Sequence
             "Duration", // Time it took to execute sequence
@@ -18,26 +20,25 @@ public class Result {
             "IrregularActions",
             "Severity"
     };
-    private static int MAX_EXECUTIONS = 20;
+    private static int MAX_EXECUTIONS = properties.getMaxNumberOfRuns();
     private Double fitnessValue;
     private int executions = 0;
-    private TreeMap<String, Double> avgResult = new TreeMap<>();
-    private TreeMap<String, Double> medianResult = new TreeMap<>();
-    private ArrayList<TreeMap<String, Double>> allResults = new ArrayList<>();
+    private Map<String, Double> avgResult = new HashMap<>();
+    private Map<String, Double> medianResult = new HashMap<>();
+    private ArrayList<Map<String, Double>> allResults = new ArrayList<>();
 
     Result() {
-        TreeMap<String, Double> thisResult = new TreeMap<>();
-        for (String key : allMetrics) {
-            thisResult.put(key, Math.random() * 100);
-        }
+        final Map<String, Double> thisResult = new HashMap<>();
+        // TODO: Just why?
+        Arrays.stream(allMetrics)
+                .forEach(key -> thisResult.put(key, Math.random() * 100));
         addExecution(thisResult);
     }
 
-    public Result(TreeMap<String, String> results) {
-        TreeMap<String, Double> thisResult = new TreeMap<>();
-        for (String key : allMetrics) {
-            thisResult.put(key, Double.parseDouble(results.get(key)));
-        }
+    public Result(final Map<String, String> results) {
+        final Map<String, Double> thisResult = new HashMap<>();
+        Arrays.stream(allMetrics)
+                .forEach((key) -> thisResult.put(key, Double.parseDouble(results.get(key))));
         addExecution(thisResult);
     }
 
@@ -54,25 +55,25 @@ public class Result {
     }
 
     private void setFitnessValue() {
-        fitnessValue = 1 / (medianResult.get("UniqueStates") + (medianResult.get("Severity") + 1));
+        fitnessValue = 1 / (medianResult.get("UniqueStates"));
     }
 
     private void calculateAverage() {
-        for (String metric : allMetrics) {
-            Double sum = 0.0;
-            for (TreeMap<String, Double> oneResult : allResults) {
-                sum += oneResult.get(metric);
-            }
-            avgResult.replace(metric, sum / allResults.size());
-        }
+        Arrays.stream(allMetrics)
+                .forEach((metric) -> {
+                    final double sum = allResults.stream()
+                            .mapToDouble((singleResult) -> singleResult.get(metric))
+                            .sum();
+                    avgResult.replace(metric, sum / allResults.size());
+                });
     }
 
     private void calculateMedian() {
         int nrResults = allResults.size();
         int medianNr = nrResults / 2;
         for (String metric : allMetrics) {
-            List<Double> values = new ArrayList<Double>();
-            for (TreeMap<String, Double> oneResult : allResults) {
+            List<Double> values = new ArrayList<>();
+            for (Map<String, Double> oneResult : allResults) {
                 values.add(oneResult.get(metric));
             }
             Collections.sort(values);
@@ -90,7 +91,7 @@ public class Result {
 
     public String toString(boolean didTestarRun) {
         StringBuilder string = new StringBuilder();
-        TreeMap<String, Double> printResult;
+        Map<String, Double> printResult;
 
         if (didTestarRun) {
             printResult = allResults.get(allResults.size() - 1);
@@ -104,7 +105,7 @@ public class Result {
         return string.toString();
     }
 
-    private void addExecution(TreeMap<String, Double> thisResult) {
+    private void addExecution(final Map<String, Double> thisResult) {
         allResults.add(thisResult);
         executions++;
         if (executions == 1) {
