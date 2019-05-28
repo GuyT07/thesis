@@ -1,68 +1,36 @@
 package ec.app.testar;
 
-import ec.app.testar.io.ArchiveReader;
-import ec.app.testar.io.ResultWriter;
-
-import java.util.TreeMap;
+import ec.app.testar.strategies.GPStrategy;
+import ec.app.testar.strategies.RandomStrategy;
+import ec.app.testar.strategies.TestStrategy;
 
 public class Evaluator {
 
     private int generation;
-    private ResultWriter resultwriter = new ResultWriter();
-    private TreeMap<String, Result> previousStrategies;
-    private TestarRunner testar = new TestarRunner();
-    private Properties properties = Properties.getInstance();
+    private int currentRun = 0;
+    private static final Properties properties = Properties.getInstance();
+    private final TestarRunner testarRunner = new TestarRunner();
 
-    public Evaluator() {
-        this.previousStrategies = new ArchiveReader().getArchive();
-    }
+    public Evaluator() { }
 
     public double evaluate(final Strategy strategy, final int generation) {
-        if (this.generation != generation) {
-            this.generation = generation;
-        }
-        Result result = null;
-        double fitness;
-        boolean isFirstRun = true;
-        int runNr = 0;
-        boolean maxReached = false;
-        Result newResult;
+        this.generation = generation;
+        final TestStrategy testStrategy;
 
-        if (previousStrategies.keySet().contains(strategy.getShortSimple())) {
-            isFirstRun = false;
-            result = previousStrategies.get(strategy.getShortSimple());
-            maxReached = result.maxReached();
-        }
-        if (maxReached) {
-            testar.didNotRun();
-            resultwriter.writeResult(generation, testar, strategy, result);
-        }
-        while (runNr < this.properties.getNumberOfRuns() && !maxReached) {
-
-            if (this.properties.getRunMode().equals("Random")) {
-                newResult = new Result();
-            } else if (testar.runWith(strategy.getSimple())) {
-                newResult = testar.getResult();
-            } else {
-                System.out.println("An error occurred.");
+        switch (properties.getRunMode().toLowerCase()) {
+            case "random": testStrategy = new RandomStrategy(strategy);
                 break;
-            }
-
-            if (!isFirstRun) {
-                result.addResult(newResult);
-            } else {
-                result = newResult;
-                previousStrategies.put(strategy.getShortSimple(), result);
-                isFirstRun = false;
-            }
-
-            fitness = result.getFitnessValue();
-            resultwriter.writeResult(generation, testar, strategy, result);
-            runNr++;
-            maxReached = result.maxReached();
+            case "gp": testStrategy = new GPStrategy(strategy);
+                break;
+            default: throw new IllegalArgumentException("Run mode not supported");
         }
 
-        fitness = result.getFitnessValue();
-        return fitness;
+        while (currentRun <= properties.getMaxNumberOfRuns()) {
+            // run testar with number of runs
+            testarRunner.runWith(testStrategy.getStrategy().getSimple());
+            currentRun++;
+        }
+
+        return testStrategy.calculateFitnessValue();
     }
 }

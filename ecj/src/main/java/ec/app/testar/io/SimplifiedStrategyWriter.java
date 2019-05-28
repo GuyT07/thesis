@@ -34,8 +34,7 @@ public class SimplifiedStrategyWriter {
 
     }
 
-    public void writeResult(int generation, Strategy strategy) {
-
+    public void writeResult(final int generation, final Strategy strategy) {
         try {
             PrintWriter out = new PrintWriter(new FileWriter(file, true));
             String resultLine = generation + ","

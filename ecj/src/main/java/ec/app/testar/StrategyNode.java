@@ -88,11 +88,11 @@ public abstract class StrategyNode extends GPNode {
     }
 
     public String toShortString() {
-        String result = "" + getLetter();
+        final StringBuilder result = new StringBuilder("" + getLetter());
         for (int i = 0; i < children.length; i++) {
-            result += child(i).toShortString();
+            result.append(child(i).toShortString());
         }
-        return result;
+        return result.toString();
     }
 
     public StrategyNode child(int i) {
@@ -105,11 +105,11 @@ public abstract class StrategyNode extends GPNode {
     }
 
     public String toFullString() {
-        String result = toString();
+        final StringBuilder result = new StringBuilder(toString());
         for (int i = 0; i < children.length; i++) {
-            result += child(i).toFullString();
+            result.append(child(i).toFullString());
         }
-        return result;
+        return result.toString();
     }
 
     @Override

@@ -2,7 +2,6 @@ package ec.app.testar.io;
 
 import ec.app.testar.Properties;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -11,18 +10,17 @@ import java.util.Optional;
 import java.util.TreeMap;
 import java.util.stream.Stream;
 
-public class ResultsReader {
+public class TestarResultsReader {
     private Properties properties = Properties.getInstance();
     private String path = properties.getPathToMetricsDir();
 
-    public TreeMap<String, String> getResults(final int counter) {
-        TreeMap<String, String> results = new TreeMap<>();
+    public TreeMap<String, Double> getResults(final int counter) {
+        final TreeMap<String, Double> results = new TreeMap<>();
 
-        final BufferedReader br;
         final String cvsSeparator = ",";
         String line;
-        String[] keys = null;
-        String[] values = null;
+        String[] keys;
+        String[] values;
         Optional<Path> filePath = Optional.empty();
 
 
@@ -50,7 +48,7 @@ public class ResultsReader {
         for (String k : keys) {
             String key = k.replaceAll("\\s+", "");
             String value = values[i].replaceAll("\\s+", "");
-            results.put(key, value);
+            results.put(key, Double.parseDouble(value));
 
             i++;
         }

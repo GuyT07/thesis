@@ -1,17 +1,18 @@
 package ec.app.testar;
 
-import ec.app.testar.io.ResultsReader;
+import ec.app.testar.io.TestarResultsReader;
 import ec.app.testar.io.StrategyWriter;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
-    private Properties properties = Properties.getInstance();
+    private static Properties properties = Properties.getInstance();
     private String path = properties.getPathToMetricsDir();
-    private ResultsReader reader = new ResultsReader();
-    private int sequenceLength;
+    private TestarResultsReader reader = new TestarResultsReader();
+    private int sequenceLength = properties.getSequenceLength();
     private StrategyWriter writer = new StrategyWriter();
     private int nrOfTries;
     private int counter = 1;
@@ -19,7 +20,6 @@ public class TestarRunner {
 
     boolean runWith(final String strategy) {
         writer.writeStrategy(strategy);
-        this.sequenceLength = this.properties.getSequenceLength();
         didTestarRun = false;
 
         nrOfTries = 0;
@@ -33,8 +33,7 @@ public class TestarRunner {
 
     private void run() {
         try {
-            final String cmd = "cmd /c cd " + this.properties.getPathToTestarDir() + " && START \"\" " + this.properties.getPathToJDK() + " -Dheadless=true  -DSUTConnector=desktop_gp_ecj -DStrategyFile=" + this.properties.getFileToWriteStrategyTo() + " -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter + " -cp \"testar.jar;lib/*\" org.fruit.monkey.Main";
-            System.out.println(cmd);
+            final String cmd = "cmd /c cd " + properties.getPathToTestarDir() + " && START \"\" " + properties.getPathToJDK() + " -Dheadless=true  -DSUTConnector=desktop_gp_ecj -DStrategyFile=" + properties.getFileToWriteStrategyTo() + " -DSequenceLength=" + sequenceLength + " -Dcounter=" + counter + " -cp \"testar.jar;lib/*\" org.fruit.monkey.Main";
             final Process process = Runtime.getRuntime().exec(cmd);
             process.waitFor();
             waitForTestar();
@@ -47,8 +46,8 @@ public class TestarRunner {
         }
     }
 
-    public Result getResult() {
-        return new Result(reader.getResults(counter));
+    public Map<String, Double> getResult() {
+        return reader.getResults(counter);
     }
 
     public int getCounter() {
@@ -74,18 +73,11 @@ public class TestarRunner {
     }
 
     private void waitForTestar() {
-        File csvFile = new File(path + "ecj_sequence_" + counter + ".csv");
-        int timer = 0;
         System.out.print("Waiting for Testar");
         try {
-            while (!csvFile.exists()) {
+            while (!new File(path + "ecj_sequence_" + counter + ".csv").exists()) {
                 System.out.print(".");
-                timer += 1;
                 TimeUnit.SECONDS.sleep(1);
-                if (timer >= sequenceLength + 100 * Math.pow(2, nrOfTries)) {
-                    didTestarRun = false;
-                    return;
-                }
             }
             System.out.println(" Ready!");
             didTestarRun = true;

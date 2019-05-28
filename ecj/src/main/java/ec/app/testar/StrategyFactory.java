@@ -1,23 +1,58 @@
 package ec.app.testar;
 
-import ec.app.testar.nodes.*;
+import ec.app.testar.nodes.And;
+import ec.app.testar.nodes.ClickAction;
+import ec.app.testar.nodes.DragAction;
+import ec.app.testar.nodes.DragActionsAvailable;
+import ec.app.testar.nodes.Equals;
+import ec.app.testar.nodes.EqualsType;
+import ec.app.testar.nodes.GreaterThan;
+import ec.app.testar.nodes.HitKeyAction;
+import ec.app.testar.nodes.IfThenElse;
+import ec.app.testar.nodes.LeftClicksAvailable;
+import ec.app.testar.nodes.Not;
+import ec.app.testar.nodes.NumOfDragActions;
+import ec.app.testar.nodes.NumOfLeftClicks;
+import ec.app.testar.nodes.NumOfPreviousActions;
+import ec.app.testar.nodes.NumOfTypeActions;
+import ec.app.testar.nodes.NumOfUnexecutedDragActions;
+import ec.app.testar.nodes.NumOfUnexecutedLeftClicks;
+import ec.app.testar.nodes.NumOfUnexecutedTypeActions;
+import ec.app.testar.nodes.NumberOfActions;
+import ec.app.testar.nodes.NumberOfActionsOfType;
+import ec.app.testar.nodes.Or;
+import ec.app.testar.nodes.PreviousAction;
+import ec.app.testar.nodes.RandomAction;
+import ec.app.testar.nodes.RandomActionOfType;
+import ec.app.testar.nodes.RandomActionOfTypeOtherThan;
+import ec.app.testar.nodes.RandomLeastExecutedAction;
+import ec.app.testar.nodes.RandomMostExecutedAction;
+import ec.app.testar.nodes.RandomNumber;
+import ec.app.testar.nodes.RandomUnexecutedAction;
+import ec.app.testar.nodes.RandomUnexecutedActionOfType;
+import ec.app.testar.nodes.StateHasNotChanged;
+import ec.app.testar.nodes.TypeAction;
+import ec.app.testar.nodes.TypeActionsAvailable;
+import ec.app.testar.nodes.TypeOfAction;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class StrategyFactory {
-    private Queue<Function> queue = new LinkedList<>();
 
-    public StrategyNode makeStrategy(String strategy) {
+    private Queue<AvailableReturnTypes> queue = new LinkedList<>();
+
+    StrategyNode makeStrategy(final String strategy) {
         makeQueue(strategy);
         return getNode();
     }
 
     private StrategyNode getNode() {
-        Function f = queue.poll();
-        ArrayList<StrategyNode> children = new ArrayList<>();
-        StrategyNode result;
+        final AvailableReturnTypes f = queue.poll();
+        final ArrayList<StrategyNode> children = new ArrayList<>();
+        final StrategyNode result;
 
         assert f != null;
         switch (f) {
@@ -210,27 +245,21 @@ public class StrategyFactory {
                 result = new TypeOfAction();
                 break;
             default:
-                result = null;
-                break;
+                throw new IllegalArgumentException("Unknown node");
         }
-        assert result != null;
+
         result.setChildren(children);
 
         return result;
     }
 
-    private void makeQueue(String strategy) {
+    private void makeQueue(final String strategy) {
         if (strategy.contains(":")) {
-            strategy = strategy.replace(" ", "");
-            strategy = strategy.replace("(", "");
-            strategy = strategy.replace(")", "");
-            String[] list = strategy.split(":");
-            for (String s : list) {
-                s = s.replace("-", "");
-                s = s.toUpperCase();
-
-                queue.add(Function.valueOf(s));
-            }
+            Arrays.stream(strategy.replace(" ", "")
+                    .replace("(", "")
+                    .replace(")", "")
+                    .split(":"))
+                    .forEach(s -> queue.add(AvailableReturnTypes.valueOf(s.replace("-", "").toUpperCase())));
         } else {
             char[] list = strategy.toCharArray();
             for (char c : list) {
@@ -241,19 +270,8 @@ public class StrategyFactory {
                     s = Character.toString(c);
                 }
 
-                queue.add(Function.valueOf(s));
+                queue.add(AvailableReturnTypes.valueOf(s));
             }
         }
-    }
-
-    private enum Function {
-        AND, CLICKACTION, DRAGACTION, DRAGACTIONSAVAILABLE, EQUALS, EQUALSTYPE, ESCAPE, GREATERTHAN,
-        HITKEYACTION, IFTHENELSE, LEFTCLICKSAVAILABLE, NOT, NUMBEROFACTIONS, NUMBEROFACTIONSOFTYPE,
-        NUMBEROFDRAGACTIONS, NUMBEROFLEFTCLICKS, NUMBEROFPREVIOUSACTIONS, NUMBEROFTYPEACTIONS,
-        NUMBEROFUNEXECUTEDDRAGACTIONS, NUMBEROFUNEXECUTEDLEFTCLICKS, NUMBEROFUNEXECUTEDTYPEACTIONS, OR,
-        PREVIOUSACTION, RANDOMACTION, RANDOMACTIONOFTYPE, RANDOMACTIONOFTYPEOTHERTHAN, RANDOMLEASTEXECUTEDACTION,
-        RANDOMMOSTEXECUTEDACTION, RANDOMNUMBER, RANDOMUNEXECUTEDACTION, RANDOMUNEXECUTEDACTIONOFTYPE,
-        STATEHASNOTCHANGED, TYPEACTION, TYPEACTIONSAVAILABLE, TYPEOFACTIONOF, A, B, C, D, E, F, G, H,
-        I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, d1, d2, d3, d4, d5, d6, d7, d8
     }
 }

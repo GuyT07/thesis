@@ -1,6 +1,7 @@
 package ec.app.testar;
 
 public class Strategy {
+
     private static StrategyFactory factory = new StrategyFactory();
     private String original = "";
     private String shortOriginal = "";
@@ -11,16 +12,16 @@ public class Strategy {
     private int originalComplexity = 0;
     private int simpleComplexity = 0;
 
-    public Strategy(String original) {
+    public Strategy(final String original) {
         StrategyNode originalTree = factory.makeStrategy(original);
         fillStrings(originalTree);
     }
 
-    public Strategy(StrategyNode originalTree) {
+    public Strategy(final StrategyNode originalTree) {
         fillStrings(originalTree);
     }
 
-    private void fillStrings(StrategyNode originalTree) {
+    private void fillStrings(final StrategyNode originalTree) {
         this.original = originalTree.toFullString();
         this.shortOriginal = originalTree.toShortString();
         this.originalDepth = originalTree.getDepth();

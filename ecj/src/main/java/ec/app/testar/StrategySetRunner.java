@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 public class StrategySetRunner {
 
-    private static Properties properties = Properties.getInstance();
     private static StrategyReader reader = new StrategyReader();
     private static SimplifiedStrategyWriter writer = new SimplifiedStrategyWriter();
     private static Evaluator evaluator;
@@ -23,7 +22,6 @@ public class StrategySetRunner {
 
     private static void setup() {
         evaluator = new Evaluator();
-        Result.setMax(properties.getMaxNumberOfRuns());
         strategies = reader.getStrategies();
     }
 

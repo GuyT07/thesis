@@ -45,7 +45,7 @@ public class Properties {
         }
     }
 
-    public static Properties getInstance() {
+    public static synchronized Properties getInstance() {
         if (instance == null) {
             instance = new Properties();
         }

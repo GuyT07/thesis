@@ -1,7 +1,7 @@
 package ec.app.testar.io;
 
+import ec.app.testar.Metric;
 import ec.app.testar.Properties;
-import ec.app.testar.Result;
 import ec.app.testar.Strategy;
 import ec.app.testar.TestarRunner;
 
@@ -26,7 +26,7 @@ public class ResultWriter {
             file.createNewFile();
             PrintWriter out = new PrintWriter(new FileWriter(file));
             String header = "Subpopulation,Counter,Strategy,Short strategy,Simplified strategy,";
-            for (String metric : Result.allMetrics)
+            for (String metric : Metric.headers)
                 header += metric + ",";
             header += "fitness,timestamp";
             out.println(header);

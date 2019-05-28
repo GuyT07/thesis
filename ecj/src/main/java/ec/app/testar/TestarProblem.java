@@ -19,30 +19,29 @@ import ec.util.Parameter;
 public class TestarProblem extends GPProblem implements SimpleProblemForm {
     private static final long serialVersionUID = 1;
 
-    private Evaluator evaluator;
+    private Evaluator evaluator = new Evaluator();
     private SimplifiedStrategyWriter writer = new SimplifiedStrategyWriter();
-    private Properties properties = Properties.getInstance();
 
     public void setup(final EvolutionState state, final Parameter base) {
         super.setup(state, base);
         if (!(input instanceof DoubleData)) {
             state.output.fatal("GPData class must subclass from " + DoubleData.class, base.push(P_DATA), null);
         }
-        evaluator = new Evaluator();
-        Result.setMax(properties.getMaxNumberOfRuns());
     }
 
     public void evaluate(final EvolutionState state, final Individual ind, final int subPopulation, final int threadNum) {
-        final GPIndividual gpind = (GPIndividual) ind;
-        final StrategyNode mainNode = (StrategyNode) gpind.trees[0].child.clone();
-        final Strategy strategy = new Strategy(mainNode);
+        if (!ind.evaluated) { // don't bother reevaluating
+            final GPIndividual individual = (GPIndividual) ind;
+            final StrategyNode mainNode = (StrategyNode) individual.trees[0].child.clone();
+            final Strategy strategy = new Strategy(mainNode);
 
-        writer.writeResult(state.generation, strategy);
+            double fitness = evaluator.evaluate(strategy, state.generation);
 
-        double fitness = evaluator.evaluate(strategy, state.generation);
+            writer.writeResult(state.generation, strategy);
 
-        ((KozaFitness) ind.fitness).setStandardizedFitness(state, fitness);
-        ind.evaluated = true;
+            ((KozaFitness) ind.fitness).setStandardizedFitness(state, fitness);
+            ind.evaluated = true;
+        }
     }
 
 }

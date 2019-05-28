@@ -10,7 +10,7 @@
 //
 //    @Test
 //    public void testReader() {
-//        ResultsReader reader = new ResultsReader();
+//        TestarResultsReader reader = new TestarResultsReader();
 //        TreeMap<String, String> result;
 //
 //        result = reader.getResults(25);
