@@ -38,12 +38,12 @@ public class ResultWriter {
 
     }
 
-    public void writeResult(int generation, TestarRunner testar, Strategy strategy, Result result) {
+    public void writeResult(final int generation, TestarRunner testar, final Strategy strategy) {
 
         try {
             PrintWriter out = new PrintWriter(new FileWriter(file, true));
             String resultline = generation + "," + testar.getCounter() + "," + strategy.getOriginal() + "," + strategy.getShortOriginal() + "," + strategy.getShortSimple() + ",";
-            resultline += result.toString(testar.didItRun());
+            //resultline += result.toString(testar.didItRun());
             resultline += "," + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
             out.println(resultline);
             out.close();
