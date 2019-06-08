@@ -1,17 +1,14 @@
 package ec.app.testar;
 
-import ec.app.testar.io.TestarResultsReader;
 import ec.app.testar.io.StrategyWriter;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class TestarRunner {
     private static Properties properties = Properties.getInstance();
     private String path = properties.getPathToMetricsDir();
-    private TestarResultsReader reader = new TestarResultsReader();
     private int sequenceLength = properties.getSequenceLength();
     private StrategyWriter writer = new StrategyWriter();
     private int nrOfTries;
@@ -44,10 +41,6 @@ public class TestarRunner {
             System.out.println("Something went wrong with trying to run TESTAR: " + e);
             e.printStackTrace();
         }
-    }
-
-    public Map<String, Double> getResult() {
-        return reader.getResults(counter);
     }
 
     public int getCounter() {

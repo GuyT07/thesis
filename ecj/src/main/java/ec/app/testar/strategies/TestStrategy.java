@@ -8,15 +8,29 @@ import java.util.Map;
 
 public interface TestStrategy {
 
-    public Strategy getStrategy();
+    Strategy getStrategy();
 
-    public default double calculateFitnessValue() {
-        return 1 / MathUtils.getMeanOf(getResults(), "UniqueStates");
+    ArrayList<Map<String, Double>> getResults();
+
+    default double calculateFitnessValue() {
+        final double fitnessValue = 1 / MathUtils.getMedianOf(getResults(), "UniqueStates");
+        System.out.println("Fitness value: " + fitnessValue);
+        return fitnessValue;
     }
 
-    public ArrayList<Map<String, Double>> getResults();
+    default double calculateFitnessValueMedian() {
+        final double fitnessValue = 1 / MathUtils.getMedianOf(getResults(), "UniqueStates");
+        System.out.println("Fitness value (median): " + fitnessValue);
+        return fitnessValue;
+    }
 
-    public default boolean addExecutionToResults(final Map<String, Double> result) {
+    default double calculateFitnessValueMean() {
+        final double fitnessValue = 1 / MathUtils.getMeanOf(getResults(), "UniqueStates");
+        System.out.println("Fitness value (mean): " + fitnessValue);
+        return fitnessValue;
+    }
+
+    default boolean addExecutionToResults(final Map<String, Double> result) {
         return this.getResults().add(result);
     }
 

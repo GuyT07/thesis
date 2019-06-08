@@ -2,16 +2,12 @@ package ec.app.testar.utils;
 
 import ec.app.testar.Metric;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class MathUtils {
 
-    private static double getMedian(final ArrayList<Map<String, Double>> results, final String column) {
+    public static double getMedianOf(final ArrayList<Map<String, Double>> results, final String column) {
         // note: this will take at least o(n log n) but the number of sequences will be low, so it does not imply
         // a serious performance penalty in our case
         final List<Double> sortedListOfColumnValues = sortListOfDoubles(

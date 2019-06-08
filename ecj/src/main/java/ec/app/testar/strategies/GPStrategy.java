@@ -1,7 +1,6 @@
 package ec.app.testar.strategies;
 
 import ec.app.testar.Strategy;
-import ec.app.testar.utils.MathUtils;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -9,7 +8,6 @@ import java.util.Map;
 public class GPStrategy implements TestStrategy {
 
     private Strategy strategy;
-
     private ArrayList<Map<String, Double>> results = new ArrayList<>();
 
     public GPStrategy(final Strategy strategy) {
@@ -23,10 +21,5 @@ public class GPStrategy implements TestStrategy {
 
     public ArrayList<Map<String, Double>> getResults() {
         return results;
-    }
-
-    @Override
-    public double calculateFitnessValue() {
-        return 1 / MathUtils.getMeanOf(results, "UniqueStates");
     }
 }
