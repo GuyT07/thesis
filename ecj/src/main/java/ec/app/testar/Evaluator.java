@@ -15,7 +15,8 @@ public class Evaluator {
     private TestarResultsReader reader = new TestarResultsReader();
     private ResultWriter writer = new ResultWriter();
 
-    public Evaluator() { }
+    public Evaluator() {
+    }
 
     public double evaluate(final Strategy strategy, final int generation) {
         final TestStrategy testStrategy = this.getCorrectStrategy(strategy);
@@ -33,7 +34,6 @@ public class Evaluator {
             if (currentRun != properties.getMaxNumberOfRuns()) {
                 writer.writeResult(this.toString(result, fitnessValue, 0.0, 0.0), generation, testarRunner.getCounter(), strategy);
             }
-            fitnessValue = testStrategy.calculateFitnessValue();
         }
 
         writer.writeResult(
@@ -69,9 +69,11 @@ public class Evaluator {
     public String toString(final Map<String, Double> result, final double fitnessValue, final double fitnessMedian, final double fitnessMean) {
         final StringBuilder string = new StringBuilder();
         Arrays.stream(Metric.headers).forEach(key -> string.append(result.get(key)).append(","));
-        string.append(fitnessValue);
-        string.append(fitnessMedian);
-        string.append(fitnessMean);
+        string.append(fitnessValue)
+                .append(',')
+                .append(fitnessMedian)
+                .append(',')
+                .append(fitnessMean);
         return string.toString();
     }
 }
