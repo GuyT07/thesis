@@ -1,7 +1,6 @@
 package ec.app.testar.strategies;
 
 import ec.app.testar.Strategy;
-import ec.app.testar.utils.MathUtils;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -22,10 +21,5 @@ public class RandomStrategy implements TestStrategy {
 
     public ArrayList<Map<String, Double>> getResults() {
         return results;
-    }
-
-    @Override
-    public double calculateFitnessValue() {
-        return 1 / MathUtils.getMeanOf(results, "UniqueStates");
     }
 }

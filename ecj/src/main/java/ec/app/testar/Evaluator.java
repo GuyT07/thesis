@@ -29,7 +29,7 @@ public class Evaluator {
             testarRunner.runWith(testStrategy.getStrategy().getSimple());
             result = this.getResult();
             testStrategy.addExecutionToResults(result);
-            fitnessValue = testStrategy.calculateFitnessValue();
+            fitnessValue = testStrategy.calculateFitnessValue(result);
             currentRun++;
             if (currentRun != properties.getMaxNumberOfRuns()) {
                 writer.writeResult(this.toString(result, fitnessValue, 0.0, 0.0), generation, testarRunner.getCounter(), strategy);

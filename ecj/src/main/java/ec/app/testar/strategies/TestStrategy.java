@@ -12,8 +12,8 @@ public interface TestStrategy {
 
     ArrayList<Map<String, Double>> getResults();
 
-    default double calculateFitnessValue() {
-        final double fitnessValue = 1 / MathUtils.getMedianOf(getResults(), "UniqueStates");
+    default double calculateFitnessValue(final Map<String, Double> result) {
+        final double fitnessValue = 1 / result.get("UniqueStates");
         System.out.println("Fitness value: " + fitnessValue);
         return fitnessValue;
     }

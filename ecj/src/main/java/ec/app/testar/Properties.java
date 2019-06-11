@@ -7,7 +7,6 @@ import java.io.IOException;
 public class Properties {
 
     private static Properties instance;
-    private final int numberOfRuns;
     private final int maxNumberOfRuns;
     private final int sequenceLength;
     private final String runMode;
@@ -27,7 +26,6 @@ public class Properties {
             in = new FileInputStream("evolution.properties");
             defaultProps.load(in);
             in.close();
-            numberOfRuns = Integer.parseInt(defaultProps.getProperty("numberOfRuns"));
             maxNumberOfRuns = Integer.parseInt(defaultProps.getProperty("maxNumberOfRuns"));
             sequenceLength = Integer.parseInt(defaultProps.getProperty("sequenceLength"));
             runMode = defaultProps.getProperty("runMode");
@@ -50,10 +48,6 @@ public class Properties {
             instance = new Properties();
         }
         return instance;
-    }
-
-    int getNumberOfRuns() {
-        return numberOfRuns;
     }
 
     public int getMaxNumberOfRuns() {
