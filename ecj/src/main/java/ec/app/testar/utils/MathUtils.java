@@ -2,7 +2,11 @@ package ec.app.testar.utils;
 
 import ec.app.testar.Metric;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class MathUtils {
@@ -27,13 +31,13 @@ public class MathUtils {
     public static double getMeanOf(final ArrayList<Map<String, Double>> results, final String column) {
         return Arrays.stream(Metric.headers)
                 .filter(header -> header.equals(column))
-                .mapToDouble((metric) -> sumOfMetric(results, metric) / results.size())
-                .sum();
+                .mapToDouble((metric) -> sumOfMetric(results, metric))
+                .sum() / results.size();
     }
 
     private static double sumOfMetric(final ArrayList<Map<String, Double>> results, final String metric) {
         return results.stream()
-                .mapToDouble((singleResult) -> singleResult.get(metric))
+                .mapToDouble((singleResult) -> 1 / singleResult.get(metric))
                 .sum();
     }
 

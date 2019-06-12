@@ -25,7 +25,7 @@ public interface TestStrategy {
     }
 
     default double calculateFitnessValueMean() {
-        final double fitnessValue = 1 / MathUtils.getMeanOf(getResults(), "UniqueStates");
+        final double fitnessValue = MathUtils.getMeanOf(getResults(), "UniqueStates");
         System.out.println("Fitness value (mean): " + fitnessValue);
         return fitnessValue;
     }
