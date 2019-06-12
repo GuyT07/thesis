@@ -1,2059 +1,235 @@
 Starting sequence 1 (output as: sequence23)
 
 ExecutedAction [1]: 
- @Action ConcreteID = ACafbl8h803608160 AbstractID = AAafbl8h803608160
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxm1sqb802583286132
- @State ConcreteID = SC15njtp43534050625913 AbstractID = SR14cfq8o3382228379617
- ConcreteID CUSTOM = SCymoxqr34f569428638 AbstractID CUSTOM = SA1e9lsxy3442282289229
+ @Action ConcreteID = ACw756po122513430552 AbstractID = AArkhxuwd33830899133
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA17ikwixd33509566443
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
 
-	ROLE = LeftClickAt
+	ROLE = ClickTypeInto
 	TARGET =
-		WIDGET = WCdewx6a1c3359014503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hw5kjk181504605950
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 1]
-	DESCRIPTION = Left Click at 'Edit'
+		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
+		ROLE = UIAEdit
+		TITLE = Text Editor
+		SHAPE = Rect [x:60.0 y:78.0 w:1073.0 h:318.0]
+		CHILDREN = 1
+		PATH = [1, 0]
+	DESCRIPTION = Type '<a href="javascr...' into 'Text Editor
 	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
+		Compound Action =
+		Move mouse to (596.5, 237.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>'
 
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [2]: 
- @Action ConcreteID = AC1ul9ogb7f3988878606 AbstractID = AA1ul9ogb7f3988878606
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAeaadsp7f624048381
- @State ConcreteID = SC1jt25l44c4272265144 AbstractID = SR12sflgv427583449164
- ConcreteID CUSTOM = SC127yey44b373984862 AbstractID CUSTOM = SAvxberb43b2487652905
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1uwgn97274106297495, WR17v7k2nb1067391859, WT1n6x0k61a2167037663, WP1dr88ll23338067417
-		ROLE = UIAMenuItem
-		TITLE = Go To...	Ctrl+G
-		SHAPE = Rect [x:104.0 y:391.0 w:176.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 0, 8]
-	DESCRIPTION = Left Click at 'Go To...	Ctrl+G'
-	TEXT = Compound Action =
-		Move mouse to (192.0, 402.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [3]: 
- @Action ConcreteID = ACwve4eo7e656749973 AbstractID = AAwve4eo7e656749973
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bszejh7f3646254962
- @State ConcreteID = SCz5iqhe3de115718921 AbstractID = SR1kdfqjx3bf581972241
- ConcreteID CUSTOM = SCoywga03e21755041235 AbstractID CUSTOM = SA18ntvo3db2400705786
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCpxxhj11c761681753, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP11czjgr184121018645
-		ROLE = UIAButton
-		TITLE = Cancel
-		SHAPE = Rect [x:241.0 y:293.0 w:75.0 h:23.0]
-		CHILDREN = 0
-		PATH = [1, 0, 3]
-	DESCRIPTION = Left Click at 'Cancel'
-	TEXT = Compound Action =
-		Move mouse to (278.5, 304.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [4]: 
- @Action ConcreteID = AC20ufql802496523723 AbstractID = AA20ufql802496523723
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAp7kn8f80218313439
- @State ConcreteID = SC15njtp43534050625913 AbstractID = SR14cfq8o3382228379617
- ConcreteID CUSTOM = SCymoxqr34f569428638 AbstractID CUSTOM = SA1e9lsxy3442282289229
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwkswyr1e3256360177, WR17v7k2nb1067391859, WTaz2n92112307194186, WP134nzqp1a3406694771
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [5]: 
- @Action ConcreteID = ACygupm9802196277164 AbstractID = AAygupm9802196277164
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdu0dyr801557464624
- @State ConcreteID = SC1dc5u9k3901741967672 AbstractID = SRgr11n53731476981943
- ConcreteID CUSTOM = SCjltsp0394793057784 AbstractID CUSTOM = SA1y2f8rc3863708403074
+ExecutedAction [2]: 
+ @Action ConcreteID = ACa5uuae7d136560956 AbstractID = AAa5uuae7d136560956
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1nwm1077d295170090
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
 
 	ROLE = LeftClickAt
 	TARGET =
 		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
 		ROLE = UIAMenuItem
 		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
+		SHAPE = Rect [x:217.0 y:58.0 w:39.0 h:19.0]
 		CHILDREN = 0
 		PATH = [0, 2, 4]
 	DESCRIPTION = Left Click at 'Help'
 	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
+		Move mouse to (236.5, 67.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [6]: 
- @Action ConcreteID = ACqxtaws801935639102 AbstractID = AAqxtaws801935639102
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1e4jiem803935395114
- @State ConcreteID = SC15njtp43534050625913 AbstractID = SR14cfq8o3382228379617
- ConcreteID CUSTOM = SCymoxqr34f569428638 AbstractID CUSTOM = SA1e9lsxy3442282289229
+ExecutedAction [3]: 
+ @Action ConcreteID = AC1utcer47e447697107 AbstractID = AA1utcer47e447697107
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfdr38l7f147153552
+ @State ConcreteID = SC1j3jwsz43d168400065 AbstractID = SRgj7g0p4251755097958
+ ConcreteID CUSTOM = SC11labfr4412657477024 AbstractID CUSTOM = SA1whcouh43a1233960764
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC16liu6s1c1119817956, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WP1czq78i183514693340
+		WIDGET = WCel1v81c4048567991, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WP6ssewy181653790863
 		ROLE = UIAMenuItem
 		TITLE = View
-		SHAPE = Rect [x:187.0 y:179.0 w:39.0 h:19.0]
+		SHAPE = Rect [x:178.0 y:58.0 w:39.0 h:19.0]
 		CHILDREN = 0
-		PATH = [1, 2, 3]
+		PATH = [2, 3, 3]
 	DESCRIPTION = Left Click at 'View'
 	TEXT = Compound Action =
-		Move mouse to (206.5, 188.5).
+		Move mouse to (197.5, 67.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [4]: 
+ @Action ConcreteID = ACknkjdke01751145133 AbstractID = AArkhxuwd33830899133
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA17ikwixd33509566443
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
+		ROLE = UIAEdit
+		TITLE = Text Editor
+		SHAPE = Rect [x:60.0 y:78.0 w:1073.0 h:318.0]
+		CHILDREN = 1
+		PATH = [1, 0]
+	DESCRIPTION = Type '?????' into 'Text Editor
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (596.5, 237.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '?????'
+
+ExecutedAction [5]: 
+ @Action ConcreteID = AC1qud5fi106960631794 AbstractID = AArkhxuwd33830899133
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA17ikwixd33509566443
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
+		ROLE = UIAEdit
+		TITLE = Text Editor
+		SHAPE = Rect [x:60.0 y:78.0 w:1073.0 h:318.0]
+		CHILDREN = 1
+		PATH = [1, 0]
+	DESCRIPTION = Type '??? ????? ????? ...' into 'Text Editor
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (596.5, 237.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '??? ????? ????? ??? ????? ???? ??? ???? ???'
+
+ExecutedAction [6]: 
+ @Action ConcreteID = AC5u0bvd7c59870652 AbstractID = AA5u0bvd7c59870652
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAkb9ko7c3684100650
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
+		ROLE = UIAMenuItem
+		TITLE = File
+		SHAPE = Rect [x:60.0 y:58.0 w:32.0 h:19.0]
+		CHILDREN = 0
+		PATH = [0, 2, 0]
+	DESCRIPTION = Left Click at 'File'
+	TEXT = Compound Action =
+		Move mouse to (76.0, 67.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [7]: 
- @Action ConcreteID = AC1ndn6ts7f2877845424 AbstractID = AA1ndn6ts7f2877845424
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10q115z802750482055
- @State ConcreteID = SC1bq6ifo37a887080377 AbstractID = SRxm54pv35f573522843
- ConcreteID CUSTOM = SCs8ml0m37d1093261700 AbstractID CUSTOM = SA1xx9h6j3721312234275
+ @Action ConcreteID = ACi170vn7e1265481423 AbstractID = AAi170vn7e1265481423
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArjzvcp7f1589136120
+ @State ConcreteID = SCyaelgd4a63227638983 AbstractID = SR25f9j3489363105316
+ ConcreteID CUSTOM = SC1y8z6cn4a7149894310 AbstractID CUSTOM = SA12c4vbo49e1258004458
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCzizbbp22929311542, WR17v7k2nb1067391859, WT1mzygsk152008856611, WP1hxapr71e2790346939
+		WIDGET = WC1llwx1c3077787818, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP14iu9a718652957747
 		ROLE = UIAMenuItem
-		TITLE = Status Bar
-		SHAPE = Rect [x:190.0 y:201.0 w:136.0 h:22.0]
+		TITLE = Edit
+		SHAPE = Rect [x:92.0 y:58.0 w:34.0 h:19.0]
 		CHILDREN = 0
-		PATH = [1, 0, 0]
-	DESCRIPTION = Left Click at 'Status Bar'
+		PATH = [2, 3, 1]
+	DESCRIPTION = Left Click at 'Edit'
 	TEXT = Compound Action =
-		Move mouse to (258.0, 212.0).
+		Move mouse to (109.0, 67.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [8]: 
- @Action ConcreteID = AC8c9e747f2210533660 AbstractID = AA8c9e747f2210533660
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAl57cce803423260895
- @State ConcreteID = SCx954ct38e4233602925 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC6544e7394987540458 AbstractID CUSTOM = SA10letn33892353800227
+ExecutedAction [8]: 
+ @Action ConcreteID = ACe8z7b7e72006599859 AbstractID = AArkhxuwd33830899133
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA17ikwixd33509566443
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
 
-	ROLE = LeftClickAt
+	ROLE = ClickTypeInto
 	TARGET =
-		WIDGET = WCd8ggh31e2616419048, WR1h6ibpb92248851252, WT1oq4bf6111982837149, WPccaalx1a4013466679
-		ROLE = UIAButton
-		TITLE = Maximise
-		SHAPE = Rect [x:517.0 y:149.0 w:46.0 h:30.0]
-		CHILDREN = 0
-		PATH = [0, 1, 2]
-	DESCRIPTION = Left Click at 'Maximise'
+		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
+		ROLE = UIAEdit
+		TITLE = Text Editor
+		SHAPE = Rect [x:60.0 y:78.0 w:1073.0 h:318.0]
+		CHILDREN = 1
+		PATH = [1, 0]
+	DESCRIPTION = Type 'Œ„´‰?Á¨ˆØ?”’' into 'Text Editor
 	TEXT = Compound Action =
-		Move mouse to (540.0, 164.0).
+		Compound Action =
+		Move mouse to (596.5, 237.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text 'Œ„´‰?Á¨ˆØ?”’'
 
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [9]: 
- @Action ConcreteID = AC2dcgfd7e317728300 AbstractID = AA2dcgfd7e317728300
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA15qi3ij7f96712591
- @State ConcreteID = SCx954ct38e4233602925 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC6544e7394987540458 AbstractID CUSTOM = SA10letn33892353800227
+ExecutedAction [9]: 
+ @Action ConcreteID = AC199pv627d2250224119 AbstractID = AA199pv627d2250224119
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAnzczwr7d2678816993
+ @State ConcreteID = SCokt4g9404418050760 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC7x3hda3fe4134442500 AbstractID CUSTOM = SAylrvaj3f6384252902
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
+		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
 		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
+		TITLE = Format
+		SHAPE = Rect [x:126.0 y:58.0 w:52.0 h:19.0]
 		CHILDREN = 0
-		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
+		PATH = [0, 2, 2]
+	DESCRIPTION = Left Click at 'Format'
 	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
+		Move mouse to (152.0, 67.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [10]: 
- @Action ConcreteID = AC1wj1n5m7e2767526528 AbstractID = AA1wj1n5m7e2767526528
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA135vifi7e1017757509
- @State ConcreteID = SC1mvc7042e135328178 AbstractID = SR728auj40d1999862934
- ConcreteID CUSTOM = SC1k7dn7r42e3380482703 AbstractID CUSTOM = SA3njhvz426759634268
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCbmjtb722459325222, WR17v7k2nb1067391859, WT1otgxiu151058087525, WP7oan751e1894693024
-		ROLE = UIAMenuItem
-		TITLE = New	Ctrl+N
-		SHAPE = Rect [x:72.0 y:201.0 w:188.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 0, 0]
-	DESCRIPTION = Left Click at 'New	Ctrl+N'
-	TEXT = Compound Action =
-		Move mouse to (166.0, 212.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [11]: 
- @Action ConcreteID = ACbxdyt6801425521507 AbstractID = AAbxdyt6801425521507
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hp23h8811456857256
- @State ConcreteID = SCx954ct38e4233602925 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC6544e7394987540458 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC162mq4n1e284760230, WR1h6ibpb92248851252, WT1oq4bf6111982837149, WP156gk9h1a1681055353
-		ROLE = UIAButton
-		TITLE = Maximise
-		SHAPE = Rect [x:1401.0 y:149.0 w:46.0 h:30.0]
-		CHILDREN = 0
-		PATH = [1, 2, 2]
-	DESCRIPTION = Left Click at 'Maximise'
-	TEXT = Compound Action =
-		Move mouse to (1424.0, 164.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [12]: 
- @Action ConcreteID = AC63w4657f3236629142 AbstractID = AA63w4657f3236629142
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7rjgbe801293934907
- @State ConcreteID = SCipa3lc38e2199062362 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC1pksym83933542661367 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCnwfyei1d2053684652, WR1h6ibpb92248851252, WT16sth3j102102970308, WPgveqt4192482286373
-		ROLE = UIAButton
-		TITLE = Restore
-		SHAPE = Rect [x:1586.0 y:0.0 w:46.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 2, 2]
-	DESCRIPTION = Left Click at 'Restore'
-	TEXT = Compound Action =
-		Move mouse to (1609.0, 11.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [13]: 
- @Action ConcreteID = AC2dcgfd7e317728300 AbstractID = AA2dcgfd7e317728300
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA15qi3ij7f96712591
- @State ConcreteID = SCx954ct38e4233602925 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC6544e7394987540458 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC9jaw3l1c2987203652, WR17v7k2nb1067391859, WT1qe72ijf99311909, WP1c5bfin18723600677
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 3, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [14]: 
- @Action ConcreteID = AC11s0kip7e1646633502 AbstractID = AA11s0kip7e1646633502
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA8eufsl7e4202235867
- @State ConcreteID = SC1mvc7042e135328178 AbstractID = SR728auj40d1999862934
- ConcreteID CUSTOM = SC1k7dn7r42e3380482703 AbstractID CUSTOM = SA3njhvz426759634268
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCi6s46q251225110825, WR17v7k2nb1067391859, WT1mkt3k3184259406525, WP19841vk212862536974
-		ROLE = UIAMenuItem
-		TITLE = Page Setup...
-		SHAPE = Rect [x:72.0 y:296.0 w:188.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 0, 4]
-	DESCRIPTION = Left Click at 'Page Setup...'
-	TEXT = Compound Action =
-		Move mouse to (166.0, 307.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [15]: 
- @Action ConcreteID = AC1yhzh5m7f2739812347 AbstractID = AA1yhzh5m7f2739812347
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1g94grz80898793842
- @State ConcreteID = SC1rjsi3b63f982012238 AbstractID = SR1cdpvmg5f01477589539
- ConcreteID CUSTOM = SC43o5b26401595808104 AbstractID CUSTOM = SA1ood3mv6351816568232
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1ncc0ng192885566496, WR1h6ibpb92248851252, WTzj707vb935461581, WPp284ou151939659660
-		ROLE = UIAButton
-		TITLE = OK
-		SHAPE = Rect [x:443.0 y:513.0 w:75.0 h:23.0]
-		CHILDREN = 0
-		PATH = [1, 0, 22]
-	DESCRIPTION = Left Click at 'OK'
-	TEXT = Compound Action =
-		Move mouse to (480.5, 524.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [16]: 
- @Action ConcreteID = AC2dcgfd7e317728300 AbstractID = AA2dcgfd7e317728300
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA15qi3ij7f96712591
- @State ConcreteID = SCx954ct38e4233602925 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC6544e7394987540458 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [17]: 
- @Action ConcreteID = ACpamzcy7e2661606937 AbstractID = AApamzcy7e2661606937
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1uykwly7e116933596
- @State ConcreteID = SC1mvc7042e135328178 AbstractID = SR728auj40d1999862934
- ConcreteID CUSTOM = SC1k7dn7r42e3380482703 AbstractID CUSTOM = SA3njhvz426759634268
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwlwi5h1e1297672529, WR17v7k2nb1067391859, WTaz2n92112307194186, WP135rkxf1a1146027219
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [18]: 
- @Action ConcreteID = ACw2eb1t17c1526884666 AbstractID = AA1anwigtd4259078706
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1xdg1end52078276720
- @State ConcreteID = SCx954ct38e4233602925 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC6544e7394987540458 AbstractID CUSTOM = SA10letn33892353800227
+ @Action ConcreteID = AC1yxonief11359156821 AbstractID = AA9nw0w9d41157259966
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13dhruld52469442624
+ @State ConcreteID = SCs2bhfq43f1374353683 AbstractID = SRgj7g0p4251755097958
+ ConcreteID CUSTOM = SCm7juur440999412765 AbstractID CUSTOM = SA1whcouh43a1233960764
 
 	ROLE = ClickTypeInto
 	TARGET =
 		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
 		ROLE = UIAEdit
 		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:1424.0 h:677.0]
-		CHILDREN = 3
+		SHAPE = Rect [x:60.0 y:78.0 w:1073.0 h:318.0]
+		CHILDREN = 1
 		PATH = [1, 0]
-	DESCRIPTION = Type '¸?Ç??˜Â¯?¿' into 'Text Editor
+	DESCRIPTION = Type 'http://www.cum.q...' into 'Text Editor
 	TEXT = Compound Action =
 		Compound Action =
-		Move mouse to (781.0, 537.5).
+		Move mouse to (596.5, 237.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@d29f28
-		Press Key org.fruit.alayer.devices.KBKeys@2fd1433e
-		Release Key org.fruit.alayer.devices.KBKeys@29d89d5d
-		Release Key org.fruit.alayer.devices.KBKeys@3514a4c0
-		Type text '¸?Ç??˜Â¯?¿'
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text 'http://www.cum.qc.ca/'
 
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [19]: 
- @Action ConcreteID = AC2oh4em7f2386168152 AbstractID = AA2oh4em7f2386168152
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1lo0rb2802915361375
- @State ConcreteID = SCj5i98x38e3752982172 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC1sr6n383944204059540 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC16936tu1c972838729, WR17v7k2nb1067391859, WT1qe6brdf138512687, WPbp7s80182825150416
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 3, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [20]: 
- @Action ConcreteID = ACzunv8i7f3562420776 AbstractID = AAzunv8i7f3562420776
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10ni8qr7f266363444
- @State ConcreteID = SCpr00414852062664595 AbstractID = SR1s8c3vn45d501908622
- ConcreteID CUSTOM = SCh8gbxb4822514861583 AbstractID CUSTOM = SA48e38r4783531137411
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC8o06qh252331755984, WR17v7k2nb1067391859, WT1ukegtj174003865368, WP1hie2dn2194649709
-		ROLE = UIAMenuItem
-		TITLE = Time/Date	F5
-		SHAPE = Rect [x:104.0 y:442.0 w:176.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 0, 10]
-	DESCRIPTION = Left Click at 'Time/Date	F5'
-	TEXT = Compound Action =
-		Move mouse to (192.0, 453.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [21]: 
- @Action ConcreteID = AC14mk5id802900543383 AbstractID = AA14mk5id802900543383
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hp23h8811456857256
- @State ConcreteID = SCc0pwmb38d3809175353 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC15nd2e93941333197067 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC162mq4n1e284760230, WR1h6ibpb92248851252, WT1oq4bf6111982837149, WP156gk9h1a1681055353
-		ROLE = UIAButton
-		TITLE = Maximise
-		SHAPE = Rect [x:1401.0 y:149.0 w:46.0 h:30.0]
-		CHILDREN = 0
-		PATH = [1, 2, 2]
-	DESCRIPTION = Left Click at 'Maximise'
-	TEXT = Compound Action =
-		Move mouse to (1424.0, 164.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [22]: 
- @Action ConcreteID = AC1iwrw5x7f947289570 AbstractID = AA1iwrw5x7f947289570
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA15qi3ij7f96712591
- @State ConcreteID = SC1whyxty38d2622473998 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC1t0ixge393333038901 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [23]: 
- @Action ConcreteID = ACvokhe61903998313399 AbstractID = AA1fnudevd31418225734
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwwxqzad52713210040
- @State ConcreteID = SCt2j8gx38e508582476 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC1dsabkk3931919073407 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:0.0 y:43.0 w:1680.0 h:944.0]
-		CHILDREN = 3
-		PATH = [1, 0]
-	DESCRIPTION = Type 'DCC SEND STARTKE...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (840.0, 515.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@7674f035
-		Press Key org.fruit.alayer.devices.KBKeys@69e153c5
-		Release Key org.fruit.alayer.devices.KBKeys@173ed316
-		Release Key org.fruit.alayer.devices.KBKeys@25ce9dc4
-		Type text 'DCC SEND STARTKEYLOGGER 0 0 0'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [24]: 
- @Action ConcreteID = ACad5r6l7e2852320550 AbstractID = AAad5r6l7e2852320550
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13yh1lh7e2690492738
- @State ConcreteID = SC1lvv27538e3070738596 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SClxvuyw3932252974033 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC9jaw3l1c2987203652, WR17v7k2nb1067391859, WT1qe72ijf99311909, WP1c5bfin18723600677
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:0.0 y:23.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 3, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (16.0, 32.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [25]: 
- @Action ConcreteID = ACsmqiiz7c3558903368 AbstractID = AAsmqiiz7c3558903368
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAlz9ool7c2095822892
- @State ConcreteID = SCj2k4k42e2637313254 AbstractID = SR728auj40d1999862934
- ConcreteID CUSTOM = SC1t6le6642d4085077683 AbstractID CUSTOM = SA3njhvz426759634268
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwlwi5h1e1297672529, WR17v7k2nb1067391859, WTaz2n92112307194186, WP135rkxf1a1146027219
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:66.0 y:23.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (92.0, 32.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [26]: 
- @Action ConcreteID = AC12xqsbc1b4586660857 AbstractID = AAxgaybyd53880574292
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwwxqzad52713210040
- @State ConcreteID = SC1lvv27538e3070738596 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SClxvuyw3932252974033 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WChabewe1c1368167903, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7s0182500457359
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:0.0 y:43.0 w:1680.0 h:944.0]
-		CHILDREN = 3
-		PATH = [1, 0]
-	DESCRIPTION = Type '<script\x20type=...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (840.0, 515.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@3cce5371
-		Press Key org.fruit.alayer.devices.KBKeys@17bffc17
-		Release Key org.fruit.alayer.devices.KBKeys@6e535154
-		Release Key org.fruit.alayer.devices.KBKeys@15a34df2
-		Type text '<script\x20type="text/javascript">javascript:alert(1);</script>'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [27]: 
- @Action ConcreteID = ACprwubl1a62420640262 AbstractID = AA18f090hd32503423028
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4exivjd52409869127
- @State ConcreteID = SC335qst38f243908595 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC17ppwab3932588366985 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:540.0 h:223.0]
-		CHILDREN = 3
-		PATH = [0, 0]
-	DESCRIPTION = Type '"`'><script>\xE2...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (339.0, 310.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@6f43c82
-		Press Key org.fruit.alayer.devices.KBKeys@5db6b9cd
-		Release Key org.fruit.alayer.devices.KBKeys@210ab13f
-		Release Key org.fruit.alayer.devices.KBKeys@20b2475a
-		Type text '"`'><script>\xE2\x80\x80javascript:alert(1)</script>'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [28]: 
- @Action ConcreteID = ACjl97h01882039878993 AbstractID = AApp6bl1d32545780978
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4exivjd52409869127
- @State ConcreteID = SCs3s8u38f3826754632 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SC1yirakw39491018212 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:540.0 h:223.0]
-		CHILDREN = 3
-		PATH = [0, 0]
-	DESCRIPTION = Type '????? ???...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (339.0, 310.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@7dc19a70
-		Press Key org.fruit.alayer.devices.KBKeys@508dec2b
-		Release Key org.fruit.alayer.devices.KBKeys@1e4f4a5c
-		Release Key org.fruit.alayer.devices.KBKeys@37313c65
-		Type text '????? ?????'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [29]: 
- @Action ConcreteID = AC1wulsuz7e2183775797 AbstractID = AA1wulsuz7e2183775797
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA41s9md7e533067222
- @State ConcreteID = SC145n2gg38e1418048379 AbstractID = SR10y921836e3383957943
- ConcreteID CUSTOM = SCrb649n3931995865632 AbstractID CUSTOM = SA10letn33892353800227
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC16936tu1c972838729, WR17v7k2nb1067391859, WT1qe6brdf138512687, WPbp7s80182825150416
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:32.0 y:23.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 3, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (49.0, 32.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [30]: 
- @Action ConcreteID = AChiz8o47f3294702748 AbstractID = AAhiz8o47f3294702748
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAzguvb17f3197685291
- @State ConcreteID = SCgvdvlz4854123517480 AbstractID = SR1s8c3vn45d501908622
- ConcreteID CUSTOM = SCmefhua4811938018688 AbstractID CUSTOM = SA48e38r4783531137411
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1pt0gbc243258767868, WR17v7k2nb1067391859, WT1rua1p7173493758977, WP4vruue203260142824
-		ROLE = UIAMenuItem
-		TITLE = Find Next	F3
-		SHAPE = Rect [x:35.0 y:191.0 w:176.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 0, 6]
-	DESCRIPTION = Left Click at 'Find Next	F3'
-	TEXT = Compound Action =
-		Move mouse to (123.0, 202.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [31]: 
- @Action ConcreteID = AC1c2j3927f4150058757 AbstractID = AA1c2j3927f4150058757
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA168t3my7f10813125
- @State ConcreteID = SC1x1713746d173998600 AbstractID = SR18svjxd4401105932865
- ConcreteID CUSTOM = SC11kij194713806172484 AbstractID CUSTOM = SAxqcuv746a1866709070
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCy0k5fg222824444688, WR88rmk0b1934231702, WTn10erf151057493661, WPu40gqy1e410857920
-		ROLE = UIACheckBox
-		TITLE = Match case
-		SHAPE = Rect [x:59.0 y:261.0 w:96.0 h:20.0]
-		CHILDREN = 0
-		PATH = [1, 0, 2]
-	DESCRIPTION = Left Click at 'Match case'
-	TEXT = Compound Action =
-		Move mouse to (107.0, 271.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [32]: 
- @Action ConcreteID = AC16wxyrf7f3607467653 AbstractID = AA16wxyrf7f3607467653
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1137z5b7f553498437
- @State ConcreteID = SC1x1713746d173998600 AbstractID = SR18svjxd4401105932865
- ConcreteID CUSTOM = SC11kij194713806172484 AbstractID CUSTOM = SAxqcuv746a1866709070
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1507uai1d957783679, WRa3fnoge3263686876, WT15hnp0b101431103500, WPt66hrc193830035951
-		ROLE = UIARadioButton
-		TITLE = Up
-		SHAPE = Rect [x:220.0 y:255.0 w:38.0 h:20.0]
-		CHILDREN = 0
-		PATH = [1, 0, 4]
-	DESCRIPTION = Left Click at 'Up'
-	TEXT = Compound Action =
-		Move mouse to (239.0, 265.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [33]: 
- @Action ConcreteID = ACuj63jy7f3692987353 AbstractID = AAuj63jy7f3692987353
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAopg3xu7f736535065
- @State ConcreteID = SC1x1713746d173998600 AbstractID = SR18svjxd4401105932865
- ConcreteID CUSTOM = SC11kij194713806172484 AbstractID CUSTOM = SAxqcuv746a1866709070
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCynxnyq1f1999255106, WRa3fnoge3263686876, WTo110f6121981158700, WP10jnqzk1b491833079
-		ROLE = UIARadioButton
-		TITLE = Down
-		SHAPE = Rect [x:260.0 y:255.0 w:53.0 h:20.0]
-		CHILDREN = 0
-		PATH = [1, 0, 5]
-	DESCRIPTION = Left Click at 'Down'
-	TEXT = Compound Action =
-		Move mouse to (286.5, 265.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [34]: 
- @Action ConcreteID = AC1if8rf8247950199115 AbstractID = AA1y8mdjhd42174342994
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14x61w9d41944847013
- @State ConcreteID = SC1x1713746d173998600 AbstractID = SR18svjxd4401105932865
- ConcreteID CUSTOM = SC11kij194713806172484 AbstractID CUSTOM = SAxqcuv746a1866709070
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:540.0 h:223.0]
-		CHILDREN = 3
-		PATH = [0, 0]
-	DESCRIPTION = Type 'If you're readin...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (339.0, 310.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@147a5d08
-		Press Key org.fruit.alayer.devices.KBKeys@6676f6a0
-		Release Key org.fruit.alayer.devices.KBKeys@7cbd9d24
-		Release Key org.fruit.alayer.devices.KBKeys@1672fe87
-		Type text 'If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [35]: 
- @Action ConcreteID = ACzgk7bq7f1782153797 AbstractID = AAzgk7bq7f1782153797
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hwjfig7f890250604
- @State ConcreteID = SCd6hi6t4953080717198 AbstractID = SR96qsut4671898007950
- ConcreteID CUSTOM = SCkzrrin4982404864557 AbstractID CUSTOM = SAla8puw4981289828043
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdewx6a1c3359014503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hw5kjk181504605950
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [36]: 
- @Action ConcreteID = ACc2yyvk80519014616 AbstractID = AAc2yyvk80519014616
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAflekv2801543649555
- @State ConcreteID = SCd6hi6t4953080717198 AbstractID = SR96qsut4671898007950
- ConcreteID CUSTOM = SCkzrrin4982404864557 AbstractID CUSTOM = SAla8puw4981289828043
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC195b97725105427488, WR1h6ibpb92248851252, WT1ungvu9153002714154, WPiair7p212187392700
-		ROLE = UIAButton
-		TITLE = Column right
-		SHAPE = Rect [x:1646.0 y:970.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 3]
-	DESCRIPTION = Left Click at 'Column right'
-	TEXT = Compound Action =
-		Move mouse to (1654.5, 978.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [37]: 
- @Action ConcreteID = AC1dhxinh7f4201206293 AbstractID = AA1dhxinh7f4201206293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1w3jqr67f2715663213
- @State ConcreteID = SC1sai6b84943730567781 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ptza844972463859253 AbstractID CUSTOM = SA1bf731p4983336970232
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCy2u3ml222013032109, WR1h6ibpb92248851252, WT1cksruh12339931985, WP13ioki71e258864692
-		ROLE = UIAButton
-		TITLE = Page left
-		SHAPE = Rect [x:17.0 y:970.0 w:1.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 1]
-	DESCRIPTION = Left Click at 'Page left'
-	TEXT = Compound Action =
-		Move mouse to (17.5, 978.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [38]: 
- @Action ConcreteID = ACjd89r07f1808915917 AbstractID = AAjd89r07f1808915917
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA11t7hxq7f888699620
- @State ConcreteID = SCd6hi6t4953080717198 AbstractID = SR96qsut4671898007950
- ConcreteID CUSTOM = SCkzrrin4982404864557 AbstractID CUSTOM = SAla8puw4981289828043
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC19che2k233305949776, WR16s6p21c140494670, WTddzkv1164284674305, WP1o6uvgq1f299947268
-		ROLE = UIAScrollBar
-		TITLE = Horizontal
-		SHAPE = Rect [x:0.0 y:970.0 w:1663.0 h:17.0]
-		CHILDREN = 4
-		PATH = [1, 1, 1]
-	DESCRIPTION = Left Click at 'Horizontal'
-	TEXT = Compound Action =
-		Move mouse to (831.5, 978.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [39]: 
- @Action ConcreteID = ACzv28vi802645585499 AbstractID = AAzv28vi802645585499
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13dhuv0803747471248
- @State ConcreteID = SCd6hi6t4953080717198 AbstractID = SR96qsut4671898007950
- ConcreteID CUSTOM = SCkzrrin4982404864557 AbstractID CUSTOM = SAla8puw4981289828043
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1d3mdt9231373874690, WR1h6ibpb92248851252, WTecs5t6133953252360, WP1r7eyu71f3048568768
-		ROLE = UIAButton
-		TITLE = Page right
-		SHAPE = Rect [x:1645.0 y:970.0 w:1.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 2]
-	DESCRIPTION = Left Click at 'Page right'
-	TEXT = Compound Action =
-		Move mouse to (1645.5, 978.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [40]: 
- @Action ConcreteID = AC110ul237e3702389408 AbstractID = AA110ul237e3702389408
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1d2vyeu7e3068829471
- @State ConcreteID = SC1sai6b84943730567781 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ptza844972463859253 AbstractID CUSTOM = SA1bf731p4983336970232
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WChwtziv243662505998, WR1h6ibpb92248851252, WTmroimq144285515309, WPakoa6h201825274632
-		ROLE = UIAButton
-		TITLE = Column left
-		SHAPE = Rect [x:0.0 y:970.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 0]
-	DESCRIPTION = Left Click at 'Column left'
-	TEXT = Compound Action =
-		Move mouse to (8.5, 978.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [41]: 
- @Action ConcreteID = ACzv28vi802645585499 AbstractID = AAzv28vi802645585499
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13dhuv0803747471248
- @State ConcreteID = SCd6hi6t4953080717198 AbstractID = SR96qsut4671898007950
- ConcreteID CUSTOM = SCkzrrin4982404864557 AbstractID CUSTOM = SAla8puw4981289828043
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1d3mdt9231373874690, WR1h6ibpb92248851252, WTecs5t6133953252360, WP1r7eyu71f3048568768
-		ROLE = UIAButton
-		TITLE = Page right
-		SHAPE = Rect [x:1645.0 y:970.0 w:1.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 2]
-	DESCRIPTION = Left Click at 'Page right'
-	TEXT = Compound Action =
-		Move mouse to (1645.5, 978.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [42]: 
- @Action ConcreteID = ACsihegv19a1290027715 AbstractID = AAilw325d51608491457
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hbffb6d5577516726
- @State ConcreteID = SC1sai6b84943730567781 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ptza844972463859253 AbstractID CUSTOM = SA1bf731p4983336970232
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC978y5u1e3259541194, WR4n0dlj72701565195, WT1gjbb46112826526592, WPozihmo1a2520509821
-		ROLE = UIAEdit
-		TITLE = Find what:
-		SHAPE = Rect [x:124.0 y:204.0 w:192.0 h:20.0]
-		CHILDREN = 0
-		PATH = [1, 0, 1]
-	DESCRIPTION = Type '</textarea><scri...' into 'Find what:
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (220.0, 214.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@10b9db7b
-		Press Key org.fruit.alayer.devices.KBKeys@9ef8eb7
-		Release Key org.fruit.alayer.devices.KBKeys@34cdeda2
-		Release Key org.fruit.alayer.devices.KBKeys@6ee660fb
-		Type text '</textarea><script>alert(123)</script>'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [43]: 
- @Action ConcreteID = ACtplgvf7f2297892635 AbstractID = AAtplgvf7f2297892635
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1trmnai802635690506
- @State ConcreteID = SCck29tg4941963029529 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ptza844972463859253 AbstractID CUSTOM = SA1uk0xnr4981521246191
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC3irx5k1f2569467012, WR1h6ibpb92248851252, WT1523ifv122562923779, WP1aw1skm1b1835374051
-		ROLE = UIAButton
-		TITLE = Find Next
-		SHAPE = Rect [x:326.0 y:201.0 w:75.0 h:23.0]
-		CHILDREN = 0
-		PATH = [1, 0, 6]
-	DESCRIPTION = Left Click at 'Find Next'
-	TEXT = Compound Action =
-		Move mouse to (363.5, 212.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [44]: 
- @Action ConcreteID = AC12pvo917f4121643689 AbstractID = AA12pvo917f4121643689
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAs0qx7w7e2327695970
- @State ConcreteID = SChll17s50e2164558089 AbstractID = SR1y7hun54da1000362730
- ConcreteID CUSTOM = SCf3n5g05093331570968 AbstractID CUSTOM = SA4jyo6o512625436454
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdrwd4l1c2383745146, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WPk63q6b18500692546
-		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:187.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 3]
-	DESCRIPTION = Left Click at 'View'
-	TEXT = Compound Action =
-		Move mouse to (206.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [45]: 
- @Action ConcreteID = AC17c0pk67f1712899475 AbstractID = AA17c0pk67f1712899475
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwmvyj17e420371800
- @State ConcreteID = SChll17s50e2164558089 AbstractID = SR1y7hun54da1000362730
- ConcreteID CUSTOM = SCf3n5g05093331570968 AbstractID CUSTOM = SA4jyo6o512625436454
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCnwzqzv1d1191744540, WR1h6ibpb92248851252, WT16sth3j102102970308, WPgvyjeh192928969365
-		ROLE = UIAButton
-		TITLE = Restore
-		SHAPE = Rect [x:1586.0 y:0.0 w:46.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 3, 2]
-	DESCRIPTION = Left Click at 'Restore'
-	TEXT = Compound Action =
-		Move mouse to (1609.0, 11.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [46]: 
- @Action ConcreteID = AC1i9jgsf7f1797075444 AbstractID = AA1i9jgsf7f1797075444
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAk7agyq804226366837
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC19che2k233305949776, WR16s6p21c140494670, WTddzkv1164284674305, WP1o6uvgq1f299947268
-		ROLE = UIAScrollBar
-		TITLE = Horizontal
-		SHAPE = Rect [x:69.0 y:859.0 w:1407.0 h:17.0]
-		CHILDREN = 5
-		PATH = [1, 1, 1]
-	DESCRIPTION = Left Click at 'Horizontal'
-	TEXT = Compound Action =
-		Move mouse to (772.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [47]: 
- @Action ConcreteID = AC16rb2qb7e1350907849 AbstractID = AA16rb2qb7e1350907849
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAiqvjio7f462694342
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WChwtziv243662505998, WR1h6ibpb92248851252, WTmroimq144285515309, WPakoa6h201825274632
-		ROLE = UIAButton
-		TITLE = Column left
-		SHAPE = Rect [x:69.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 0]
-	DESCRIPTION = Left Click at 'Column left'
-	TEXT = Compound Action =
-		Move mouse to (77.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [48]: 
- @Action ConcreteID = AC7y8scu7e1578097126 AbstractID = AA7y8scu7e1578097126
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAq5i0k7803003046510
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1d3mdt9231373874690, WR1h6ibpb92248851252, WTecs5t6133953252360, WP1r7eyu71f3048568768
-		ROLE = UIAButton
-		TITLE = Page right
-		SHAPE = Rect [x:1246.0 y:859.0 w:213.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 2]
-	DESCRIPTION = Left Click at 'Page right'
-	TEXT = Compound Action =
-		Move mouse to (1352.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [49]: 
- @Action ConcreteID = AC13lv5b07d812086482 AbstractID = AA13lv5b07d812086482
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AApzy74o7d3023540206
- @State ConcreteID = SC17igr0j50e99877488 AbstractID = SR1y7hun54da1000362730
- ConcreteID CUSTOM = SC1y7ti2h50a857931453 AbstractID CUSTOM = SA4jyo6o512625436454
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WChwtziv243662505998, WR1h6ibpb92248851252, WTmroimq144285515309, WPakoa6h201825274632
-		ROLE = UIAButton
-		TITLE = Column left
-		SHAPE = Rect [x:69.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 0]
-	DESCRIPTION = Left Click at 'Column left'
-	TEXT = Compound Action =
-		Move mouse to (77.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [50]: 
- @Action ConcreteID = ACi1uff3802123529565 AbstractID = AAi1uff3802123529565
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArkseh8813837606631
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC195b982251225336039, WR1h6ibpb92248851252, WT1ungvu9153002714154, WPiair8k213441516667
-		ROLE = UIAButton
-		TITLE = Column right
-		SHAPE = Rect [x:1459.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 4]
-	DESCRIPTION = Left Click at 'Column right'
-	TEXT = Compound Action =
-		Move mouse to (1467.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [51]: 
- @Action ConcreteID = AC76yb597e3594416704 AbstractID = AA76yb597e3594416704
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbi97jl7e4191510076
- @State ConcreteID = SC17igr0j50e99877488 AbstractID = SR1y7hun54da1000362730
- ConcreteID CUSTOM = SC1y7ti2h50a857931453 AbstractID CUSTOM = SA4jyo6o512625436454
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC169mzf71c2346486617, WR17v7k2nb1067391859, WT1qe6brdf138512687, WPbprktd18440697792
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [52]: 
- @Action ConcreteID = AC7snaxq7e1706941207 AbstractID = AA7snaxq7e1706941207
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAc3y7c27e1247213419
- @State ConcreteID = SC17igr0j50e99877488 AbstractID = SR1y7hun54da1000362730
- ConcreteID CUSTOM = SC1y7ti2h50a857931453 AbstractID CUSTOM = SA4jyo6o512625436454
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCy2u3ml222013032109, WR1h6ibpb92248851252, WT1cksruh12339931985, WP13ioki71e258864692
-		ROLE = UIAButton
-		TITLE = Page left
-		SHAPE = Rect [x:86.0 y:859.0 w:213.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 1]
-	DESCRIPTION = Left Click at 'Page left'
-	TEXT = Compound Action =
-		Move mouse to (192.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [53]: 
- @Action ConcreteID = AC18us7rh7c3356155876 AbstractID = AA18us7rh7c3356155876
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1sdxu1i7e3945432360
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WChwtziv243662505998, WR1h6ibpb92248851252, WTmroimq144285515309, WPakoa6h201825274632
-		ROLE = UIAButton
-		TITLE = Column left
-		SHAPE = Rect [x:69.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 0]
-	DESCRIPTION = Left Click at 'Column left'
-	TEXT = Compound Action =
-		Move mouse to (77.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [54]: 
- @Action ConcreteID = AC1fk63em7e331220149 AbstractID = AA1fk63em7e331220149
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1xrfblz804283369277
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1636iq01e765014294, WR1h6ibpb92248851252, WT1oq4bf6111982837149, WP1570cuu1a1498609609
-		ROLE = UIAButton
-		TITLE = Maximise
-		SHAPE = Rect [x:1401.0 y:149.0 w:46.0 h:30.0]
-		CHILDREN = 0
-		PATH = [1, 3, 2]
-	DESCRIPTION = Left Click at 'Maximise'
-	TEXT = Compound Action =
-		Move mouse to (1424.0, 164.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [55]: 
- @Action ConcreteID = AC1mkxo4v7e3970510564 AbstractID = AA1mkxo4v7e3970510564
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5f1a4n7e882217941
- @State ConcreteID = SC1inuodh50f753772671 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1901twb50a1938763537 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC16mmfdi1c3456099652, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WP1d0tsf8181581056892
-		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:118.0 y:23.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 3]
-	DESCRIPTION = Left Click at 'View'
-	TEXT = Compound Action =
-		Move mouse to (137.5, 32.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [56]: 
- @Action ConcreteID = AC1xlkqzh7c2145684770 AbstractID = AA1xlkqzh7c2145684770
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfrstq27e833363058
- @State ConcreteID = SC5ye07h534686013524 AbstractID = SR1pp26ki5011977130584
- ConcreteID CUSTOM = SC9xwvrp53028831348 AbstractID CUSTOM = SA1jm0sn05252464921814
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwmgaqu1e1882767585, WR17v7k2nb1067391859, WTaz2n92112307194186, WP136bdis1a2033112419
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:66.0 y:23.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 5, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (92.0, 32.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [57]: 
- @Action ConcreteID = ACtiyjzb7f978328400 AbstractID = AAtiyjzb7f978328400
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAf5nr7z7f1800808407
- @State ConcreteID = SC1inuodh50f753772671 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1901twb50a1938763537 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCnwzqzv1d1191744540, WR1h6ibpb92248851252, WT16sth3j102102970308, WPgvyjeh192928969365
-		ROLE = UIAButton
-		TITLE = Restore
-		SHAPE = Rect [x:1586.0 y:0.0 w:46.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 3, 2]
-	DESCRIPTION = Left Click at 'Restore'
-	TEXT = Compound Action =
-		Move mouse to (1609.0, 11.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [58]: 
- @Action ConcreteID = AC18bp11z7d1779697196 AbstractID = AA18bp11z7d1779697196
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAajipwu7f4175800557
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC16mmfdi1c3456099652, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WP1d0tsf8181581056892
-		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:187.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 3]
-	DESCRIPTION = Left Click at 'View'
-	TEXT = Compound Action =
-		Move mouse to (206.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [59]: 
- @Action ConcreteID = AC1n3qbn17c3054873971 AbstractID = AA1n3qbn17c3054873971
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7lrvxy7e2503342015
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [60]: 
- @Action ConcreteID = AC18bp11z7d1779697196 AbstractID = AA18bp11z7d1779697196
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAajipwu7f4175800557
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC16mmfdi1c3456099652, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WP1d0tsf8181581056892
-		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:187.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 3]
-	DESCRIPTION = Left Click at 'View'
-	TEXT = Compound Action =
-		Move mouse to (206.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [61]: 
- @Action ConcreteID = AC1c86qth7d777708137 AbstractID = AA1c86qth7d777708137
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAeg0foc7f3165342888
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC19che2k233305949776, WR16s6p21c140494670, WTddzkv1164284674305, WP1o6uvgq1f299947268
-		ROLE = UIAScrollBar
-		TITLE = Horizontal
-		SHAPE = Rect [x:69.0 y:859.0 w:1407.0 h:17.0]
-		CHILDREN = 4
-		PATH = [1, 1, 1]
-	DESCRIPTION = Left Click at 'Horizontal'
-	TEXT = Compound Action =
-		Move mouse to (772.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [62]: 
- @Action ConcreteID = AC1vkta7w7d1606105523 AbstractID = AA1vkta7w7d1606105523
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxsmz2r7f3444217714
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [63]: 
- @Action ConcreteID = AC17z88957e4033467767 AbstractID = AA17z88957e4033467767
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1q6hggi80479778559
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC195b97725105427488, WR1h6ibpb92248851252, WT1ungvu9153002714154, WPiair7p212187392700
-		ROLE = UIAButton
-		TITLE = Column right
-		SHAPE = Rect [x:1459.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 3]
-	DESCRIPTION = Left Click at 'Column right'
-	TEXT = Compound Action =
-		Move mouse to (1467.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [64]: 
- @Action ConcreteID = AC2l1y7q7f452782638 AbstractID = AA2l1y7q7f452782638
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13jx0d5802315839151
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [65]: 
- @Action ConcreteID = AC2l1y7q7f452782638 AbstractID = AA2l1y7q7f452782638
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13jx0d5802315839151
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1v5afkp1c1616280591, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP1t77llz183271972780
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [66]: 
- @Action ConcreteID = AC2l1y7q7f452782638 AbstractID = AA2l1y7q7f452782638
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13jx0d5802315839151
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1v5afkp1c1616280591, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP1t77llz183271972780
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [67]: 
- @Action ConcreteID = AC2l1y7q7f452782638 AbstractID = AA2l1y7q7f452782638
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13jx0d5802315839151
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [68]: 
- @Action ConcreteID = AC1ed1r0x7f794023345 AbstractID = AA1ed1r0x7f794023345
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAgasr78803215448368
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdrwd4l1c2383745146, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WPk63q6b18500692546
-		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:187.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 3]
-	DESCRIPTION = Left Click at 'View'
-	TEXT = Compound Action =
-		Move mouse to (206.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [69]: 
- @Action ConcreteID = ACpg2vuq7f3368139332 AbstractID = AApg2vuq7f3368139332
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1qexy05801479915205
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [70]: 
- @Action ConcreteID = ACxuk1cm7f1547393519 AbstractID = AAxuk1cm7f1547393519
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ytf3i1803436139886
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdewx6a1c3359014503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hw5kjk181504605950
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [71]: 
- @Action ConcreteID = ACxuk1cm7f1547393519 AbstractID = AAxuk1cm7f1547393519
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ytf3i1803436139886
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdewx6a1c3359014503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hw5kjk181504605950
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [72]: 
- @Action ConcreteID = AC1l096lv7e781862238 AbstractID = AA1l096lv7e781862238
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwztne87f1703630161
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [73]: 
- @Action ConcreteID = ACi1uff3802123529565 AbstractID = AAi1uff3802123529565
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArkseh8813837606631
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC195b982251225336039, WR1h6ibpb92248851252, WT1ungvu9153002714154, WPiair8k213441516667
-		ROLE = UIAButton
-		TITLE = Column right
-		SHAPE = Rect [x:1459.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 4]
-	DESCRIPTION = Left Click at 'Column right'
-	TEXT = Compound Action =
-		Move mouse to (1467.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [74]: 
- @Action ConcreteID = AC1l096lv7e781862238 AbstractID = AA1l096lv7e781862238
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwztne87f1703630161
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC9juooy1c2998356, WR17v7k2nb1067391859, WT1qe72ijf99311909, WP1c5v840182567018805
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [75]: 
- @Action ConcreteID = AC16rb2qb7e1350907849 AbstractID = AA16rb2qb7e1350907849
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAiqvjio7f462694342
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WChwtziv243662505998, WR1h6ibpb92248851252, WTmroimq144285515309, WPakoa6h201825274632
-		ROLE = UIAButton
-		TITLE = Column left
-		SHAPE = Rect [x:69.0 y:859.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 0]
-	DESCRIPTION = Left Click at 'Column left'
-	TEXT = Compound Action =
-		Move mouse to (77.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [76]: 
- @Action ConcreteID = AC1l096lv7e781862238 AbstractID = AA1l096lv7e781862238
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwztne87f1703630161
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC9juooy1c2998356, WR17v7k2nb1067391859, WT1qe72ijf99311909, WP1c5v840182567018805
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [77]: 
- @Action ConcreteID = AC1ubl3wy7e4131885879 AbstractID = AA1ubl3wy7e4131885879
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA16b5kpb7f3176563512
- @State ConcreteID = SCza8y2e5241319675610 AbstractID = SR4ptbe24ee3113910760
- ConcreteID CUSTOM = SC53svu251e1247049927 AbstractID CUSTOM = SA1x2qfny5272092583314
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCy2u3ml222013032109, WR1h6ibpb92248851252, WT1cksruh12339931985, WP13ioki71e258864692
-		ROLE = UIAButton
-		TITLE = Page left
-		SHAPE = Rect [x:86.0 y:859.0 w:7.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 1]
-	DESCRIPTION = Left Click at 'Page left'
-	TEXT = Compound Action =
-		Move mouse to (89.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [78]: 
- @Action ConcreteID = ACjeq5vs7d2374396377 AbstractID = AAjeq5vs7d2374396377
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1knnwpr7f527943448
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwlwi5h1e1297672529, WR17v7k2nb1067391859, WTaz2n92112307194186, WP135rkxf1a1146027219
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [79]: 
- @Action ConcreteID = ACjeq5vs7d2374396377 AbstractID = AAjeq5vs7d2374396377
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1knnwpr7f527943448
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwlwi5h1e1297672529, WR17v7k2nb1067391859, WTaz2n92112307194186, WP135rkxf1a1146027219
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [80]: 
- @Action ConcreteID = AC9xd3sh18f1498878767 AbstractID = AA6fuj0hd21507653863
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1suape2d43967386622
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WChabex91c1217897630, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7sv182350039758
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:1424.0 h:677.0]
-		CHILDREN = 3
-		PATH = [1, 1]
-	DESCRIPTION = Type '--><script>alert...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (781.0, 537.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@1c025cb
-		Press Key org.fruit.alayer.devices.KBKeys@50825a02
-		Release Key org.fruit.alayer.devices.KBKeys@68809cc7
-		Release Key org.fruit.alayer.devices.KBKeys@703feacd
-		Type text '--><script>alert(123)</script>'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [81]: 
- @Action ConcreteID = AC18bp11z7d1779697196 AbstractID = AA18bp11z7d1779697196
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAajipwu7f4175800557
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdrwd4l1c2383745146, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WPk63q6b18500692546
-		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:187.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 3]
-	DESCRIPTION = Left Click at 'View'
-	TEXT = Compound Action =
-		Move mouse to (206.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [82]: 
- @Action ConcreteID = AC7y8scu7e1578097126 AbstractID = AA7y8scu7e1578097126
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAq5i0k7803003046510
- @State ConcreteID = SC5lt8fe50f95457644 AbstractID = SR1a7j8nn4da64731403
- ConcreteID CUSTOM = SC1cutdua50b3586574645 AbstractID CUSTOM = SA6wf0gl5122531641163
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1d3mdt9231373874690, WR1h6ibpb92248851252, WTecs5t6133953252360, WP1r7eyu71f3048568768
-		ROLE = UIAButton
-		TITLE = Page right
-		SHAPE = Rect [x:1246.0 y:859.0 w:213.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 1, 1, 2]
-	DESCRIPTION = Left Click at 'Page right'
-	TEXT = Compound Action =
-		Move mouse to (1352.5, 867.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [83]: 
- @Action ConcreteID = AC60woi11a9777908439 AbstractID = AA1u4i9xsd33387118058
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmy098d3621669839
- @State ConcreteID = SC17igr0j50e99877488 AbstractID = SR1y7hun54da1000362730
- ConcreteID CUSTOM = SC1y7ti2h50a857931453 AbstractID CUSTOM = SA4jyo6o512625436454
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WChabex91c1217897630, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p7t7sv182350039758
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:1424.0 h:677.0]
-		CHILDREN = 3
-		PATH = [1, 1]
-	DESCRIPTION = Type 'ABC<div style="x...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (781.0, 537.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@878537d
-		Press Key org.fruit.alayer.devices.KBKeys@4455f57d
-		Release Key org.fruit.alayer.devices.KBKeys@29fc1a2b
-		Release Key org.fruit.alayer.devices.KBKeys@4d0b0fd4
-		Type text 'ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [84]: 
- @Action ConcreteID = ACa29esh7f2069278037 AbstractID = AAa29esh7f2069278037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAj3d3jl803163779349
- @State ConcreteID = SCmb756h4941236327792 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ggs8vl4982120477798 AbstractID CUSTOM = SA1uk0xnr4981521246191
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwlwi5h1e1297672529, WR17v7k2nb1067391859, WTaz2n92112307194186, WP135rkxf1a1146027219
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [85]: 
- @Action ConcreteID = AC1m8cj4l7f2842426687 AbstractID = AA1m8cj4l7f2842426687
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1v9g7vp801856905599
- @State ConcreteID = SCmb756h4941236327792 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ggs8vl4982120477798 AbstractID CUSTOM = SA1uk0xnr4981521246191
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1v5afkp1c1616280591, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP1t77llz183271972780
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [86]: 
- @Action ConcreteID = ACa29esh7f2069278037 AbstractID = AAa29esh7f2069278037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAj3d3jl803163779349
- @State ConcreteID = SCmb756h4941236327792 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ggs8vl4982120477798 AbstractID CUSTOM = SA1uk0xnr4981521246191
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwlwi5h1e1297672529, WR17v7k2nb1067391859, WTaz2n92112307194186, WP135rkxf1a1146027219
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [87]: 
- @Action ConcreteID = ACigqkad7f4021047038 AbstractID = AAigqkad7f4021047038
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArhu91h80678007486
- @State ConcreteID = SCmb756h4941236327792 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ggs8vl4982120477798 AbstractID CUSTOM = SA1uk0xnr4981521246191
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC169mzf71c2346486617, WR17v7k2nb1067391859, WT1qe6brdf138512687, WPbprktd18440697792
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:101.0 y:179.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 4, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (118.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [88]: 
- @Action ConcreteID = ACnbnbg67f1971028012 AbstractID = AAnbnbg67f1971028012
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwcr07a802998819948
- @State ConcreteID = SCmb756h4941236327792 AbstractID = SR1cp3hib4671151689926
- ConcreteID CUSTOM = SC1ggs8vl4982120477798 AbstractID CUSTOM = SA1uk0xnr4981521246191
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCpxxhmh1c1225429597, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP11czjk7182446132241
-		ROLE = UIAButton
-		TITLE = Cancel
-		SHAPE = Rect [x:326.0 y:230.0 w:75.0 h:23.0]
-		CHILDREN = 0
-		PATH = [1, 0, 7]
-	DESCRIPTION = Left Click at 'Cancel'
-	TEXT = Compound Action =
-		Move mouse to (363.5, 241.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [89]: 
- @Action ConcreteID = ACoo82bf7d1027438896 AbstractID = AAoo82bf7d1027438896
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAc9h9bp7e2796259943
- @State ConcreteID = SCpsthwg3b4829647612 AbstractID = SR15p1uzc3951422871860
- ConcreteID CUSTOM = SC15z3vdx3bd688500615 AbstractID CUSTOM = SA1xme0dq3b4595833078
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC9jaw3l1c2987203652, WR17v7k2nb1067391859, WT1qe72ijf99311909, WP1c5bfin18723600677
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 3, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [90]: 
- @Action ConcreteID = AC6fkesy80675741447 AbstractID = AA6fkesy80675741447
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1da2ut57f3759229449
- @State ConcreteID = SC1xrkt4h4554198819890 AbstractID = SRrpufvd434557988621
- ConcreteID CUSTOM = SCk07z6454538084933 AbstractID CUSTOM = SAfjn9cd4543492856910
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [91]: 
- @Action ConcreteID = AC1tos2um7e2967798093 AbstractID = AA1tos2um7e2967798093
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1059dys7f1165054953
- @State ConcreteID = SCpsthwg3b4829647612 AbstractID = SR15p1uzc3951422871860
- ConcreteID CUSTOM = SC15z3vdx3bd688500615 AbstractID CUSTOM = SA1xme0dq3b4595833078
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1v4qmzc1c3530989599, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP1t6nt0m181898351548
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 3, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [92]: 
- @Action ConcreteID = ACkaol4z7e1491377899 AbstractID = AAkaol4z7e1491377899
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1tui7wp803013191432
- @State ConcreteID = SCyjhi183f2602275676 AbstractID = SRgpnbgf3d03409117002
- ConcreteID CUSTOM = SC2f5jfw3ec999402996 AbstractID CUSTOM = SA181sz0u3f32083802886
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCvlzmdl252345972098, WR17v7k2nb1067391859, WT1wv077z18170180715, WPotjm1j213459148932
-		ROLE = UIAMenuItem
-		TITLE = About Notepad
-		SHAPE = Rect [x:229.0 y:230.0 w:166.0 h:22.0]
-		CHILDREN = 0
-		PATH = [1, 0, 1]
-	DESCRIPTION = Left Click at 'About Notepad'
-	TEXT = Compound Action =
-		Move mouse to (312.0, 241.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [93]: 
- @Action ConcreteID = ACpo21q80812348294 AbstractID = AApo21q80812348294
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbix0tz801105606950
- @State ConcreteID = SC1spfbv74bb4040953427 AbstractID = SR2a6xs14893519141446
- ConcreteID CUSTOM = SC1dt3daz4b91836438768 AbstractID CUSTOM = SA1fxkpqi4bd1216134763
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:135.0 y:179.0 w:52.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
-	TEXT = Compound Action =
-		Move mouse to (161.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [94]: 
- @Action ConcreteID = AC1cvr6du803797296108 AbstractID = AA1cvr6du803797296108
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1np0563802480630092
- @State ConcreteID = SC1spfbv74bb4040953427 AbstractID = SR2a6xs14893519141446
- ConcreteID CUSTOM = SC1dt3daz4b91836438768 AbstractID CUSTOM = SA1fxkpqi4bd1216134763
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [95]: 
- @Action ConcreteID = AClu7wk77f3875401347 AbstractID = AAlu7wk77f3875401347
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAzxp8im7f3660761031
- @State ConcreteID = SC1spfbv74bb4040953427 AbstractID = SR2a6xs14893519141446
- ConcreteID CUSTOM = SC1dt3daz4b91836438768 AbstractID CUSTOM = SA1fxkpqi4bd1216134763
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:69.0 y:179.0 w:32.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
-	TEXT = Compound Action =
-		Move mouse to (85.0, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [96]: 
- @Action ConcreteID = AC1cvr6du803797296108 AbstractID = AA1cvr6du803797296108
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1np0563802480630092
- @State ConcreteID = SC1spfbv74bb4040953427 AbstractID = SR2a6xs14893519141446
- ConcreteID CUSTOM = SC1dt3daz4b91836438768 AbstractID CUSTOM = SA1fxkpqi4bd1216134763
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [97]: 
- @Action ConcreteID = AC1cvr6du803797296108 AbstractID = AA1cvr6du803797296108
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1np0563802480630092
- @State ConcreteID = SC1spfbv74bb4040953427 AbstractID = SR2a6xs14893519141446
- ConcreteID CUSTOM = SC1dt3daz4b91836438768 AbstractID CUSTOM = SA1fxkpqi4bd1216134763
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:226.0 y:179.0 w:39.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
-	TEXT = Compound Action =
-		Move mouse to (245.5, 188.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysTestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [98]: 
- @Action ConcreteID = AC469ch1ad3772414054 AbstractID = AA1fqpo9nd51842837281
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5klleqd51871117517
- @State ConcreteID = SC1spfbv74bb4040953427 AbstractID = SR2a6xs14893519141446
- ConcreteID CUSTOM = SC1dt3daz4b91836438768 AbstractID CUSTOM = SA1fxkpqi4bd1216134763
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:69.0 y:199.0 w:540.0 h:223.0]
-		CHILDREN = 3
-		PATH = [0, 0]
-	DESCRIPTION = Type 'ABC<div style="x...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (339.0, 310.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key org.fruit.alayer.devices.KBKeys@6be7bf6d
-		Press Key org.fruit.alayer.devices.KBKeys@134c370e
-		Release Key org.fruit.alayer.devices.KBKeys@33364212
-		Release Key org.fruit.alayer.devices.KBKeys@2216effc
-		Type text 'ABC<div style="x:exp\x00ression(javascript:alert(1)">DEF'
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [99]: 
- @Action ConcreteID = AC18u76q19f3183376871 AbstractID = AA18u76q19f3183376871
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3ipum39f3193575170
- @State ConcreteID = SCcy5tp73b52925775015 AbstractID = SR15p1uzc3951422871860
- ConcreteID CUSTOM = SC1i8yjwv3bd446371996 AbstractID CUSTOM = SA1xme0dq3b4595833078
-
-	ROLE = LeftDrag
-	DESCRIPTION = Drag (1433.0, 868.0) To (100.0, 868.0)
-	TEXT = Compound Action =
-		Move mouse to (1433.0, 868.0).
-		Press Mouse Button BUTTON1
-		Move mouse to (100.0, 868.0).
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysExecutedAction [100]: 
- @Action ConcreteID = AC13dhkvy7f3661078332 AbstractID = AA13dhkvy7f3661078332
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA62pla57f2212378544
- @State ConcreteID = SCvesxzw3b52879901062 AbstractID = SR26p6bu3951632330876
- ConcreteID CUSTOM = SC1murqhv3bd2200054814 AbstractID CUSTOM = SAuazv963b52379041577
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCd8ggh31e2616419048, WR1h6ibpb92248851252, WT1oq4bf6111982837149, WPccaalx1a4013466679
-		ROLE = UIAButton
-		TITLE = Maximise
-		SHAPE = Rect [x:517.0 y:149.0 w:46.0 h:30.0]
-		CHILDREN = 0
-		PATH = [0, 1, 2]
-	DESCRIPTION = Left Click at 'Maximise'
-	TEXT = Compound Action =
-		Move mouse to (540.0, 164.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-TestSerialiser - exception writing fragment: org.fruit.alayer.devices.KBKeysSequence 1 finished.
+Sequence 1 finished.
 Copying generated sequence ("sequence23") to output directory...
 Copying classified sequence ("sequence23") to sequences_ok folder...

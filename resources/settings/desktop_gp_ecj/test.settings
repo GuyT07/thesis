@@ -83,7 +83,7 @@ ProcessLogs = .*.*
 # these will be added to the protocol_filter.xml file.
 #################################################################
 
-ClickFilter = .*[sS]istema.*|.*[sS]ystem.*|.*[cC]errar.*|.*[cC]lose.*|.*[sS]alir.*|.*[eE]xit.*|.*[mM]inimizar.*|.*[mM]inimi[zs]e.*|.*[gG]uardar.*|.*[sS]ave.*|.*[iI]mprimir.*|.*[pP]rint.*|.*[oO]pen.*|.*[sS]how more fonts.*|.*[vV]iew Help.*|.*[mM]icrosoft Software Licence.*|.*[iI]nput Values.*
+ClickFilter = .*[sS]istema.*|.*[sS]ystem.*|.*[cC]errar.*|.*[cC]lose.*|.*[sS]alir.*|.*[eE]xit.*|.*[mM]inimizar.*|.*[mM]inimi[zs]e.*|.*[gG]uardar.*|.*[sS]ave.*|.*[iI]mprimir.*|.*[pP]rint.*|.*[oO]pen.*|.*[sS]how more fonts.*|.*[vV]iew Help.*|.*[mM]icrosoft Software Licence.*|.*[sS]ave [aA]s.*|.*[iI]nput Values.*
 
 #################################################################
 # Processfilter
@@ -105,7 +105,7 @@ ProtocolClass = desktop_gp_ecj/Protocol_desktop_gp_ecj
 #################################################################
 # Graphdatabase settings (experimental)
 #################################################################
-GraphDBEnabled = true
+GraphDBEnabled = false
 GraphDBUrl = remote:/localhost/notepad
 GraphDBUser = root
 GraphDBPassword = root
@@ -138,7 +138,7 @@ AbstractStateAttributes = Role,Path,Enabled
 TypingTextsForExecutedAction = 10
 Discount = 0.95
 InputFileText = ./resources/settings/desktop_gp_ecj/blns.txt
-TempDir = ./resources/output/temp
+TempDir = resources/output/temp
 MaxTime = 3.1536E7
 StopGenerationOnFault = false
 ExecuteActions = true
@@ -161,7 +161,7 @@ ForceToSequenceLength = true
 OutputDir = ./resources/output
 UnattendedTests = false
 TestGenerator = strategy
-StartupTime = 3.0
+StartupTime = 0.0
 ActionDuration = 0.0
 NonReactingUIThreshold = 100
 GraphsActivated = true
@@ -171,10 +171,10 @@ TimeToFreeze = 30.0
 StateScreenshotSimilarityThreshold = 1.4E-45
 ShowVisualSettingsDialogOnStartup = true
 ResetDataStore = false
-TimeToWaitAfterAction = 0
+TimeToWaitAfterAction = 0.1
 DrawWidgetUnderCursor = true
-AlwaysCompile = false
-PathToReplaySequence = C:\\Users\\testar\\Desktop\\testar\\resources\\output\\sequences_ok\\sequence115
+AlwaysCompile = true
+PathToReplaySequence = 
 VisualizeActions = false
 ExplorationSampleInterval = 1
 OnlySaveFaultySequences = false

@@ -1,0 +1,177 @@
+Starting sequence 1 (output as: sequence1461)
+
+ExecutedAction [1]: 
+ @Action ConcreteID = AC1lb0iuh7f2700232902 AbstractID = AA1lb0iuh7f2700232902
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1mmfign7d3267633415
+ @State ConcreteID = SC14yrgk44031933115141 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SCrceh6d3fe629244999 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC168je8h1c77364985, WR17v7k2nb1067391859, WT1qe6brdf138512687, WPbonzmn182500097632
+		ROLE = UIAMenuItem
+		TITLE = Edit
+		SHAPE = Rect [x:92.0 y:58.0 w:34.0 h:19.0]
+		CHILDREN = 0
+		PATH = [1, 2, 1]
+	DESCRIPTION = Left Click at 'Edit'
+	TEXT = Compound Action =
+		Move mouse to (109.0, 67.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [2]: 
+ @Action ConcreteID = ACk2mvyg7e2036627379 AbstractID = AAk2mvyg7e2036627379
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1md5z0s7e3323453365
+ @State ConcreteID = SC1a7bwv54ef731589763 AbstractID = SRhb5rqv4d91581134308
+ ConcreteID CUSTOM = SCec9s3a4f5284583716 AbstractID CUSTOM = SAx9bh3z4ed2849586149
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCwkswyr1e3256360177, WR17v7k2nb1067391859, WTaz2n92112307194186, WP134nzqp1a3406694771
+		ROLE = UIAMenuItem
+		TITLE = Format
+		SHAPE = Rect [x:126.0 y:58.0 w:52.0 h:19.0]
+		CHILDREN = 0
+		PATH = [1, 2, 2]
+	DESCRIPTION = Left Click at 'Format'
+	TEXT = Compound Action =
+		Move mouse to (152.0, 67.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [3]: 
+ @Action ConcreteID = ACis79i7e820180086 AbstractID = AAis79i7e820180086
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAkb9ko7c3684100650
+ @State ConcreteID = SC14yrgk44031933115141 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SCrceh6d3fe629244999 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
+		ROLE = UIAMenuItem
+		TITLE = File
+		SHAPE = Rect [x:60.0 y:58.0 w:32.0 h:19.0]
+		CHILDREN = 0
+		PATH = [0, 2, 0]
+	DESCRIPTION = Left Click at 'File'
+	TEXT = Compound Action =
+		Move mouse to (76.0, 67.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [4]: 
+ @Action ConcreteID = AC1fimega803846852302 AbstractID = AA1fimega803846852302
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAvtcl2l803223155567
+ @State ConcreteID = SC139g84o4a51510131206 AbstractID = SR25f9j3489363105316
+ ConcreteID CUSTOM = SC19ppvcw4a73060031028 AbstractID CUSTOM = SA12c4vbo49e1258004458
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1yw976u1e2658541381, WR1h6ibpb92248851252, WT1oq4bf6111982837149, WP1y031bo1a3938310554
+		ROLE = UIAButton
+		TITLE = Maximise
+		SHAPE = Rect [x:1041.0 y:28.0 w:46.0 h:30.0]
+		CHILDREN = 0
+		PATH = [2, 2, 2]
+	DESCRIPTION = Left Click at 'Maximise'
+	TEXT = Compound Action =
+		Move mouse to (1064.0, 43.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [5]: 
+ @Action ConcreteID = ACcg4sde11d2798777541 AbstractID = AA1d333w3d54235174914
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4ke5n8d3507449376
+ @State ConcreteID = SC11umjgk4032590869821 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC12dt55t3fc3486166086 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WChav7hr1c372043535, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p8d0dd183534326111
+		ROLE = UIAEdit
+		TITLE = Text Editor
+		SHAPE = Rect [x:0.0 y:43.0 w:1680.0 h:967.0]
+		CHILDREN = 1
+		PATH = [2, 0]
+	DESCRIPTION = Type 'ABC<div style="x...' into 'Text Editor
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (840.0, 526.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text 'ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF'
+
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [6]: 
+ @Action ConcreteID = ACsc3pes392055546517 AbstractID = AAsc3pes392055546517
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10e3n2d372616431800
+ @State ConcreteID = SC11umjgk4032590869821 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC12dt55t3fc3486166086 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [7]: 
+ @Action ConcreteID = ACsc3pes392055546517 AbstractID = AAsc3pes392055546517
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10e3n2d372616431800
+ @State ConcreteID = SC11umjgk4032590869821 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC12dt55t3fc3486166086 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+ExecutedAction [8]: 
+ @Action ConcreteID = ACvdpsnbf2220197954 AbstractID = AA1d333w3d54235174914
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4ke5n8d3507449376
+ @State ConcreteID = SC11umjgk4032590869821 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC12dt55t3fc3486166086 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WChav7hr1c372043535, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p8d0dd183534326111
+		ROLE = UIAEdit
+		TITLE = Text Editor
+		SHAPE = Rect [x:0.0 y:43.0 w:1680.0 h:967.0]
+		CHILDREN = 1
+		PATH = [2, 0]
+	DESCRIPTION = Type '????? ???...' into 'Text Editor
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (840.0, 526.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '????? ?????'
+
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [9]: 
+ @Action ConcreteID = ACsc3pes392055546517 AbstractID = AAsc3pes392055546517
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10e3n2d372616431800
+ @State ConcreteID = SC11umjgk4032590869821 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC12dt55t3fc3486166086 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [10]: 
+ @Action ConcreteID = ACsc3pes392055546517 AbstractID = AAsc3pes392055546517
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10e3n2d372616431800
+ @State ConcreteID = SC11umjgk4032590869821 AbstractID = SR1jumdpu3ea1420136284
+ ConcreteID CUSTOM = SC12dt55t3fc3486166086 AbstractID CUSTOM = SAylrvaj3f6384252902
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Sequence 1 finished.
+Copying generated sequence ("sequence1461") to output directory...
+Copying classified sequence ("sequence1461") to sequences_ok folder...
