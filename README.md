@@ -10,9 +10,9 @@ This repository contains results and source code of various research experiments
 
 #### Notepad - GP (MG)
 
-10 actions - 5 sequences per strategy - Population size 1000 --> stopped run prematurely (had to work on VM)
-https://github.com/GuyT07/thesis/tree/preparation/notepad-3200-runs
+| # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
+| ---------:| ------------------------:| ----------:| -----------:| ----|--------|
+| 10 | 5 | 1000 | 4 | https://github.com/GuyT07/thesis/tree/preparation/notepad-3200-runs | stopped run prematurely (had to work on VM)|
+| 50 | 1 | 100 | 4 | https://github.com/GuyT07/thesis/tree/preparation/notepad-400-runs | Completed |
 
-50 actions - 1 sequence per strategy - Population size 100
-https://github.com/GuyT07/thesis/tree/preparation/notepad-400-runs
  
