@@ -14,5 +14,6 @@ This repository contains results and source code of various research experiments
 | ---------:| ------------------------:| ----------:| -----------:| ----|--------|
 | 10 | 5 | 1000 | 4 | https://github.com/GuyT07/thesis/tree/preparation/notepad-3200-runs | stopped run prematurely (had to work on VM)|
 | 50 | 1 | 100 | 4 | https://github.com/GuyT07/thesis/tree/preparation/notepad-400-runs | Completed |
+| 100 | 1 | 250 | 4 | https://github.com/GuyT07/thesis/tree/preparation/notepad-250-evaluations-4-generations | Completed |
 
  
