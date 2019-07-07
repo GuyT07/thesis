@@ -36,11 +36,13 @@ public class Evaluator {
             }
         }
 
+        final double fitnessValueMedian = testStrategy.calculateFitnessValueMedian();
+
         writer.writeResult(
                 this.toString(
                         result,
                         fitnessValue,
-                        testStrategy.calculateFitnessValueMedian(),
+                        fitnessValueMedian,
                         testStrategy.calculateFitnessValueMean()
                 ),
                 generation,
@@ -48,7 +50,7 @@ public class Evaluator {
                 strategy
         );
 
-        return fitnessValue;
+        return fitnessValueMedian;
     }
 
     private TestStrategy getCorrectStrategy(final Strategy strategy) {
