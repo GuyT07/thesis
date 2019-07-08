@@ -6,53 +6,9 @@ parent.0 = ../../gp/koza/koza.params
 
 generations = 1
 
-pop.subpop.0.size = 1000
+pop.subpop.0.size = 100
 
 jobs = 1
-
-select.tournament.size = 0
-breed.elite.0 = 0
-
-gp.koza.half.min-depth = 1
-gp.koza.half.max-depth = 8
-gp.koza.half.growp = 0.7
-
-gp.koza.grow.min-depth = 1
-gp.koza.grow.max-depth = 9
-
-gp.koza.ns.terminals = 0.3
-gp.koza.ns.nonterminals = 0.4
-gp.koza.ns.root = 0.3
-
-pop.subpop.0.species.pipe = ec.breed.MultiBreedingPipeline
-# Koza's decision here was odd...
-pop.subpop.0.species.pipe.generate-max = false
-# Subsidiary pipelines:
-pop.subpop.0.species.pipe.num-sources = 5
-pop.subpop.0.species.pipe.source.0 = ec.gp.koza.CrossoverPipeline
-pop.subpop.0.species.pipe.source.0.prob = 0.2
-pop.subpop.0.species.pipe.source.1 = ec.breed.ReproductionPipeline
-pop.subpop.0.species.pipe.source.1.prob = 0.2
-pop.subpop.0.species.pipe.source.2 = ec.gp.breed.MutateAllNodesPipeline
-pop.subpop.0.species.pipe.source.2.prob = 0.2
-pop.subpop.0.species.pipe.source.3 = ec.gp.breed.MutateOneNodePipeline
-pop.subpop.0.species.pipe.source.3.prob = 0.2
-pop.subpop.0.species.pipe.source.4 = ec.gp.koza.MutationPipeline
-pop.subpop.0.species.pipe.source.4.prob = 0.2
-
-gp.breed.mutate-one-node.source.0 = ec.select.TournamentSelection
-gp.breed.mutate-one-node.source.1 = same
-gp.breed.mutate-one-node.ns.0 = ec.gp.koza.KozaNodeSelector
-gp.breed.mutate-one-node.ns.1 = same
-gp.breed.mutate-one-node.maxdepth = 17
-gp.breed.mutate-one-node.tries = 1
-
-gp.breed.mutate-all-nodes.source.0 = ec.select.TournamentSelection
-gp.breed.mutate-all-nodes.source.1 = same
-gp.breed.mutate-all-nodes.ns.0 = ec.gp.koza.KozaNodeSelector
-gp.breed.mutate-all-nodes.ns.1 = same
-gp.breed.mutate-all-nodes.maxdepth = 17
-gp.breed.mutate-all-nodes.tries = 1
 
 #Data types
 gp.type.a.size = 4
