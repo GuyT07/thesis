@@ -1,0 +1,38 @@
+Starting sequence 1 (output as: sequence832)
+
+ExecutedAction [1]: 
+ @Action ConcreteID = AC1blygjp802360896016 AbstractID = AA1blygjp802360896016
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10j8ok87f3791578730
+ @State ConcreteID = SCcrcshl12a93209966773 AbstractID = SR1s19dtz11d91502607806
+ ConcreteID CUSTOM = SC1egiddw12a34244981505 AbstractID CUSTOM = SAp89xf11299459384757
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCuky6ek412928803089, WR88rmk0b1934231702, WTt8lv8r1f3964487852, WPz469ge3d3286050059
+		ROLE = UIACheckBox
+		TITLE = Hide Completed Tasks
+		SHAPE = Rect [x:656.0 y:167.0 w:23.0 h:22.0]
+		CHILDREN = 0
+		PATH = [0, 0, 0, 0, 0, 0, 2, 1, 0, 4]
+	DESCRIPTION = Left Click at 'Hide Completed Tasks'
+	TEXT = Compound Action =
+		Move mouse to (667.5, 178.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+Detected fault: severity: 0.9999999 info: System is unresponsive! I assume something is wrong!
+SUT frozen, trying to kill it!
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [2]: 
+ @Action ConcreteID = AC11c670r28698917028 AbstractID = AA11c670r28698917028
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vuutft283032135670
+ @State ConcreteID = SC000 AbstractID = SR000
+ ConcreteID CUSTOM = SC000 AbstractID CUSTOM = SA000
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Sequence 1 finished.
+Sequence contained faults!
+Copying generated sequence ("sequence832") to output directory...
+Copying classified sequence ("sequence832") to sequences_unresponsive folder...
