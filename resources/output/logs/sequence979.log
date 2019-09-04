@@ -1,0 +1,67 @@
+Starting sequence 1 (output as: sequence979)
+
+ExecutedAction [1]: 
+ @Action ConcreteID = ACurhlrv812010815665 AbstractID = AAurhlrv812010815665
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA19ae3ws812908599927
+ @State ConcreteID = SC1jhlj3s38c3596681936 AbstractID = SR1a8ocoa3633294430042
+ ConcreteID CUSTOM = SC89qiop3913789975071 AbstractID CUSTOM = SA1mr7ldq38a3637326945
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC11ml8dq213410878632, WR17qbaneb3904637586, WT17qbaneb3904637586, WPs4rz4w1d63245855
+		ROLE = UIAComboBox
+		TITLE = 
+		SHAPE = Rect [x:1452.0 y:858.0 w:427.0 h:23.0]
+		CHILDREN = 2
+		PATH = [0, 0, 0, 0, 1, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1665.5, 869.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [2]: 
+ @Action ConcreteID = ACcfj44j821270542993 AbstractID = AAcfj44j821270542993
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10iueia82963056190
+ @State ConcreteID = SC1jhlj3s38c3596681936 AbstractID = SR1a8ocoa3633294430042
+ ConcreteID CUSTOM = SC89qiop3913789975071 AbstractID CUSTOM = SA1mr7ldq38a3637326945
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCd7i1q3251470658058, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP10d9til211899365416
+		ROLE = UIAButton
+		TITLE = Cancel
+		SHAPE = Rect [x:1885.0 y:1130.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 0, 1, 0, 1]
+	DESCRIPTION = Left Click at 'Cancel'
+	TEXT = Compound Action =
+		Move mouse to (1931.0, 1142.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [3]: 
+ @Action ConcreteID = AC11c670r28698917028 AbstractID = AA11c670r28698917028
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vuutft283032135670
+ @State ConcreteID = SC000 AbstractID = SR000
+ ConcreteID CUSTOM = SC000 AbstractID CUSTOM = SA000
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Detected fault: severity: 0.99999999 info: System is offline! I assume it crashed!
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [4]: 
+ @Action ConcreteID = AC11c670r28698917028 AbstractID = AA11c670r28698917028
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vuutft283032135670
+ @State ConcreteID = SC000 AbstractID = SR000
+ ConcreteID CUSTOM = SC000 AbstractID CUSTOM = SA000
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Sequence 1 finished.
+Sequence contained faults!
+Copying generated sequence ("sequence979") to output directory...
+Copying classified sequence ("sequence979") to sequences_unexpectedclose folder...

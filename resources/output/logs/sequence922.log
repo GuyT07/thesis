@@ -1,0 +1,71 @@
+Starting sequence 1 (output as: sequence922)
+
+ExecutedAction [1]: 
+ @Action ConcreteID = AC11pq1ss52639125521 AbstractID = AA1jycwkp4f3024507878
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1v7fu7o4e3837710192
+ @State ConcreteID = SC1xz2h4m142170224422 AbstractID = SR14ssm6r133607542776
+ ConcreteID CUSTOM = SCoqwotv143773807160 AbstractID CUSTOM = SAdzlruf143021697002
+
+	ROLE = HitKey
+	DESCRIPTION = Hit Key 27
+	TEXT = Compound Action =
+		Press Key 27
+		Release Key 27
+		No Operation
+
+ExecutedAction [2]: 
+ @Action ConcreteID = AC1p9bjdq81764787710 AbstractID = AA1p9bjdq81764787710
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAvir49u803555469296
+ @State ConcreteID = SC1u28081114c1723444751 AbstractID = SR1xksy6x108d4229874479
+ ConcreteID CUSTOM = SC8l3j5p11562989339138 AbstractID CUSTOM = SAcz57fx114c2680698548
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1s708962010933524, WR17v7k2nb1067391859, WT1omh7n413746922249, WP2hrons1c2276822195
+		ROLE = UIAMenuItem
+		TITLE = Navigate
+		SHAPE = Rect [x:274.0 y:123.0 w:61.0 h:19.0]
+		CHILDREN = 0
+		PATH = [0, 4, 4]
+	DESCRIPTION = Left Click at 'Navigate'
+	TEXT = Compound Action =
+		Move mouse to (304.5, 132.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [3]: 
+ @Action ConcreteID = ACloawyr803811911236 AbstractID = AAloawyr803811911236
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAc32s43801968947853
+ @State ConcreteID = SC178x6sa2212814106910 AbstractID = SR1fwwz2l21b997910800
+ ConcreteID CUSTOM = SC407k7i2262754974253 AbstractID CUSTOM = SA13ettgr21f3500745381
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1sjea5t2d3267533732, WR17v7k2nb1067391859, WT1j95c2b22175738773, WP1xunf0f29297161271
+		ROLE = UIAMenuItem
+		TITLE = Open Discovered Type...
+		SHAPE = Rect [x:277.0 y:445.0 w:305.0 h:22.0]
+		CHILDREN = 0
+		PATH = [0, 13]
+	DESCRIPTION = Left Click at 'Open Discovered Type...'
+	TEXT = Compound Action =
+		Move mouse to (429.5, 456.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+Detected fault: severity: 0.9999999 info: System is unresponsive! I assume something is wrong!
+SUT frozen, trying to kill it!
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [4]: 
+ @Action ConcreteID = AC11c670r28698917028 AbstractID = AA11c670r28698917028
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vuutft283032135670
+ @State ConcreteID = SC000 AbstractID = SR000
+ ConcreteID CUSTOM = SC000 AbstractID CUSTOM = SA000
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Sequence 1 finished.
+Sequence contained faults!
+Copying generated sequence ("sequence922") to output directory...
+Copying classified sequence ("sequence922") to sequences_unresponsive folder...
