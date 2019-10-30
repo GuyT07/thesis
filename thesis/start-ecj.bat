@@ -1,0 +1,1 @@
+java -jar ecj-26.jar -from app/testar/notepad.params -p gp.tree.print-style=latex

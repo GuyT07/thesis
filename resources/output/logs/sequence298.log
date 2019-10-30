@@ -1,2335 +1,2074 @@
 Starting sequence 1 (output as: sequence298)
 
 ExecutedAction [1]: 
- @Action ConcreteID = AC1s3bfscde69106544 AbstractID = AA1gttwpkd51871500563
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC6w2h61d63505289064 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC22ddoh1d53711883251 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '\' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '\'
-
-ExecutedAction [2]: 
- @Action ConcreteID = AC13i0uvp1071945413632 AbstractID = AArbce26d73260390119
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC184ev3p1d62865025435 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC16fyjxa1d4134607494 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '<IMG """><SCRIPT...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<IMG """><SCRIPT>alert("XSS")</SCRIPT>">'
-
-ExecutedAction [3]: 
- @Action ConcreteID = AC3ejrw61241406318489 AbstractID = AA1kjk3sed53973514734
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SCig6l301d6342714193 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC11etzy71d51540194627 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '<a href="javascr...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>'
-
-ExecutedAction [4]: 
- @Action ConcreteID = AC1fgdr4oe31727551946 AbstractID = AA1tlwhtzd7961085402
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1settcn1d63105344497 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC19ijslk1d44009462576 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type 'then' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'then'
-
-ExecutedAction [5]: 
- @Action ConcreteID = AC3l0iwy1263335097097 AbstractID = AA1vgfg25d72510302233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1yzeu8p1d52712633537 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC33fbch1d53440726360 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '<a href="\x17jav...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>'
-
-ExecutedAction [6]: 
- @Action ConcreteID = AClbbeg51132747147836 AbstractID = AA1tlwhtzd7961085402
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1settcn1d63105344497 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC19ijslk1d44009462576 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '"`'><script>\xE2...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '"`'><script>\xE2\x80\x84javascript:alert(1)</script>'
-
-ExecutedAction [7]: 
- @Action ConcreteID = AC1al96ere53128005889 AbstractID = AA7t5ohxd72633460543
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1ewitca1d62277167444 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC1gelvx31d54224478838 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '-1#IND' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '-1#IND'
-
-ExecutedAction [8]: 
- @Action ConcreteID = ACfjojbn12d434303693 AbstractID = AAxs4xycd73849412179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC16whw2c1d53779984702 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SCttafxc1d44127149231 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '??? ?????...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '??? ????? ????? ??? ????? ???? ??? ???? ???'
-
-ExecutedAction [9]: 
- @Action ConcreteID = AC9wout1e03564498062 AbstractID = AA1r51gh2d7193141818
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1tfjx5n1d62286416824 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC13yz79o1d51511726327 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '%' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '%'
-
-ExecutedAction [10]: 
- @Action ConcreteID = ACc0wvesfc2483730190 AbstractID = AAt5bcamd6894480416
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC7dird81d61855408606 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SCyfztf81d53592069162 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '--><script>alert...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '--><script>alert(123)</script>'
-
-ExecutedAction [11]: 
- @Action ConcreteID = ACrn1hlqe33071235532 AbstractID = AA1if4dtbd63279726828
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC12eixj31d5586562421 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC14p13uo1d5180362631 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '0.0/0' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '0.0/0'
-
-ExecutedAction [12]: 
- @Action ConcreteID = AC1e5k0p4112224756412 AbstractID = AAxs4xycd73849412179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC16whw2c1d53779984702 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SCttafxc1d44127149231 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '`"'><img src=xxx...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '`"'><img src=xxx:x \x2Fonerror=javascript:alert(1)>'
-
-ExecutedAction [13]: 
- @Action ConcreteID = AC1u6xf68ef2613262080 AbstractID = AA19z26ikd71908250470
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC18e4waw1d63314728341 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC10ch1fo1d51205484067 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '";alert(123);t="' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '";alert(123);t="'
-
-ExecutedAction [14]: 
- @Action ConcreteID = ACu2szvned928343446 AbstractID = AAqg31tid7472049854
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1sb66rk1d52016239389 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC161lj8u1d52141551857 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type 'hasOwnProperty' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'hasOwnProperty'
-
-ExecutedAction [15]: 
- @Action ConcreteID = ACbgyqls1b12309611483 AbstractID = AAoc4n4ad6357981595
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SCywkj9t1d53644196786 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC1xla7bo1d52105691949 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type 'If you're readin...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.'
-
-ExecutedAction [16]: 
- @Action ConcreteID = AC11xivsne32237891089 AbstractID = AA1hf9k4rd7624122209
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC14jjn9b1d53643001983 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC1bfar641d42740766213 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '????' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '????'
-
-ExecutedAction [17]: 
- @Action ConcreteID = ACnxxpje10f2668653123 AbstractID = AA1vgfg25d72510302233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1yzeu8p1d52712633537 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC33fbch1d53440726360 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '"`'><script>\xC2...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '"`'><script>\xC2\xA0javascript:alert(1)</script>'
-
-ExecutedAction [18]: 
- @Action ConcreteID = ACadw1ite4519093671 AbstractID = AAt3andfd72283859551
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1a46gls1d53129068651 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC1h2238k1d5492331180 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '0,0,0' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '0,0,0'
-
-ExecutedAction [19]: 
- @Action ConcreteID = AC1xl29o312e1087717373 AbstractID = AAxs4xycd73849412179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC16whw2c1d53779984702 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SCttafxc1d44127149231 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '<a href="\xE2\x8...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>'
-
-ExecutedAction [20]: 
- @Action ConcreteID = AC1c8xn6q10b1071152278 AbstractID = AA17dflq5d73152142881
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1bv8vfk1d52288164974 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC4ghwo31d51306287882 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '<sc<script>ript>...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<sc<script>ript>alert(123)</sc</script>ript>'
-
-ExecutedAction [21]: 
- @Action ConcreteID = ACw3ay5jfb1604106132 AbstractID = AAqr7zepd7896427531
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1lq5leb1d42870260124 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SCoyvztq1d52906215319 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '><script>alert(1...' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '><script>alert(123)</script>'
-
-ExecutedAction [22]: 
- @Action ConcreteID = ACft510xeb1320269042 AbstractID = AAjfq84cd74057637425
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1e23aki1d41857507828 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SCfpotx41d52061630210 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '??????' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '??????'
-
-ExecutedAction [23]: 
- @Action ConcreteID = AC12hc8iwdf2252827341 AbstractID = AA12jhikad6141127362
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxjhiufd5393627355
- @State ConcreteID = SC1ct4eju1d5928498914 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC1bg77g21d513510018 AbstractID CUSTOM = SA1e0xkku1d417380732
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCh9rmb11c1827454063, WR4n0dlj72701565195, WTei4yvd121088706799, WP1p79f6n182825509439
-		ROLE = UIAEdit
-		TITLE = Text Editor
-		SHAPE = Rect [x:668.0 y:661.0 w:1881.0 h:878.0]
-		CHILDREN = 1
-		PATH = [0, 0]
-	DESCRIPTION = Type '?' into 'Text Editor
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (1608.5, 1100.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '?'
-
-ExecutedAction [24]: 
- @Action ConcreteID = AC1wi6uqd802538607175 AbstractID = AA1wi6uqd802538607175
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1gfw6gs7e4155549052
- @State ConcreteID = SC184ev3p1d62865025435 AbstractID = SRuxvih1ba2513313992
- ConcreteID CUSTOM = SC16fyjxa1d4134607494 AbstractID CUSTOM = SA1e0xkku1d417380732
+ @Action ConcreteID = AC1jecmxp7e1642407770 AbstractID = AA1jecmxp7e1642407770
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAuk0v0f803622708113
+ @State ConcreteID = SC6pex0m3cb797248838 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SCd59end3cd4106171346 AbstractID CUSTOM = SA1wucwz43ca3221385314
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCdsg5py1c3010804170, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WPk6niro18548921330
+		WIDGET = WC1ulc3am262005825686, WR17v7k2nb1067391859, WTpcm71l192027518401, WPtkzlz0223118695362
 		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:786.0 y:641.0 w:39.0 h:19.0]
+		TITLE = Subtitle Alt+t
+		SHAPE = Rect [x:866.0 y:370.0 w:56.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 3, 3]
-	DESCRIPTION = Left Click at 'View'
+		PATH = [0, 1, 4]
+	DESCRIPTION = Left Click at 'Subtitle Alt+t'
 	TEXT = Compound Action =
-		Move mouse to (805.5, 650.5).
+		Move mouse to (894.0, 380.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [2]: 
+ @Action ConcreteID = AC17w5nmm7f724496018 AbstractID = AA17w5nmm7f724496018
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAakq7on7f2745884733
+ @State ConcreteID = SCr60szb4074163472934 AbstractID = SR1drndfs3e83841237958
+ ConcreteID CUSTOM = SC1hh9u74091547593170 AbstractID CUSTOM = SAvj9iwy4051481297966
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCb8oon6272485037651, WR5quxi6b4097176690, WT5quxi6b4097176690, WP1sol99w23364482301
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:476.0 w:163.0 h:26.0]
+		CHILDREN = 0
+		PATH = [0, 2, 0, 0, 3, 1, 1, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (741.5, 489.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [3]: 
+ @Action ConcreteID = AC1sfc1la7f1201704189 AbstractID = AA1sfc1la7f1201704189
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13xot9e802869105968
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC161068t233096303716, WR10fgh33101836453781, WT10fgh33101836453781, WP9t9obv1f1249502342
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:428.0 w:307.0 h:22.0]
+		CHILDREN = 1
+		PATH = [0, 2, 0, 0, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (813.5, 439.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [4]: 
+ @Action ConcreteID = AC1tp69xj7f3910856898 AbstractID = AA1tp69xj7f3910856898
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA157j1ln8096037135
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCv2iyh7231187149563, WR17v7k2nb1067391859, WT12et6eo161830467638, WP186y9jt1f939178242
+		ROLE = UIAMenuItem
+		TITLE = Media Alt+M
+		SHAPE = Rect [x:660.0 y:370.0 w:49.0 h:20.0]
+		CHILDREN = 0
+		PATH = [0, 1, 0]
+	DESCRIPTION = Left Click at 'Media Alt+M'
+	TEXT = Compound Action =
+		Move mouse to (684.5, 380.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [5]: 
+ @Action ConcreteID = ACj60bli7f251811866 AbstractID = AAj60bli7f251811866
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA15450uw801592068994
+ @State ConcreteID = SC5t2o8e50a4062962273 AbstractID = SR18rsq6m4ec2729738109
+ ConcreteID CUSTOM = SC107grli50d1262338241 AbstractID CUSTOM = SA1ggwqfi5063333120301
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCo9m3kz234253084318, WR17v7k2nb1067391859, WT1faw5jq16422026351, WPzr9m5t1f4278635332
+		ROLE = UIAMenuItem
+		TITLE = Audio Alt+A
+		SHAPE = Rect [x:772.0 y:370.0 w:48.0 h:20.0]
+		CHILDREN = 0
+		PATH = [0, 1, 2]
+	DESCRIPTION = Left Click at 'Audio Alt+A'
+	TEXT = Compound Action =
+		Move mouse to (796.0, 380.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [6]: 
+ @Action ConcreteID = AC15ljywk7f2095402590 AbstractID = AA15ljywk7f2095402590
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAh3wqko802420561811
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCsn8pwe192404196226, WR1h6ibpb92248851252, WT1h6ibpb92248851252, WP8rar6815951478158
+		ROLE = UIAButton
+		TITLE = 
+		SHAPE = Rect [x:966.0 y:395.0 w:26.0 h:26.0]
+		CHILDREN = 0
+		PATH = [0, 2, 1, 4]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (979.0, 408.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [7]: 
+ @Action ConcreteID = AC889szr7f222909635 AbstractID = AA889szr7f222909635
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1irqmmz803790261518
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1pm5r0o232668325901, WR17v7k2nb1067391859, WT1p8hf68161996799177, WP19ngj4m1f1149120030
+		ROLE = UIAMenuItem
+		TITLE = Video Alt+V
+		SHAPE = Rect [x:820.0 y:370.0 w:46.0 h:20.0]
+		CHILDREN = 0
+		PATH = [0, 1, 3]
+	DESCRIPTION = Left Click at 'Video Alt+V'
+	TEXT = Compound Action =
+		Move mouse to (843.0, 380.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [8]: 
+ @Action ConcreteID = ACt11n8n7e3707885511 AbstractID = AAt11n8n7e3707885511
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5chkn47f3394255249
+ @State ConcreteID = SCy1w5ib4f6166554402 AbstractID = SRog8ixk4d81500730411
+ ConcreteID CUSTOM = SC1lt7vw24fa1857778863 AbstractID CUSTOM = SA2bwlb34f63459663203
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1ulc3am262005825686, WR17v7k2nb1067391859, WTpcm71l192027518401, WPtkzlz0223118695362
+		ROLE = UIAMenuItem
+		TITLE = Subtitle Alt+t
+		SHAPE = Rect [x:866.0 y:370.0 w:56.0 h:20.0]
+		CHILDREN = 0
+		PATH = [0, 1, 4]
+	DESCRIPTION = Left Click at 'Subtitle Alt+t'
+	TEXT = Compound Action =
+		Move mouse to (894.0, 380.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [9]: 
+ @Action ConcreteID = ACvd3pqa7f1560383708 AbstractID = AAvd3pqa7f1560383708
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA6vghee802980186385
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCezyltm213992921457, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1y99m881d2610189931
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:600.0 h:337.0]
+		CHILDREN = 3
+		PATH = [0, 2, 0, 0, 3]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (960.0, 618.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [10]: 
+ @Action ConcreteID = ACjzk6hr7f1452850892 AbstractID = AAjzk6hr7f1452850892
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1uj104z803124438785
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1fbuuzm2090304118, WR10fgh33101836453781, WT10fgh33101836453781, WPdp96j81c3021233758
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:663.0 y:392.0 w:16.0 h:32.0]
+		CHILDREN = 1
+		PATH = [0, 2, 1, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (671.0, 408.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [11]: 
+ @Action ConcreteID = ACxpep2g7f1458197687 AbstractID = AAxpep2g7f1458197687
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1g8g2q280132313084
+ @State ConcreteID = SC5pylx03f24228073678 AbstractID = SR1f8kovq3d4783112893
+ ConcreteID CUSTOM = SCe84o4l3f14281502724 AbstractID CUSTOM = SA1szid363f11044597899
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCezyltm213992921457, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1y99m881d2610189931
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:600.0 h:337.0]
+		CHILDREN = 3
+		PATH = [0, 2, 0, 0, 3]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (960.0, 618.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [12]: 
+ @Action ConcreteID = AC15ljywk7f2095402590 AbstractID = AA15ljywk7f2095402590
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAh3wqko802420561811
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCsn8pwe192404196226, WR1h6ibpb92248851252, WT1h6ibpb92248851252, WP8rar6815951478158
+		ROLE = UIAButton
+		TITLE = 
+		SHAPE = Rect [x:966.0 y:395.0 w:26.0 h:26.0]
+		CHILDREN = 0
+		PATH = [0, 2, 1, 4]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (979.0, 408.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [13]: 
+ @Action ConcreteID = ACs85nuo802278951106 AbstractID = AAs85nuo802278951106
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ede3cc811659835734
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1qs18f826210102959, WR10fgh33101836453781, WT10fgh33101836453781, WP1bkbbdi221874895209
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
+		CHILDREN = 1
+		PATH = [0, 2, 0, 0, 3, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1052.5, 618.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [14]: 
+ @Action ConcreteID = AC1sfc1la7f1201704189 AbstractID = AA1sfc1la7f1201704189
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13xot9e802869105968
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC161068t233096303716, WR10fgh33101836453781, WT10fgh33101836453781, WP9t9obv1f1249502342
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:428.0 w:307.0 h:22.0]
+		CHILDREN = 1
+		PATH = [0, 2, 0, 0, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (813.5, 439.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [15]: 
+ @Action ConcreteID = AC18lw5kl7f3766631369 AbstractID = AA18lw5kl7f3766631369
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAk48x8p80203530756
+ @State ConcreteID = SCadjbmh3ca1009311365 AbstractID = SR61gkpb3ad3432247554
+ ConcreteID CUSTOM = SClb0hez3cc1948222482 AbstractID CUSTOM = SA1wucwz43ca3221385314
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCb8ooow272787690705, WR5quxi6b4097176690, WT5quxi6b4097176690, WP1sol9bm23663743615
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:524.0 w:158.0 h:26.0]
+		CHILDREN = 0
+		PATH = [0, 2, 0, 0, 3, 1, 1, 3]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (744.0, 537.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [16]: 
+ @Action ConcreteID = ACa7ve3n80901510005 AbstractID = AAa7ve3n80901510005
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1o0n18b8013262347
+ @State ConcreteID = SChknc1u4083038926798 AbstractID = SR1bozs5a3e62770834624
+ ConcreteID CUSTOM = SCpuai7b40a1410763535 AbstractID CUSTOM = SAkedwyc4051314509998
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1ke21f3353633984495, WR52qhb2b3065858412, WT1ehdii319442466983, WP1esgi3l312757651049
+		ROLE = UIAListItem
+		TITLE = New folder (2)
+		SHAPE = Rect [x:963.0 y:452.0 w:116.0 h:143.0]
+		CHILDREN = 0
+		PATH = [0, 2, 0, 0, 3, 0, 0, 1]
+	DESCRIPTION = Left Click at 'New folder (2)'
+	TEXT = Compound Action =
+		Move mouse to (1021.0, 523.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [17]: 
+ @Action ConcreteID = ACybd8ag7f2830010903 AbstractID = AAybd8ag7f2830010903
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA127opcw7f1823149631
+ @State ConcreteID = SChknc1u4083038926798 AbstractID = SR1bozs5a3e62770834624
+ ConcreteID CUSTOM = SCpuai7b40a1410763535 AbstractID CUSTOM = SAkedwyc4051314509998
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1fbuuzm2090304118, WR10fgh33101836453781, WT10fgh33101836453781, WPdp96j81c3021233758
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:663.0 y:392.0 w:16.0 h:32.0]
+		CHILDREN = 1
+		PATH = [0, 2, 1, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (671.0, 408.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [18]: 
+ @Action ConcreteID = AC16bcrnt802434184893 AbstractID = AA16bcrnt802434184893
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bm941o801785653119
+ @State ConcreteID = SC1d4axr14302107280849 AbstractID = SRt99q7r40d3099131127
+ ConcreteID CUSTOM = SC3rs1sx42f3134840722 AbstractID CUSTOM = SA182sjr642c3067270842
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC41bsun282622999846, WR1h6ibpb92248851252, WT1u0ptgt12975207968, WP1bkhc8x242086074223
+		ROLE = UIAButton
+		TITLE = My Videos
+		SHAPE = Rect [x:660.0 y:428.0 w:67.0 h:22.0]
+		CHILDREN = 0
+		PATH = [0, 2, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'My Videos'
+	TEXT = Compound Action =
+		Move mouse to (693.5, 439.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [19]: 
+ @Action ConcreteID = ACgezdrj81256723868 AbstractID = AAgezdrj81256723868
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA12qlxr0812061275217
+ @State ConcreteID = SC1d4axr14302107280849 AbstractID = SRt99q7r40d3099131127
+ ConcreteID CUSTOM = SC3rs1sx42f3134840722 AbstractID CUSTOM = SA182sjr642c3067270842
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCtl4gge202358536203, WR4n4ygb71694219017, WT4n4ygb71694219017, WP5xk0s1c1898872370
+		ROLE = UIAList
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
+		CHILDREN = 3
+		PATH = [0, 2, 0, 0, 3, 0, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1052.5, 618.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [20]: 
+ @Action ConcreteID = AC1ryg1dh7f2804831645 AbstractID = AA1ryg1dh7f2804831645
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vurifx7f1663816117
+ @State ConcreteID = SChknc1u4083038926798 AbstractID = SR1bozs5a3e62770834624
+ ConcreteID CUSTOM = SCpuai7b40a1410763535 AbstractID CUSTOM = SAkedwyc4051314509998
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCkthkjg1d3961490386, WR10fgh33101836453781, WT10fgh33101836453781, WP34gkui19609072533
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:391.0 w:600.0 h:34.0]
+		CHILDREN = 6
+		PATH = [0, 2, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (960.0, 408.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [21]: 
+ @Action ConcreteID = AC7q11ev7f3113662502 AbstractID = AA7q11ev7f3113662502
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbmcihb7f2106801166
+ @State ConcreteID = SChknc1u4083038926798 AbstractID = SR1bozs5a3e62770834624
+ ConcreteID CUSTOM = SCpuai7b40a1410763535 AbstractID CUSTOM = SAkedwyc4051314509998
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC161068t233096303716, WR10fgh33101836453781, WT10fgh33101836453781, WP9t9obv1f1249502342
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:428.0 w:307.0 h:22.0]
+		CHILDREN = 1
+		PATH = [0, 2, 0, 0, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (813.5, 439.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [22]: 
+ @Action ConcreteID = AC1a7hvpj802519283114 AbstractID = AA1a7hvpj802519283114
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAoz5gv3802740492500
+ @State ConcreteID = SChknc1u4083038926798 AbstractID = SR1bozs5a3e62770834624
+ ConcreteID CUSTOM = SCpuai7b40a1410763535 AbstractID CUSTOM = SAkedwyc4051314509998
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1qs18f826210102959, WR10fgh33101836453781, WT10fgh33101836453781, WP1bkbbdi221874895209
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
+		CHILDREN = 1
+		PATH = [0, 2, 0, 0, 3, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1052.5, 618.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [23]: 
+ @Action ConcreteID = ACbz3ci180957719739 AbstractID = AAbz3ci180957719739
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1pruzmp80207882693
+ @State ConcreteID = SChknc1u4083038926798 AbstractID = SR1bozs5a3e62770834624
+ ConcreteID CUSTOM = SCpuai7b40a1410763535 AbstractID CUSTOM = SAkedwyc4051314509998
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCig1ffy22236015574, WR17v7k2nb1067391859, WT1e6tvxi153323975668, WP1lxqkho1e3332536470
+		ROLE = UIAMenuItem
+		TITLE = Help Alt+H
+		SHAPE = Rect [x:1006.0 y:370.0 w:41.0 h:20.0]
+		CHILDREN = 0
+		PATH = [0, 1, 7]
+	DESCRIPTION = Left Click at 'Help Alt+H'
+	TEXT = Compound Action =
+		Move mouse to (1026.5, 380.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [24]: 
+ @Action ConcreteID = AC1851g7u801118158709 AbstractID = AA1851g7u801118158709
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5jzs5j8070899764
+ @State ConcreteID = SCz5owif46a4283179332 AbstractID = SRe0jzw34492042007924
+ ConcreteID CUSTOM = SCogltxe46c1522758712 AbstractID CUSTOM = SA1o51xg4469901718921
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCex2xtc1c2412303131, WR17v7k2nb1067391859, WT9krvkb1291459288, WP1dayntu183691370581
+		ROLE = UIAMenuItem
+		TITLE = Help F1
+		SHAPE = Rect [x:1009.0 y:393.0 w:211.0 h:22.0]
+		CHILDREN = 0
+		PATH = [1, 0]
+	DESCRIPTION = Left Click at 'Help F1'
+	TEXT = Compound Action =
+		Move mouse to (1114.5, 404.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [25]: 
- @Action ConcreteID = AC1lwwpc97f1686905775 AbstractID = AA1lwwpc97f1686905775
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1mnmo3i802592672188
- @State ConcreteID = SCq69euo20b1841233499 AbstractID = SRhdom0g1f51351705365
- ConcreteID CUSTOM = SCh1t7bj211543338042 AbstractID CUSTOM = SA1odsafd20b3326211211
+ @Action ConcreteID = ACnbpi2l802177448068 AbstractID = AAnbpi2l802177448068
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ize5rg802016171672
+ @State ConcreteID = SC1ap4ig4513960590131 AbstractID = SR1vxtoti4e4700359953
+ ConcreteID CUSTOM = SCf6l6fr50c1966505889 AbstractID CUSTOM = SAt835ng50b1762386205
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC6pcuad223805616873, WR17v7k2nb1067391859, WT1mzygsk152008856611, WPp3o8pv1e1944084836
-		ROLE = UIAMenuItem
-		TITLE = Status Bar
-		SHAPE = Rect [x:789.0 y:685.0 w:136.0 h:22.0]
+		WIDGET = WC1ke21f3353633984495, WR52qhb2b3065858412, WT1ehdii319442466983, WP1esgi3l312757651049
+		ROLE = UIAListItem
+		TITLE = New folder (2)
+		SHAPE = Rect [x:963.0 y:452.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 0, 1]
-	DESCRIPTION = Left Click at 'Status Bar'
+		PATH = [0, 2, 0, 0, 3, 0, 0, 1]
+	DESCRIPTION = Left Click at 'New folder (2)'
 	TEXT = Compound Action =
-		Move mouse to (857.0, 696.0).
+		Move mouse to (1021.0, 523.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [26]: 
- @Action ConcreteID = AC1qu2yn7f2707155893 AbstractID = AA1qu2yn7f2707155893
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ihq68g7f1219041179
- @State ConcreteID = SCr3vbv41563087244712 AbstractID = SR1nd9x6414e2307877123
- ConcreteID CUSTOM = SC1qy9bed1572457431732 AbstractID CUSTOM = SAy1qna91502839197419
+ @Action ConcreteID = AC1ekmuvr7f2236415042 AbstractID = AA1ekmuvr7f2236415042
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAzjzifc7f3657273310
+ @State ConcreteID = SC1ap4ig4513960590131 AbstractID = SR1vxtoti4e4700359953
+ ConcreteID CUSTOM = SCf6l6fr50c1966505889 AbstractID CUSTOM = SAt835ng50b1762386205
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:734.0 y:641.0 w:52.0 h:19.0]
+		WIDGET = WC41bsun282622999846, WR1h6ibpb92248851252, WT1u0ptgt12975207968, WP1bkhc8x242086074223
+		ROLE = UIAButton
+		TITLE = My Videos
+		SHAPE = Rect [x:660.0 y:428.0 w:67.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
+		PATH = [0, 2, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'My Videos'
 	TEXT = Compound Action =
-		Move mouse to (760.0, 650.5).
+		Move mouse to (693.5, 439.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [27]: 
- @Action ConcreteID = AC1bif3ra7f4050390604 AbstractID = AA1bif3ra7f4050390604
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1aimcvm801721397274
- @State ConcreteID = SC8tb9341942184053436 AbstractID = SRit234j1891698045338
- ConcreteID CUSTOM = SC1a09r2h1994248380780 AbstractID CUSTOM = SA19jxkpv1951946094867
+ @Action ConcreteID = ACm9i55s804973245 AbstractID = AAm9i55s804973245
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1uwg7nw813495486190
+ @State ConcreteID = SC5mnjid50d2775863479 AbstractID = SR18l126g4e41341372247
+ ConcreteID CUSTOM = SC140u9na50f746935320 AbstractID CUSTOM = SA1iigv9v51c3071309285
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC12b45x51c517775489, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10d1byf183180104482
-		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:825.0 y:641.0 w:39.0 h:19.0]
+		WIDGET = WC5y1lv4351139398971, WR52qhb2b3065858412, WT1ehdii319442466983, WPcg2jm311059946685
+		ROLE = UIAListItem
+		TITLE = New folder (2)
+		SHAPE = Rect [x:963.0 y:452.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 3, 4]
-	DESCRIPTION = Left Click at 'Help'
+		PATH = [1, 2, 0, 0, 3, 0, 0, 1]
+	DESCRIPTION = Left Click at 'New folder (2)'
 	TEXT = Compound Action =
-		Move mouse to (844.5, 650.5).
+		Move mouse to (1021.0, 523.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [28]: 
- @Action ConcreteID = ACcpxztq7f1740995450 AbstractID = AAcpxztq7f1740995450
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1tgu33j7f2386003796
- @State ConcreteID = SCr3vbv41563087244712 AbstractID = SR1nd9x6414e2307877123
- ConcreteID CUSTOM = SC1qy9bed1572457431732 AbstractID CUSTOM = SAy1qna91502839197419
+ @Action ConcreteID = AC37lheh803078477300 AbstractID = AA37lheh803078477300
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bujjwl811735316903
+ @State ConcreteID = SC5mnjid50d2775863479 AbstractID = SR18l126g4e41341372247
+ ConcreteID CUSTOM = SC140u9na50f746935320 AbstractID CUSTOM = SA1iigv9v51c3071309285
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1fq8of51c1137128810, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjb55v3183672861707
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:668.0 y:641.0 w:32.0 h:19.0]
+		WIDGET = WC1kpcobm212429184721, WR1h6ibpb92248851252, WTfh0b4q142849730282, WPpqja401d2718484217
+		ROLE = UIAButton
+		TITLE = Close Alt+C
+		SHAPE = Rect [x:1124.0 y:771.0 w:75.0 h:23.0]
 		CHILDREN = 0
 		PATH = [0, 2, 0]
-	DESCRIPTION = Left Click at 'File'
+	DESCRIPTION = Left Click at 'Close Alt+C'
 	TEXT = Compound Action =
-		Move mouse to (684.0, 650.5).
+		Move mouse to (1161.5, 782.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [29]: 
- @Action ConcreteID = AC6edhna802849147834 AbstractID = AA6edhna802849147834
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAe1ug4g803836371848
- @State ConcreteID = SC16k9dws2114212506609 AbstractID = SRpxiehz2013271227716
- ConcreteID CUSTOM = SC197q2x62133307086938 AbstractID CUSTOM = SA1kl1tjl20c2814643530
+ @Action ConcreteID = AC31hyt6802019358970 AbstractID = AA31hyt6802019358970
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bog1ba812823813289
+ @State ConcreteID = SC5mnjid50d2775863479 AbstractID = SR18l126g4e41341372247
+ ConcreteID CUSTOM = SC140u9na50f746935320 AbstractID CUSTOM = SA1iigv9v51c3071309285
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1hu1e84223620388792, WR17v7k2nb1067391859, WT1otgxiu151058087525, WP1dvs8421e3158620222
-		ROLE = UIAMenuItem
-		TITLE = New	Ctrl+N
-		SHAPE = Rect [x:671.0 y:663.0 w:223.0 h:22.0]
+		WIDGET = WCnpfpph553812163976, WR52qhb2b3065858412, WTf8529t392528353257, WP1yehplj51657636670
+		ROLE = UIAListItem
+		TITLE = vlc-record-2019-10-19-14h24m45s-screen___-.avi
+		SHAPE = Rect [x:1079.0 y:452.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0]
-	DESCRIPTION = Left Click at 'New	Ctrl+N'
+		PATH = [1, 2, 0, 0, 3, 0, 0, 2]
+	DESCRIPTION = Left Click at 'vlc-record-2019-10-19-14h24m45s-screen___-.avi'
 	TEXT = Compound Action =
-		Move mouse to (782.5, 674.0).
+		Move mouse to (1137.0, 523.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [30]: 
- @Action ConcreteID = ACa6sesw81713153163 AbstractID = AAa6sesw81713153163
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1n8wc6m7f1767153743
- @State ConcreteID = SC10y5muy1e71541846358 AbstractID = SRvw9fdp1d648042914
- ConcreteID CUSTOM = SCm28q5p1e83366953056 AbstractID CUSTOM = SAyou5l81e8852300394
+ @Action ConcreteID = ACo0q3k680216380787 AbstractID = AAo0q3k680216380787
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1wno62a813707155744
+ @State ConcreteID = SC5mnjid50d2775863479 AbstractID = SR18l126g4e41341372247
+ ConcreteID CUSTOM = SC140u9na50f746935320 AbstractID CUSTOM = SA1iigv9v51c3071309285
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1w5f2fy1c3788265415, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP8jd2ek18957071755
-		ROLE = UIAButton
-		TITLE = Cancel
-		SHAPE = Rect [x:1045.0 y:579.0 w:72.0 h:23.0]
+		WIDGET = WC1b9nwi5223267055432, WR17v7k2nb1067391859, WT1e6tvxi153323975668, WPfq8zkr1e168327176
+		ROLE = UIAMenuItem
+		TITLE = Help Alt+H
+		SHAPE = Rect [x:1006.0 y:370.0 w:41.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 3]
-	DESCRIPTION = Left Click at 'Cancel'
+		PATH = [1, 1, 7]
+	DESCRIPTION = Left Click at 'Help Alt+H'
 	TEXT = Compound Action =
-		Move mouse to (1081.0, 590.5).
+		Move mouse to (1026.5, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [31]: 
- @Action ConcreteID = ACa5b8gj7f2670089918 AbstractID = AAa5b8gj7f2670089918
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1qw7bqc7f1993648784
- @State ConcreteID = SCr3vbv41563087244712 AbstractID = SR1nd9x6414e2307877123
- ConcreteID CUSTOM = SC1qy9bed1572457431732 AbstractID CUSTOM = SAy1qna91502839197419
+ @Action ConcreteID = ACd5et07804002909981 AbstractID = AAd5et07804002909981
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ogou4p7f3893974219
+ @State ConcreteID = SCcwiitv56e3718705849 AbstractID = SRp6eonn5473778554431
+ ConcreteID CUSTOM = SC1xldo565722714589501 AbstractID CUSTOM = SAvx0o9r583132061539
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCdewx6a1c3359014503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hw5kjk181504605950
+		WIDGET = WCpfemi2f1054597444, WR17v7k2nb1067391859, WTgbbkw5253235519671, WPxsxem42b2010994719
 		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:700.0 y:641.0 w:34.0 h:19.0]
+		TITLE = Check for Updates... Alt+U
+		SHAPE = Rect [x:1009.0 y:415.0 w:211.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 2, 1]
-	DESCRIPTION = Left Click at 'Edit'
+		PATH = [2, 1]
+	DESCRIPTION = Left Click at 'Check for Updates... Alt+U'
 	TEXT = Compound Action =
-		Move mouse to (717.0, 650.5).
+		Move mouse to (1114.5, 426.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [32]: 
- @Action ConcreteID = AC1ea53vz7e963460865 AbstractID = AA1ea53vz7e963460865
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAgt79147f3252531675
- @State ConcreteID = SCr6oe2t270896238542 AbstractID = SR1o5svt92653049954947
- ConcreteID CUSTOM = SC1le5o8a2793733175165 AbstractID CUSTOM = SA1ezmix6272782490176
+ @Action ConcreteID = AC1353h8g80928016586 AbstractID = AA1353h8g80928016586
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1uy76jk802375550986
+ @State ConcreteID = SC1glp8qa6162439066020 AbstractID = SR14vmyd25e14120442318
+ ConcreteID CUSTOM = SCx67ewn611465659827 AbstractID CUSTOM = SA1horec56273658827053
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC12k47km252947986193, WR17v7k2nb1067391859, WT1ukegtj174003865368, WPcde18o21552160172
-		ROLE = UIAMenuItem
-		TITLE = Time/Date	F5
-		SHAPE = Rect [x:703.0 y:948.0 w:225.0 h:22.0]
+		WIDGET = WC6myq8r211120315013, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1pw9qnd1d883807647
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:977.0 y:428.0 w:23.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Left Click at 'Time/Date	F5'
+		PATH = [1, 2, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (815.5, 959.0).
+		Move mouse to (988.5, 439.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [33]: 
- @Action ConcreteID = AC1qu2yn7f2707155893 AbstractID = AA1qu2yn7f2707155893
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ihq68g7f1219041179
- @State ConcreteID = SCr3vbv41563087244712 AbstractID = SR1nd9x6414e2307877123
- ConcreteID CUSTOM = SC1qy9bed1572457431732 AbstractID CUSTOM = SAy1qna91502839197419
+ @Action ConcreteID = AC1vsus5f803581318529 AbstractID = AA1vsus5f803581318529
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAokufhf801874785601
+ @State ConcreteID = SC1glp8qa6162439066020 AbstractID = SR14vmyd25e14120442318
+ ConcreteID CUSTOM = SCx67ewn611465659827 AbstractID CUSTOM = SA1horec56273658827053
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:734.0 y:641.0 w:52.0 h:19.0]
+		WIDGET = WCksxrx81d2997141571, WR10fgh33101836453781, WT10fgh33101836453781, WP33ws8a192063007236
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:722.0 y:367.0 w:459.0 h:397.0]
 		CHILDREN = 0
-		PATH = [0, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
+		PATH = [0, 1, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (760.0, 650.5).
+		Move mouse to (951.5, 565.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [34]: 
- @Action ConcreteID = ACn5yb0f7f1238376000 AbstractID = AAn5yb0f7f1238376000
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAm65k4r803727056918
- @State ConcreteID = SC8tb9341942184053436 AbstractID = SRit234j1891698045338
- ConcreteID CUSTOM = SC1a09r2h1994248380780 AbstractID CUSTOM = SA19jxkpv1951946094867
+ @Action ConcreteID = AC1lnke2r804131395291 AbstractID = AA1lnke2r804131395291
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAefk1er801284011547
+ @State ConcreteID = SC1glp8qa6162439066020 AbstractID = SR14vmyd25e14120442318
+ ConcreteID CUSTOM = SCx67ewn611465659827 AbstractID CUSTOM = SA1horec56273658827053
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1u4fdmh214152205479, WR17v7k2nb1067391859, WTxuhgyp144189972595, WP1dm09vr1d3477249161
-		ROLE = UIAMenuItem
-		TITLE = Word Wrap
-		SHAPE = Rect [x:737.0 y:663.0 w:144.0 h:22.0]
+		WIDGET = WCvtsb5r271795261827, WR5quxi6b4097176690, WT5quxi6b4097176690, WPe8kttd233936788781
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:576.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0]
-	DESCRIPTION = Left Click at 'Word Wrap'
+		PATH = [1, 2, 0, 0, 3, 1, 1, 5]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (809.0, 674.0).
+		Move mouse to (744.0, 589.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [35]: 
- @Action ConcreteID = ACiv2g8k7f3052602660 AbstractID = AAiv2g8k7f3052602660
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAz5q9k802287317843
- @State ConcreteID = SChve7991a52297490568 AbstractID = SR1gydz1119c2959523811
- ConcreteID CUSTOM = SC16kzdya1a84119272850 AbstractID CUSTOM = SA1aqq8rz1a11129740462
+ @Action ConcreteID = AC1txywc880603477163 AbstractID = AA1txywc880603477163
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmpyjo8802570073195
+ @State ConcreteID = SC1glp8qa6162439066020 AbstractID = SR14vmyd25e14120442318
+ ConcreteID CUSTOM = SCx67ewn611465659827 AbstractID CUSTOM = SA1horec56273658827053
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCdrwd4l1c2383745146, WR17v7k2nb1067391859, WT1qeha5gf2005531835, WPk63q6b18500692546
+		WIDGET = WCjeo63r231403088019, WR17v7k2nb1067391859, WT1p8hf68161996799177, WP3fyy7p1f2295606912
 		ROLE = UIAMenuItem
-		TITLE = View
-		SHAPE = Rect [x:786.0 y:641.0 w:39.0 h:19.0]
+		TITLE = Video Alt+V
+		SHAPE = Rect [x:820.0 y:370.0 w:46.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 2, 3]
-	DESCRIPTION = Left Click at 'View'
+		PATH = [1, 1, 3]
+	DESCRIPTION = Left Click at 'Video Alt+V'
 	TEXT = Compound Action =
-		Move mouse to (805.5, 650.5).
+		Move mouse to (843.0, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [36]: 
- @Action ConcreteID = AC1kt4bvn7f1171982595 AbstractID = AA1kt4bvn7f1171982595
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAe5hva47f3656154447
- @State ConcreteID = SCd9xsie1e33561015904 AbstractID = SRkd1vuk1d72078707989
- ConcreteID CUSTOM = SCkarh6r1e7581603629 AbstractID CUSTOM = SA1tmnb3u1e4170101503
+ @Action ConcreteID = ACnej7vc80984307161 AbstractID = AAnej7vc80984307161
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1z10f79801552769431
+ @State ConcreteID = SC9b88dz74d2823475395 AbstractID = SRaack9370c4293938267
+ ConcreteID CUSTOM = SC1faq9o37411215743366 AbstractID CUSTOM = SAyvy1r07503359232715
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCudxb541c3405482637, WR17v7k2nb1067391859, WT1qejys2f1046425153, WPwz8jna183953042271
+		WIDGET = WC526bl8221278494891, WR17v7k2nb1067391859, WT1e6tvxi153323975668, WP18jvgmy1e2223472619
 		ROLE = UIAMenuItem
-		TITLE = Zoom
-		SHAPE = Rect [x:789.0 y:663.0 w:136.0 h:22.0]
+		TITLE = Help Alt+H
+		SHAPE = Rect [x:1006.0 y:370.0 w:41.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0]
-	DESCRIPTION = Left Click at 'Zoom'
+		PATH = [2, 1, 7]
+	DESCRIPTION = Left Click at 'Help Alt+H'
 	TEXT = Compound Action =
-		Move mouse to (857.0, 674.0).
+		Move mouse to (1026.5, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [37]: 
- @Action ConcreteID = AC123gyjv7f783056137 AbstractID = AA123gyjv7f783056137
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAoey0ft804170777468
- @State ConcreteID = SC3a9qci234450363581 AbstractID = SR68fmjf2261930466529
- ConcreteID CUSTOM = SC1610oso23c4025754848 AbstractID CUSTOM = SAh6xpby2313597428739
+ @Action ConcreteID = AC1s8jcda802471841295 AbstractID = AA1s8jcda802471841295
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA12eu8ld7f2595804524
+ @State ConcreteID = SC13gmb166203031842975 AbstractID = SRxpiizq5e13879842495
+ ConcreteID CUSTOM = SCnyuqt86132138800387 AbstractID CUSTOM = SAxj5a9u6231193733772
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC16o0lzq293934833465, WR17v7k2nb1067391859, WT1g8gep01c2403462414, WP14q46ck254176152606
-		ROLE = UIAMenuItem
-		TITLE = Zoom In	Ctrl+Plus
-		SHAPE = Rect [x:925.0 y:663.0 w:259.0 h:22.0]
+		WIDGET = WC1gevxhg272038987194, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog52234163853588
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:476.0 w:163.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0]
-	DESCRIPTION = Left Click at 'Zoom In	Ctrl+Plus'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1054.5, 674.0).
+		Move mouse to (741.5, 489.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [38]: 
- @Action ConcreteID = AC1sz7n1h7f1159647731 AbstractID = AA1sz7n1h7f1159647731
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1b3ax2h802025351044
- @State ConcreteID = SChve7991a52297490568 AbstractID = SR1gydz1119c2959523811
- ConcreteID CUSTOM = SC16kzdya1a84119272850 AbstractID CUSTOM = SA1aqq8rz1a11129740462
+ @Action ConcreteID = AC556i0b7e2518160680 AbstractID = AA556i0b7e2518160680
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAvm7n2n7f2509747676
+ @State ConcreteID = SCl6xvp5e33471610428 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfds7y5d81737195253 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC3r6fwk1e246553711, WR17v7k2nb1067391859, WTaz2n92112307194186, WPab1ioi1a128190957
-		ROLE = UIAMenuItem
-		TITLE = Format
-		SHAPE = Rect [x:734.0 y:641.0 w:52.0 h:19.0]
+		WIDGET = WC1gevxkw27501529790, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog8i232621675536
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:576.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 2, 2]
-	DESCRIPTION = Left Click at 'Format'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 5]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (760.0, 650.5).
+		Move mouse to (744.0, 589.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [39]: 
- @Action ConcreteID = ACiwv5u7803526904669 AbstractID = AAiwv5u7803526904669
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA6vkt057f3772958543
- @State ConcreteID = SC1ktqlku1e53910087862 AbstractID = SRkd1vuk1d72078707989
- ConcreteID CUSTOM = SC15sk7bb1e82587586647 AbstractID CUSTOM = SA1tmnb3u1e4170101503
+ @Action ConcreteID = ACuh25du7d107380969 AbstractID = AAuh25du7d107380969
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13km9g77f126594370
+ @State ConcreteID = SCsl7vpx69557057266 AbstractID = SRvkakzq6533537960054
+ ConcreteID CUSTOM = SCkhqgkp68c2696713526 AbstractID CUSTOM = SA8heqxg6a04217349908
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1084jd1f2874738980, WR17v7k2nb1067391859, WT1k0pzz412734516100, WPdmv4jr1b3951525617
-		ROLE = UIAMenuItem
-		TITLE = Font...
-		SHAPE = Rect [x:737.0 y:685.0 w:144.0 h:22.0]
+		WIDGET = WC16dfqld3253685580, WR52qhb2b3065858412, WTsacdkq161755433226, WP145rrv72e158636686
+		ROLE = UIAListItem
+		TITLE = Camera Roll
+		SHAPE = Rect [x:847.0 y:452.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 0, 1]
-	DESCRIPTION = Left Click at 'Font...'
+		PATH = [2, 2, 0, 0, 3, 0, 0, 0]
+	DESCRIPTION = Left Click at 'Camera Roll'
 	TEXT = Compound Action =
-		Move mouse to (809.0, 696.0).
+		Move mouse to (905.0, 523.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [40]: 
- @Action ConcreteID = AC105fxz380754859526 AbstractID = AA105fxz380754859526
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAo1aaps7f74214490
- @State ConcreteID = SCb0toxd6242882866600 AbstractID = SR5nregw5e34292955924
- ConcreteID CUSTOM = SC17u2y9y62d1809879976 AbstractID CUSTOM = SAhjkzci624989066922
+ @Action ConcreteID = AC1yg32tf7d1967360812 AbstractID = AA1yg32tf7d1967360812
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA8ij4wo7f1957602951
+ @State ConcreteID = SCsl7vpx69557057266 AbstractID = SRvkakzq6533537960054
+ ConcreteID CUSTOM = SCkhqgkp68c2696713526 AbstractID CUSTOM = SA8heqxg6a04217349908
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCeiaur7201060696764, WR52qhb2b3065858412, WT1bx8b1ad2721479724, WPq6tn5t1c3279458422
-		ROLE = UIAListItem
-		TITLE = 22
-		SHAPE = Rect [x:1048.0 y:808.0 w:42.0 h:15.0]
+		WIDGET = WC1gevxib271386556025, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog5x233540127447
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:502.0 w:163.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5, 0, 4]
-	DESCRIPTION = Left Click at '22'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 2]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1069.0, 815.5).
+		Move mouse to (741.5, 513.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [41]: 
- @Action ConcreteID = AC18uqa2z7f2164251046 AbstractID = AA18uqa2z7f2164251046
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAnu9tnu7e269818782
- @State ConcreteID = SCb0toxd6242882866600 AbstractID = SR5nregw5e34292955924
- ConcreteID CUSTOM = SC17u2y9y62d1809879976 AbstractID CUSTOM = SAhjkzci624989066922
+ @Action ConcreteID = ACekjjji7e4010797147 AbstractID = AAekjjji7e4010797147
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAcieto9802919923478
+ @State ConcreteID = SCsl7vpx69557057266 AbstractID = SRvkakzq6533537960054
+ ConcreteID CUSTOM = SCkhqgkp68c2696713526 AbstractID CUSTOM = SA8heqxg6a04217349908
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11s1efs252702934042, WR52qhb2b3065858412, WTh6zdq12834902686, WP133ev1i213109690462
-		ROLE = UIAListItem
-		TITLE = Regular
-		SHAPE = Rect [x:901.0 y:763.0 w:109.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 0, 3, 0, 1]
-	DESCRIPTION = Left Click at 'Regular'
+		WIDGET = WC10idfc6263636034152, WR10fgh33101836453781, WT10fgh33101836453781, WPlaniag223153867182
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
+		CHILDREN = 1
+		PATH = [2, 2, 0, 0, 3, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (955.5, 772.5).
+		Move mouse to (1052.5, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [42]: 
- @Action ConcreteID = AC13xjw59802843477996 AbstractID = AA13xjw59802843477996
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArte8vy7f2179880368
- @State ConcreteID = SCb0toxd6242882866600 AbstractID = SR5nregw5e34292955924
- ConcreteID CUSTOM = SC17u2y9y62d1809879976 AbstractID CUSTOM = SAhjkzci624989066922
+ @Action ConcreteID = ACvtrsk37d2376833134 AbstractID = AAvtrsk37d2376833134
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14xbwmg7f2353444293
+ @State ConcreteID = SCsl7vpx69557057266 AbstractID = SRvkakzq6533537960054
+ ConcreteID CUSTOM = SCkhqgkp68c2696713526 AbstractID CUSTOM = SA8heqxg6a04217349908
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCfx07dy1d3795152478, WR17qbaneb3904637586, WTpv0tsf103871849437, WP1qieqpg194284676796
-		ROLE = UIAComboBox
-		TITLE = Size:
-		SHAPE = Rect [x:1046.0 y:739.0 w:63.0 h:131.0]
-		CHILDREN = 2
-		PATH = [0, 0, 5]
-	DESCRIPTION = Left Click at 'Size:'
+		WIDGET = WC1jdbq1z234288803664, WR17v7k2nb1067391859, WTwtxn65161410781764, WPmceos51f1929584907
+		ROLE = UIAMenuItem
+		TITLE = Tools Alt+s
+		SHAPE = Rect [x:922.0 y:370.0 w:43.0 h:20.0]
+		CHILDREN = 0
+		PATH = [2, 1, 5]
+	DESCRIPTION = Left Click at 'Tools Alt+s'
 	TEXT = Compound Action =
-		Move mouse to (1077.5, 804.5).
+		Move mouse to (943.5, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [43]: 
- @Action ConcreteID = ACaqkse801399259864 AbstractID = AAaqkse801399259864
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1n7ozi77f2079674500
- @State ConcreteID = SCb0toxd6242882866600 AbstractID = SR5nregw5e34292955924
- ConcreteID CUSTOM = SC17u2y9y62d1809879976 AbstractID CUSTOM = SAhjkzci624989066922
+ @Action ConcreteID = AC1y9ec6k7f4086119032 AbstractID = AA1y9ec6k7f4086119032
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA18u6tj8803332989806
+ @State ConcreteID = SCvxfd9w7881688004577 AbstractID = SRh0xkhz7423350733245
+ ConcreteID CUSTOM = SC1ye4lyh77e3000201088 AbstractID CUSTOM = SA1thte3u7933088887406
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCapyqkm273070664420, WR16s6p21c140494670, WTdtcs8f142835715827, WP1eviqxg23624565721
-		ROLE = UIAScrollBar
-		TITLE = Vertical
-		SHAPE = Rect [x:1090.0 y:763.0 w:17.0 h:105.0]
-		CHILDREN = 5
-		PATH = [0, 0, 5, 0, 0]
-	DESCRIPTION = Left Click at 'Vertical'
+		WIDGET = WC1gevxhg272038987194, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog52234163853588
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:476.0 w:163.0 h:26.0]
+		CHILDREN = 0
+		PATH = [2, 2, 0, 0, 3, 1, 1, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1098.5, 815.5).
+		Move mouse to (741.5, 489.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [44]: 
- @Action ConcreteID = AC1jq2gji801939099485 AbstractID = AA1jq2gji801939099485
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA17lwta77f1527127297
- @State ConcreteID = SCb0toxd6242882866600 AbstractID = SR5nregw5e34292955924
- ConcreteID CUSTOM = SC17u2y9y62d1809879976 AbstractID CUSTOM = SAhjkzci624989066922
+ @Action ConcreteID = AC1e2ik2h7f2137788 AbstractID = AA1e2ik2h7f2137788
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAid59dh803136497433
+ @State ConcreteID = SCl6xvp5e33471610428 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfds7y5d81737195253 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1e6244284118410303, WR1h6ibpb92248851252, WT493d5b122119396097, WP568qsm241874933841
-		ROLE = UIAButton
-		TITLE = Line down
-		SHAPE = Rect [x:1090.0 y:851.0 w:17.0 h:17.0]
+		WIDGET = WC1nln5nh1c2122993196, WR16s6p21c140494670, WT16s6p21c140494670, WP1yagocv182841897371
+		ROLE = UIAScrollBar
+		TITLE = 
+		SHAPE = Rect [x:1181.0 y:367.0 w:17.0 h:397.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5, 0, 0, 4]
-	DESCRIPTION = Left Click at 'Line down'
+		PATH = [0, 1, 1, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1098.5, 859.5).
+		Move mouse to (1189.5, 565.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [45]: 
- @Action ConcreteID = AC16h3jxs7e4171054723 AbstractID = AA16h3jxs7e4171054723
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAa26oqh7e1057318418
- @State ConcreteID = SC3f88g6242191865355 AbstractID = SR5nregw5e34292955924
- ConcreteID CUSTOM = SC1dnk9h462d3962525868 AbstractID CUSTOM = SAhjkzci624989066922
+ @Action ConcreteID = ACdfl09s7e1134581592 AbstractID = AAdfl09s7e1134581592
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13wm5c47f1076885420
+ @State ConcreteID = SCl6xvp5e33471610428 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfds7y5d81737195253 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC7w035o251553920829, WR52qhb2b3065858412, WT1qmh7sp123059383769, WP1x489my21976641600
-		ROLE = UIAListItem
-		TITLE = Cambria
-		SHAPE = Rect [x:713.0 y:820.0 w:151.0 h:19.0]
+		WIDGET = WC1c8an5y233710806896, WR17v7k2nb1067391859, WT1p8hf68161996799177, WPw9lf9w1f106637667
+		ROLE = UIAMenuItem
+		TITLE = Video Alt+V
+		SHAPE = Rect [x:820.0 y:370.0 w:46.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 1, 0, 4]
-	DESCRIPTION = Left Click at 'Cambria'
+		PATH = [2, 1, 3]
+	DESCRIPTION = Left Click at 'Video Alt+V'
 	TEXT = Compound Action =
-		Move mouse to (788.5, 829.5).
+		Move mouse to (843.0, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [46]: 
- @Action ConcreteID = AC14eokoh812657338622 AbstractID = AA14eokoh812657338622
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1p6hys6803526621251
- @State ConcreteID = SC1kjs29z5fd3717711387 AbstractID = SR48m2sg5bd721031466
- ConcreteID CUSTOM = SC14tnwsr6072713417365 AbstractID CUSTOM = SAlx1c235fd1018894208
+ @Action ConcreteID = AC18zo3gb802525625745 AbstractID = AA18zo3gb802525625745
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAy5ztgn7e560310693
+ @State ConcreteID = SC1w2doeg7103201252819 AbstractID = SR2t9wti6d328088138
+ ConcreteID CUSTOM = SC11811dz7064251505127 AbstractID CUSTOM = SA7gimta712537839921
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC18yzs0c201899389891, WR52qhb2b3065858412, WT1bx8b1gd1122211122, WP1ak6l0a1c785390363
-		ROLE = UIAListItem
-		TITLE = 28
-		SHAPE = Rect [x:1048.0 y:823.0 w:42.0 h:15.0]
+		WIDGET = WC1xb2woq211051165534, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1hj9v481d1221390404
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:977.0 y:428.0 w:23.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5, 0, 5]
-	DESCRIPTION = Left Click at '28'
+		PATH = [2, 2, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1069.0, 830.5).
+		Move mouse to (988.5, 439.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [47]: 
- @Action ConcreteID = AC3jjsy6811074877948 AbstractID = AA3jjsy6811074877948
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAobd71v80205613377
- @State ConcreteID = SC1kjs29z5fd3717711387 AbstractID = SR48m2sg5bd721031466
- ConcreteID CUSTOM = SC14tnwsr6072713417365 AbstractID CUSTOM = SAlx1c235fd1018894208
+ @Action ConcreteID = ACrqg2g27f1660491949 AbstractID = AArqg2g27f1660491949
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1h5dt1i7f1131428231
+ @State ConcreteID = SCkt9qk86203927796823 AbstractID = SR18ivpkk5e42220264563
+ ConcreteID CUSTOM = SC1th43o96151058548248 AbstractID CUSTOM = SAscwty06213734950336
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1fynqvg203040674951, WR52qhb2b3065858412, WT1bx8b36d347681460, WPkairyy1c3151154833
-		ROLE = UIAListItem
-		TITLE = 48
-		SHAPE = Rect [x:1048.0 y:853.0 w:42.0 h:15.0]
+		WIDGET = WC1gevxk12783856895, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog7n232237180241
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:550.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5, 0, 7]
-	DESCRIPTION = Left Click at '48'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 4]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1069.0, 860.5).
+		Move mouse to (744.0, 563.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [48]: 
- @Action ConcreteID = ACqe5pwv803314126946 AbstractID = AAqe5pwv803314126946
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAr2a5gq7f4238701379
- @State ConcreteID = SC1kjs29z5fd3717711387 AbstractID = SR48m2sg5bd721031466
- ConcreteID CUSTOM = SC14tnwsr6072713417365 AbstractID CUSTOM = SAlx1c235fd1018894208
+ @Action ConcreteID = AC9dj7ft7e1031487630 AbstractID = AA9dj7ft7e1031487630
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA11jxdnr7f3422743771
+ @State ConcreteID = SC1beb6z5a571211173 AbstractID = SRufuh9p9e62929369670
+ ConcreteID CUSTOM = SC4f5cxsa6a1060343417 AbstractID CUSTOM = SA2vkoo7a68504035969
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCv2ugx3241696316119, WR52qhb2b3065858412, WT15t19m611856301530, WP1mrwj1x202741629127
-		ROLE = UIAListItem
-		TITLE = Italic
-		SHAPE = Rect [x:901.0 y:782.0 w:109.0 h:19.0]
+		WIDGET = WCnpnt8q274163225248, WR5quxi6b4097176690, WT5quxi6b4097176690, WP64gbwc232038620686
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:1046.0 y:474.0 w:80.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 3, 0, 2]
-	DESCRIPTION = Left Click at 'Italic'
+		PATH = [2, 2, 0, 0, 3, 0, 9, 4]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (955.5, 791.5).
+		Move mouse to (1086.0, 485.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [49]: 
- @Action ConcreteID = AC1m7s1jp811275449210 AbstractID = AA1m7s1jp811275449210
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7yhdoa805632967
- @State ConcreteID = SC1kjs29z5fd3717711387 AbstractID = SR48m2sg5bd721031466
- ConcreteID CUSTOM = SC14tnwsr6072713417365 AbstractID CUSTOM = SAlx1c235fd1018894208
+ @Action ConcreteID = AC1r564yc7d2223346299 AbstractID = AA1r564yc7d2223346299
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAre3c9i7e701203882
+ @State ConcreteID = SC1beb6z5a571211173 AbstractID = SRufuh9p9e62929369670
+ ConcreteID CUSTOM = SC4f5cxsa6a1060343417 AbstractID CUSTOM = SA2vkoo7a68504035969
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1pzmt0u203694786809, WR52qhb2b3065858412, WT1bx8b29d3158346100, WPespovw1c2732160304
-		ROLE = UIAListItem
-		TITLE = 36
-		SHAPE = Rect [x:1048.0 y:838.0 w:42.0 h:15.0]
+		WIDGET = WCwfzf0x363692339578, WR5quxi6b4097176690, WT19et41w191548887030, WP5fmg0v323349206633
+		ROLE = UIATreeItem
+		TITLE = New folder (9)
+		SHAPE = Rect [x:866.0 y:650.0 w:180.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5, 0, 6]
-	DESCRIPTION = Left Click at '36'
+		PATH = [2, 2, 0, 0, 3, 0, 9, 27]
+	DESCRIPTION = Left Click at 'New folder (9)'
 	TEXT = Compound Action =
-		Move mouse to (1069.0, 845.5).
+		Move mouse to (956.0, 661.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [50]: 
- @Action ConcreteID = AC12v29tm803352282605 AbstractID = AA12v29tm803352282605
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13j6pdh7f4276299468
- @State ConcreteID = SC1kjs29z5fd3717711387 AbstractID = SR48m2sg5bd721031466
- ConcreteID CUSTOM = SC14tnwsr6072713417365 AbstractID CUSTOM = SAlx1c235fd1018894208
+ @Action ConcreteID = ACf6dega7e1142387767 AbstractID = AAf6dega7e1142387767
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA17crko87f3043940450
+ @State ConcreteID = SC1beb6z5a571211173 AbstractID = SRufuh9p9e62929369670
+ ConcreteID CUSTOM = SC4f5cxsa6a1060343417 AbstractID CUSTOM = SA2vkoo7a68504035969
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1jdok051c4293971032, WR4n4ygb71694219017, WTf8ueqoc3265374131, WPzsmgn183428033851
-		ROLE = UIAList
-		TITLE = Font:
-		SHAPE = Rect [x:711.0 y:761.0 w:172.0 h:118.0]
-		CHILDREN = 7
-		PATH = [0, 0, 1, 0]
-	DESCRIPTION = Left Click at 'Font:'
+		WIDGET = WCosdjmh282734839535, WR5quxi6b4097176690, WT5quxi6b4097176690, WP1bru1rb242465038116
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:1126.0 y:540.0 w:116.0 h:22.0]
+		CHILDREN = 0
+		PATH = [2, 2, 0, 0, 3, 0, 9, 14]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (797.0, 820.0).
+		Move mouse to (1184.0, 551.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [51]: 
- @Action ConcreteID = AC1s1pupe801199854039 AbstractID = AA1s1pupe801199854039
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fl5ung7f1600350941
- @State ConcreteID = SCcuvbuw5e93378954178 AbstractID = SR1c7n9nb5a9862792990
- ConcreteID CUSTOM = SC1k86lw25f32337248477 AbstractID CUSTOM = SAwybjm5e81423965814
+ @Action ConcreteID = AC14qqg9l7d2334137683 AbstractID = AA14qqg9l7d2334137683
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4znnkr7e644745858
+ @State ConcreteID = SC1beb6z5a571211173 AbstractID = SRufuh9p9e62929369670
+ ConcreteID CUSTOM = SC4f5cxsa6a1060343417 AbstractID CUSTOM = SA2vkoo7a68504035969
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCvzgrv9202570462810, WR52qhb2b3065858412, WT1bx8b5ld3745613929, WP1v2c7hf1c486223673
-		ROLE = UIAListItem
-		TITLE = 72
-		SHAPE = Rect [x:1048.0 y:853.0 w:42.0 h:15.0]
+		WIDGET = WC1xb2woq211051165534, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1hj9v481d1221390404
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:977.0 y:428.0 w:23.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5, 0, 7]
-	DESCRIPTION = Left Click at '72'
+		PATH = [2, 2, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1069.0, 860.5).
+		Move mouse to (988.5, 439.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [52]: 
- @Action ConcreteID = ACd7zlzu7f3784515819 AbstractID = AAd7zlzu7f3784515819
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxfwnq87e2985254204
- @State ConcreteID = SCcuvbuw5e93378954178 AbstractID = SR1c7n9nb5a9862792990
- ConcreteID CUSTOM = SC1k86lw25f32337248477 AbstractID CUSTOM = SAwybjm5e81423965814
+ @Action ConcreteID = AC1kxa5d8803183500590 AbstractID = AA1kxa5d8803183500590
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAqqvo6q802799287514
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC19n8emf232093553704, WR17qbaneb3904637586, WT1p15swg161714730526, WP117kc0l1f4166075386
-		ROLE = UIAComboBox
-		TITLE = Font style:
-		SHAPE = Rect [x:899.0 y:739.0 w:130.0 h:143.0]
-		CHILDREN = 2
-		PATH = [0, 0, 3]
-	DESCRIPTION = Left Click at 'Font style:'
+		WIDGET = WC1xfggb225492394965, WR5quxi6b4097176690, WT5quxi6b4097176690, WPhiusg0211124924483
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:1126.0 y:496.0 w:116.0 h:22.0]
+		CHILDREN = 0
+		PATH = [2, 2, 0, 0, 3, 0, 14]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (964.0, 810.5).
+		Move mouse to (1184.0, 507.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [53]: 
- @Action ConcreteID = AC1jijf1j801357699242 AbstractID = AA1jijf1j801357699242
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA171zezl7f1208738720
- @State ConcreteID = SCcuvbuw5e93378954178 AbstractID = SR1c7n9nb5a9862792990
- ConcreteID CUSTOM = SC1k86lw25f32337248477 AbstractID CUSTOM = SAwybjm5e81423965814
+ @Action ConcreteID = ACvwfrit7f1786976766 AbstractID = AAvwfrit7f1786976766
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAsmwl3j7f1925682859
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCi7byp7192515450361, WR1h6ibpb92248851252, WTzj707vb935461581, WP1iyc4pp151301029461
-		ROLE = UIAButton
-		TITLE = OK
-		SHAPE = Rect [x:946.0 y:1112.0 w:79.0 h:26.0]
-		CHILDREN = 0
-		PATH = [0, 0, 11]
-	DESCRIPTION = Left Click at 'OK'
+		WIDGET = WC1xb2wqg21210887132, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1hj9v5y1d2063241926
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:600.0 h:337.0]
+		CHILDREN = 3
+		PATH = [2, 2, 0, 0, 3]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (985.5, 1125.0).
+		Move mouse to (960.0, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [54]: 
- @Action ConcreteID = AC1646peh7f848317037 AbstractID = AA1646peh7f848317037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAo89zfh80255261722
- @State ConcreteID = SChve7991a52297490568 AbstractID = SR1gydz1119c2959523811
- ConcreteID CUSTOM = SC16kzdya1a84119272850 AbstractID CUSTOM = SA1aqq8rz1a11129740462
+ @Action ConcreteID = AC1ezsv317f853310113 AbstractID = AA1ezsv317f853310113
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bq9onr7f714667508
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC12akdbs1c599558449, WR17v7k2nb1067391859, WT1qe89j4f2180189081, WP10chjd2182162991762
+		WIDGET = WCavqzq9233215322595, WR17v7k2nb1067391859, WT1faw5jq16422026351, WPmdeib31f3173239865
 		ROLE = UIAMenuItem
-		TITLE = Help
-		SHAPE = Rect [x:825.0 y:641.0 w:39.0 h:19.0]
+		TITLE = Audio Alt+A
+		SHAPE = Rect [x:772.0 y:370.0 w:48.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 2, 4]
-	DESCRIPTION = Left Click at 'Help'
+		PATH = [2, 1, 2]
+	DESCRIPTION = Left Click at 'Audio Alt+A'
 	TEXT = Compound Action =
-		Move mouse to (844.5, 650.5).
+		Move mouse to (796.0, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [55]: 
- @Action ConcreteID = AC1c0ggsm803304051718 AbstractID = AA1c0ggsm803304051718
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA18zf5hd804241888072
- @State ConcreteID = SC17c8hzb1f92208690291 AbstractID = SR15rve5m1eb2170388304
- ConcreteID CUSTOM = SC1ot52w81fd2135115634 AbstractID CUSTOM = SA1glj4zh1f81349090628
+ @Action ConcreteID = AC1i3tnfl80483004182 AbstractID = AA1i3tnfl80483004182
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAsmljpo801227582746
+ @State ConcreteID = SCtajbtrb8c1555136923 AbstractID = SR14yip92af61859193348
+ ConcreteID CUSTOM = SC1d63907b621917592214 AbstractID CUSTOM = SAnuyitvb7a1817498538
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC2sd5c9251817436895, WR17v7k2nb1067391859, WT1wv077z18170180715, WP1v116zb21698957785
-		ROLE = UIAMenuItem
-		TITLE = About Notepad
-		SHAPE = Rect [x:828.0 y:714.0 w:166.0 h:22.0]
+		WIDGET = WC1xfging252923226483, WR5quxi6b4097176690, WT5quxi6b4097176690, WPhiuuse214033429733
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:1046.0 y:760.0 w:80.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 2]
-	DESCRIPTION = Left Click at 'About Notepad'
+		PATH = [2, 2, 0, 0, 3, 0, 49]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (911.0, 725.0).
+		Move mouse to (1086.0, 771.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [56]: 
- @Action ConcreteID = AC13gdzu2812297988662 AbstractID = AA13gdzu2812297988662
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAhv8imv811067652482
- @State ConcreteID = SCs5dy5c2b14170969073 AbstractID = SR1d0cv7g290314073830
- ConcreteID CUSTOM = SC8gc8nw2af1802791729 AbstractID CUSTOM = SA10qq8at2af245573831
+ @Action ConcreteID = AC18vj7f1801384237999 AbstractID = AA18vj7f1801384237999
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAep4q8j801234709083
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC15twxtj183412041097, WR1h6ibpb92248851252, WTzj707vb935461581, WPaxrmo5142767186721
-		ROLE = UIAButton
-		TITLE = OK
-		SHAPE = Rect [x:1081.0 y:1083.0 w:75.0 h:23.0]
-		CHILDREN = 0
-		PATH = [0, 0, 8]
-	DESCRIPTION = Left Click at 'OK'
+		WIDGET = WC10idfc6263636034152, WR10fgh33101836453781, WT10fgh33101836453781, WPlaniag223153867182
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
+		CHILDREN = 55
+		PATH = [2, 2, 0, 0, 3, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1118.5, 1094.5).
+		Move mouse to (1052.5, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [57]: 
- @Action ConcreteID = AC2ckqk97f2070113528 AbstractID = AA2ckqk97f2070113528
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1jhs2kd801187371663
- @State ConcreteID = SChve7991a52297490568 AbstractID = SR1gydz1119c2959523811
- ConcreteID CUSTOM = SC16kzdya1a84119272850 AbstractID CUSTOM = SA1aqq8rz1a11129740462
+ @Action ConcreteID = ACnjscsr803199828106 AbstractID = AAnjscsr803199828106
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1sehxld802778751358
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCdewx6a1c3359014503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hw5kjk181504605950
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:700.0 y:641.0 w:34.0 h:19.0]
+		WIDGET = WC1xfgiia251423117817, WR5quxi6b4097176690, WT5quxi6b4097176690, WPhiuun821176597103
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:1046.0 y:716.0 w:80.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 2, 1]
-	DESCRIPTION = Left Click at 'Edit'
+		PATH = [2, 2, 0, 0, 3, 0, 43]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (717.0, 650.5).
+		Move mouse to (1086.0, 727.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [58]: 
- @Action ConcreteID = ACx7821m7f840358098 AbstractID = AAx7821m7f840358098
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAtp5t1n802189565834
- @State ConcreteID = SCb3w3ns2c44071929063 AbstractID = SRt7d60m2b32620441957
- ConcreteID CUSTOM = SCbd8apy2c83944856750 AbstractID CUSTOM = SA1dho0s02c12414191608
+ @Action ConcreteID = ACabs397f1708620317 AbstractID = AAabs397f1708620317
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1w1wnn37f2106848584
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1pv9rrt292400734696, WR17v7k2nb1067391859, WT1ia206w1c1487822300, WP1xypciv251073608230
-		ROLE = UIAMenuItem
-		TITLE = Replace...	Ctrl+H
-		SHAPE = Rect [x:703.0 y:875.0 w:225.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 9]
-	DESCRIPTION = Left Click at 'Replace...	Ctrl+H'
+		WIDGET = WC1qwpbab201617788423, WR10fgh33101836453781, WT10fgh33101836453781, WPpa3mtx1c3508063791
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:425.0 w:600.0 h:365.0]
+		CHILDREN = 4
+		PATH = [2, 2, 0, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (815.5, 886.0).
+		Move mouse to (960.0, 607.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [59]: 
- @Action ConcreteID = AC1likmfa802296666197 AbstractID = AA1likmfa802296666197
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ujsiu9803585305864
- @State ConcreteID = SClbsau42ad3876777850 AbstractID = SRemr8ii296935437012
- ConcreteID CUSTOM = SCgmyb082b32479303918 AbstractID CUSTOM = SAodk01p2b02265708075
+ @Action ConcreteID = AC6io00y7f2729241626 AbstractID = AA6io00y7f2729241626
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA394tlo7f3135791951
+ @State ConcreteID = SCoufiqoac51675304926 AbstractID = SRpyinr3a2f3492649946
+ ConcreteID CUSTOM = SC1w7f6ba9a1931812270 AbstractID CUSTOM = SA3tslq8ab03058534522
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1bmkwt8211250102373, WR1h6ibpb92248851252, WT18mmbpy141109197180, WPfc3wmi1d1931204546
-		ROLE = UIAButton
-		TITLE = Replace All
-		SHAPE = Rect [x:991.0 y:826.0 w:75.0 h:23.0]
+		WIDGET = WC1gevxhg272038987194, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog52234163853588
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:476.0 w:163.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 8]
-	DESCRIPTION = Left Click at 'Replace All'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1028.5, 837.5).
+		Move mouse to (741.5, 489.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [60]: 
- @Action ConcreteID = ACwyurd67f47550862 AbstractID = AAwyurd67f47550862
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hvqdvz7f1039912564
- @State ConcreteID = SClbsau42ad3876777850 AbstractID = SRemr8ii296935437012
- ConcreteID CUSTOM = SCgmyb082b32479303918 AbstractID CUSTOM = SAodk01p2b02265708075
+ @Action ConcreteID = AC4w76wv7e242210823 AbstractID = AA4w76wv7e242210823
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAvd8bz77f232814835
+ @State ConcreteID = SCl6xvp5e33471610428 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfds7y5d81737195253 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1lndk223630995372, WR88rmk0b1934231702, WT1t7jjo3161798943962, WPezelyo1f3561800539
-		ROLE = UIACheckBox
-		TITLE = Wrap around
-		SHAPE = Rect [x:736.0 y:891.0 w:96.0 h:20.0]
+		WIDGET = WCnn7yno262026448418, WR17v7k2nb1067391859, WT7kxrdw19266625713, WP1eb7a4i222286970809
+		ROLE = UIAMenuItem
+		TITLE = Playback Alt+l
+		SHAPE = Rect [x:709.0 y:370.0 w:63.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5]
-	DESCRIPTION = Left Click at 'Wrap around'
+		PATH = [2, 1, 1]
+	DESCRIPTION = Left Click at 'Playback Alt+l'
 	TEXT = Compound Action =
-		Move mouse to (784.0, 901.0).
+		Move mouse to (740.5, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [61]: 
- @Action ConcreteID = ACgg32wb80303565825 AbstractID = AAgg32wb80303565825
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAphazba801330592092
- @State ConcreteID = SClbsau42ad3876777850 AbstractID = SRemr8ii296935437012
- ConcreteID CUSTOM = SCgmyb082b32479303918 AbstractID CUSTOM = SAodk01p2b02265708075
+ @Action ConcreteID = AC11xqwhx7f2004495225 AbstractID = AA11xqwhx7f2004495225
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1epdnxz7f2075088694
+ @State ConcreteID = SCw994ki7652326499276 AbstractID = SR1s9rc8e723964427827
+ ConcreteID CUSTOM = SC5ge0jo756614124183 AbstractID CUSTOM = SA1lw8ioe75d753612057
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCzvjnsu1d2007606170, WR1h6ibpb92248851252, WT16r0ool104128427134, WP15mf158191288016103
-		ROLE = UIAButton
-		TITLE = Replace
-		SHAPE = Rect [x:991.0 y:798.0 w:75.0 h:23.0]
+		WIDGET = WCavqzq9233215322595, WR17v7k2nb1067391859, WT1faw5jq16422026351, WPmdeib31f3173239865
+		ROLE = UIAMenuItem
+		TITLE = Audio Alt+A
+		SHAPE = Rect [x:772.0 y:370.0 w:48.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 7]
-	DESCRIPTION = Left Click at 'Replace'
+		PATH = [2, 1, 2]
+	DESCRIPTION = Left Click at 'Audio Alt+A'
 	TEXT = Compound Action =
-		Move mouse to (1028.5, 809.5).
+		Move mouse to (796.0, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [62]: 
- @Action ConcreteID = ACir23a37e3358531855 AbstractID = AAir23a37e3358531855
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fkjr6j7f2887221621
- @State ConcreteID = SC8chsmr323577990846 AbstractID = SRp1eqj03093669229411
- ConcreteID CUSTOM = SCb4wxx23272119697561 AbstractID CUSTOM = SAq2k8yg32b2495592382
+ @Action ConcreteID = AC1cmwqm3802985086671 AbstractID = AA1cmwqm3802985086671
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1cm5w01812115358956
+ @State ConcreteID = SCmmma8f4d22576287567 AbstractID = SRtn4bd14ab772235328
+ ConcreteID CUSTOM = SC1wclxet4d23975496379 AbstractID CUSTOM = SA13z559t4dd1288259447
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1fqsh0i1c2124881114, WR17v7k2nb1067391859, WT1qe72ijf99311909, WPjboygg183884664251
-		ROLE = UIAMenuItem
-		TITLE = File
-		SHAPE = Rect [x:668.0 y:641.0 w:32.0 h:19.0]
+		WIDGET = WCmtpxnx203925037901, WR4n4ygb71694219017, WT4n4ygb71694219017, WP1sfn37f1c340346228
+		ROLE = UIAList
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
 		CHILDREN = 0
-		PATH = [0, 3, 0]
-	DESCRIPTION = Left Click at 'File'
+		PATH = [1, 2, 0, 0, 3, 0, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (684.0, 650.5).
+		Move mouse to (1052.5, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [63]: 
- @Action ConcreteID = AC1ob98mz7f3174077731 AbstractID = AA1ob98mz7f3174077731
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAicivqd802423194934
- @State ConcreteID = SCrucvb43df1020254998 AbstractID = SR10q58x3bc3085870888
- ConcreteID CUSTOM = SCg19wf63e5806040862 AbstractID CUSTOM = SA1twya1u3d92293779422
+ @Action ConcreteID = ACwsjr6s7e2759489514 AbstractID = AAwsjr6s7e2759489514
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1n9kw947f2817906462
+ @State ConcreteID = SCl6xvp5e33471610428 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfds7y5d81737195253 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1oe9p4i252629076214, WR17v7k2nb1067391859, WT1mkt3k3184259406525, WPgehku8212133846225
-		ROLE = UIAMenuItem
-		TITLE = Page Setup...
-		SHAPE = Rect [x:671.0 y:780.0 w:223.0 h:22.0]
+		WIDGET = WC1gevxgl271620265211, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog47233778309205
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:163.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 5]
-	DESCRIPTION = Left Click at 'Page Setup...'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (782.5, 791.0).
+		Move mouse to (741.5, 463.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [64]: 
- @Action ConcreteID = ACq2h0pb801836503979 AbstractID = AAq2h0pb801836503979
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAeuwx42802352030204
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1a1clyn7f450431170 AbstractID = AA1a1clyn7f450431170
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13wm5c47f1076885420
+ @State ConcreteID = SChlk9mm5e41460498284 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfc4qu5d82388948179 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCuhgjg9233190973938, WRa3fnoge3263686876, WTu95paz162645246549, WPppvphj1f3289767898
-		ROLE = UIARadioButton
-		TITLE = Portrait
-		SHAPE = Rect [x:700.0 y:825.0 w:78.0 h:20.0]
+		WIDGET = WC1c8an5y233710806896, WR17v7k2nb1067391859, WT1p8hf68161996799177, WPw9lf9w1f106637667
+		ROLE = UIAMenuItem
+		TITLE = Video Alt+V
+		SHAPE = Rect [x:820.0 y:370.0 w:46.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 6]
-	DESCRIPTION = Left Click at 'Portrait'
+		PATH = [2, 1, 3]
+	DESCRIPTION = Left Click at 'Video Alt+V'
 	TEXT = Compound Action =
-		Move mouse to (739.0, 835.0).
+		Move mouse to (843.0, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [65]: 
- @Action ConcreteID = AC1affsds803266360251 AbstractID = AA1affsds803266360251
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAz7vosj80603406828
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACwd294f802751008353 AbstractID = AAwd294f802751008353
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA9apxib7e3524769142
+ @State ConcreteID = SC1di3ihn7111741206314 AbstractID = SR2t9wti6d328088138
+ ConcreteID CUSTOM = SC117zdwv706344447937 AbstractID CUSTOM = SA7gimta712537839921
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCjg5w54241201387136, WRa3fnoge3263686876, WTjezmd7174119221906, WPfw7qkm203012848288
-		ROLE = UIARadioButton
-		TITLE = Landscape
-		SHAPE = Rect [x:700.0 y:859.0 w:78.0 h:20.0]
+		WIDGET = WC1gevxgl271620265211, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog47233778309205
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:163.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 7]
-	DESCRIPTION = Left Click at 'Landscape'
+		PATH = [2, 2, 0, 0, 3, 1, 1, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (739.0, 869.0).
+		Move mouse to (741.5, 463.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [66]: 
- @Action ConcreteID = ACe9ds46802232946286 AbstractID = AAe9ds46802232946286
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA31toix801684012089
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1a1clyn7f450431170 AbstractID = AA1a1clyn7f450431170
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13wm5c47f1076885420
+ @State ConcreteID = SChlk9mm5e41460498284 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfc4qu5d82388948179 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1np2nvl1f2818365999, WR17qbaneb3904637586, WT1u4k19x12231763435, WP1v265671b2782544959
-		ROLE = UIAComboBox
-		TITLE = Source:
-		SHAPE = Rect [x:772.0 y:760.0 w:240.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 4]
-	DESCRIPTION = Left Click at 'Source:'
+		WIDGET = WC1c8an5y233710806896, WR17v7k2nb1067391859, WT1p8hf68161996799177, WPw9lf9w1f106637667
+		ROLE = UIAMenuItem
+		TITLE = Video Alt+V
+		SHAPE = Rect [x:820.0 y:370.0 w:46.0 h:20.0]
+		CHILDREN = 0
+		PATH = [2, 1, 3]
+	DESCRIPTION = Left Click at 'Video Alt+V'
 	TEXT = Compound Action =
-		Move mouse to (892.0, 770.5).
+		Move mouse to (843.0, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [67]: 
- @Action ConcreteID = AC1tvp2nz801474207216 AbstractID = AA1tvp2nz801474207216
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAgx8z6r802618194685
- @State ConcreteID = SC16m7v0u6272717176735 AbstractID = SR17ma4mc5d78128312
- ConcreteID CUSTOM = SCdo9f2362d1030862875 AbstractID CUSTOM = SA1ica4r66261166095827
+ @Action ConcreteID = AC1gn8rfr801976142768 AbstractID = AA1gn8rfr801976142768
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAtkwftn7e69677223
+ @State ConcreteID = SC1di3ihn7111741206314 AbstractID = SR2t9wti6d328088138
+ ConcreteID CUSTOM = SC117zdwv706344447937 AbstractID CUSTOM = SA7gimta712537839921
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1osgqtb323490030088, WR52qhb2b3065858412, WT1r9yp931f2203879893, WP3e7g5p2e261124529
-		ROLE = UIAListItem
-		TITLE = Automatically select
-		SHAPE = Rect [x:773.0 y:782.0 w:238.0 h:13.0]
+		WIDGET = WCntra94221472974383, WR17v7k2nb1067391859, WT1y895rf152412617792, WPsam5861e982126202
+		ROLE = UIAMenuItem
+		TITLE = View Alt+i
+		SHAPE = Rect [x:965.0 y:370.0 w:41.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 4, 0, 0]
-	DESCRIPTION = Left Click at 'Automatically select'
+		PATH = [2, 1, 6]
+	DESCRIPTION = Left Click at 'View Alt+i'
 	TEXT = Compound Action =
-		Move mouse to (892.0, 788.5).
+		Move mouse to (985.5, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [68]: 
- @Action ConcreteID = AC16vjw97812850596695 AbstractID = AA16vjw97812850596695
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1eit2u0811543906546
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACe0dix47f166775180 AbstractID = AAe0dix47f166775180
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7vn2al7f1392916194
+ @State ConcreteID = SChlk9mm5e41460498284 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfc4qu5d82388948179 AbstractID CUSTOM = SAk7len85e53711267963
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1cxm25a1b4078342168, WR1h6ibpb92248851252, WTzj707vb935461581, WP1rg3brk172524574035
-		ROLE = UIAButton
-		TITLE = OK
-		SHAPE = Rect [x:970.0 y:650.0 w:75.0 h:23.0]
-		CHILDREN = 0
-		PATH = [0, 1, 0, 0]
-	DESCRIPTION = Left Click at 'OK'
+		WIDGET = WC1gm5vvw204051270579, WR4na8ob72534219213, WT4na8ob72534219213, WP1pasv0a1c1285067914
+		ROLE = UIATree
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:180.0 h:199.0]
+		CHILDREN = 8
+		PATH = [2, 2, 0, 0, 3, 1, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (1007.5, 661.5).
+		Move mouse to (750.0, 549.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [69]: 
- @Action ConcreteID = ACztu39l1b03762121470 AbstractID = AA13rmns1d520305233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fnawa6d53813451038
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACmjhx0s7f1372342392 AbstractID = AAmjhx0s7f1372342392
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAzpq3hq80129939294
+ @State ConcreteID = SCxt1m7365f764172841 AbstractID = SRezz38z61a3752933407
+ ConcreteID CUSTOM = SCfd3pmj652752350834 AbstractID CUSTOM = SA10ne3xs65e110495687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11xh2r11a1848653290, WR4n0dlj72701565195, WT4prmgsc498560708, WP43d8gv162645078856
-		ROLE = UIAEdit
-		TITLE = Left:
-		SHAPE = Rect [x:856.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC1kpcobm212429184721, WR1h6ibpb92248851252, WTfh0b4q142849730282, WPpqja401d2718484217
+		ROLE = UIAButton
+		TITLE = Close Alt+C
+		SHAPE = Rect [x:1124.0 y:771.0 w:75.0 h:23.0]
 		CHILDREN = 0
-		PATH = [0, 0, 10]
-	DESCRIPTION = Type '????????????h??e...' into 'Left:
+		PATH = [0, 2, 0]
+	DESCRIPTION = Left Click at 'Close Alt+C'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 835.0).
+		Move mouse to (1161.5, 782.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '????????????h??e???????? ???????N??e??z?????p??????e????r????????d??????i??????a?????n?? ?????h??i??v?????-?????m???i????n???? ????????????f ????????c?????????a?????????s?.?? ?Z????????a?????l?????g????????o??.?'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [70]: 
- @Action ConcreteID = AC1xliwj41031961623364 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACj27tfw7e2745177220 AbstractID = AAj27tfw7e2745177220
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAx8fu167f1654329777
+ @State ConcreteID = SCxt1m7365f764172841 AbstractID = SRezz38z61a3752933407
+ ConcreteID CUSTOM = SCfd3pmj652752350834 AbstractID CUSTOM = SA10ne3xs65e110495687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '/dev/null; touch...' into 'Footer:
+		WIDGET = WCm9l7ut242213994455, WR1e04pz3e358922214, WT1e04pz3e358922214, WPfuaf7b201278569442
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:180.0 h:337.0]
+		CHILDREN = 3
+		PATH = [2, 2, 0, 0, 3, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (750.0, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '/dev/null; touch /tmp/blns.fail ; echo'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [71]: 
- @Action ConcreteID = AC1mazaj2e31555679433 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACz6xc9a7f2347808233 AbstractID = AAz6xc9a7f2347808233
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1cd5iq8803716303567
+ @State ConcreteID = SCxt1m7365f764172841 AbstractID = SRezz38z61a3752933407
+ ConcreteID CUSTOM = SCfd3pmj652752350834 AbstractID CUSTOM = SA10ne3xs65e110495687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
+		WIDGET = WCon8jpy314098567693, WR52qhb2b3065858412, WTrktj1o154143545019, WP1miffpk2d225557668
+		ROLE = UIAListItem
+		TITLE = New folder
+		SHAPE = Rect [x:847.0 y:452.0 w:411.0 h:51.0]
 		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '-1#IND' into 'Footer:
+		PATH = [2, 2, 0, 0, 3, 0, 3, 0]
+	DESCRIPTION = Left Click at 'New folder'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (1052.5, 477.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '-1#IND'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [72]: 
- @Action ConcreteID = ACe4qsir10a1423208963 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACcc187f7e877599584 AbstractID = AAcc187f7e877599584
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAqi98sp7f4118027861
+ @State ConcreteID = SCxt1m7365f764172841 AbstractID = SRezz38z61a3752933407
+ ConcreteID CUSTOM = SCfd3pmj652752350834 AbstractID CUSTOM = SA10ne3xs65e110495687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '<img \x39src=x o...' into 'Top:
+		WIDGET = WC1xb2wqg21210887132, WR1e04pz3e358922214, WT1e04pz3e358922214, WP1hj9v5y1d2063241926
+		ROLE = UIASplitButton
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:600.0 h:337.0]
+		CHILDREN = 3
+		PATH = [2, 2, 0, 0, 3]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (960.0, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<img \x39src=x onerror="javascript:alert(1)">'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [73]: 
- @Action ConcreteID = AC1b7xapre21402021736 AbstractID = AA13rmns1d520305233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fnawa6d53813451038
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1i5l0dt7f3331308735 AbstractID = AA1i5l0dt7f3331308735
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vbt6ur802432517017
+ @State ConcreteID = SCxt1m7365f764172841 AbstractID = SRezz38z61a3752933407
+ ConcreteID CUSTOM = SCfd3pmj652752350834 AbstractID CUSTOM = SA10ne3xs65e110495687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11xh2r11a1848653290, WR4n0dlj72701565195, WT4prmgsc498560708, WP43d8gv162645078856
-		ROLE = UIAEdit
-		TITLE = Left:
-		SHAPE = Rect [x:856.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC91vh3w311089925741, WR1h6ibpb92248851252, WTmsnie61e2660536127, WPx7oywa2d3037155639
+		ROLE = UIAButton
+		TITLE = Recheck version Alt+R
+		SHAPE = Rect [x:1023.0 y:687.0 w:86.0 h:23.0]
 		CHILDREN = 0
-		PATH = [0, 0, 10]
-	DESCRIPTION = Type '?????' into 'Left:
+		PATH = [1, 1, 0, 1, 1]
+	DESCRIPTION = Left Click at 'Recheck version Alt+R'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 835.0).
+		Move mouse to (1066.0, 698.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '?????'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [74]: 
- @Action ConcreteID = ACkabgza12c3540647439 AbstractID = AAehbloid54232328365
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAqczu6nd5507331810
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1fxwv6j7e2982124815 AbstractID = AA1fxwv6j7e2982124815
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1u44vrt7f1887737914
+ @State ConcreteID = SCxt1m7365f764172841 AbstractID = SRezz38z61a3752933407
+ ConcreteID CUSTOM = SCfd3pmj652752350834 AbstractID CUSTOM = SA10ne3xs65e110495687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1he7o9r1c1873636885, WR4n0dlj72701565195, WT1x4tyeue4007024010, WP1uqzbm918816959549
-		ROLE = UIAEdit
-		TITLE = Header:
-		SHAPE = Rect [x:760.0 y:910.0 w:261.0 h:20.0]
+		WIDGET = WC1gevxkw27501529790, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog8i232621675536
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:576.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 18]
-	DESCRIPTION = Type '????????????????...' into 'Header:
+		PATH = [2, 2, 0, 0, 3, 1, 1, 5]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 920.0).
+		Move mouse to (744.0, 589.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '???????????????????????????????????????????????????????????????????????????????'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [75]: 
- @Action ConcreteID = ACku13pp1092179465361 AbstractID = AA13rmns1d520305233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fnawa6d53813451038
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1f5vpk27f2903712652 AbstractID = AA1f5vpk27f2903712652
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAno15i0804153746403
+ @State ConcreteID = SCamzn2p7233670560131 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SC21er8x7193916010244 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11xh2r11a1848653290, WR4n0dlj72701565195, WT4prmgsc498560708, WP43d8gv162645078856
-		ROLE = UIAEdit
-		TITLE = Left:
-		SHAPE = Rect [x:856.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC1gevxk12783856895, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog7n232237180241
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:550.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 10]
-	DESCRIPTION = Type '<img\x32src=x on...' into 'Left:
+		PATH = [2, 2, 0, 0, 3, 1, 1, 4]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 835.0).
+		Move mouse to (744.0, 563.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<img\x32src=x onerror="javascript:alert(1)">'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [76]: 
- @Action ConcreteID = ACdiapylf4408545853 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1a4rfds7f2968307674 AbstractID = AA1a4rfds7f2968307674
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAno15i0804153746403
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC1gevxk12783856895, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog7n232237180241
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:550.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '? ? ? ? ? ?...' into 'Top:
+		PATH = [2, 2, 0, 0, 3, 1, 1, 4]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (744.0, 563.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '? ? ? ? ? ? ? ?'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [77]: 
- @Action ConcreteID = AC1ff12kh1133425665294 AbstractID = AA13rmns1d520305233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fnawa6d53813451038
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC9xo3q801830436538 AbstractID = AA9xo3q801830436538
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAe6fphq81844681046
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11xh2r11a1848653290, WR4n0dlj72701565195, WT4prmgsc498560708, WP43d8gv162645078856
-		ROLE = UIAEdit
-		TITLE = Left:
-		SHAPE = Rect [x:856.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WCr1kgty352204674757, WR52qhb2b3065858412, WT1ehdijt191275405601, WPm3fkfc311227908290
+		ROLE = UIAListItem
+		TITLE = New folder (4)
+		SHAPE = Rect [x:847.0 y:605.0 w:394.0 h:51.0]
 		CHILDREN = 0
-		PATH = [0, 0, 10]
-	DESCRIPTION = Type '<SCRIPT/XSS SRC=...' into 'Left:
+		PATH = [2, 2, 0, 0, 3, 0, 9, 3]
+	DESCRIPTION = Left Click at 'New folder (4)'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 835.0).
+		Move mouse to (1044.0, 630.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [78]: 
- @Action ConcreteID = ACd6b37be03237535481 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1mium167f271158434 AbstractID = AA1mium167f271158434
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1024c5e801464887451
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC148myrl192556440708, WR1h6ibpb92248851252, WT1h6ibpb92248851252, WPkcp01f15798705800
+		ROLE = UIAButton
+		TITLE = 
+		SHAPE = Rect [x:940.0 y:395.0 w:26.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '???' into 'Top:
+		PATH = [2, 2, 1, 3]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (953.0, 408.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '???'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [79]: 
- @Action ConcreteID = AClahyiq1241242698006 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AChz7ilc7f1342196957 AbstractID = AAhz7ilc7f1342196957
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ujlaoo80393849060
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '<a href="\x1Bjav...' into 'Top:
+		WIDGET = WCpb0f6j231508056265, WR10fgh33101836453781, WT10fgh33101836453781, WP1s4dz8p1f2870419499
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:428.0 w:307.0 h:22.0]
+		CHILDREN = 1
+		PATH = [2, 2, 0, 0, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (813.5, 439.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [80]: 
- @Action ConcreteID = ACvv6jg0e23377487992 AbstractID = AA13rmns1d520305233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fnawa6d53813451038
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACr9rili7f777269673 AbstractID = AAr9rili7f777269673
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4t18pq801764611472
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11xh2r11a1848653290, WR4n0dlj72701565195, WT4prmgsc498560708, WP43d8gv162645078856
-		ROLE = UIAEdit
-		TITLE = Left:
-		SHAPE = Rect [x:856.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC148myqq192172322245, WR1h6ibpb92248851252, WT1h6ibpb92248851252, WPkcp00k15914389449
+		ROLE = UIAButton
+		TITLE = 
+		SHAPE = Rect [x:908.0 y:392.0 w:32.0 h:32.0]
 		CHILDREN = 0
-		PATH = [0, 0, 10]
-	DESCRIPTION = Type '01000' into 'Left:
+		PATH = [2, 2, 1, 2]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 835.0).
+		Move mouse to (924.0, 408.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '01000'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [81]: 
- @Action ConcreteID = AC255vdd12c848631839 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACi7doi7f362094875 AbstractID = AAi7doi7f362094875
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1d2l5ru801391248674
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
+		WIDGET = WCp6vkyz2e1555241924, WR52qhb2b3065858412, WTrktj1o154143545019, WP12mfdmh2a2071834563
+		ROLE = UIAListItem
+		TITLE = New folder
+		SHAPE = Rect [x:847.0 y:452.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '<a href="\xE1\x9...' into 'Footer:
+		PATH = [2, 2, 0, 0, 3, 0, 0]
+	DESCRIPTION = Left Click at 'New folder'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (905.0, 523.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [82]: 
- @Action ConcreteID = AC3qemnre21281676102 AbstractID = AA121fdfsd54051510179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dx3lxxd5319050732
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1g682vx7f4248024145 AbstractID = AA1g682vx7f4248024145
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAtpht05803125432424
+ @State ConcreteID = SCthbr4t7251190568927 AbstractID = SReqrwer6d8948358990
+ ConcreteID CUSTOM = SCim8hni71c3452149952 AbstractID CUSTOM = SA1ya1zbk71f2313671637
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC9tp85g1b3223332873, WR4n0dlj72701565195, WT711kr9d3075233512, WP1bn9z3q17785175650
-		ROLE = UIAEdit
-		TITLE = Right:
-		SHAPE = Rect [x:970.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC1gevxgl271620265211, WR5quxi6b4097176690, WT5quxi6b4097176690, WPytog47233778309205
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:163.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Type '$1.00' into 'Right:
+		PATH = [2, 2, 0, 0, 3, 1, 1, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 835.0).
+		Move mouse to (741.5, 463.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '$1.00'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [83]: 
- @Action ConcreteID = AC1tehpfwe03147372149 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC5hzj3x7f3280149431 AbstractID = AA5hzj3x7f3280149431
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1yed4gi7f2574640345
+ @State ConcreteID = SChlk9mm5e41460498284 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfc4qu5d82388948179 AbstractID CUSTOM = SAk7len85e53711267963
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC10gye51272765901949, WR1h6ibpb92248851252, WTdvnelt111718843361, WPirzj4723412480053
+		ROLE = UIAButton
+		TITLE = Playlist
+		SHAPE = Rect [x:660.0 y:428.0 w:51.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '1/0' into 'Top:
+		PATH = [2, 2, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'Playlist'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (685.5, 439.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '1/0'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [84]: 
- @Action ConcreteID = AC1ii1hzgf73296875152 AbstractID = AA1my1ulld51130800927
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ytq33qd52703218512
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACgelqkk7f1317551431 AbstractID = AAgelqkk7f1317551431
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAa9v9y17f343851561
+ @State ConcreteID = SChlk9mm5e41460498284 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfc4qu5d82388948179 AbstractID CUSTOM = SAk7len85e53711267963
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1ksxts31c1049069563, WR4n0dlj72701565195, WT1l4r1coe3555323271, WP1lqgp2t181026134469
-		ROLE = UIAEdit
-		TITLE = Bottom:
-		SHAPE = Rect [x:970.0 y:859.0 w:42.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 16]
-	DESCRIPTION = Type 'eval("puts 'hell...' into 'Bottom:
+		WIDGET = WC7fmgoq1d2923072687, WR10fgh33101836453781, WT10fgh33101836453781, WP1orpiyw191718137576
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:391.0 w:600.0 h:34.0]
+		CHILDREN = 6
+		PATH = [2, 2, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 869.0).
+		Move mouse to (960.0, 408.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'eval("puts 'hello world'")'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [85]: 
- @Action ConcreteID = AC1ndie5jf33279046537 AbstractID = AAehbloid54232328365
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAqczu6nd5507331810
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACf30auh7f2657658301 AbstractID = AAf30auh7f2657658301
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA8y9u7y7f3298712275
+ @State ConcreteID = SChlk9mm5e41460498284 AbstractID = SRkf9baf5a8503980212
+ ConcreteID CUSTOM = SC1wfc4qu5d82388948179 AbstractID CUSTOM = SAk7len85e53711267963
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1he7o9r1c1873636885, WR4n0dlj72701565195, WT1x4tyeue4007024010, WP1uqzbm918816959549
-		ROLE = UIAEdit
-		TITLE = Header:
-		SHAPE = Rect [x:760.0 y:910.0 w:261.0 h:20.0]
+		WIDGET = WC1jdbq1z234288803664, WR17v7k2nb1067391859, WTwtxn65161410781764, WPmceos51f1929584907
+		ROLE = UIAMenuItem
+		TITLE = Tools Alt+s
+		SHAPE = Rect [x:922.0 y:370.0 w:43.0 h:20.0]
 		CHILDREN = 0
-		PATH = [0, 0, 18]
-	DESCRIPTION = Type '`touch /tmp/blns...' into 'Header:
+		PATH = [2, 1, 5]
+	DESCRIPTION = Left Click at 'Tools Alt+s'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 920.0).
+		Move mouse to (943.5, 380.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '`touch /tmp/blns.fail`'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [86]: 
- @Action ConcreteID = AC10u06sh103525853609 AbstractID = AA121fdfsd54051510179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dx3lxxd5319050732
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1g4anst813008594183 AbstractID = AA1g4anst813008594183
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5v12l9803461622783
+ @State ConcreteID = SC1h4a1xb6d71219194050 AbstractID = SR1rtgona6971705479866
+ ConcreteID CUSTOM = SCh07b9i6ca3229435010 AbstractID CUSTOM = SAnaolla6d81361617189
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC9tp85g1b3223332873, WR4n0dlj72701565195, WT711kr9d3075233512, WP1bn9z3q17785175650
-		ROLE = UIAEdit
-		TITLE = Right:
-		SHAPE = Rect [x:970.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC18lae532f1501583462, WR17v7k2nb1067391859, WTzs8f1s253196062963, WP1nakop52b1565537674
+		ROLE = UIAMenuItem
+		TITLE = Effects and Filters Ctrl+E
+		SHAPE = Rect [x:925.0 y:393.0 w:257.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Type '</textarea><scri...' into 'Right:
+		PATH = [3, 0]
+	DESCRIPTION = Left Click at 'Effects and Filters Ctrl+E'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 835.0).
+		Move mouse to (1053.5, 404.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '</textarea><script>alert(123)</script>'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [87]: 
- @Action ConcreteID = ACur9c24e2839118306 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACrbupic7c3536380056 AbstractID = AArbupic7c3536380056
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hg0cyz7f230119823
+ @State ConcreteID = SCz6lsjwa8b1927097 AbstractID = SRdly7eva27513003860
+ ConcreteID CUSTOM = SC18uj88ea8b1116428127 AbstractID CUSTOM = SAeab9b3a972415162601
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '0.0.0' into 'Footer:
+		WIDGET = WC3yryct201994371312, WR4na8ob72534219213, WT4na8ob72534219213, WPcnexh71c3409862601
+		ROLE = UIATree
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:450.0 w:180.0 h:199.0]
+		CHILDREN = 8
+		PATH = [2, 3, 0, 0, 3, 1, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (750.0, 549.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '0.0.0'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [88]: 
- @Action ConcreteID = AC1eu9wms1091003670012 AbstractID = AA121fdfsd54051510179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dx3lxxd5319050732
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1yhcour802002417844 AbstractID = AA1yhcour802002417844
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1kji5v77f3361426773
+ @State ConcreteID = SC1g2so4hb063235876517 AbstractID = SR6yqtx3a991776766003
+ ConcreteID CUSTOM = SC1mgg11vb044165633218 AbstractID CUSTOM = SAyofrp5b0d1569145638
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC9tp85g1b3223332873, WR4n0dlj72701565195, WT711kr9d3075233512, WP1bn9z3q17785175650
-		ROLE = UIAEdit
-		TITLE = Right:
-		SHAPE = Rect [x:970.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC1lzzfmd2a3177947107, WR1k8fo0ra1109144095, WTip8fqa174052975287, WP1i8w5cz262531975038
+		ROLE = UIATabItem
+		TITLE = Video Effects
+		SHAPE = Rect [x:338.0 y:372.0 w:87.0 h:21.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Type '<img\x32src=x on...' into 'Right:
+		PATH = [2, 0, 1, 1, 1]
+	DESCRIPTION = Left Click at 'Video Effects'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 835.0).
+		Move mouse to (381.5, 382.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<img\x32src=x onerror="javascript:alert(1)">'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [89]: 
- @Action ConcreteID = ACj0ik7yee1035283144 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACdjlcvo802054953855 AbstractID = AAdjlcvo802054953855
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1e5hzq5811069913547
+ @State ConcreteID = SCeq7ty89da3021541336 AbstractID = SRzvcbcq9952586447701
+ ConcreteID CUSTOM = SC1u01xd69c52961353860 AbstractID CUSTOM = SA1bi1cyt9c14054052634
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '???????? ???????...' into 'Top:
+		WIDGET = WC12g1je2203939599879, WR4n4ygb71694219017, WT4n4ygb71694219017, WP90umyg1c392925246
+		ROLE = UIAList
+		TITLE = 
+		SHAPE = Rect [x:845.0 y:450.0 w:415.0 h:337.0]
+		CHILDREN = 3
+		PATH = [2, 3, 0, 0, 3, 0, 3]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (1052.5, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '???????? ????????'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [90]: 
- @Action ConcreteID = ACntvm7be1842515312 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACeo8c2j7f1573167650 AbstractID = AAeo8c2j7f1573167650
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1523uxe80991322895
+ @State ConcreteID = SCeq7ty89da3021541336 AbstractID = SRzvcbcq9952586447701
+ ConcreteID CUSTOM = SC1u01xd69c52961353860 AbstractID CUSTOM = SA1bi1cyt9c14054052634
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
+		WIDGET = WC19nheoz27485442300, WR5quxi6b4097176690, WT5quxi6b4097176690, WPs29xcl232638767698
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:476.0 w:163.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '+0.0' into 'Footer:
+		PATH = [2, 3, 0, 0, 3, 1, 1, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (741.5, 489.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '+0.0'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [91]: 
- @Action ConcreteID = AC1ra88gn1194222615884 AbstractID = AA1my1ulld51130800927
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ytq33qd52703218512
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC7417v27f245292082 AbstractID = AA7417v27f245292082
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1hkdqes7f1129134925
+ @State ConcreteID = SC60pg3l9603195127461 AbstractID = SR176ya54923155938611
+ ConcreteID CUSTOM = SC13pxn6p94d2502906225 AbstractID CUSTOM = SAaikxfv94b1775801201
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1ksxts31c1049069563, WR4n0dlj72701565195, WT1l4r1coe3555323271, WP1lqgp2t181026134469
-		ROLE = UIAEdit
-		TITLE = Bottom:
-		SHAPE = Rect [x:970.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC1x29fun19462137053, WR1h6ibpb92248851252, WT1h6ibpb92248851252, WP1d6bh4h152893078225
+		ROLE = UIAButton
+		TITLE = 
+		SHAPE = Rect [x:966.0 y:395.0 w:26.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 16]
-	DESCRIPTION = Type '???????????, ???...' into 'Bottom:
+		PATH = [2, 3, 1, 4]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 869.0).
+		Move mouse to (979.0, 408.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '???????????, ?????? ????????, ??? ???????????, ????? ???????'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [92]: 
- @Action ConcreteID = AC5xvoqvf72663316207 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC10hglnw7f2861204703 AbstractID = AA10hglnw7f2861204703
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbwp28i7f3881395104
+ @State ConcreteID = SC60pg3l9603195127461 AbstractID = SR176ya54923155938611
+ ConcreteID CUSTOM = SC13pxn6p94d2502906225 AbstractID CUSTOM = SAaikxfv94b1775801201
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC19nhesf272021885944, WR5quxi6b4097176690, WT5quxi6b4097176690, WPs29xg1234179927894
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:576.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type 'Penistone Commun...' into 'Top:
+		PATH = [2, 3, 0, 0, 3, 1, 1, 5]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (744.0, 589.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'Penistone Community Church'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [93]: 
- @Action ConcreteID = ACje70idff353332071 AbstractID = AA13rmns1d520305233
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fnawa6d53813451038
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1xprlvx802382718323 AbstractID = AA1xprlvx802382718323
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA12o83197f226867793
+ @State ConcreteID = SCbk6pu6aa43626447550 AbstractID = SR17th522a532201325273
+ ConcreteID CUSTOM = SC1x2flxia91553135155 AbstractID CUSTOM = SAbrcb7ha8e237704940
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11xh2r11a1848653290, WR4n0dlj72701565195, WT4prmgsc498560708, WP43d8gv162645078856
-		ROLE = UIAEdit
-		TITLE = Left:
-		SHAPE = Rect [x:856.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WCkgwho2352352338189, WR52qhb2b3065858412, WT1ehdiko191428034656, WPfuhwpw312635095701
+		ROLE = UIAListItem
+		TITLE = New folder (5)
+		SHAPE = Rect [x:847.0 y:707.0 w:394.0 h:51.0]
 		CHILDREN = 0
-		PATH = [0, 0, 10]
-	DESCRIPTION = Type '@{[system "touch...' into 'Left:
+		PATH = [2, 3, 0, 0, 3, 0, 9, 5]
+	DESCRIPTION = Left Click at 'New folder (5)'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 835.0).
+		Move mouse to (1044.0, 732.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '@{[system "touch /tmp/blns.fail"]}'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [94]: 
- @Action ConcreteID = AC1rlpxac1393292751404 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACct5zt57f4016526428 AbstractID = AAct5zt57f4016526428
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAruj1yx7e3158159691
+ @State ConcreteID = SCbk6pu6aa43626447550 AbstractID = SR17th522a532201325273
+ ConcreteID CUSTOM = SC1x2flxia91553135155 AbstractID CUSTOM = SAbrcb7ha8e237704940
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
+		WIDGET = WCd3691n321461672201, WR52qhb2b3065858412, WT1ehdilj192117289891, WP1b259y12e2613723806
+		ROLE = UIAListItem
+		TITLE = New folder (6)
+		SHAPE = Rect [x:847.0 y:738.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '<a href=http://f...' into 'Footer:
+		PATH = [2, 3, 0, 0, 3, 0, 6]
+	DESCRIPTION = Left Click at 'New folder (6)'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (905.0, 809.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [95]: 
- @Action ConcreteID = AC1c2zrurf32789543475 AbstractID = AA1oo94xud53006157293
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1itbgvd51364664738
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1wbadto813074454760 AbstractID = AA1wbadto813074454760
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfipljv801881136739
+ @State ConcreteID = SC15pl211aa23848553282 AbstractID = SR2m0boca533492996644
+ ConcreteID CUSTOM = SC1kdst8ya8f2100687938 AbstractID CUSTOM = SAllrdm5a911095237519
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gblpnt193324522654, WR4n0dlj72701565195, WT9bko3gb450032618, WPh7td0b153458625559
-		ROLE = UIAEdit
-		TITLE = Top:
-		SHAPE = Rect [x:856.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC1ic088c2e1839705100, WR52qhb2b3065858412, WTrktj1o154143545019, WP1vrk0vu2a1248401419
+		ROLE = UIAListItem
+		TITLE = New folder
+		SHAPE = Rect [x:963.0 y:452.0 w:116.0 h:143.0]
 		CHILDREN = 0
-		PATH = [0, 0, 14]
-	DESCRIPTION = Type '??? ?? ? ???? ??...' into 'Top:
+		PATH = [1, 3, 0, 0, 3, 0, 1]
+	DESCRIPTION = Left Click at 'New folder'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (877.0, 869.0).
+		Move mouse to (1021.0, 523.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '??? ?? ? ???? ??? ????'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [96]: 
- @Action ConcreteID = ACrd9ybte7425291981 AbstractID = AA1my1ulld51130800927
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ytq33qd52703218512
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACdmq2uw801502910125 AbstractID = AAdmq2uw801502910125
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1cl7rcp7f3516312022
+ @State ConcreteID = SC15pl211aa23848553282 AbstractID = SR2m0boca533492996644
+ ConcreteID CUSTOM = SC1kdst8ya8f2100687938 AbstractID CUSTOM = SAllrdm5a911095237519
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1ksxts31c1049069563, WR4n0dlj72701565195, WT1l4r1coe3555323271, WP1lqgp2t181026134469
-		ROLE = UIAEdit
-		TITLE = Bottom:
-		SHAPE = Rect [x:970.0 y:859.0 w:42.0 h:20.0]
+		WIDGET = WC6r2s352e3447709038, WR1k8fo0ra1109144095, WT11kc5wt122690921160, WPxj8tyb2a1494701741
+		ROLE = UIATabItem
+		TITLE = Geometry
+		SHAPE = Rect [x:428.0 y:403.0 w:71.0 h:21.0]
 		CHILDREN = 0
-		PATH = [0, 0, 16]
-	DESCRIPTION = Type '??????????' into 'Bottom:
+		PATH = [1, 0, 1, 0, 0, 0, 1, 3]
+	DESCRIPTION = Left Click at 'Geometry'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 869.0).
+		Move mouse to (463.5, 413.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '??????????'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [97]: 
- @Action ConcreteID = AC10bbxj0ff1470860697 AbstractID = AA121fdfsd54051510179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dx3lxxd5319050732
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC3m16ad81702540078 AbstractID = AA3m16ad81702540078
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3rogmx811843291148
+ @State ConcreteID = SC1mz156ga321909086972 AbstractID = SR14xfml9e84094981530
+ ConcreteID CUSTOM = SC17n1zbla282533255374 AbstractID CUSTOM = SA1ckddsla281537583434
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC9tp85g1b3223332873, WR4n0dlj72701565195, WT711kr9d3075233512, WP1bn9z3q17785175650
-		ROLE = UIAEdit
-		TITLE = Right:
-		SHAPE = Rect [x:970.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WCknn19s353820594134, WR52qhb2b3065858412, WT1ehdilj192117289891, WPgcyrs2311147855022
+		ROLE = UIAListItem
+		TITLE = New folder (6)
+		SHAPE = Rect [x:847.0 y:758.0 w:394.0 h:51.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Type '@{[system "touch...' into 'Right:
+		PATH = [2, 3, 0, 0, 3, 0, 9, 6]
+	DESCRIPTION = Left Click at 'New folder (6)'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 835.0).
+		Move mouse to (1044.0, 783.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '@{[system "touch /tmp/blns.fail"]}'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [98]: 
- @Action ConcreteID = AC1lwpmck1102191736343 AbstractID = AA121fdfsd54051510179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dx3lxxd5319050732
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACen61ga802099769639 AbstractID = AAen61ga802099769639
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1aq6at2802022154315
+ @State ConcreteID = SC1mz156ga321909086972 AbstractID = SR14xfml9e84094981530
+ ConcreteID CUSTOM = SC17n1zbla282533255374 AbstractID CUSTOM = SA1ckddsla281537583434
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC9tp85g1b3223332873, WR4n0dlj72701565195, WT711kr9d3075233512, WP1bn9z3q17785175650
-		ROLE = UIAEdit
-		TITLE = Right:
-		SHAPE = Rect [x:970.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WCj7kxa32a1523588465, WR1k8fo0ra1109144095, WT1q6qccd17734633670, WP1i2z6fd263131442026
+		ROLE = UIATabItem
+		TITLE = Audio Effects
+		SHAPE = Rect [x:250.0 y:372.0 w:88.0 h:21.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Type '`"'><img src=xxx...' into 'Right:
+		PATH = [2, 0, 1, 1, 0]
+	DESCRIPTION = Left Click at 'Audio Effects'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 835.0).
+		Move mouse to (294.0, 382.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '`"'><img src=xxx:x \x0Donerror=javascript:alert(1)>'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [99]: 
- @Action ConcreteID = AC1t45ygidf2307828365 AbstractID = AA121fdfsd54051510179
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dx3lxxd5319050732
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = AC1co7i4x804238236463 AbstractID = AA1co7i4x804238236463
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AApjzaiw801494646755
+ @State ConcreteID = SC15k5c1hbd21454767854 AbstractID = SRgqbaunb572708458360
+ ConcreteID CUSTOM = SCedwmtcbd13810276078 AbstractID CUSTOM = SA1fw8222bd92782364687
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC9tp85g1b3223332873, WR4n0dlj72701565195, WT711kr9d3075233512, WP1bn9z3q17785175650
-		ROLE = UIAEdit
-		TITLE = Right:
-		SHAPE = Rect [x:970.0 y:825.0 w:42.0 h:20.0]
+		WIDGET = WC19nherk271637398201, WR5quxi6b4097176690, WT5quxi6b4097176690, WPs29xf6233762262551
+		ROLE = UIATreeItem
+		TITLE = 
+		SHAPE = Rect [x:665.0 y:550.0 w:158.0 h:26.0]
 		CHILDREN = 0
-		PATH = [0, 0, 12]
-	DESCRIPTION = Type '-1' into 'Right:
+		PATH = [2, 3, 0, 0, 3, 1, 1, 4]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (991.0, 835.0).
+		Move mouse to (744.0, 563.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '-1'
 
+Detected fault: severity: 9.0E-8 info: Discovered suspicious widget title: 'An error occurred while checking for updates...'.
 ExecutedAction [100]: 
- @Action ConcreteID = AC64a7ru12c748364346 AbstractID = AA1mwm57kd54019330010
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ysadppd5233532309
- @State ConcreteID = SC1kp0vm15d51864758990 AbstractID = SR1e8yko58b3708503434
- ConcreteID CUSTOM = SCg59pbu5dd211826547 AbstractID CUSTOM = SA1e216sm5d81831097663
+ @Action ConcreteID = ACnvgmz17f3171729394 AbstractID = AAnvgmz17f3171729394
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAox0c8o7f1808270333
+ @State ConcreteID = SCgkrponbe54012404711 AbstractID = SRlmp5x4b6a1490118877
+ ConcreteID CUSTOM = SCse9lngbe62383340874 AbstractID CUSTOM = SA19ykyabbeb614019499
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCgnbvdm1c2604055620, WR4n0dlj72701565195, WT18qgy08e4032554063, WParkpsc183296232143
-		ROLE = UIAEdit
-		TITLE = Footer:
-		SHAPE = Rect [x:760.0 y:941.0 w:261.0 h:20.0]
-		CHILDREN = 0
-		PATH = [0, 0, 20]
-	DESCRIPTION = Type '<a href="\xE2\x8...' into 'Footer:
+		WIDGET = WCkp7qde202898755225, WR10fgh33101836453781, WT10fgh33101836453781, WP1i3q3w41c498257585
+		ROLE = UIACustomControl
+		TITLE = 
+		SHAPE = Rect [x:660.0 y:425.0 w:600.0 h:365.0]
+		CHILDREN = 4
+		PATH = [2, 3, 0, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (890.5, 951.0).
+		Move mouse to (960.0, 607.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>'
 
 Sequence 1 finished.
+Sequence contained faults!
 Copying generated sequence ("sequence298") to output directory...
-Copying classified sequence ("sequence298") to sequences_ok folder...
+Copying classified sequence ("sequence298") to sequences_suspicioustitle folder...

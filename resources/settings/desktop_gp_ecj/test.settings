@@ -23,7 +23,7 @@ Mode = Generate
 # The SUT must be manually started and closed.
 #################################################################
 SUTConnector = COMMAND_LINE
-SUTConnectorValue = c:\\windows\\system32\\notepad.exe
+SUTConnectorValue = C:\\Program Files\\VideoLAN\\VLC\\vlc.exe
 
 #################################################################
 # Java Swing applications & Access Bridge Enabled
@@ -51,7 +51,7 @@ SequenceLength = 10
 # Regular expression
 #################################################################
 
-SuspiciousTitles = .*[eE]rror.*|.*[eE]xcep[ct]i[o?]n.*
+SuspiciousTitles = .*[eE]rror.*
 
 #################################################################
 # Oracles based on Suspicious Outputs detected by Process Listeners
@@ -83,7 +83,7 @@ ProcessLogs = .*.*
 # these will be added to the protocol_filter.xml file.
 #################################################################
 
-ClickFilter = .*[sS]ystem.*|.*[cC]lose.*|.*[eE]xit.*|.*[mM]inimi[zs]e.*|.*[sS]ave.*|.*[pP]rint.*|.*[oO]pen.*|.*[sS]how more fonts.*|.*[vV]iew Help.*|.*[mM]icrosoft Software Licence.*|.*[sS]ave [aA]s.*|.*[iI]nput Values.*|.*[sS]end [fF]eedback.*|.*[mM]aximi[zs]e.*
+ClickFilter = .*[sS]ystem.*|.*[eE]xit.*|.*[mM]inimi[zs]e.*|.*[cC]lose|.*[sS]ave.*|.*[pP]rint.*|.*[sS]ave.*[aA]s.*|.*[mM]aximi[zs]e.*|.*[qQ]uit.*|.*Open.*File.*|.*[aA]dd.*|.*[bB]rowse.*|.*Open.*Folder.*|.*Open.*Multiple.*Files.*|.*[mM]ore.*[iI]nformation.*|.*[iI]nstall.*|.*[rR]eset [pP]references.*|.*[fF]ullscreen.*|.*[aA]dd.*[iI]nterface.*|opensubtitles.org|addons.videolan.org|wiki|Introduction to VLC media player|How to play files with VLC media player|Streaming Documentation|knowledge base|shortcuts|FAQ|Forums|mailing-lists|VideoLAN|Help and join us!|Authors|License|Credits|About|Mini.*Interface|.*Create.*Folder.*|.*Add.*File.*|.*Add.*Folder.*
 
 #################################################################
 # Processfilter
@@ -92,7 +92,7 @@ ClickFilter = .*[sS]ystem.*|.*[cC]lose.*|.*[eE]xit.*|.*[mM]inimi[zs]e.*|.*[sS]av
 # but that you do not want to test.
 #################################################################
 
-SUTProcesses = .*notepad.exe.*
+SUTProcesses = vlc.exe|MicrosoftEdge.exe|MicrosoftEdgeCP.exe
 
 #################################################################
 # Protocolclass
@@ -171,10 +171,10 @@ TimeToFreeze = 30.0
 StateScreenshotSimilarityThreshold = 1.4E-45
 ShowVisualSettingsDialogOnStartup = true
 ResetDataStore = false
-TimeToWaitAfterAction = 0.1
+TimeToWaitAfterAction = 0.0
 DrawWidgetUnderCursor = true
-AlwaysCompile = true
-PathToReplaySequence = 
+AlwaysCompile = true																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					↑		$#ZT┴↨	oO	sS																																																																																																																																																																																																																																																																		
+PathToReplaySequence = 																																																																				
 VisualizeActions = false
 ExplorationSampleInterval = 1
 OnlySaveFaultySequences = false
