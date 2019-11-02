@@ -6,10 +6,11 @@ import ec.app.testar.strategies.GPStrategy;
 import ec.app.testar.strategies.RandomStrategy;
 import ec.app.testar.strategies.TestStrategy;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Map;
 
-public class Evaluator {
+public class Evaluator implements Serializable {
     private static final Properties properties = Properties.getInstance();
     private final TestarRunner testarRunner = new TestarRunner();
     private TestarResultsReader reader = new TestarResultsReader();

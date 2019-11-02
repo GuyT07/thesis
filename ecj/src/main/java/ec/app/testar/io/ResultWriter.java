@@ -4,14 +4,11 @@ import ec.app.testar.Metric;
 import ec.app.testar.Properties;
 import ec.app.testar.Strategy;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ResultWriter {
+public class ResultWriter implements Serializable {
     private static final Properties properties = Properties.getInstance();
     private File file;
 

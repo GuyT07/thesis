@@ -35,12 +35,13 @@ import ec.app.testar.nodes.TypeAction;
 import ec.app.testar.nodes.TypeActionsAvailable;
 import ec.app.testar.nodes.TypeOfAction;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class StrategyFactory {
+public class StrategyFactory implements Serializable {
 
     private Queue<AvailableReturnTypes> queue = new LinkedList<>();
 

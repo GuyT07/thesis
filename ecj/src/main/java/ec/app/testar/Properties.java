@@ -3,8 +3,9 @@ package ec.app.testar;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.Serializable;
 
-public class Properties {
+public class Properties implements Serializable {
 
     private static Properties instance;
     private final int maxNumberOfRuns;

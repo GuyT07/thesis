@@ -6,7 +6,7 @@ import ec.app.testar.Strategy;
 import java.io.*;
 import java.util.ArrayList;
 
-public class StrategyReader {
+public class StrategyReader implements Serializable {
 
     private static Properties properties = Properties.getInstance();
     private static File file = new File(properties.getPathToStrategyList());

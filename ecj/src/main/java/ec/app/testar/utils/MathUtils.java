@@ -9,7 +9,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class MathUtils {
+import java.io.Serializable;
+
+public class MathUtils implements Serializable {
 
     public static double getMedianOf(final ArrayList<Map<String, Double>> results, final String column) {
         // note: this will take at least o(n log n) but the number of sequences will be low, so it does not imply

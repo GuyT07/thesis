@@ -3,10 +3,11 @@ package ec.app.testar.strategies;
 import ec.app.testar.Strategy;
 import ec.app.testar.utils.MathUtils;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Map;
 
-public interface TestStrategy {
+public interface TestStrategy extends Serializable {
 
     Strategy getStrategy();
 

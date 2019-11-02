@@ -3,9 +3,10 @@ package ec.app.testar;
 import ec.app.testar.io.SimplifiedStrategyWriter;
 import ec.app.testar.io.StrategyReader;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class StrategySetRunner {
+public class StrategySetRunner implements Serializable {
 
     private static StrategyReader reader = new StrategyReader();
     private static SimplifiedStrategyWriter writer = new SimplifiedStrategyWriter();

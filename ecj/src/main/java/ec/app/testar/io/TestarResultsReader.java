@@ -3,6 +3,7 @@ package ec.app.testar.io;
 import ec.app.testar.Properties;
 
 import java.io.IOException;
+import java.io.Serializable;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -10,7 +11,7 @@ import java.util.Optional;
 import java.util.TreeMap;
 import java.util.stream.Stream;
 
-public class TestarResultsReader {
+public class TestarResultsReader implements Serializable {
     private Properties properties = Properties.getInstance();
     private String path = properties.getPathToMetricsDir();
 

@@ -1,6 +1,8 @@
 package ec.app.testar;
 
-public class Strategy {
+import java.io.Serializable;
+
+public class Strategy implements Serializable {
 
     private static StrategyFactory factory = new StrategyFactory();
     private String original = "";

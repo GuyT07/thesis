@@ -4,8 +4,9 @@ import ec.app.testar.Properties;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.io.Serializable;
 
-public class StrategyWriter {
+public class StrategyWriter implements Serializable {
     private static Properties properties = Properties.getInstance();
 
     public void writeStrategy(String strategy) {

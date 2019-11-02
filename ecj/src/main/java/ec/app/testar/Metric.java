@@ -1,6 +1,8 @@
 package ec.app.testar;
 
-public class Metric {
+import java.io.Serializable;
+
+public class Metric implements Serializable {
 
     public static final String[] headers = {
             "Sequence", // Sequence

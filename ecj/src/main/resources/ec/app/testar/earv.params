@@ -4,14 +4,14 @@
 
 parent.0 = ../../gp/koza/koza.params
 
-generations = 4
+generations = 10
 
 pop.subpop.0.size = 1000
 
 jobs = 1
 
-select.tournament.size = 7
-breed.elite.0 = 1
+select.tournament.size = 700
+breed.elite.0 = 100
 
 gp.koza.half.min-depth = 1
 gp.koza.half.max-depth = 8
@@ -24,9 +24,9 @@ gp.koza.ns.terminals = 0.3
 gp.koza.ns.nonterminals = 0.4
 gp.koza.ns.root = 0.3
 
-pop.subpop.0.species.pipe = ec.breed.MultiBreedingPipeline
-# Koza's decision here was odd...
+pop.subpop.0.species.pipe = ec.br eed.MultiBreedingPipeline
 pop.subpop.0.species.pipe.generate-max = false
+
 # Subsidiary pipelines:
 pop.subpop.0.species.pipe.num-sources = 5
 pop.subpop.0.species.pipe.source.0 = ec.gp.koza.CrossoverPipeline
@@ -62,14 +62,25 @@ gp.type.a.2.name = boolean
 gp.type.a.3.name = actiontype
 gp.type.s.size = 0
 
+# Tree constraints
 gp.tc.size = 1
+
 gp.tc.0 = ec.gp.GPTreeConstraints
 gp.tc.0.name = tc0
 gp.tc.0.fset = f0
 gp.tc.0.returns = action
 
 #Function types
-gp.nc.size = 12
+gp.nc.size = 11
+
+# Node constraints
+gp.nc.3 = ec.gp.GPNodeConstraints
+gp.nc.3.name = act-baa
+gp.nc.3.returns = action
+gp.nc.3.size = 3
+gp.nc.3.child.0 = boolean
+gp.nc.3.child.1 = action
+gp.nc.3.child.2 = action
 
 gp.nc.0 = ec.gp.GPNodeConstraints
 gp.nc.0.name = num
@@ -88,14 +99,6 @@ gp.nc.2.size = 2
 gp.nc.2.child.0 = number
 gp.nc.2.child.1 = number
 
-gp.nc.3 = ec.gp.GPNodeConstraints
-gp.nc.3.name = act-baa
-gp.nc.3.returns = action
-gp.nc.3.size = 3
-gp.nc.3.child.0 = boolean
-gp.nc.3.child.1 = action
-gp.nc.3.child.2 = action
- 
 gp.nc.4 = ec.gp.GPNodeConstraints
 gp.nc.4.name = acttype
 gp.nc.4.returns = actiontype
@@ -144,58 +147,59 @@ gp.nc.11.size = 2
 gp.nc.11.child.0 = actiontype
 gp.nc.11.child.1 = actiontype
 
-# We have one function set, of class GPFunctionSet
+# We have one function set of class GPFunctionSet
 gp.fs.size = 1
+
 gp.fs.0 = ec.gp.GPFunctionSet
-# We'll call the function set "f0".
 gp.fs.0.name = f0
 
 # Functions
-gp.fs.0.size = 34
+gp.fs.0.size = 16
 
-gp.fs.0.func.1 = ec.app.testar.nodes.RandomNumber
-gp.fs.0.func.1.nc = num
+gp.fs.0.func.0 = ec.app.testar.nodes.RandomNumber
+gp.fs.0.func.0.nc = num
 
-gp.fs.0.func.5 = ec.app.testar.nodes.IfThenElse
-gp.fs.0.func.5.nc = act-baa
+gp.fs.1.size = 1
+gp.fs.1.func.0 = ec.app.testar.nodes.IfThenElse
+gp.fs.1.func.0.nc = act-baa
 
 # boolean
-gp.fs.0.func.30 = ec.app.testar.nodes.GreaterThan
-gp.fs.0.func.30.nc = bool-nn
-gp.fs.0.func.6 = ec.app.testar.nodes.Equals
-gp.fs.0.func.6.nc = bool-nn
-gp.fs.0.func.20 = ec.app.testar.nodes.And
-gp.fs.0.func.20.nc = bool-bb
-gp.fs.0.func.21 = ec.app.testar.nodes.Or
-gp.fs.0.func.21.nc = bool-bb
-gp.fs.0.func.22 = ec.app.testar.nodes.Not
-gp.fs.0.func.22.nc = bool-b
-gp.fs.0.func.23 = ec.app.testar.nodes.TypeActionsAvailable
-gp.fs.0.func.23.nc = bool
+gp.fs.0.func.2 = ec.app.testar.nodes.GreaterThan
+gp.fs.0.func.2.nc = bool-nn
+gp.fs.0.func.3 = ec.app.testar.nodes.Equals
+gp.fs.0.func.3.nc = bool-nn
+gp.fs.0.func.4 = ec.app.testar.nodes.And
+gp.fs.0.func.4.nc = bool-bb
+gp.fs.0.func.5 = ec.app.testar.nodes.Or
+gp.fs.0.func.5.nc = bool-bb
+gp.fs.0.func.6 = ec.app.testar.nodes.Not
+gp.fs.0.func.6.nc = bool-b
+gp.fs.0.func.7 = ec.app.testar.nodes.TypeActionsAvailable
+gp.fs.0.func.7.nc = bool
 
 # actions
-gp.fs.0.func.0 = ec.app.testar.nodes.RandomAction
-gp.fs.0.func.0.nc = act
-gp.fs.0.func.2 = ec.app.testar.nodes.PreviousAction
-gp.fs.0.func.2.nc = act
-gp.fs.0.func.7 = ec.app.testar.nodes.RandomActionOfType
-gp.fs.0.func.7.nc = act-t
-gp.fs.0.func.12 = ec.app.testar.nodes.RandomUnexecutedAction
-gp.fs.0.func.12.nc = act
+gp.fs.0.func.8 = ec.app.testar.nodes.RandomAction
+gp.fs.0.func.8.nc = act
+gp.fs.0.func.9 = ec.app.testar.nodes.PreviousAction
+gp.fs.0.func.9.nc = act
+gp.fs.0.func.10 = ec.app.testar.nodes.RandomActionOfType
+gp.fs.0.func.10.nc = act-t
+gp.fs.0.func.11 = ec.app.testar.nodes.RandomUnexecutedAction
+gp.fs.0.func.11.nc = act
 
 # action types
-gp.fs.0.func.8 = ec.app.testar.nodes.ClickAction
-gp.fs.0.func.8.nc = acttype
-gp.fs.0.func.9 = ec.app.testar.nodes.TypeAction
-gp.fs.0.func.9.nc = acttype
+gp.fs.0.func.12 = ec.app.testar.nodes.ClickAction
+gp.fs.0.func.12.nc = acttype
+gp.fs.0.func.13 = ec.app.testar.nodes.TypeAction
+gp.fs.0.func.13.nc = acttype
 
 # number
-gp.fs.0.func.10 = ec.app.testar.nodes.NumberOfActions
-gp.fs.0.func.10.nc = num
-gp.fs.0.func.4 = ec.app.testar.nodes.NumOfLeftClicks
-gp.fs.0.func.4.nc = num
-gp.fs.0.func.17 = ec.app.testar.nodes.NumOfTypeActions
-gp.fs.0.func.17.nc = num
+gp.fs.0.func.14 = ec.app.testar.nodes.NumberOfActions
+gp.fs.0.func.14.nc = num
+gp.fs.0.func.15 = ec.app.testar.nodes.NumOfLeftClicks
+gp.fs.0.func.15.nc = num
+gp.fs.0.func.1 = ec.app.testar.nodes.NumOfTypeActions
+gp.fs.0.func.1.nc = number
 
 
 eval.problem = ec.app.testar.TestarProblem

@@ -2,15 +2,18 @@
 # Licensed under the Academic Free License version 3.0
 # See the file "LICENSE" for more information
 
+# Enable checkpointing
+checkpoint = true
+
 parent.0 = ../../gp/koza/koza.params
 
 generations = 4
 
-pop.subpop.0.size = 1000
+pop.subpop.0.size = 5
 
 jobs = 1
 
-select.tournament.size = 7
+select.tournament.size = 4
 breed.elite.0 = 1
 
 gp.koza.half.min-depth = 1

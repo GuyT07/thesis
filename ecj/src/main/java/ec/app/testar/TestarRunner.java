@@ -4,9 +4,10 @@ import ec.app.testar.io.StrategyWriter;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 
-public class TestarRunner {
+public class TestarRunner implements Serializable {
     private static Properties properties = Properties.getInstance();
     private String path = properties.getPathToMetricsDir();
     private int sequenceLength = properties.getSequenceLength();
@@ -20,7 +21,7 @@ public class TestarRunner {
         didTestarRun = false;
 
         nrOfTries = 0;
-        while (!didTestarRun && nrOfTries < 5) {
+        while (!didTestarRun && nrOfTries < 100) {
             counter = getCounter(counter);
             run();
             nrOfTries++;
@@ -66,15 +67,20 @@ public class TestarRunner {
     }
 
     private void waitForTestar() {
-        System.out.print("Waiting for Testar");
+        System.out.println("Waiting for Testar");
+        int timer = 0;
         try {
             while (!new File(path + "ecj_sequence_" + counter + ".csv").exists()) {
                 System.out.print(".");
+                timer += 1;
                 TimeUnit.SECONDS.sleep(1);
+                if (timer >= sequenceLength + 100 * Math.pow(2, nrOfTries)) {
+                    didTestarRun = false;
+                    return;
+                }
             }
             System.out.println(" Ready!");
             didTestarRun = true;
-            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             System.out.println("Something went wrong with waiting.");
             e.printStackTrace();

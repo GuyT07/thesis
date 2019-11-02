@@ -3,12 +3,9 @@ package ec.app.testar.io;
 import ec.app.testar.Properties;
 import ec.app.testar.Strategy;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 
-public class SimplifiedStrategyWriter {
+public class SimplifiedStrategyWriter implements Serializable {
     private static Properties properties = Properties.getInstance();
     private static final String path = properties.getPathToSimplifiedStrategy();
     private File file;
