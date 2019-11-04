@@ -40,15 +40,15 @@ This repository contains results and source code of various research experiments
 #### Notepad - GP
 | # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
 | ---------:| ------------------------:| ----------:| -----------:| ----|--------|
-| 100 | 5 | 100 | 1 | https://github.com/GuyT07/thesis/tree/notepad-gp-100-actions-5000-sequences | |
+| 100 | 5 | 100 | 10 | https://github.com/GuyT07/thesis/tree/notepad-gp-100-actions-5000-sequences | |
 
 #### VLC - GP
 | # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
 | ---------:| ------------------------:| ----------:| -----------:| ----|--------|
-| 100 | 5 | 100 | 1 | https://github.com/GuyT07/thesis/tree/vlc-gp-100-actions-5000-sequences | |
+| 100 | 5 | 100 | 10 | https://github.com/GuyT07/thesis/tree/vlc-gp-100-actions-5000-sequences | |
 
 #### Eclipse - GP
 | # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
 | ---------:| ------------------------:| ----------:| -----------:| ----|--------|
-| 100 | 5 | 100 | 1 | https://github.com/GuyT07/thesis/tree/notepad-random-100-actions-1000-sequences | |
+| 100 | 5 | 100 | 10 | https://github.com/GuyT07/thesis/tree/notepad-random-100-actions-1000-sequences | |
 
