@@ -36,3 +36,19 @@ This repository contains results and source code of various research experiments
 | # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
 | ---------:| ------------------------:| ----------:| -----------:| ----|--------|
 | 100 | 1 | 1000 | 1 | https://github.com/GuyT07/thesis/tree/vlc-random-100-actions-1000-sequences | |
+
+#### Notepad - GP
+| # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
+| ---------:| ------------------------:| ----------:| -----------:| ----|--------|
+| 100 | 5 | 100 | 1 | https://github.com/GuyT07/thesis/tree/notepad-gp-100-actions-5000-sequences | |
+
+#### VLC - GP
+| # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
+| ---------:| ------------------------:| ----------:| -----------:| ----|--------|
+| 100 | 5 | 100 | 1 | https://github.com/GuyT07/thesis/tree/vlc-gp-100-actions-5000-sequences | |
+
+#### Eclipse - GP
+| # Actions | # Sequences per strategy | Population | Generations | Url | Reason |
+| ---------:| ------------------------:| ----------:| -----------:| ----|--------|
+| 100 | 5 | 100 | 1 | https://github.com/GuyT07/thesis/tree/notepad-random-100-actions-1000-sequences | |
+
