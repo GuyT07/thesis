@@ -1,0 +1,53 @@
+Starting sequence 1 (output as: sequence2915)
+
+ExecutedAction [1]: 
+ @Action ConcreteID = ACvu9as5f81389831192 AbstractID = AAo17e3dd53900245858
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dp3fmsd51508718149
+ @State ConcreteID = SC15li0kb3dd1464300376 AbstractID = SR1h5z5w43b130577430
+ ConcreteID CUSTOM = SCfpv3bn3e21484702616 AbstractID CUSTOM = SA1sa1xey3dd3780293803
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC1vfn6rl141329374291, WR4n0dlj72701565195, WT4n0dlj72701565195, WPtu9dn3102417005042
+		ROLE = UIAEdit
+		TITLE = 
+		SHAPE = Rect [x:421.0 y:198.0 w:530.0 h:33.0]
+		CHILDREN = 0
+		PATH = [0, 0, 2]
+	DESCRIPTION = Type '...' into '
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (686.0, 214.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text ''
+
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [2]: 
+ @Action ConcreteID = AC11c670r28698917028 AbstractID = AA11c670r28698917028
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vuutft283032135670
+ @State ConcreteID = SC000 AbstractID = SR000
+ ConcreteID CUSTOM = SC000 AbstractID CUSTOM = SA000
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Detected fault: severity: 0.99999999 info: System is offline! I assume it crashed!
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [3]: 
+ @Action ConcreteID = AC11c670r28698917028 AbstractID = AA11c670r28698917028
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vuutft283032135670
+ @State ConcreteID = SC000 AbstractID = SR000
+ ConcreteID CUSTOM = SC000 AbstractID CUSTOM = SA000
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Sequence 1 finished.
+Sequence contained faults!
+Copying generated sequence ("sequence2915") to output directory...
+Copying classified sequence ("sequence2915") to sequences_unexpectedclose folder...
