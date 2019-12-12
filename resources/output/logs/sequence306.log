@@ -1,2042 +1,2575 @@
 Starting sequence 1 (output as: sequence306)
 
 ExecutedAction [1]: 
- @Action ConcreteID = ACb6hsn54f2178628268 AbstractID = AAaema904c3388992948
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4jktnr4f1671942353
- @State ConcreteID = SC1e2uyh64d4456603 AbstractID = SRv9fbun6101027773149
- ConcreteID CUSTOM = SC124o11m6563213818865 AbstractID CUSTOM = SAvfz2su65e1146416103
-
-	ROLE = HitKey
-	DESCRIPTION = Hit Key 27
-	TEXT = Compound Action =
-		Press Key 27
-		Release Key 27
-		No Operation
-
-ExecutedAction [2]: 
- @Action ConcreteID = AC4pxuw87f3637657144 AbstractID = AA4pxuw87f3637657144
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA174gt5e7e2213824839
- @State ConcreteID = SC1af239m68a2562170660 AbstractID = SR1vtdnja64b3094746436
- ConcreteID CUSTOM = SC1pycf8s6923924541236 AbstractID CUSTOM = SA1cwfyr569c107797263
+ @Action ConcreteID = ACl9y48081396562360 AbstractID = AAl9y48081396562360
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bfy642812404452417
+ @State ConcreteID = SC1xpienq33461117594765 AbstractID = SRd07h8430672118778337
+ ConcreteID CUSTOM = SC1lb72ro334e4233332599 AbstractID CUSTOM = SA1hf348m33631022333657
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCzgqboq3f2027321217, WR88rmk0b1934231702, WT1pdq8cv2c2923321407, WPpxwcqg3b4253075345
-		ROLE = UIACheckBox
-		TITLE = Skip All Breakpoints (Ctrl+Alt+B)
-		SHAPE = Rect [x:134.0 y:52.0 w:23.0 h:22.0]
+		WIDGET = WC1ujs0pc232382997846, WR4na8ob72534219213, WT4na8ob72534219213, WPhrehky1f2874690105
+		ROLE = UIATree
+		TITLE = 
+		SHAPE = Rect [x:230.0 y:64.0 w:166.0 h:572.0]
 		CHILDREN = 0
-		PATH = [0, 0, 1, 0, 0]
-	DESCRIPTION = Left Click at 'Skip All Breakpoints (Ctrl+Alt+B)'
+		PATH = [0, 0, 0, 0, 0, 0, 1, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (145.5, 63.0).
+		Move mouse to (313.0, 350.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
+Forcing SUT activation (bring to foreground) action
+ExecutedAction [2]: 
+ @Action ConcreteID = ACvvwesl3a1676971464 AbstractID = AAvvwesl3a1676971464
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAftuz6b3a1436763346
+ @State ConcreteID = SC1xpienq33461117594765 AbstractID = SRd07h8430672118778337
+ ConcreteID CUSTOM = SC1lb72ro334e4233332599 AbstractID CUSTOM = SA1hf348m33631022333657
+
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
+
+Forcing SUT activation (bring to foreground) action
 ExecutedAction [3]: 
- @Action ConcreteID = AC1umpya3f1677869345 AbstractID = AAdzm55xd43462953534
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1drykod21414546077
- @State ConcreteID = SC129u1zl64c3426909209 AbstractID = SR1l44rku60f4282251327
- ConcreteID CUSTOM = SC1y6u9uv6542618675703 AbstractID CUSTOM = SA2sdz2165e611786331
+ @Action ConcreteID = ACvvwesl3a1676971464 AbstractID = AAvvwesl3a1676971464
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAftuz6b3a1436763346
+ @State ConcreteID = SC1xpienq33461117594765 AbstractID = SRd07h8430672118778337
+ ConcreteID CUSTOM = SC1lb72ro334e4233332599 AbstractID CUSTOM = SA1hf348m33631022333657
 
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC5u9whn234208895431, WR4n0dlj72701565195, WT1upk7m6131955154019, WPb3757x1f1940289092
-		ROLE = UIAEdit
-		TITLE = Quick Access
-		SHAPE = Rect [x:293.0 y:79.0 w:96.0 h:21.0]
-		CHILDREN = 0
-		PATH = [0, 0, 9, 0]
-	DESCRIPTION = Type 'JavaSCript:alert...' into 'Quick Access
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (341.0, 89.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'JavaSCript:alert(123)'
+	DESCRIPTION = Bring the system to the foreground.
+	TEXT = Bring the system to the foreground.
 
 ExecutedAction [4]: 
- @Action ConcreteID = AC1csuza17e3234841780 AbstractID = AA1csuza17e3234841780
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vyc1wy7e50915837
- @State ConcreteID = SCoczeci6d91382198983 AbstractID = SR11v2cye6923180913635
- ConcreteID CUSTOM = SC18wggwv6c91140532752 AbstractID CUSTOM = SAwnzpwi6d82444077790
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC3mox2j24479740297, WR1e04pz3e358922214, WT1xe5qx811605016857, WPmtdqk9201364960037
-		ROLE = UIASplitButton
-		TITLE = Run
-		SHAPE = Rect [x:228.0 y:52.0 w:38.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 1, 3, 0, 1]
-	DESCRIPTION = Left Click at 'Run'
-	TEXT = Compound Action =
-		Move mouse to (247.0, 63.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [5]: 
- @Action ConcreteID = AC14azbwi7e4051222430 AbstractID = AA14azbwi7e4051222430
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAvnay1c7f1656294563
- @State ConcreteID = SCiguptz70e970876617 AbstractID = SRs9duu66cf3627915648
- ConcreteID CUSTOM = SC16ws0lz7062096709507 AbstractID CUSTOM = SAvkbjse71b3670056178
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCk5myv61b2015160918, WR1h6ibpb92248851252, WTzj707vb935461581, WPyo48hg17494111517
-		ROLE = UIAButton
-		TITLE = OK
-		SHAPE = Rect [x:440.0 y:102.0 w:92.0 h:25.0]
-		CHILDREN = 0
-		PATH = [0, 0, 3, 0]
-	DESCRIPTION = Left Click at 'OK'
-	TEXT = Compound Action =
-		Move mouse to (486.0, 114.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [6]: 
- @Action ConcreteID = ACqcix3d7f2027462857 AbstractID = AAqcix3d7f2027462857
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA19oaoee7d206726316
- @State ConcreteID = SC129u1zl64c3426909209 AbstractID = SR1l44rku60f4282251327
- ConcreteID CUSTOM = SC1y6u9uv6542618675703 AbstractID CUSTOM = SA2sdz2165e611786331
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCb3ikrs2e462157911, WR1h6ibpb92248851252, WT1f3cklr1b423562026, WP19nebg62a3949474464
-		ROLE = UIAButton
-		TITLE = Build All (Ctrl+B)
-		SHAPE = Rect [x:106.0 y:52.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3]
-	DESCRIPTION = Left Click at 'Build All (Ctrl+B)'
-	TEXT = Compound Action =
-		Move mouse to (117.5, 63.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [7]: 
- @Action ConcreteID = ACp9cqy57f3501493192 AbstractID = AAp9cqy57f3501493192
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1rnvp7b7e2341665975
- @State ConcreteID = SC1af239m68a2562170660 AbstractID = SR1vtdnja64b3094746436
- ConcreteID CUSTOM = SC1pycf8s6923924541236 AbstractID CUSTOM = SA1cwfyr569c107797263
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC41l04r2a2167715582, WR88rmk0b1934231702, WT1bkirdq132404832836, WPg9t73t263783487680
-		ROLE = UIACheckBox
-		TITLE = Resource
-		SHAPE = Rect [x:507.0 y:80.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 10, 0, 0, 4]
-	DESCRIPTION = Left Click at 'Resource'
-	TEXT = Compound Action =
-		Move mouse to (518.5, 91.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [8]: 
- @Action ConcreteID = ACsowyjb7f2885515184 AbstractID = AAsowyjb7f2885515184
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1q5gudf7e898466675
- @State ConcreteID = SC146xi3p5222360221951 AbstractID = SR1u0yy0z4eb3495037367
- ConcreteID CUSTOM = SC1xqobcu5221481740058 AbstractID CUSTOM = SA8nyadd52f3681109525
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1s6gfm3203839667842, WR17v7k2nb1067391859, WT1omh7n413746922249, WP2h7w0p1c1674573605
-		ROLE = UIAMenuItem
-		TITLE = Navigate
-		SHAPE = Rect [x:75.0 y:32.0 w:61.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 3, 2]
-	DESCRIPTION = Left Click at 'Navigate'
-	TEXT = Compound Action =
-		Move mouse to (105.5, 41.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [9]: 
- @Action ConcreteID = AC1idnlyr7f1179862661 AbstractID = AA1idnlyr7f1179862661
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5mi65u7f4101769561
- @State ConcreteID = SC1gtsml56983327910384 AbstractID = SRjdltba6521137590929
- ConcreteID CUSTOM = SC1k1b1jh67f2344286056 AbstractID CUSTOM = SA1o2ktda6861719582879
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1rottp7253779120795, WR88rmk0b1934231702, WT1nvx9gyf2324308261, WP1ld7c7h211697195266
-		ROLE = UIACheckBox
-		TITLE = Java
-		SHAPE = Rect [x:438.0 y:80.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 1, 7, 0, 0, 1]
-	DESCRIPTION = Left Click at 'Java'
-	TEXT = Compound Action =
-		Move mouse to (449.5, 91.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [10]: 
- @Action ConcreteID = AC1wi0zie7c714753868 AbstractID = AA1wi0zie7c714753868
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAx2zg3d7d264038780
- @State ConcreteID = SC3fmqmf54a524457995 AbstractID = SR1kfv2av5134103895024
- ConcreteID CUSTOM = SC1mpdme154c129703578 AbstractID CUSTOM = SAqmhjrc5582448076049
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCdfgprn1c4116076503, WR17v7k2nb1067391859, WT1qe6brdf138512687, WP1hwpd4x181691246414
-		ROLE = UIAMenuItem
-		TITLE = Edit
-		SHAPE = Rect [x:41.0 y:32.0 w:34.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 3, 1]
-	DESCRIPTION = Left Click at 'Edit'
-	TEXT = Compound Action =
-		Move mouse to (58.0, 41.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [11]: 
- @Action ConcreteID = AC1kdjv5t7e3264953657 AbstractID = AA1kdjv5t7e3264953657
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1m9fkw47f792708409
- @State ConcreteID = SCgx43u87ab1406332249 AbstractID = SR1y7en1d7631884935243
- ConcreteID CUSTOM = SCsd2lr79a4273209030 AbstractID CUSTOM = SA149iv5b7a64275428895
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1lp22g5264292352951, WR1e04pz3e358922214, WT1nrspw4134064192791, WP1p1mm9f22951011319
-		ROLE = UIASplitButton
-		TITLE = Debug
-		SHAPE = Rect [x:162.0 y:52.0 w:38.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 1, 2, 0, 0]
-	DESCRIPTION = Left Click at 'Debug'
-	TEXT = Compound Action =
-		Move mouse to (181.0, 63.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [12]: 
- @Action ConcreteID = AC1akaa0r7e2045214507 AbstractID = AA1akaa0r7e2045214507
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1cg5zr27f2487453483
- @State ConcreteID = SCgx43u87ab1406332249 AbstractID = SR1y7en1d7631884935243
- ConcreteID CUSTOM = SCsd2lr79a4273209030 AbstractID CUSTOM = SA149iv5b7a64275428895
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1t2g1oe1f1600108252, WR17v7k2nb1067391859, WT1q6069m122944502186, WP1rt5mq41b2104094276
-		ROLE = UIAMenuItem
-		TITLE = Project
-		SHAPE = Rect [x:293.0 y:32.0 w:51.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 4, 6]
-	DESCRIPTION = Left Click at 'Project'
-	TEXT = Compound Action =
-		Move mouse to (318.5, 41.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [13]: 
- @Action ConcreteID = AC1bqse1i7e1082633020 AbstractID = AA1bqse1i7e1082633020
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAo0kqn17e2803349757
- @State ConcreteID = SC7bl52l6222951273591 AbstractID = SR1h9lfbm5e83430660461
- ConcreteID CUSTOM = SCdtpldf6272543702314 AbstractID CUSTOM = SAvmm7oc6381643669231
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCmf2rj51e92195339, WR17v7k2nb1067391859, WTh4pr2y11146075878, WPzqv6b31a3739100763
-		ROLE = UIAMenuItem
-		TITLE = Source
-		SHAPE = Rect [x:75.0 y:32.0 w:50.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 3, 2]
-	DESCRIPTION = Left Click at 'Source'
-	TEXT = Compound Action =
-		Move mouse to (100.0, 41.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [14]: 
- @Action ConcreteID = ACk0jq107f3789172796 AbstractID = AAk0jq107f3789172796
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3y3ff47e3609100647
- @State ConcreteID = SC11b9jbl8142936627098 AbstractID = SR1sjid77c7217137297
- ConcreteID CUSTOM = SC1lny3qw7f93911083452 AbstractID CUSTOM = SA99qf908082004975296
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC6j3aia2a3530692110, WR1h6ibpb92248851252, WT11hqpu0171526300448, WP18c6csg263024064758
-		ROLE = UIAButton
-		TITLE = Tip of the Day
-		SHAPE = Rect [x:300.0 y:83.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 2, 2, 0, 0]
-	DESCRIPTION = Left Click at 'Tip of the Day'
-	TEXT = Compound Action =
-		Move mouse to (311.5, 94.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [15]: 
- @Action ConcreteID = AC1pamby67f129945955 AbstractID = AA1pamby67f129945955
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA19861ca7e830103608
- @State ConcreteID = SC11b9jbl8142936627098 AbstractID = SR1sjid77c7217137297
- ConcreteID CUSTOM = SC1lny3qw7f93911083452 AbstractID CUSTOM = SA99qf908082004975296
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC17bt9fi2e4088508069, WR88rmk0b1934231702, WT1uq08b9183191110118, WP459a402a2628914716
-		ROLE = UIACheckBox
-		TITLE = Java Browsing
-		SHAPE = Rect [x:484.0 y:80.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 1, 9, 0, 0, 3]
-	DESCRIPTION = Left Click at 'Java Browsing'
-	TEXT = Compound Action =
-		Move mouse to (495.5, 91.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [16]: 
- @Action ConcreteID = AC1996eu453796849839 AbstractID = AAbtn9ih503845336362
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAr6s9e44e4061578304
- @State ConcreteID = SC129u1zl64c3426909209 AbstractID = SR1l44rku60f4282251327
- ConcreteID CUSTOM = SC1y6u9uv6542618675703 AbstractID CUSTOM = SA2sdz2165e611786331
-
-	ROLE = HitKey
-	DESCRIPTION = Hit Key 27
-	TEXT = Compound Action =
-		Press Key 27
-		Release Key 27
-		No Operation
-
-ExecutedAction [17]: 
- @Action ConcreteID = AC1uu50lae82460773246 AbstractID = AAdzm55xd43462953534
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1drykod21414546077
- @State ConcreteID = SC129u1zl64c3426909209 AbstractID = SR1l44rku60f4282251327
- ConcreteID CUSTOM = SC1y6u9uv6542618675703 AbstractID CUSTOM = SA2sdz2165e611786331
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC5u9whn234208895431, WR4n0dlj72701565195, WT1upk7m6131955154019, WPb3757x1f1940289092
-		ROLE = UIAEdit
-		TITLE = Quick Access
-		SHAPE = Rect [x:293.0 y:79.0 w:96.0 h:21.0]
-		CHILDREN = 0
-		PATH = [0, 0, 9, 0]
-	DESCRIPTION = Type '1,000,000.00' into 'Quick Access
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (341.0, 89.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '1,000,000.00'
-
-ExecutedAction [18]: 
- @Action ConcreteID = AC1smq8cs7d3736844171 AbstractID = AA1smq8cs7d3736844171
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1w70fn07e1782069554
- @State ConcreteID = SCtlicw86db962608139 AbstractID = SR11v2cye6923180913635
- ConcreteID CUSTOM = SC12c0z1w6c928149047 AbstractID CUSTOM = SAwnzpwi6d82444077790
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC15qcoso2e1649911900, WR1e04pz3e358922214, WTaocbwu1b2980317179, WPl5tady2a1664908038
-		ROLE = UIASplitButton
-		TITLE = Run Last Tool
-		SHAPE = Rect [x:266.0 y:52.0 w:38.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 1, 3, 0, 2]
-	DESCRIPTION = Left Click at 'Run Last Tool'
-	TEXT = Compound Action =
-		Move mouse to (285.0, 63.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [19]: 
- @Action ConcreteID = AC1j4jiff7f911762573 AbstractID = AA1j4jiff7f911762573
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1jnp08l7e2133354234
- @State ConcreteID = SC1i5aoakb972753225751 AbstractID = SR1yjz5raf63477936612
- ConcreteID CUSTOM = SCrt5dleb8c690427891 AbstractID CUSTOM = SAffb515b7d3787305508
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCb2wnk5402783382546, WR5quxi6b4097176690, WT1uhbb0m123361825299, WPgxps8n3c789781023
-		ROLE = UIATreeItem
-		TITLE = Program
-		SHAPE = Rect [x:57.0 y:178.0 w:50.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1]
-	DESCRIPTION = Left Click at 'Program'
-	TEXT = Compound Action =
-		Move mouse to (82.0, 187.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [20]: 
- @Action ConcreteID = AC102cdfc108230547519 AbstractID = AA157xmsgd51784033643
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA8b9k6jd52946016967
- @State ConcreteID = SC179hyz5b3e1865572420 AbstractID = SR6ioby6abd454629883
- ConcreteID CUSTOM = SC545q31b302718408004 AbstractID CUSTOM = SA112hj3eb3e2391452718
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC1saf9fa42509173950, WR4n0dlj72701565195, WTy11x3a172944709664, WP1maffes3e965217445
-		ROLE = UIAEdit
-		TITLE = type filter text
-		SHAPE = Rect [x:19.0 y:134.0 w:169.0 h:21.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
-	DESCRIPTION = Type 'But now...[20Cf...' into 'type filter text
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (103.5, 144.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text 'But now...[20Cfor my greatest trick...[8m'
-
-ExecutedAction [21]: 
- @Action ConcreteID = ACmk3hd17e331878371 AbstractID = AAmk3hd17e331878371
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1sifgm17d3791876455
- @State ConcreteID = SC8d060q64d1453902726 AbstractID = SR1l44rku60f4282251327
- ConcreteID CUSTOM = SCbxhd3n65491550242 AbstractID CUSTOM = SA2sdz2165e611786331
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1riqwq82f171653244, WR1e04pz3e358922214, WT97yt8l1c4154433503, WPg2dofy2b1232957983
-		ROLE = UIASplitButton
-		TITLE = External Tools
-		SHAPE = Rect [x:266.0 y:52.0 w:38.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 3, 0, 2]
-	DESCRIPTION = Left Click at 'External Tools'
-	TEXT = Compound Action =
-		Move mouse to (285.0, 63.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [22]: 
- @Action ConcreteID = AC1mng120f3780558706 AbstractID = AAv69iyfd43569707350
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7gwspod32563258349
- @State ConcreteID = SC101gr6hb533215713844 AbstractID = SR1xtmp1xad02062660405
- ConcreteID CUSTOM = SC15gu9pqb443035686863 AbstractID CUSTOM = SArs880eb501739088366
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC1as67rs1767163870, WR4n0dlj72701565195, WT4n0dlj72701565195, WPskqll6131280528131
-		ROLE = UIAEdit
-		TITLE = 
-		SHAPE = Rect [x:19.0 y:64.0 w:698.0 h:33.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 3]
-	DESCRIPTION = Type '👾 🙇 💁 🙅 🙆 ?...' into '
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (368.0, 80.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '👾 🙇 💁 🙅 🙆 🙋 🙎 🙍'
-
-ExecutedAction [23]: 
- @Action ConcreteID = AC1wd258r7f3546288108 AbstractID = AA1wd258r7f3546288108
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA12t6oei7f841790644
- @State ConcreteID = SC141dvlzb3f923062920 AbstractID = SR6ioby6abd454629883
- ConcreteID CUSTOM = SC545q31b302718408004 AbstractID CUSTOM = SAcx1e0sb3d1525181799
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCtkp79f5b3903799467, WR1h6ibpb92248851252, WTz0tl0z364273144617, WP1c79zkh572252673112
-		ROLE = UIAButton
-		TITLE = Collapses all expanded launch configurations.
-		SHAPE = Rect [x:137.0 y:105.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5]
-	DESCRIPTION = Left Click at 'Collapses all expanded launch configurations.'
-	TEXT = Compound Action =
-		Move mouse to (148.5, 116.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [24]: 
- @Action ConcreteID = AC1u905yh7f978999702 AbstractID = AA1u905yh7f978999702
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10p4p487f3675710158
- @State ConcreteID = SC141dvlzb3f923062920 AbstractID = SR6ioby6abd454629883
- ConcreteID CUSTOM = SC545q31b302718408004 AbstractID CUSTOM = SAcx1e0sb3d1525181799
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCoku33m32940728805, WR4na8ob72534219213, WT4na8ob72534219213, WPgwkikg2e166060183
-		ROLE = UIATree
-		TITLE = 
-		SHAPE = Rect [x:19.0 y:160.0 w:169.0 h:390.0]
-		CHILDREN = 2
-		PATH = [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0]
-	DESCRIPTION = Left Click at ''
-	TEXT = Compound Action =
-		Move mouse to (103.5, 355.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [25]: 
- @Action ConcreteID = AC3vhmvt7e3385004830 AbstractID = AA3vhmvt7e3385004830
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ssc0u27e2346734421
- @State ConcreteID = SC141dvlzb3f923062920 AbstractID = SR6ioby6abd454629883
- ConcreteID CUSTOM = SC545q31b302718408004 AbstractID CUSTOM = SAcx1e0sb3d1525181799
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCkh84o9243333389591, WR88rmk0b1934231702, WT88rmk0b1934231702, WP1bocjuf201538219083
-		ROLE = UIACheckBox
-		TITLE = 
-		SHAPE = Rect [x:19.0 y:591.0 w:31.0 h:30.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 1, 0, 0]
-	DESCRIPTION = Left Click at ''
-	TEXT = Compound Action =
-		Move mouse to (34.5, 606.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [26]: 
- @Action ConcreteID = AC4im1ee4886521089 AbstractID = AA1bquf9yd3351930216
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1mac54yd41010177886
- @State ConcreteID = SC2ho60mdf7540100167 AbstractID = SR1852my3d4d2058589321
- ConcreteID CUSTOM = SC619c6udf13853952488 AbstractID CUSTOM = SA1gf3orve0c466037397
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCe9j6f74a83538550, WR4n9zi27465102038, WT1x24d8w1f4109832377, WP14suw0h463987021461
-		ROLE = UIAText
-		TITLE = Launching a Java program
-		SHAPE = Rect [x:825.0 y:302.0 w:140.0 h:15.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 2, 0, 0, 0, 1, 0, 2]
-	DESCRIPTION = Type '--version' into 'Launching a Java program
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (895.0, 309.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '--version'
-
-ExecutedAction [27]: 
- @Action ConcreteID = AC1q3mbqc7f1821004218 AbstractID = AA1q3mbqc7f1821004218
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1wddol37e2787843604
- @State ConcreteID = SC1ovpqxaf551656439657 AbstractID = SR18ced0ze931727716278
- ConcreteID CUSTOM = SCyuh9wlf4c264844283 AbstractID CUSTOM = SA1ma3f9tf5b526698395
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1wf6x592d4144046307, WR1h6ibpb92248851252, WT1k0epja1a503128032, WPea4vx7292381464437
-		ROLE = UIAButton
-		TITLE = Bookmark document
-		SHAPE = Rect [x:903.0 y:31.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 0, 3]
-	DESCRIPTION = Left Click at 'Bookmark document'
-	TEXT = Compound Action =
-		Move mouse to (914.5, 42.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [28]: 
- @Action ConcreteID = AC192sccede389936307 AbstractID = AAibqg39d53123421253
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAb49094d41558519433
- @State ConcreteID = SC1ovpqxaf551656439657 AbstractID = SR18ced0ze931727716278
- ConcreteID CUSTOM = SCyuh9wlf4c264844283 AbstractID CUSTOM = SA1ma3f9tf5b526698395
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC1saf9fa42509173950, WR4n0dlj72701565195, WTy11x3a172944709664, WP1maffes3e965217445
-		ROLE = UIAEdit
-		TITLE = type filter text
-		SHAPE = Rect [x:19.0 y:134.0 w:169.0 h:21.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
-	DESCRIPTION = Type '-' into 'type filter text
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (103.5, 144.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '-'
-
-ExecutedAction [29]: 
- @Action ConcreteID = AC1v11n2s7f1470909620 AbstractID = AA1v11n2s7f1470909620
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1cdmw7a7f1215101426
- @State ConcreteID = SC1b1omevf6a2759171866 AbstractID = SR1p1jsycea61346637955
- ConcreteID CUSTOM = SC1v54qacf61704035511 AbstractID CUSTOM = SA1xlom9zf6e1011745880
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1wf6x592d4144046307, WR1h6ibpb92248851252, WT1k0epja1a503128032, WPea4vx7292381464437
-		ROLE = UIAButton
-		TITLE = Bookmark document
-		SHAPE = Rect [x:903.0 y:31.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 0, 3]
-	DESCRIPTION = Left Click at 'Bookmark document'
-	TEXT = Compound Action =
-		Move mouse to (914.5, 42.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [30]: 
- @Action ConcreteID = AC12um4qoac1491234536 AbstractID = AA12um4qoac1491234536
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1t0dkwqad1557456330
- @State ConcreteID = SCgnueg1f424001351124 AbstractID = SR8ojgnoe801870874594
- ConcreteID CUSTOM = SCf3juh0f371434589734 AbstractID CUSTOM = SA1qfx2y5f473035602613
-
-	ROLE = LeftDrag
-	DESCRIPTION = Drag (1018.0, 166.0) To (1018.0, 446.6666666666667)
-	TEXT = Compound Action =
-		Move mouse to (1018.0, 166.0).
-		Press Mouse Button BUTTON1
-		Move mouse to (1018.0, 446.6666666666667).
-		Release Mouse Button BUTTON1
-
-ExecutedAction [31]: 
- @Action ConcreteID = ACsoof0ac584244033 AbstractID = AAsoof0ac584244033
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7z7v3wac2601737806
- @State ConcreteID = SCmy67ohf251741324730 AbstractID = SR13rdige742753302337
- ConcreteID CUSTOM = SC11jxv4jf1f3806184932 AbstractID CUSTOM = SA1y2iq05f34312305821
-
-	ROLE = LeftDrag
-	DESCRIPTION = Drag (1018.0, 538.5605920444034) To (1018.0, 586.0)
-	TEXT = Compound Action =
-		Move mouse to (1018.0, 538.5605920444034).
-		Press Mouse Button BUTTON1
-		Move mouse to (1018.0, 586.0).
-		Release Mouse Button BUTTON1
-
-ExecutedAction [32]: 
- @Action ConcreteID = ACq5hsdbaa300705331 AbstractID = AAq5hsdbaa300705331
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA7umoraac1737385838
- @State ConcreteID = SCpr1r49f7b60881641 AbstractID = SRqxhp90ec23562125348
- ConcreteID CUSTOM = SCqxc74wf741064397435 AbstractID CUSTOM = SAonpeyuf862196145064
-
-	ROLE = LeftDrag
-	DESCRIPTION = Drag (1018.0, 567.0) To (1018.0, 441.6666666666667)
-	TEXT = Compound Action =
-		Move mouse to (1018.0, 567.0).
-		Press Mouse Button BUTTON1
-		Move mouse to (1018.0, 441.6666666666667).
-		Release Mouse Button BUTTON1
-
-ExecutedAction [33]: 
- @Action ConcreteID = AC1uj7od5b9566430709 AbstractID = AA1uj7od5b9566430709
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbzeuw3ba3351696010
- @State ConcreteID = SC9qm5awf152996496579 AbstractID = SR1nmv1hie574029652172
- ConcreteID CUSTOM = SC3xhuwyf0c2451582968 AbstractID CUSTOM = SA1vqttamf1a1623354415
-
-	ROLE = LeftDrag
-	DESCRIPTION = Drag (1018.0, 383.94634597594825) To (1018.0, 446.6666666666667)
-	TEXT = Compound Action =
-		Move mouse to (1018.0, 383.94634597594825).
-		Press Mouse Button BUTTON1
-		Move mouse to (1018.0, 446.6666666666667).
-		Release Mouse Button BUTTON1
-
-ExecutedAction [34]: 
- @Action ConcreteID = ACg7ngsi7e1039887325 AbstractID = AAg7ngsi7e1039887325
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmop9kc7f3854718615
- @State ConcreteID = SC15ly5zdeeb645633429 AbstractID = SR1c48qc0e3a1071205867
- ConcreteID CUSTOM = SC9woyd0ee42151726947 AbstractID CUSTOM = SA1d5frw5ef82207928063
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1l0a12c2c2322345840, WR1h6ibpb92248851252, WT1u0b2tt193937611019, WPq60bzm281347365064
-		ROLE = UIAButton
-		TITLE = Show in Contents
-		SHAPE = Rect [x:857.0 y:31.0 w:23.0 h:22.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 0, 1]
-	DESCRIPTION = Left Click at 'Show in Contents'
-	TEXT = Compound Action =
-		Move mouse to (868.5, 42.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [35]: 
- @Action ConcreteID = AC1txg4v97e1263259129 AbstractID = AA1txg4v97e1263259129
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAzw8t4r812756014139
- @State ConcreteID = SC80iitfd3239444513 AbstractID = SR3ij2y0f132455942429
- ConcreteID CUSTOM = SCtihhzyfbf283996508 AbstractID CUSTOM = SA1kehj60fc84215828501
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCm5y5n12f1599590806, WR1h6ibpb92248851252, WTrko51k10351550260, WP1gr7cyj2b3798967782
-		ROLE = UIAButton
-		TITLE = Line up
-		SHAPE = Rect [x:1009.0 y:152.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 0, 0]
-	DESCRIPTION = Left Click at 'Line up'
-	TEXT = Compound Action =
-		Move mouse to (1017.5, 160.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [36]: 
- @Action ConcreteID = AC5ene51801491812568 AbstractID = AA5ene51801491812568
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA11xyapa802157381904
- @State ConcreteID = SC1ci6tnoffc3908739411 AbstractID = SR1xordybf3a1394361826
- ConcreteID CUSTOM = SC1pwt4m5fe9185329158 AbstractID CUSTOM = SA1d202flff94121755534
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCf3tqyc3a3607309513, WR5quxi6b4097176690, WT2yzkh1e4170217936, WP1quflpi361820224564
-		ROLE = UIATreeItem
-		TITLE = Using the Scrapbook
-		SHAPE = Rect [x:869.0 y:368.0 w:113.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 6]
-	DESCRIPTION = Left Click at 'Using the Scrapbook'
-	TEXT = Compound Action =
-		Move mouse to (925.5, 377.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [37]: 
- @Action ConcreteID = ACqskrt7a0290138669 AbstractID = AAqskrt7a0290138669
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAsi2hsma03977078544
- @State ConcreteID = SC1c590xme60968026767 AbstractID = SRhzvghqdb6515789988
- ConcreteID CUSTOM = SC1ohksyie5a719683344 AbstractID CUSTOM = SAhofs3le693137205628
-
-	ROLE = LeftDrag
-	DESCRIPTION = Drag (1018.0, 166.0) To (1018.0, 586.0)
-	TEXT = Compound Action =
-		Move mouse to (1018.0, 166.0).
-		Press Mouse Button BUTTON1
-		Move mouse to (1018.0, 586.0).
-		Release Mouse Button BUTTON1
-
-ExecutedAction [38]: 
- @Action ConcreteID = ACrbth23801452650730 AbstractID = AArbth23801452650730
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA11b6mey7f1568426358
- @State ConcreteID = SC1nvf26mf3f1921681405 AbstractID = SR1dxf85pe889609281
- ConcreteID CUSTOM = SC5nbh4ef371645822577 AbstractID CUSTOM = SA1ua08isf49161658389
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCtg08x7562896702338, WR1ca707tc1438424989, WT10lhuq0282743668872, WPjk2wil52689756348
-		ROLE = UIAHyperLink
-		TITLE = Java development tools (JDT)
-		SHAPE = Rect [x:807.0 y:280.0 w:192.0 h:19.0]
-		CHILDREN = 1
-		PATH = [0, 0, 4, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 4]
-	DESCRIPTION = Left Click at 'Java development tools (JDT)'
-	TEXT = Compound Action =
-		Move mouse to (903.0, 289.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [39]: 
- @Action ConcreteID = AC1vjh0up803524257672 AbstractID = AA1vjh0up803524257672
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fs1i547f3600090846
- @State ConcreteID = SC1fjefb2f662291879519 AbstractID = SRsl1onreb02584569702
- ConcreteID CUSTOM = SCongprnf5e3384856005 AbstractID CUSTOM = SA1h5qm66f71140234381
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCjinfsc4e1373549157, WR1ca707tc1438424989, WTjuhmra1f2773424281, WP1ezhvju4a1194133621
-		ROLE = UIAHyperLink
-		TITLE = Refactoring support
-		SHAPE = Rect [x:807.0 y:592.0 w:128.0 h:18.0]
-		CHILDREN = 1
-		PATH = [0, 0, 4, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 12]
-	DESCRIPTION = Left Click at 'Refactoring support'
-	TEXT = Compound Action =
-		Move mouse to (871.0, 601.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [40]: 
- @Action ConcreteID = ACv7jinye12119758897 AbstractID = AAupgqc8d43610625045
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAo1fowfd4234627531
- @State ConcreteID = SCwlf3bzed81638660626 AbstractID = SR2d7cj0e221197751678
- ConcreteID CUSTOM = SCkfogh0ed32252591699 AbstractID CUSTOM = SAy7g77cedf3128251931
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC14yu44g46998725427, WR4n9zi27465102038, WT1mrt40z143286729766, WPc4jaaa42951597012
-		ROLE = UIAText
-		TITLE = Refactor menu
-		SHAPE = Rect [x:831.0 y:619.0 w:101.0 h:19.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 13, 0]
-	DESCRIPTION = Type '-1.00' into 'Refactor menu
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (881.5, 628.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '-1.00'
-
-ExecutedAction [41]: 
- @Action ConcreteID = AC16pfl3j7f827498628 AbstractID = AA16pfl3j7f827498628
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA37mzzs7f2049876465
- @State ConcreteID = SCwlf3bzed81638660626 AbstractID = SR2d7cj0e221197751678
- ConcreteID CUSTOM = SCkfogh0ed32252591699 AbstractID CUSTOM = SAy7g77cedf3128251931
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCiwa89p482126279531, WR1ca707tc1438424989, WTlxfu3o194241607493, WP8ffjqj442580486947
-		ROLE = UIAHyperLink
-		TITLE = Refactor menu
-		SHAPE = Rect [x:831.0 y:619.0 w:101.0 h:19.0]
-		CHILDREN = 1
-		PATH = [0, 0, 4, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 13]
-	DESCRIPTION = Left Click at 'Refactor menu'
-	TEXT = Compound Action =
-		Move mouse to (881.5, 628.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [42]: 
- @Action ConcreteID = AC1josa887f1753698064 AbstractID = AA1josa887f1753698064
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAg6zp4h7f603672165
- @State ConcreteID = SCwlf3bzed81638660626 AbstractID = SR2d7cj0e221197751678
- ConcreteID CUSTOM = SCkfogh0ed32252591699 AbstractID CUSTOM = SAy7g77cedf3128251931
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC15mc989463138000849, WR1ca707tc1438424989, WTjo89s21a356895357, WPsoz6sr421884576366
-		ROLE = UIAHyperLink
-		TITLE = 'Perspectives'
-		SHAPE = Rect [x:454.0 y:420.0 w:71.0 h:15.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 12, 0]
-	DESCRIPTION = Left Click at ''Perspectives''
-	TEXT = Compound Action =
-		Move mouse to (489.5, 427.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [43]: 
- @Action ConcreteID = AC5icxrz812693201270 AbstractID = AA5icxrz812693201270
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA19c80j57f2727874709
- @State ConcreteID = SC1amca8t15e12201249238 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SCzes9n15ce1229617231 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1yudxr3411923365474, WR5quxi6b4097176690, WT67d1i8163749295876, WP1b9y9v13d3493728813
-		ROLE = UIATreeItem
-		TITLE = Gradle Task
-		SHAPE = Rect [x:250.0 y:316.0 w:63.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 1]
-	DESCRIPTION = Left Click at 'Gradle Task'
-	TEXT = Compound Action =
-		Move mouse to (281.5, 325.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [44]: 
- @Action ConcreteID = AC17c4kcw813660965240 AbstractID = AA17c4kcw813660965240
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArqrduv7e2859360561
- @State ConcreteID = SC1hydyhg15a21696392448 AbstractID = SR1dysln614631230150696
- ConcreteID CUSTOM = SCaeemol15933167549389 AbstractID CUSTOM = SAr2eelk157331835164
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1jj7gdq4d2266848739, WR5quxi6b4097176690, WT1igjbzk1f1144040324, WPqd1qjk492643392813
-		ROLE = UIATreeItem
-		TITLE = Eclipse Ant Launcher
-		SHAPE = Rect [x:266.0 y:298.0 w:114.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 0, 0]
-	DESCRIPTION = Left Click at 'Eclipse Ant Launcher'
-	TEXT = Compound Action =
-		Move mouse to (323.0, 307.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [45]: 
- @Action ConcreteID = AC18vixk7813588965539 AbstractID = AA18vixk7813588965539
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdo9yc97f3623201088
- @State ConcreteID = SC1amca8t15e12201249238 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SCzes9n15ce1229617231 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCf0wkro3c3212159279, WRa3fnoge3263686876, WTc4g7j8144206818792, WP1bea9hy383836153759
-		ROLE = UIARadioButton
-		TITLE = Prompt
-		SHAPE = Rect [x:339.0 y:183.0 w:61.0 h:16.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 3, 0, 2]
-	DESCRIPTION = Left Click at 'Prompt'
-	TEXT = Compound Action =
-		Move mouse to (369.5, 191.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [46]: 
- @Action ConcreteID = AC1o4s3u8813677687749 AbstractID = AA1o4s3u8813677687749
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAsxj4ma7f3643531814
- @State ConcreteID = SC1amca8t15e12201249238 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SCzes9n15ce1229617231 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCjsqv2m3b2292910094, WRa3fnoge3263686876, WTyq2ci4132577190482, WP1a1d2kg371822660951
-		ROLE = UIARadioButton
-		TITLE = Never
-		SHAPE = Rect [x:279.0 y:134.0 w:52.0 h:16.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 2, 0, 1]
-	DESCRIPTION = Left Click at 'Never'
-	TEXT = Compound Action =
-		Move mouse to (305.0, 142.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [47]: 
- @Action ConcreteID = AC1ic69zq811867132873 AbstractID = AA1ic69zq811867132873
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAn4xars7f1834271274
- @State ConcreteID = SC1amca8t15e12201249238 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SCzes9n15ce1229617231 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1eqtag93f2595630030, WR5quxi6b4097176690, WT1cdwtav142657438390, WP1jszp4n3b1108470783
-		ROLE = UIATreeItem
-		TITLE = Ant Build
-		SHAPE = Rect [x:250.0 y:280.0 w:53.0 h:18.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 0]
-	DESCRIPTION = Left Click at 'Ant Build'
-	TEXT = Compound Action =
-		Move mouse to (276.5, 289.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [48]: 
- @Action ConcreteID = AC149axkv814211080088 AbstractID = AA149axkv814211080088
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA921ycx7f4175500923
- @State ConcreteID = SC1amca8t15e12201249238 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SCzes9n15ce1229617231 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1jj7gdq4d2266848739, WR5quxi6b4097176690, WT1igjbzk1f1144040324, WPqd1qjk492643392813
-		ROLE = UIATreeItem
-		TITLE = Eclipse Ant Launcher
-		SHAPE = Rect [x:266.0 y:298.0 w:114.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 0, 0]
-	DESCRIPTION = Left Click at 'Eclipse Ant Launcher'
-	TEXT = Compound Action =
-		Move mouse to (323.0, 307.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [49]: 
- @Action ConcreteID = ACl55g7if12485140535 AbstractID = AA1h1sb2kd4470404681
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAiwps0qd22516062363
- @State ConcreteID = SC1amca8t15e12201249238 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SCzes9n15ce1229617231 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCvwwpgq332458417444, WR4n0dlj72701565195, WTy11x3a172944709664, WP172e7oc2f3007774637
-		ROLE = UIAEdit
-		TITLE = type filter text
-		SHAPE = Rect [x:15.0 y:38.0 w:166.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0]
-	DESCRIPTION = Type '🇺🇸🇷🇺🇸 🇦🇫?...' into 'type filter text
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (98.0, 48.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '🇺🇸🇷🇺🇸 🇦🇫🇦🇲🇸'
-
-ExecutedAction [50]: 
- @Action ConcreteID = AC166p43j803735244542 AbstractID = AA166p43j803735244542
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3xt3zf7f2842751309
- @State ConcreteID = SCeys8vz15e23799880062 AbstractID = SRpdyeyt149d152960945
- ConcreteID CUSTOM = SC244c1k15cd3357811946 AbstractID CUSTOM = SAg4adt15af1624077125
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1lliep73b927517717, WR5quxi6b4097176690, WT19kfzbk101372256793, WP1h5k9bt371852329803
-		ROLE = UIATreeItem
-		TITLE = JUnit
-		SHAPE = Rect [x:250.0 y:388.0 w:30.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 5]
-	DESCRIPTION = Left Click at 'JUnit'
-	TEXT = Compound Action =
-		Move mouse to (265.0, 397.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [51]: 
- @Action ConcreteID = AC1g34y23803550742071 AbstractID = AA1g34y23803550742071
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAb5bqg07f2453914712
- @State ConcreteID = SCwm8r3g15784021554656 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCyk0s5n15681018670569 AbstractID CUSTOM = SAkmt851154c796849008
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1n051f4333447468820, WR1h6ibpb92248851252, WT1ub8x67e219175306, WP18o491a2f2726915768
-		ROLE = UIAButton
-		TITLE = Apply
-		SHAPE = Rect [x:646.0 y:606.0 w:92.0 h:25.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 7, 1]
-	DESCRIPTION = Left Click at 'Apply'
-	TEXT = Compound Action =
-		Move mouse to (692.0, 618.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [52]: 
- @Action ConcreteID = ACjvfxsr804131914635 AbstractID = AAjvfxsr804131914635
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dyqs5s7f3081748964
- @State ConcreteID = SCwm8r3g15784021554656 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCyk0s5n15681018670569 AbstractID CUSTOM = SAkmt851154c796849008
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1czqsom4b1962884023, WR4na8ob72534219213, WT9tqjaw23995001038, WPxfr6eg474053059178
-		ROLE = UIATree
-		TITLE = Application Types/Launchers:
-		SHAPE = Rect [x:210.0 y:278.0 w:241.0 h:318.0]
-		CHILDREN = 11
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1]
-	DESCRIPTION = Left Click at 'Application Types/Launchers:'
-	TEXT = Compound Action =
-		Move mouse to (330.5, 437.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [53]: 
- @Action ConcreteID = AC5ge3nf803089556987 AbstractID = AA5ge3nf803089556987
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAzjoy0g7f4190185364
- @State ConcreteID = SCwm8r3g15784021554656 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCyk0s5n15681018670569 AbstractID CUSTOM = SAkmt851154c796849008
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCfp95ko383499523227, WR1h6ibpb92248851252, WT1gjzbmxd1262302430, WPutr4ue34587974169
-		ROLE = UIAButton
-		TITLE = Open
-		SHAPE = Rect [x:717.0 y:299.0 w:15.0 h:21.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 1, 3, 0]
-	DESCRIPTION = Left Click at 'Open'
-	TEXT = Compound Action =
-		Move mouse to (724.5, 309.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [54]: 
- @Action ConcreteID = AC3hqqtq802038516250 AbstractID = AA3hqqtq802038516250
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA16rp2ws811157802911
- @State ConcreteID = SChgzthw172f3454778564 AbstractID = SR1q2kiiu15df3018855122
- ConcreteID CUSTOM = SC1ola1mb172c425277704 AbstractID CUSTOM = SA14brl7o17101473506087
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCwxs87m3d4030100275, WR5quxi6b4097176690, WT1uhbb0m123361825299, WPe0y3ts391996308102
-		ROLE = UIATreeItem
-		TITLE = Program
-		SHAPE = Rect [x:250.0 y:442.0 w:50.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 8]
-	DESCRIPTION = Left Click at 'Program'
-	TEXT = Compound Action =
-		Move mouse to (275.0, 451.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [55]: 
- @Action ConcreteID = AC4nz8hm803232238309 AbstractID = AA4nz8hm803232238309
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAyra2un7f2169489546
- @State ConcreteID = SCwm8r3g15784021554656 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCyk0s5n15681018670569 AbstractID CUSTOM = SAkmt851154c796849008
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCytq37n412405735298, WR5quxi6b4097176690, WT18mb0oq163383256522, WP1iduwb53d1376639191
-		ROLE = UIATreeItem
-		TITLE = Java Applet
-		SHAPE = Rect [x:250.0 y:352.0 w:64.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 3]
-	DESCRIPTION = Left Click at 'Java Applet'
-	TEXT = Compound Action =
-		Move mouse to (282.0, 361.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [56]: 
- @Action ConcreteID = ACt5u496804125971989 AbstractID = AAt5u496804125971989
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14vz4ko811330150269
- @State ConcreteID = SChtuwxb15b71789462442 AbstractID = SRiuaarz14773602449266
- ConcreteID CUSTOM = SC8fnl3w15a32850007270 AbstractID CUSTOM = SA16yquxq15881316736037
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCqagbsi3c2139398062, WRa3fnoge3263686876, WT4xlz9r141056286155, WPclgcys383130973910
-		ROLE = UIARadioButton
-		TITLE = Always
-		SHAPE = Rect [x:213.0 y:134.0 w:58.0 h:16.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 2, 0, 0]
-	DESCRIPTION = Left Click at 'Always'
-	TEXT = Compound Action =
-		Move mouse to (242.0, 142.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [57]: 
- @Action ConcreteID = ACimnx5e801254066366 AbstractID = AAimnx5e801254066366
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAucsxgw814028278230
- @State ConcreteID = SChtuwxb15b71789462442 AbstractID = SRiuaarz14773602449266
- ConcreteID CUSTOM = SC8fnl3w15a32850007270 AbstractID CUSTOM = SA16yquxq15881316736037
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1t9x1ws461740943361, WR5quxi6b4097176690, WTy9wprk1b842635888, WP56ieyi423297483837
-		ROLE = UIATreeItem
-		TITLE = Java Application
-		SHAPE = Rect [x:250.0 y:370.0 w:90.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 4]
-	DESCRIPTION = Left Click at 'Java Application'
-	TEXT = Compound Action =
-		Move mouse to (295.0, 379.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [58]: 
- @Action ConcreteID = AC1ihczws80822494088 AbstractID = AA1ihczws80822494088
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdjjsap7f1893827047
- @State ConcreteID = SCwm8r3g15784021554656 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCyk0s5n15681018670569 AbstractID CUSTOM = SAkmt851154c796849008
+ @Action ConcreteID = AC177jvr4811933039284 AbstractID = AA177jvr4811933039284
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1xdjxn6813955609933
+ @State ConcreteID = SC1xpienq33461117594765 AbstractID = SRd07h8430672118778337
+ ConcreteID CUSTOM = SC1lb72ro334e4233332599 AbstractID CUSTOM = SA1hf348m33631022333657
 
 	ROLE = LeftClickAt
 	TARGET =
 		WIDGET = WC1l8e5ol3c1944037809, WRa3fnoge3263686876, WTc4g7j8144206818792, WPiknsfr38671944449
 		ROLE = UIARadioButton
 		TITLE = Prompt
-		SHAPE = Rect [x:339.0 y:134.0 w:61.0 h:16.0]
+		SHAPE = Rect [x:554.0 y:134.0 w:61.0 h:16.0]
 		CHILDREN = 0
 		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 2, 0, 2]
 	DESCRIPTION = Left Click at 'Prompt'
 	TEXT = Compound Action =
-		Move mouse to (369.5, 142.0).
+		Move mouse to (584.5, 142.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [59]: 
- @Action ConcreteID = ACjv0dwn803497134625 AbstractID = AAjv0dwn803497134625
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dyb89o7f2442512462
- @State ConcreteID = SCwm8r3g15784021554656 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCyk0s5n15681018670569 AbstractID CUSTOM = SAkmt851154c796849008
+ExecutedAction [5]: 
+ @Action ConcreteID = AC19bo39jfd4010950882 AbstractID = AAzn6m0td4589047099
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAr9j2m5d44071666217
+ @State ConcreteID = SClbmngp33502983418380 AbstractID = SR1p8o4c630672575214619
+ ConcreteID CUSTOM = SC19nqhx73367886167476 AbstractID CUSTOM = SA40frxl335b2858717637
 
-	ROLE = LeftClickAt
+	ROLE = ClickTypeInto
 	TARGET =
-		WIDGET = WC7ikahp3e1189033496, WR1h6ibpb92248851252, WT29quub193353596121, WP127sdij3a2458028588
-		ROLE = UIAButton
-		TITLE = Restore Defaults
-		SHAPE = Rect [x:544.0 y:606.0 w:97.0 h:25.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 7, 0]
-	DESCRIPTION = Left Click at 'Restore Defaults'
+		WIDGET = WC1q4yysm5d111697802, WR4n0dlj72701565195, WT1qay5xe412867157268, WPbniza059336240125
+		ROLE = UIAEdit
+		TITLE = <A HREF=JAVA123456781112SCRIPT:JAVASCRIPT:ALERT 0 matches.
+		SHAPE = Rect [x:230.0 y:38.0 w:166.0 h:21.0]
+		CHILDREN = 1
+		PATH = [0, 0, 0, 0, 0, 0, 0, 0]
+	DESCRIPTION = Type 'Powerلُلُصّبُلُل...' into '<A HREF=JAVA123456781112SCRIPT:JAVASCRIPT:ALERT 0 matches.
 	TEXT = Compound Action =
-		Move mouse to (592.5, 618.5).
+		Compound Action =
+		Move mouse to (313.0, 48.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text 'Powerلُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗'
 
-ExecutedAction [60]: 
- @Action ConcreteID = ACizzpzl802870161216 AbstractID = AAizzpzl802870161216
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAuq4qb381297140776
- @State ConcreteID = SChtuwxb15b71789462442 AbstractID = SRiuaarz14773602449266
- ConcreteID CUSTOM = SC8fnl3w15a32850007270 AbstractID CUSTOM = SA16yquxq15881316736037
+ExecutedAction [6]: 
+ @Action ConcreteID = ACbzbyvkb82847271170 AbstractID = AAbzbyvkb82847271170
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1maxq26b8818706386
+ @State ConcreteID = SC12h1hoa333c44762523 AbstractID = SR19zep8430672932907377
+ ConcreteID CUSTOM = SC1eqi4uo33402236364117 AbstractID CUSTOM = SAy0s4b33731805528491
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 317.1326779788367) To (1184.0, 272.3333333333333)
+	TEXT = Compound Action =
+		Move mouse to (1184.0, 317.1326779788367).
+		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 272.3333333333333).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [7]: 
+ @Action ConcreteID = ACt9cw4r803425698016 AbstractID = AAt9cw4r803425698016
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAadwbjl80618909017
+ @State ConcreteID = SC25785333741431217395 AbstractID = SR1becc1e309b3649309523
+ ConcreteID CUSTOM = SCpklhx0337c2095200879 AbstractID CUSTOM = SA4myi3u33a93457369582
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1yudxr3411923365474, WR5quxi6b4097176690, WT67d1i8163749295876, WP1b9y9v13d3493728813
+		WIDGET = WC1720n7r4d2272879262, WR5quxi6b4097176690, WT1j0fo4u222940225510, WP1egv2dx492292172968
+		ROLE = UIATreeItem
+		TITLE = Remote Java Application
+		SHAPE = Rect [x:465.0 y:460.0 w:134.0 h:18.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 9]
+	DESCRIPTION = Left Click at 'Remote Java Application'
+	TEXT = Compound Action =
+		Move mouse to (532.0, 469.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [8]: 
+ @Action ConcreteID = AC24dq35802530964433 AbstractID = AA24dq35802530964433
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14xm56y81955787224
+ @State ConcreteID = SC7dtlpr33383581208020 AbstractID = SRol2byd3061298588167
+ ConcreteID CUSTOM = SC15mj5f7333e900393527 AbstractID CUSTOM = SA1a88amd336d3286017984
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCfwxhhs3d810978998, WR5quxi6b4097176690, WT1uhbb0m123361825299, WP1w17f32393063792387
+		ROLE = UIATreeItem
+		TITLE = Program
+		SHAPE = Rect [x:465.0 y:442.0 w:50.0 h:18.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 8]
+	DESCRIPTION = Left Click at 'Program'
+	TEXT = Compound Action =
+		Move mouse to (490.0, 451.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [9]: 
+ @Action ConcreteID = ACh2eke6bb2605824787 AbstractID = AAh2eke6bb2605824787
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ifo3l9bc4002474405
+ @State ConcreteID = SCdrherl33364248349111 AbstractID = SRol2byd3061298588167
+ ConcreteID CUSTOM = SC19kgxud333f1230945734 AbstractID CUSTOM = SA1a88amd336d3286017984
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 331.76732828251204) To (1184.0, 223.33333333333331)
+	TEXT = Compound Action =
+		Move mouse to (1184.0, 331.76732828251204).
+		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 223.33333333333331).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [10]: 
+ @Action ConcreteID = AC1vfs0dl803419767405 AbstractID = AA1vfs0dl803419767405
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA96flgs802161963779
+ @State ConcreteID = SC624o6532544078181595 AbstractID = SR1yv5djh2f92652234596
+ ConcreteID CUSTOM = SC168g2tj3262660566259 AbstractID CUSTOM = SA1qed1mh3291639150254
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1htj719412999240679, WR5quxi6b4097176690, WT67d1i8163749295876, WPu93j573d274657192
 		ROLE = UIATreeItem
 		TITLE = Gradle Task
-		SHAPE = Rect [x:250.0 y:316.0 w:63.0 h:18.0]
+		SHAPE = Rect [x:465.0 y:316.0 w:63.0 h:18.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 1]
+		PATH = [2, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 1]
 	DESCRIPTION = Left Click at 'Gradle Task'
 	TEXT = Compound Action =
-		Move mouse to (281.5, 325.0).
+		Move mouse to (496.5, 325.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [61]: 
- @Action ConcreteID = AC1gicmju804109468359 AbstractID = AA1gicmju804109468359
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAylig7k7f2256902543
- @State ConcreteID = SCa2t58i15783517712718 AbstractID = SRe2h80s143d1639577431
- ConcreteID CUSTOM = SCcy73sk15681790279778 AbstractID CUSTOM = SAkmt851154c796849008
+ExecutedAction [11]: 
+ @Action ConcreteID = AC17tzx85813801188613 AbstractID = AA17tzx85813801188613
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdk4gcy811221643307
+ @State ConcreteID = SC624o6532544078181595 AbstractID = SR1yv5djh2f92652234596
+ ConcreteID CUSTOM = SC168g2tj3262660566259 AbstractID CUSTOM = SA1qed1mh3291639150254
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCn9c817483752926987, WR5quxi6b4097176690, WT1sgw8o01c3247834811, WP11oql25442400542926
-		ROLE = UIATreeItem
-		TITLE = Task Context Test
-		SHAPE = Rect [x:250.0 y:478.0 w:94.0 h:18.0]
+		WIDGET = WCqiehzw3d2476962778, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP1xhr66m39332945074
+		ROLE = UIAButton
+		TITLE = Cancel
+		SHAPE = Rect [x:987.0 y:308.0 w:60.0 h:24.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 10]
-	DESCRIPTION = Left Click at 'Task Context Test'
+		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0]
+	DESCRIPTION = Left Click at 'Cancel'
 	TEXT = Compound Action =
-		Move mouse to (297.0, 487.0).
+		Move mouse to (1017.0, 320.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [62]: 
- @Action ConcreteID = ACr9fad3803108509015 AbstractID = AAr9fad3803108509015
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA12zkaol8165878079
- @State ConcreteID = SChtuwxb15b71789462442 AbstractID = SRiuaarz14773602449266
- ConcreteID CUSTOM = SC8fnl3w15a32850007270 AbstractID CUSTOM = SA16yquxq15881316736037
+ExecutedAction [12]: 
+ @Action ConcreteID = ACtozryq7f895132789 AbstractID = AAtozryq7f895132789
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArtc5f37f956271952
+ @State ConcreteID = SC624o6532544078181595 AbstractID = SR1yv5djh2f92652234596
+ ConcreteID CUSTOM = SC168g2tj3262660566259 AbstractID CUSTOM = SA1qed1mh3291639150254
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1u7qaby393135179342, WR17qbaneb3904637586, WTd76kr5112973204438, WP1ucjzr4352663086122
-		ROLE = UIAComboBox
-		TITLE = Debug:
-		SHAPE = Rect [x:509.0 y:298.0 w:224.0 h:23.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 1, 3]
-	DESCRIPTION = Left Click at 'Debug:'
+		WIDGET = WCcumb4d553610394715, WRa3fnoge3263686876, WT1xcfht32d2183240952, WP168oyin511453407184
+		ROLE = UIARadioButton
+		TITLE = Show only the following topics:
+		SHAPE = Rect [x:758.0 y:58.0 w:13.0 h:13.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+	DESCRIPTION = Left Click at 'Show only the following topics:'
 	TEXT = Compound Action =
-		Move mouse to (621.0, 309.5).
+		Move mouse to (764.5, 64.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [63]: 
- @Action ConcreteID = AC14s19fy7f4057195016 AbstractID = AA14s19fy7f4057195016
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1yf3309812951134398
- @State ConcreteID = SCq61chg176e690626086 AbstractID = SR1rjv3wh16191489607640
- ConcreteID CUSTOM = SC1pcnzmt17692018704746 AbstractID CUSTOM = SA1vghwel174c2748711907
+ExecutedAction [13]: 
+ @Action ConcreteID = AC1noy21pba1930720123 AbstractID = AA1noy21pba1930720123
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAblti1sba43013135
+ @State ConcreteID = SC624o6532544078181595 AbstractID = SR1yv5djh2f92652234596
+ ConcreteID CUSTOM = SC168g2tj3262660566259 AbstractID CUSTOM = SA1qed1mh3291639150254
 
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCso3pec371349166960, WR17qbaneb3904637586, WT162souxf3547793938, WP1rf916u332501890802
-		ROLE = UIAComboBox
-		TITLE = Run:
-		SHAPE = Rect [x:509.0 y:326.0 w:224.0 h:23.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 1, 5]
-	DESCRIPTION = Left Click at 'Run:'
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 346.4019785861874) To (1184.0, 239.66666666666666)
 	TEXT = Compound Action =
-		Move mouse to (621.0, 337.5).
+		Move mouse to (1184.0, 346.4019785861874).
 		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 239.66666666666666).
 		Release Mouse Button BUTTON1
 
-ExecutedAction [64]: 
- @Action ConcreteID = AC97zppq801593019998 AbstractID = AA97zppq801593019998
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAky4q18813830883126
- @State ConcreteID = SChtuwxb15b71789462442 AbstractID = SRiuaarz14773602449266
- ConcreteID CUSTOM = SC8fnl3w15a32850007270 AbstractID CUSTOM = SA16yquxq15881316736037
+ExecutedAction [14]: 
+ @Action ConcreteID = AC6b3p6iba768735682 AbstractID = AA6b3p6iba768735682
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4a2mihbb1680760333
+ @State ConcreteID = SCkioc732bc3766042750 AbstractID = SRj7fa442ff03622486282
+ ConcreteID CUSTOM = SCjjuu1332c33285538020 AbstractID CUSTOM = SA50o3pi32f91658541242
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 361.03662888986287) To (1184.0, 419.33333333333337)
+	TEXT = Compound Action =
+		Move mouse to (1184.0, 361.03662888986287).
+		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 419.33333333333337).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [15]: 
+ @Action ConcreteID = ACnst32680748848700 AbstractID = AAnst32680748848700
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAqhbd367f1195349883
+ @State ConcreteID = SCj83tzc32a84211700869 AbstractID = SRyg4v4o2fdc3718237036
+ ConcreteID CUSTOM = SC2327c32ae2527226410 AbstractID CUSTOM = SA1bpmdp332e291968682
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1h4wf81413995525424, WR5quxi6b4097176690, WT67d4h9161433932333, WP1nxrz6n3d1724852675
+		WIDGET = WC1041oi741776346805, WR5quxi6b4097176690, WT67d4h9161433932333, WP16wx8gt3d2796540998
 		ROLE = UIATreeItem
 		TITLE = Gradle Test
-		SHAPE = Rect [x:250.0 y:334.0 w:61.0 h:18.0]
+		SHAPE = Rect [x:465.0 y:334.0 w:61.0 h:18.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 2]
+		PATH = [2, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 2]
 	DESCRIPTION = Left Click at 'Gradle Test'
 	TEXT = Compound Action =
-		Move mouse to (280.5, 343.0).
+		Move mouse to (495.5, 343.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [65]: 
- @Action ConcreteID = ACmixeia80807357903 AbstractID = AAmixeia80807357903
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAy92ets812327470247
- @State ConcreteID = SChtuwxb15b71789462442 AbstractID = SRiuaarz14773602449266
- ConcreteID CUSTOM = SC8fnl3w15a32850007270 AbstractID CUSTOM = SA16yquxq15881316736037
+ExecutedAction [16]: 
+ @Action ConcreteID = ACk97hxk7f3881134802 AbstractID = AAk97hxk7f3881134802
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14et7jl804237548419
+ @State ConcreteID = SC477cou32e62133661552 AbstractID = SR15psvbf30164236753923
+ ConcreteID CUSTOM = SC11gor5532eb2600820925 AbstractID CUSTOM = SA1wpuff6331e1278774162
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC161obdn253829880921, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP1t7g365213269012091
+		WIDGET = WC61tnnp44427041499, WR1h6ibpb92248851252, WT19v964f22383585301, WPxc0ad3403711132354
 		ROLE = UIAButton
-		TITLE = Cancel
-		SHAPE = Rect [x:634.0 y:651.0 w:98.0 h:25.0]
+		TITLE = Additional Dialog Actions
+		SHAPE = Rect [x:930.0 y:38.0 w:23.0 h:22.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 2, 1, 1]
-	DESCRIPTION = Left Click at 'Cancel'
+		PATH = [2, 0, 0, 0, 3, 0, 0, 1, 0, 2]
+	DESCRIPTION = Left Click at 'Additional Dialog Actions'
 	TEXT = Compound Action =
-		Move mouse to (683.0, 663.5).
+		Move mouse to (941.5, 49.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [66]: 
- @Action ConcreteID = AC5rpiaue93929658033 AbstractID = AAu1dtrnd5254703816
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1g8usbad5372727039
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [17]: 
+ @Action ConcreteID = AC3308bw7f598003876 AbstractID = AA3308bw7f598003876
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1leux0j801938875673
+ @State ConcreteID = SCl3v8n23324490604859 AbstractID = SR5duc6s30513790097012
+ ConcreteID CUSTOM = SC1brd34833272995054293 AbstractID CUSTOM = SA65mcys33581791381520
 
-	ROLE = ClickTypeInto
+	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCsbulkw4b2805851840, WR4n9zi27465102038, WT1qhli1p173733703880, WPnsre7m472552034596
-		ROLE = UIAText
-		TITLE = Refresh the page
-		SHAPE = Rect [x:179.0 y:247.0 w:114.0 h:21.0]
+		WIDGET = WC1rrrnl9481117980761, WR5quxi6b4097176690, WT1sgw8o01c3247834811, WP761yn344302479260
+		ROLE = UIATreeItem
+		TITLE = Task Context Test
+		SHAPE = Rect [x:465.0 y:478.0 w:94.0 h:18.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 0]
-	DESCRIPTION = Type '1 000 000,00' into 'Refresh the page
+		PATH = [2, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 10]
+	DESCRIPTION = Left Click at 'Task Context Test'
 	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (236.0, 257.5).
+		Move mouse to (512.0, 487.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '1 000 000,00'
 
-ExecutedAction [67]: 
- @Action ConcreteID = ACdwi7x69e2558582971 AbstractID = AAdwi7x69e2558582971
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA16bupzr9e727357888
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [18]: 
+ @Action ConcreteID = AC1ttdr0y801777283688 AbstractID = AA1ttdr0y801777283688
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fd2b7t811972934075
+ @State ConcreteID = SC477cou32e62133661552 AbstractID = SR15psvbf30164236753923
+ ConcreteID CUSTOM = SC11gor5532eb2600820925 AbstractID CUSTOM = SA1wpuff6331e1278774162
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC18kfg401e2794874248, WR1h6ibpb92248851252, WT1ukehihe2665448566, WP2rwwg21a487372740
+		ROLE = UIAButton
+		TITLE = Retry
+		SHAPE = Rect [x:932.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Retry'
+	TEXT = Compound Action =
+		Move mouse to (978.0, 540.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [19]: 
+ @Action ConcreteID = AC1bvy07ca2123730671 AbstractID = AA1bvy07ca2123730671
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAgyeolba34150541884
+ @State ConcreteID = SC477cou32e62133661552 AbstractID = SR15psvbf30164236753923
+ ConcreteID CUSTOM = SC11gor5532eb2600820925 AbstractID CUSTOM = SA1wpuff6331e1278774162
 
 	ROLE = LeftDrag
-	DESCRIPTION = Drag (63.0, 636.0) To (778.0, 636.0)
+	DESCRIPTION = Drag (1009.0, 676.0) To (1117.25, 676.0)
 	TEXT = Compound Action =
-		Move mouse to (63.0, 636.0).
+		Move mouse to (1009.0, 676.0).
 		Press Mouse Button BUTTON1
-		Move mouse to (778.0, 636.0).
+		Move mouse to (1117.25, 676.0).
 		Release Mouse Button BUTTON1
 
-ExecutedAction [68]: 
- @Action ConcreteID = AC1mk8arj9e3345859294 AbstractID = AA1mk8arj9e3345859294
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfygqv09e1958198181
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [20]: 
+ @Action ConcreteID = ACz940o9811246932643 AbstractID = AAz940o9811246932643
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1pa3nmx813843700625
+ @State ConcreteID = SC1etz344318e4019889774 AbstractID = SR1pbxbhf2ee11404374425
+ ConcreteID CUSTOM = SC1k15nbi31942509827221 AbstractID CUSTOM = SA110yjt431c81689056877
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1sthj6l393794252944, WR1h6ibpb92248851252, WTzj707vb935461581, WPxn1ebz35109506712
+		ROLE = UIAButton
+		TITLE = OK
+		SHAPE = Rect [x:917.0 y:308.0 w:60.0 h:24.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'OK'
+	TEXT = Compound Action =
+		Move mouse to (947.0, 320.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [21]: 
+ @Action ConcreteID = ACvx1osebb4200986890 AbstractID = AAvx1osebb4200986890
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA11ryg2bba1580406915
+ @State ConcreteID = SC1jgg695334c2088833231 AbstractID = SR14ba79f30832557880863
+ ConcreteID CUSTOM = SC1ob5luc3351868569958 AbstractID CUSTOM = SA9rg5i533851301410302
 
 	ROLE = LeftDrag
-	DESCRIPTION = Drag (759.0, 636.0) To (50.0, 636.0)
+	DESCRIPTION = Drag (1184.0, 375.6712791935383) To (1184.0, 484.66666666666663)
 	TEXT = Compound Action =
-		Move mouse to (759.0, 636.0).
+		Move mouse to (1184.0, 375.6712791935383).
 		Press Mouse Button BUTTON1
-		Move mouse to (50.0, 636.0).
+		Move mouse to (1184.0, 484.66666666666663).
 		Release Mouse Button BUTTON1
 
-ExecutedAction [69]: 
- @Action ConcreteID = ACbm986d803403708768 AbstractID = AAbm986d803403708768
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA6mrun6803186973663
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCbe6p5a321615889601, WR4n4ygb71694219017, WT4n4ygb71694219017, WP1gctbbw2e3058703441
-		ROLE = UIAList
-		TITLE = 
-		SHAPE = Rect [x:139.0 y:188.0 w:700.0 h:80.0]
-		CHILDREN = 3
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
-	DESCRIPTION = Left Click at ''
-	TEXT = Compound Action =
-		Move mouse to (489.0, 228.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [70]: 
- @Action ConcreteID = AC1gwkrj1803373350764 AbstractID = AA1gwkrj1803373350764
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1bx3dzu803187940819
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC11ismg4491480754989, WR52qhb2b3065858412, WTz5alkx1b1829372459, WP1q39kie452994992068
-		ROLE = UIAListItem
-		TITLE = Refresh the page
-		SHAPE = Rect [x:179.0 y:247.0 w:660.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2]
-	DESCRIPTION = Left Click at 'Refresh the page'
-	TEXT = Compound Action =
-		Move mouse to (509.0, 257.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [71]: 
- @Action ConcreteID = ACq2yal5803774301640 AbstractID = AAq2yal5803774301640
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAl3gx1y802548197239
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1t0633r7a3141651434, WR52qhb2b3065858412, WT1kpen2q4c1671090269, WP5xtmw9762311505829
-		ROLE = UIAListItem
-		TITLE = Make sure the web address https://accounts.eclipse.org is correct
-		SHAPE = Rect [x:179.0 y:188.0 w:660.0 h:21.0]
-		CHILDREN = 3
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
-	DESCRIPTION = Left Click at 'Make sure the web address https://accounts.eclipse.org is correct'
-	TEXT = Compound Action =
-		Move mouse to (509.0, 198.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [72]: 
- @Action ConcreteID = ACbm986d803403708768 AbstractID = AAbm986d803403708768
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA6mrun6803186973663
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCbe6p5a321615889601, WR4n4ygb71694219017, WT4n4ygb71694219017, WP1gctbbw2e3058703441
-		ROLE = UIAList
-		TITLE = 
-		SHAPE = Rect [x:139.0 y:188.0 w:700.0 h:80.0]
-		CHILDREN = 3
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
-	DESCRIPTION = Left Click at ''
-	TEXT = Compound Action =
-		Move mouse to (489.0, 228.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [73]: 
- @Action ConcreteID = ACdwi7x69e2558582971 AbstractID = AAdwi7x69e2558582971
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA16bupzr9e727357888
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [22]: 
+ @Action ConcreteID = ACiknfv5af1711699900 AbstractID = AAiknfv5af1711699900
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1yu17o1af3873690029
+ @State ConcreteID = SC1etz344318e4019889774 AbstractID = SR1pbxbhf2ee11404374425
+ ConcreteID CUSTOM = SC1k15nbi31942509827221 AbstractID CUSTOM = SA110yjt431c81689056877
 
 	ROLE = LeftDrag
-	DESCRIPTION = Drag (63.0, 636.0) To (778.0, 636.0)
+	DESCRIPTION = Drag (1125.0013280212484, 676.0) To (1112.25, 676.0)
 	TEXT = Compound Action =
-		Move mouse to (63.0, 636.0).
+		Move mouse to (1125.0013280212484, 676.0).
 		Press Mouse Button BUTTON1
-		Move mouse to (778.0, 636.0).
+		Move mouse to (1112.25, 676.0).
 		Release Mouse Button BUTTON1
 
-ExecutedAction [74]: 
- @Action ConcreteID = ACnshxty806391037 AbstractID = AAnshxty806391037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAit0kar802004133442
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [23]: 
+ @Action ConcreteID = AC1wyxjhe81627314728 AbstractID = AA1wyxjhe81627314728
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAnyt4gy812318174490
+ @State ConcreteID = SC1etz344318e4019889774 AbstractID = SR1pbxbhf2ee11404374425
+ ConcreteID CUSTOM = SC1k15nbi31942509827221 AbstractID CUSTOM = SA110yjt431c81689056877
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11ismg4491480754989, WR52qhb2b3065858412, WTz5alkx1b1829372459, WP1q39kie452994992068
-		ROLE = UIAListItem
-		TITLE = Refresh the page
-		SHAPE = Rect [x:159.0 y:247.0 w:660.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2]
-	DESCRIPTION = Left Click at 'Refresh the page'
+		WIDGET = WCm0ttxi331182569000, WR1h6ibpb92248851252, WT19ol5bi201271121736, WP1nsbmz82f4152554115
+		ROLE = UIAButton
+		TITLE = Show in external window
+		SHAPE = Rect [x:1000.0 y:31.0 w:23.0 h:22.0]
+		CHILDREN = 0
+		PATH = [2, 0, 4, 0, 0]
+	DESCRIPTION = Left Click at 'Show in external window'
 	TEXT = Compound Action =
-		Move mouse to (489.0, 257.5).
+		Move mouse to (1011.5, 42.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [75]: 
- @Action ConcreteID = ACnshxty806391037 AbstractID = AAnshxty806391037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAit0kar802004133442
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [24]: 
+ @Action ConcreteID = AC12dmdjm813926515473 AbstractID = AA12dmdjm813926515473
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fbaf16804145334283
+ @State ConcreteID = SC1jrv7dm1a051843549607 AbstractID = SR180rivy18b3484119417
+ ConcreteID CUSTOM = SC1ph5yfk1a074165340883 AbstractID CUSTOM = SA28wyma1a023557256491
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11ismg4491480754989, WR52qhb2b3065858412, WTz5alkx1b1829372459, WP1q39kie452994992068
-		ROLE = UIAListItem
-		TITLE = Refresh the page
-		SHAPE = Rect [x:159.0 y:247.0 w:660.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2]
-	DESCRIPTION = Left Click at 'Refresh the page'
+		WIDGET = WCnirjcf4d1862978882, WR5quxi6b4097176690, WT1igjbzk1f1144040324, WP1tdpvhd491972988300
+		ROLE = UIATreeItem
+		TITLE = Eclipse Ant Launcher
+		SHAPE = Rect [x:481.0 y:298.0 w:114.0 h:18.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 0, 0]
+	DESCRIPTION = Left Click at 'Eclipse Ant Launcher'
 	TEXT = Compound Action =
-		Move mouse to (489.0, 257.5).
+		Move mouse to (538.0, 307.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [76]: 
- @Action ConcreteID = ACrm6wpv80480009686 AbstractID = AArm6wpv80480009686
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmmpj6o801804173161
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [25]: 
+ @Action ConcreteID = AC1w18jao80415686698 AbstractID = AA1w18jao80415686698
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAo17i7l801417638507
+ @State ConcreteID = SC12ohc7230d8620178232 AbstractID = SR123a5yv2dd23759645730
+ ConcreteID CUSTOM = SCxyjkj330cc606494522 AbstractID CUSTOM = SA1zt55z30a01324559979
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCbe6p5a321615889601, WR4n4ygb71694219017, WT4n4ygb71694219017, WP1gctbbw2e3058703441
-		ROLE = UIAList
+		WIDGET = WCz9jd1u45349894743, WRceq816b3820106996, WTceq816b3820106996, WP8bt3us41986965489
+		ROLE = UIADataItem
 		TITLE = 
-		SHAPE = Rect [x:119.0 y:188.0 w:700.0 h:80.0]
-		CHILDREN = 3
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+		SHAPE = Rect [x:590.0 y:160.0 w:5.0 h:18.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0]
 	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (469.0, 228.0).
+		Move mouse to (592.5, 169.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [77]: 
- @Action ConcreteID = ACnshxty806391037 AbstractID = AAnshxty806391037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAit0kar802004133442
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [26]: 
+ @Action ConcreteID = AC78d929ad2366394222 AbstractID = AA78d929ad2366394222
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1x2magwad1463281560
+ @State ConcreteID = SC12ohc7230d8620178232 AbstractID = SR123a5yv2dd23759645730
+ ConcreteID CUSTOM = SCxyjkj330cc606494522 AbstractID CUSTOM = SA1zt55z30a01324559979
 
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC11ismg4491480754989, WR52qhb2b3065858412, WTz5alkx1b1829372459, WP1q39kie452994992068
-		ROLE = UIAListItem
-		TITLE = Refresh the page
-		SHAPE = Rect [x:159.0 y:247.0 w:660.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2]
-	DESCRIPTION = Left Click at 'Refresh the page'
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 375.6712791935383) To (1184.0, 158.0)
 	TEXT = Compound Action =
-		Move mouse to (489.0, 257.5).
+		Move mouse to (1184.0, 375.6712791935383).
 		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 158.0).
 		Release Mouse Button BUTTON1
 
-ExecutedAction [78]: 
- @Action ConcreteID = ACnshxty806391037 AbstractID = AAnshxty806391037
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAit0kar802004133442
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [27]: 
+ @Action ConcreteID = AC18u9miz801336389100 AbstractID = AA18u9miz801336389100
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAu8lfw8052314029
+ @State ConcreteID = SC12ohc7230d8620178232 AbstractID = SR123a5yv2dd23759645730
+ ConcreteID CUSTOM = SCxyjkj330cc606494522 AbstractID CUSTOM = SA1zt55z30a01324559979
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11ismg4491480754989, WR52qhb2b3065858412, WTz5alkx1b1829372459, WP1q39kie452994992068
-		ROLE = UIAListItem
-		TITLE = Refresh the page
-		SHAPE = Rect [x:159.0 y:247.0 w:660.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2]
-	DESCRIPTION = Left Click at 'Refresh the page'
+		WIDGET = WC1u8gn55d1656932558, WR5quxi6b4097176690, WTgc6kmv121073039181, WPqzf8y7592311524234
+		ROLE = UIATreeItem
+		TITLE = Merging
+		SHAPE = Rect [x:166.0 y:456.0 w:67.0 h:16.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 10, 4]
+	DESCRIPTION = Left Click at 'Merging'
 	TEXT = Compound Action =
-		Move mouse to (489.0, 257.5).
+		Move mouse to (199.5, 464.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [79]: 
- @Action ConcreteID = AC157i6bo803941489545 AbstractID = AA157i6bo803941489545
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1080ssh802650503478
- @State ConcreteID = SCgjtvyr12593053108150 AbstractID = SR1dww0zw11574143013359
- ConcreteID CUSTOM = SC2nfgfs12573100067381 AbstractID CUSTOM = SAan4z61124b4095499142
+ExecutedAction [28]: 
+ @Action ConcreteID = AC1tx1ym980450416973 AbstractID = AA1tx1ym980450416973
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAd1w64p813620032490
+ @State ConcreteID = SC1pd9b4r3016465244936 AbstractID = SR1p0aecu2d191773793195
+ ConcreteID CUSTOM = SC4hgcv630141560920476 AbstractID CUSTOM = SA1gxthj42fe92548000820
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC11u842o281118356852, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WPcn6hgu241944056555
+		WIDGET = WCl8xnkb463930869219, WR5quxi6b4097176690, WTy9wprk1b842635888, WPw6n2l5421224958431
+		ROLE = UIATreeItem
+		TITLE = Java Application
+		SHAPE = Rect [x:465.0 y:370.0 w:90.0 h:18.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 4]
+	DESCRIPTION = Left Click at 'Java Application'
+	TEXT = Compound Action =
+		Move mouse to (510.0, 379.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [29]: 
+ @Action ConcreteID = AC1w9b1tfae2283691319 AbstractID = AA1w9b1tfae2283691319
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1qegxlaaf565479997
+ @State ConcreteID = SC8rlcsw30163689609709 AbstractID = SR1p0aecu2d191773793195
+ ConcreteID CUSTOM = SCxcor5s30143953810978 AbstractID CUSTOM = SA1gxthj42fe92548000820
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1688.0, 553.184668989547) To (1688.0, 666.375)
+	TEXT = Compound Action =
+		Move mouse to (1688.0, 553.184668989547).
+		Press Mouse Button BUTTON1
+		Move mouse to (1688.0, 666.375).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [30]: 
+ @Action ConcreteID = AC1xwv46w812509736751 AbstractID = AA1xwv46w812509736751
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1yicbg180652798658
+ @State ConcreteID = SC17t3q6g2e8a3461863465 AbstractID = SR1azmoum2bbe628091592
+ ConcreteID CUSTOM = SC1xmo3962e8d2725852577 AbstractID CUSTOM = SA1x2qj22e6a2897672153
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1mef3cy692404501452, WR5quxi6b4097176690, WT1vhuiq211066834254, WP1y9ku9g654060431479
+		ROLE = UIATreeItem
+		TITLE = EGit Contributor Guide
+		SHAPE = Rect [x:148.0 y:589.0 w:143.0 h:16.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 12]
+	DESCRIPTION = Left Click at 'EGit Contributor Guide'
+	TEXT = Compound Action =
+		Move mouse to (219.5, 597.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [31]: 
+ @Action ConcreteID = ACmrti1q811243084703 AbstractID = AAmrti1q811243084703
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1u1sw7o801185457672
+ @State ConcreteID = SC1h15hsk302f2463783293 AbstractID = SRn1oyll2d4d4184824461
+ ConcreteID CUSTOM = SCjuh68f301e3531979219 AbstractID CUSTOM = SAhzbmo72ff53146601138
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC19awuf03e3070571442, WR1h6ibpb92248851252, WT29quub193353596121, WP4z0vgq3a1666748294
 		ROLE = UIAButton
-		TITLE = Cancel
-		SHAPE = Rect [x:727.0 y:670.0 w:92.0 h:25.0]
+		TITLE = Restore Defaults
+		SHAPE = Rect [x:759.0 y:606.0 w:97.0 h:25.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 0, 1, 0, 0]
-	DESCRIPTION = Left Click at 'Cancel'
-	TEXT = Compound Action =
-		Move mouse to (773.0, 682.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [80]: 
- @Action ConcreteID = AC15jjpw9ed2847039742 AbstractID = AA1gzrd1vd31271747843
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA4jsbb4d32729681934
- @State ConcreteID = SCsvpum9ed91255077866 AbstractID = SR2d7cj0e221197751678
- ConcreteID CUSTOM = SC16pvwm5ed43475024179 AbstractID CUSTOM = SAy7g77cedf3128251931
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC1as67rs1767163870, WR4n0dlj72701565195, WT4n0dlj72701565195, WPskqll6131280528131
-		ROLE = UIAEdit
-		TITLE = 
-		SHAPE = Rect [x:19.0 y:64.0 w:698.0 h:33.0]
-		CHILDREN = 0
-		PATH = [0, 0, 0, 3]
-	DESCRIPTION = Type '0xffffffffffffff...' into '
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (368.0, 80.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '0xffffffffffffffff'
-
-ExecutedAction [81]: 
- @Action ConcreteID = AC1gku7ky7f1729794780 AbstractID = AA1gku7ky7f1729794780
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAd31mh77f744919977
- @State ConcreteID = SCwlf3bzed81638660626 AbstractID = SR2d7cj0e221197751678
- ConcreteID CUSTOM = SCkfogh0ed32252591699 AbstractID CUSTOM = SAy7g77cedf3128251931
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WCn3zut455161194959, WR1ca707tc1438424989, WT1bvnf69272660390963, WP1x4ps1651184590311
-		ROLE = UIAHyperLink
-		TITLE = Java development user guide
-		SHAPE = Rect [x:807.0 y:126.0 w:154.0 h:16.0]
-		CHILDREN = 1
-		PATH = [0, 0, 4, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
-	DESCRIPTION = Left Click at 'Java development user guide'
-	TEXT = Compound Action =
-		Move mouse to (884.0, 134.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-
-ExecutedAction [82]: 
- @Action ConcreteID = ACos2blb7f2082620073 AbstractID = AAos2blb7f2082620073
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAe6v8m2801926087804
- @State ConcreteID = SCqqn7e2ff72014349116 AbstractID = SR1aa26c1f3a2639303231
- ConcreteID CUSTOM = SCs9d9bufeb3436178200 AbstractID CUSTOM = SA1h9t3tvff92084438578
-
-	ROLE = LeftClickAt
-	TARGET =
-		WIDGET = WC1ue0vb8331447243601, WR1h6ibpb92248851252, WTmroimq144285515309, WPichl8y2f4114015450
-		ROLE = UIAButton
-		TITLE = Column left
-		SHAPE = Rect [x:799.0 y:610.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 1, 0]
-	DESCRIPTION = Left Click at 'Column left'
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 7, 0]
+	DESCRIPTION = Left Click at 'Restore Defaults'
 	TEXT = Compound Action =
 		Move mouse to (807.5, 618.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
-ExecutedAction [83]: 
- @Action ConcreteID = ACq34fvk7f828399806 AbstractID = AAq34fvk7f828399806
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfhxcwb801066395243
- @State ConcreteID = SCqqn7e2ff72014349116 AbstractID = SR1aa26c1f3a2639303231
- ConcreteID CUSTOM = SCs9d9bufeb3436178200 AbstractID CUSTOM = SA1h9t3tvff92084438578
+ExecutedAction [32]: 
+ @Action ConcreteID = ACffeiqq812971071719 AbstractID = AAffeiqq812971071719
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAw6mwim803444435853
+ @State ConcreteID = SC1vtdweg302f1619298701 AbstractID = SRn1oyll2d4d4184824461
+ ConcreteID CUSTOM = SC1j2x4et301f1706372114 AbstractID CUSTOM = SAhzbmo72ff53146601138
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1gpddhh513603172034, WR5quxi6b4097176690, WT19c7p4s2f145947609, WPujxo534d2273749260
-		ROLE = UIATreeItem
-		TITLE = Customizing the Debugger and Console
-		SHAPE = Rect [x:869.0 y:242.0 w:140.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 3, 3, 0]
-	DESCRIPTION = Left Click at 'Customizing the Debugger and Console'
+		WIDGET = WC1cqer7v592203419221, WRceq816b3820106996, WT13m1tno131391978401, WPtzaiil552791281682
+		ROLE = UIADataItem
+		TITLE = Contents
+		SHAPE = Rect [x:122.0 y:160.0 w:56.0 h:18.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'Contents'
 	TEXT = Compound Action =
-		Move mouse to (939.0, 251.0).
+		Move mouse to (150.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [33]: 
+ @Action ConcreteID = AC1jbh314e9842557367 AbstractID = AA162pcbed6914768935
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA10eehr2d52407409030
+ @State ConcreteID = SC1vtdweg302f1619298701 AbstractID = SRn1oyll2d4d4184824461
+ ConcreteID CUSTOM = SC1j2x4et301f1706372114 AbstractID CUSTOM = SAhzbmo72ff53146601138
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC13f5gkm7b2031098433, WR4n9zi27465102038, WT1wzdj7i2d675888815, WP114r6e0773369813351
+		ROLE = UIAText
+		TITLE = Initialising, committing and branching
+		SHAPE = Rect [x:186.0 y:511.0 w:200.0 h:18.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 10, 7, 1]
+	DESCRIPTION = Type '' OR '1'='1' into 'Initialising, committing and branching
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (286.0, 520.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '' OR '1'='1'
+
+ExecutedAction [34]: 
+ @Action ConcreteID = AC1jliw721093257793271 AbstractID = AA6bco33d63098823537
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAm93tjad62926557449
+ @State ConcreteID = SC1qrl61t2f361557415356 AbstractID = SRxhz78m2c4e1659310016
+ ConcreteID CUSTOM = SCzm530y2f2a3625020561 AbstractID CUSTOM = SA11vy68p2f121880034287
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC29ph4t631955555031, WR4n9zi27465102038, WT2phx04154033001038, WP1kvna3z5f2697674161
+		ROLE = UIAText
+		TITLE = Worked example
+		SHAPE = Rect [x:186.0 y:530.0 w:89.0 h:18.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 10, 8, 1]
+	DESCRIPTION = Type 'Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ...' into 'Worked example
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (230.5, 539.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text 'Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ'
+
+ExecutedAction [35]: 
+ @Action ConcreteID = AC15qqnwt7f1423280806 AbstractID = AA15qqnwt7f1423280806
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13u9u2b802863133754
+ @State ConcreteID = SCkdh4nj2bb8747380842 AbstractID = SRbcakzr292f1984169483
+ ConcreteID CUSTOM = SC8xz4712bb4708352175 AbstractID CUSTOM = SArg08942b912612695762
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1a9viyt61518621306, WR5quxi6b4097176690, WT10dy3k11a1248610650, WPbb2fmb5d1077687313
+		ROLE = UIATreeItem
+		TITLE = JGit User Guide
+		SHAPE = Rect [x:148.0 y:304.0 w:103.0 h:16.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 3]
+	DESCRIPTION = Left Click at 'JGit User Guide'
+	TEXT = Compound Action =
+		Move mouse to (199.5, 312.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [36]: 
+ @Action ConcreteID = ACgats9p801211490143 AbstractID = AAgats9p801211490143
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbpfxqg80785327545
+ @State ConcreteID = SCkrrqlu2f214287166705 AbstractID = SRblwte92c451199705429
+ ConcreteID CUSTOM = SCwcuxq2f0d2846696581 AbstractID CUSTOM = SAcrvrg72ef62995612481
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC6ptw3s3f389994028, WR5quxi6b4097176690, WT1cdwtav142657438390, WPbs0as63b3482916381
+		ROLE = UIATreeItem
+		TITLE = Ant Build
+		SHAPE = Rect [x:465.0 y:280.0 w:53.0 h:18.0]
+		CHILDREN = 1
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 0]
+	DESCRIPTION = Left Click at 'Ant Build'
+	TEXT = Compound Action =
+		Move mouse to (491.5, 289.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [37]: 
+ @Action ConcreteID = AC1p6is4bb93709261790 AbstractID = AA1p6is4bb93709261790
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AApwa4iab9162563444
+ @State ConcreteID = SCdlx1wg2f201294293515 AbstractID = SRblwte92c451199705429
+ ConcreteID CUSTOM = SC1n318eg2f0f1674931827 AbstractID CUSTOM = SAcrvrg72ef62995612481
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 375.6712791935383) To (1184.0, 642.9999999999998)
+	TEXT = Compound Action =
+		Move mouse to (1184.0, 375.6712791935383).
+		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 642.9999999999998).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [38]: 
+ @Action ConcreteID = AC1bm4nqiba1958387428 AbstractID = AA1bm4nqiba1958387428
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAj9d5ebba1114468928
+ @State ConcreteID = SCdlx1wg2f201294293515 AbstractID = SRblwte92c451199705429
+ ConcreteID CUSTOM = SC1n318eg2f0f1674931827 AbstractID CUSTOM = SAcrvrg72ef62995612481
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 375.6712791935383) To (1184.0, 288.66666666666663)
+	TEXT = Compound Action =
+		Move mouse to (1184.0, 375.6712791935383).
+		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 288.66666666666663).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [39]: 
+ @Action ConcreteID = AC8s2veb80705645241 AbstractID = AA8s2veb80705645241
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAf5zvh8801012789325
+ @State ConcreteID = SCdlx1wg2f201294293515 AbstractID = SRblwte92c451199705429
+ ConcreteID CUSTOM = SC1n318eg2f0f1674931827 AbstractID CUSTOM = SAcrvrg72ef62995612481
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC13uwojg6c3008524383, WR5quxi6b4097176690, WT1txwd9v292551803471, WP4n3jey683031113887
+		ROLE = UIATreeItem
+		TITLE = Eclipse Marketplace User Guide
+		SHAPE = Rect [x:130.0 y:243.0 w:199.0 h:19.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 7]
+	DESCRIPTION = Left Click at 'Eclipse Marketplace User Guide'
+	TEXT = Compound Action =
+		Move mouse to (229.5, 252.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [40]: 
+ @Action ConcreteID = AC12hkdyfe82687497574 AbstractID = AA1kr84ljd62553131544
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA2j4v36d42159046241
+ @State ConcreteID = SC1ygny7y2c2a1331174476 AbstractID = SR1mrifoj299c3623334869
+ ConcreteID CUSTOM = SCj6ioop2c2a3678879609 AbstractID CUSTOM = SA1ty19mx2c0680834478
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WCzt1a3h6b1042913672, WR4n9zi27465102038, WT1vnrbpr252131863845, WP1ramx8v671943651397
+		ROLE = UIAText
+		TITLE = Eclipse Marketplace User Guide
+		SHAPE = Rect [x:150.0 y:243.0 w:177.0 h:19.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 7, 1]
+	DESCRIPTION = Type '社會科學院語學研究所' into 'Eclipse Marketplace User Guide
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (238.5, 252.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '社會科學院語學研究所'
+
+ExecutedAction [41]: 
+ @Action ConcreteID = ACe57cbi81639289953 AbstractID = AAe57cbi81639289953
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1d150kj7f1435312046
+ @State ConcreteID = SC1ygny7y2c2a1331174476 AbstractID = SR1mrifoj299c3623334869
+ ConcreteID CUSTOM = SCj6ioop2c2a3678879609 AbstractID CUSTOM = SA1ty19mx2c0680834478
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1cc1wnj3b1194663878, WRa3fnoge3263686876, WTyq2ci4132577190482, WP3jk269372738720415
+		ROLE = UIARadioButton
+		TITLE = Never
+		SHAPE = Rect [x:494.0 y:134.0 w:52.0 h:16.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 2, 0, 1]
+	DESCRIPTION = Left Click at 'Never'
+	TEXT = Compound Action =
+		Move mouse to (520.0, 142.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [42]: 
+ @Action ConcreteID = ACcsua3p812718158510 AbstractID = AAcsua3p812718158510
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ni8q7c7f3872028895
+ @State ConcreteID = SC18qq3hf2c2b2288246419 AbstractID = SR1mrifoj299c3623334869
+ ConcreteID CUSTOM = SC1f0rq622c2a4229568956 AbstractID CUSTOM = SA1ty19mx2c0680834478
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WClftuct681700646941, WR5quxi6b4097176690, WT1hkm7um243358160840, WP17oshgf642829082343
+		ROLE = UIATreeItem
+		TITLE = Oomph Setup Documentation
+		SHAPE = Rect [x:130.0 y:646.0 w:191.0 h:19.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 16]
+	DESCRIPTION = Left Click at 'Oomph Setup Documentation'
+	TEXT = Compound Action =
+		Move mouse to (225.5, 655.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [43]: 
+ @Action ConcreteID = ACsnpih6813761899328 AbstractID = AAsnpih6813761899328
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAm1846i81878629716
+ @State ConcreteID = SC1q7qdbu41493261283414 AbstractID = SRoytkvk3d292029618523
+ ConcreteID CUSTOM = SCeneod84120582475237 AbstractID CUSTOM = SA1h70z1g40f31611637184
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1n6hlhv411959216366, WRceq816b3820106996, WTceq816b3820106996, WPxyr1tx3d544867927
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:616.0 y:762.0 w:21.0 h:17.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 4, 103]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (626.5, 770.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [44]: 
+ @Action ConcreteID = AC1a18qi2803916446788 AbstractID = AA1a18qi2803916446788
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3q1im281736174599
+ @State ConcreteID = SCqi5oql414a1110624753 AbstractID = SRoytkvk3d292029618523
+ ConcreteID CUSTOM = SCddakz34120301445435 AbstractID CUSTOM = SA1h70z1g40f31611637184
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCnpx9xr391967201670, WR17qbaneb3904637586, WTd76kr5112973204438, WPnuqzcx351361407970
+		ROLE = UIAComboBox
+		TITLE = Debug:
+		SHAPE = Rect [x:724.0 y:298.0 w:224.0 h:23.0]
+		CHILDREN = 1
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 6, 1, 3]
+	DESCRIPTION = Left Click at 'Debug:'
+	TEXT = Compound Action =
+		Move mouse to (836.0, 309.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [45]: 
+ @Action ConcreteID = ACgrnltc803123918116 AbstractID = AAgrnltc803123918116
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA19hkfwg812023893863
+ @State ConcreteID = SCqi5oql414a1110624753 AbstractID = SRoytkvk3d292029618523
+ ConcreteID CUSTOM = SCddakz34120301445435 AbstractID CUSTOM = SA1h70z1g40f31611637184
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC16ft0ls42421183924, WRceq816b3820106996, WTtj0n64c2810969637, WP1jxt8w23e1240388087
+		ROLE = UIADataItem
+		TITLE = 6
+		SHAPE = Rect [x:639.0 y:781.0 w:22.0 h:17.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 4, 108]
+	DESCRIPTION = Left Click at '6'
+	TEXT = Compound Action =
+		Move mouse to (650.0, 789.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [46]: 
+ @Action ConcreteID = ACm7vp2e802640838116 AbstractID = AAm7vp2e802640838116
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1exsj5i811610015655
+ @State ConcreteID = SCqi5oql414a1110624753 AbstractID = SRoytkvk3d292029618523
+ ConcreteID CUSTOM = SCddakz34120301445435 AbstractID CUSTOM = SA1h70z1g40f31611637184
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1n6wvhq402242703137, WRceq816b3820106996, WTceq816b3820106996, WP1qyltto3c3870916567
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:639.0 y:375.0 w:22.0 h:17.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 4, 16]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (650.0, 383.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [47]: 
+ @Action ConcreteID = AC1k1kn4ade6881262 AbstractID = AAn0p97qd52929712351
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA13it8rad63742808082
+ @State ConcreteID = SCqi5oql414a1110624753 AbstractID = SRoytkvk3d292029618523
+ ConcreteID CUSTOM = SCddakz34120301445435 AbstractID CUSTOM = SA1h70z1g40f31611637184
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC64yxe2613260625275, WR4n9zi27465102038, WTlr994y1b2141803465, WP1nina0s5d2319694480
+		ROLE = UIAText
+		TITLE = Workbench User Guide
+		SHAPE = Rect [x:150.0 y:183.0 w:130.0 h:19.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1]
+	DESCRIPTION = Type '0' into 'Workbench User Guide
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (215.0, 192.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '0'
+
+ExecutedAction [48]: 
+ @Action ConcreteID = ACyds2iu813791025180 AbstractID = AAyds2iu813791025180
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAgf6tzg802298746064
+ @State ConcreteID = SC17zrbj22d601378621553 AbstractID = SRccl15d2ac04235237921
+ ConcreteID CUSTOM = SChoqazh2d5e3564336374 AbstractID CUSTOM = SA1pwklgp2d2e552747451
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1ptuqua4149047136, WR5quxi6b4097176690, WT18mb0oq163383256522, WPacvhyo3d3750044981
+		ROLE = UIATreeItem
+		TITLE = Java Applet
+		SHAPE = Rect [x:465.0 y:352.0 w:64.0 h:18.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1, 3]
+	DESCRIPTION = Left Click at 'Java Applet'
+	TEXT = Compound Action =
+		Move mouse to (497.0, 361.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [49]: 
+ @Action ConcreteID = AC14uz2mvdf1593892920 AbstractID = AA1yvwnxld51226513473
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1c42gmxd52037609320
+ @State ConcreteID = SC4guzia2d602759086019 AbstractID = SRccl15d2ac04235237921
+ ConcreteID CUSTOM = SC1gxlldg2d5e3531396936 AbstractID CUSTOM = SA1pwklgp2d2e552747451
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WCm0lis84a1372724025, WR4n9zi27465102038, WT1s55cvl10912141063, WPszwma2463710117361
+		ROLE = UIAText
+		TITLE = Reference
+		SHAPE = Rect [x:630.0 y:375.0 w:65.0 h:18.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 4, 0, 0]
+	DESCRIPTION = Type '''' into 'Reference
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (662.5, 384.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text ''''
+
+ExecutedAction [50]: 
+ @Action ConcreteID = AC1rbrnn801018541970 AbstractID = AA1rbrnn801018541970
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5kta4580811181833
+ @State ConcreteID = SCt3znhh2ca94137524641 AbstractID = SRqnl84k2a144274047497
+ ConcreteID CUSTOM = SC17o9mpp2ca51541406229 AbstractID CUSTOM = SA1w34pg2c831983069872
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1kee1e63c1731344116, WRceq816b3820106996, WTceq816b3820106996, WPwh593w381552291001
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:112.0 y:133.0 w:52.0 h:18.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (138.0, 142.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [51]: 
+ @Action ConcreteID = AC1mmy8bv1091123398784 AbstractID = AAvxuwv6d51506404343
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1erp0x9d51318000723
+ @State ConcreteID = SCpwz3kn2caa3935767387 AbstractID = SRqnl84k2a144274047497
+ ConcreteID CUSTOM = SCakgwl82ca63434734146 AbstractID CUSTOM = SA1w34pg2c831983069872
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WCzt1a3h6b1042913672, WR4n9zi27465102038, WT1vnrbpr252131863845, WP1ramx8v671943651397
+		ROLE = UIAText
+		TITLE = Eclipse Marketplace User Guide
+		SHAPE = Rect [x:150.0 y:243.0 w:177.0 h:19.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 7, 1]
+	DESCRIPTION = Type '<img\x13src=x on...' into 'Eclipse Marketplace User Guide
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (238.5, 252.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '<img\x13src=x onerror="javascript:alert(1)">'
+
+ExecutedAction [52]: 
+ @Action ConcreteID = ACt63pl680828122977 AbstractID = AAt63pl680828122977
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA19zpvs57f179469725
+ @State ConcreteID = SCraddk92c293811357820 AbstractID = SR1mrifoj299c3623334869
+ ConcreteID CUSTOM = SCfqez7v2c2a4201446880 AbstractID CUSTOM = SA1ty19mx2c0680834478
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1q9o39b6d3964950699, WR5quxi6b4097176690, WT16u8sze221047347375, WP1vzcczx692188356026
+		ROLE = UIATreeItem
+		TITLE = Changesets and branches
+		SHAPE = Rect [x:166.0 y:437.0 w:157.0 h:16.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10, 10, 3]
+	DESCRIPTION = Left Click at 'Changesets and branches'
+	TEXT = Compound Action =
+		Move mouse to (244.5, 445.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [53]: 
+ @Action ConcreteID = ACxq5qg581650959350 AbstractID = AAxq5qg581650959350
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14uyx0n7f3946834842
+ @State ConcreteID = SC1w7ag9a30a73609239567 AbstractID = SRb00e2e2d9d1435156974
+ ConcreteID CUSTOM = SC1c9cda030a23545979050 AbstractID CUSTOM = SAeiotyw307f857903463
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC17a04z357595577294, WRceq816b3820106996, WTceq816b3820106996, WP1smcuqp531661745568
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:506.0 y:159.0 w:24.0 h:20.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (518.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [54]: 
+ @Action ConcreteID = AC1g3jdrn8082931331 AbstractID = AA1g3jdrn8082931331
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdgwbje7f3563762560
+ @State ConcreteID = SCgt5ofd2c1e1396741396 AbstractID = SRi8yvmb29761888009936
+ ConcreteID CUSTOM = SCtkza932c133075344124 AbstractID CUSTOM = SAnygkd22c03327329470
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC6hxsaf4b3143707775, WR4na8ob72534219213, WT9tqjaw23995001038, WP1pz27zd471040896418
+		ROLE = UIATree
+		TITLE = Application Types/Launchers:
+		SHAPE = Rect [x:425.0 y:278.0 w:241.0 h:318.0]
+		CHILDREN = 11
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 6, 0, 1]
+	DESCRIPTION = Left Click at 'Application Types/Launchers:'
+	TEXT = Compound Action =
+		Move mouse to (545.5, 437.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [55]: 
+ @Action ConcreteID = AC175y2ag82179665708 AbstractID = AA175y2ag82179665708
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1qln6d802601856756
+ @State ConcreteID = SC14rgqju2c1f4018062426 AbstractID = SRi8yvmb29761888009936
+ ConcreteID CUSTOM = SCs89c0s2c142146119359 AbstractID CUSTOM = SAnygkd22c03327329470
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCd7sxsq611652033238, WR52qhb2b3065858412, WT17a261g2c236442249, WPz501yg5d2614192219
+		ROLE = UIAListItem
+		TITLE = Your tip is an ancestor of my tip
+		SHAPE = Rect [x:630.0 y:955.0 w:1039.0 h:15.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 38, 0]
+	DESCRIPTION = Left Click at 'Your tip is an ancestor of my tip'
+	TEXT = Compound Action =
+		Move mouse to (1149.5, 962.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [56]: 
+ @Action ConcreteID = ACk7n6dj81687465665 AbstractID = AAk7n6dj81687465665
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1uzruga7f3972049807
+ @State ConcreteID = SC14rgqju2c1f4018062426 AbstractID = SRi8yvmb29761888009936
+ ConcreteID CUSTOM = SCs89c0s2c142146119359 AbstractID CUSTOM = SAnygkd22c03327329470
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1qg342o682300458921, WR5quxi6b4097176690, WT19kk7bl253347221697, WPcrgisu64734841757
+		ROLE = UIATreeItem
+		TITLE = EclEmma Java Code Coverage
+		SHAPE = Rect [x:130.0 y:223.0 w:189.0 h:19.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5]
+	DESCRIPTION = Left Click at 'EclEmma Java Code Coverage'
+	TEXT = Compound Action =
+		Move mouse to (224.5, 232.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [57]: 
+ @Action ConcreteID = AC1lxyy1l7f681730465 AbstractID = AA1lxyy1l7f681730465
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1i8q4c7801783779497
+ @State ConcreteID = SC6yteix2c6f224932887 AbstractID = SR4e67af29d41960967428
+ ConcreteID CUSTOM = SC1ohfkwy2c6e134528589 AbstractID CUSTOM = SAxd4s8v2c6c1345940989
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1itrddf3c2954528870, WRa3fnoge3263686876, WT4xlz9r141056286155, WP154rejp381962985758
+		ROLE = UIARadioButton
+		TITLE = Always
+		SHAPE = Rect [x:428.0 y:134.0 w:58.0 h:16.0]
+		CHILDREN = 0
+		PATH = [1, 0, 0, 0, 3, 2, 0, 0, 0, 2, 0, 0]
+	DESCRIPTION = Left Click at 'Always'
+	TEXT = Compound Action =
+		Move mouse to (457.0, 142.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [58]: 
+ @Action ConcreteID = AC1qnkux0811087687373 AbstractID = AA1qnkux0811087687373
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1msgrgi814026328334
+ @State ConcreteID = SCp00nxj2c6f2100779785 AbstractID = SR4e67af29d41960967428
+ ConcreteID CUSTOM = SC1x4avvn2c6f2748417955 AbstractID CUSTOM = SAxd4s8v2c6c1345940989
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1399zqd4a3233040546, WR52qhb2b3065858412, WT1ls9bmq152523752724, WP1mui2b463524420250
+		ROLE = UIAListItem
+		TITLE = JUnit test
+		SHAPE = Rect [x:630.0 y:753.0 w:1039.0 h:19.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 34, 3]
+	DESCRIPTION = Left Click at 'JUnit test'
+	TEXT = Compound Action =
+		Move mouse to (1149.5, 762.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [59]: 
+ @Action ConcreteID = AC1pp6fzb813197287418 AbstractID = AA1pp6fzb813197287418
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1lu2cit81297440313
+ @State ConcreteID = SCp00nxj2c6f2100779785 AbstractID = SR4e67af29d41960967428
+ ConcreteID CUSTOM = SC1x4avvn2c6f2748417955 AbstractID CUSTOM = SAxd4s8v2c6c1345940989
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC19jxm7a4b2855743644, WR52qhb2b3065858412, WT1y41m9p163513872290, WPrshlh0473975359703
+		ROLE = UIAListItem
+		TITLE = SWTBot test
+		SHAPE = Rect [x:630.0 y:827.0 w:1039.0 h:18.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 34, 7]
+	DESCRIPTION = Left Click at 'SWTBot test'
+	TEXT = Compound Action =
+		Move mouse to (1149.5, 836.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [60]: 
+ @Action ConcreteID = AC1ti5di802182266184 AbstractID = AA1ti5di802182266184
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3zi5bs802686857953
+ @State ConcreteID = SCp00nxj2c6f2100779785 AbstractID = SR4e67af29d41960967428
+ ConcreteID CUSTOM = SC1x4avvn2c6f2748417955 AbstractID CUSTOM = SAxd4s8v2c6c1345940989
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1da0ejp622255666998, WR5quxi6b4097176690, WT1qi8y6p1e577858862, WP1va9dhz5e1607741772
+		ROLE = UIATreeItem
+		TITLE = Mylyn Documentation
+		SHAPE = Rect [x:130.0 y:283.0 w:148.0 h:19.0]
+		CHILDREN = 2
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 11]
+	DESCRIPTION = Left Click at 'Mylyn Documentation'
+	TEXT = Compound Action =
+		Move mouse to (204.0, 292.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [61]: 
+ @Action ConcreteID = AC1vtubbe02739291835 AbstractID = AAgmr6eid4186465349
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAgrpyrpd5982717096
+ @State ConcreteID = SC4e7zlx2742535261377 AbstractID = SR1dqfcr1251c3620671701
+ ConcreteID CUSTOM = SC12vqkvb273b817563102 AbstractID CUSTOM = SAcxjnhx27273535432519
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC13d9xj96f27649367, WR4n9zi27465102038, WT1ehke7a28543223850, WPqz8a4z6b1870611211
+		ROLE = UIAText
+		TITLE = Oomph P2 Management Documentation
+		SHAPE = Rect [x:150.0 y:303.0 w:229.0 h:19.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 13, 1]
+	DESCRIPTION = Type 'LPT1' into 'Oomph P2 Management Documentation
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (264.5, 312.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text 'LPT1'
+
+ExecutedAction [62]: 
+ @Action ConcreteID = AC1w12sae801433555891 AbstractID = AA1w12sae801433555891
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1865x2g7f1386969319
+ @State ConcreteID = SCr1waf42bca3031057496 AbstractID = SRoh91j9294d3190542551
+ ConcreteID CUSTOM = SCbkr7gb2bb91781518333 AbstractID CUSTOM = SAty2ptt2b8e183821406
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1f6scel502445299228, WR1ca707tc1438424989, WT60nbkc191018294418, WP1sb18uz4c1150290903
+		ROLE = UIAHyperLink
+		TITLE = API Reference
+		SHAPE = Rect [x:640.0 y:301.0 w:87.0 h:16.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 6, 0]
+	DESCRIPTION = Left Click at 'API Reference'
+	TEXT = Compound Action =
+		Move mouse to (683.5, 309.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [63]: 
+ @Action ConcreteID = AC1po7cso813089079237 AbstractID = AA1po7cso813089079237
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA38xjjo801085204612
+ @State ConcreteID = SC16pn65o2f9b4206687429 AbstractID = SRqmedw52ccd534786690
+ ConcreteID CUSTOM = SCpgl4zr2f7d864063459 AbstractID CUSTOM = SAuh9u7g2f7c2948634362
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1ey1qne3e3271606132, WR1ca707tc1438424989, WT1ca707tc1438424989, WP1f6pyu43a24269907
+		ROLE = UIAHyperLink
+		TITLE = 
+		SHAPE = Rect [x:600.0 y:625.0 w:1.0 h:1.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 15]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (600.5, 625.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [64]: 
+ @Action ConcreteID = AC7wetdu811036542599 AbstractID = AA7wetdu811036542599
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAki923y803313045958
+ @State ConcreteID = SC16pn65o2f9b4206687429 AbstractID = SRqmedw52ccd534786690
+ ConcreteID CUSTOM = SCpgl4zr2f7d864063459 AbstractID CUSTOM = SAuh9u7g2f7c2948634362
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1uq2y5h433422180105, WR52qhb2b3065858412, WT1szx66he2035974948, WP12w75bn3f4230896219
+		ROLE = UIAListItem
+		TITLE = Use
+		SHAPE = Rect [x:756.0 y:683.0 w:34.0 h:20.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 19, 3]
+	DESCRIPTION = Left Click at 'Use'
+	TEXT = Compound Action =
+		Move mouse to (773.0, 693.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [65]: 
+ @Action ConcreteID = ACkpjdut812434033646 AbstractID = AAkpjdut812434033646
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxbdmkx801772426415
+ @State ConcreteID = SC16pn65o2f9b4206687429 AbstractID = SRqmedw52ccd534786690
+ ConcreteID CUSTOM = SCpgl4zr2f7d864063459 AbstractID CUSTOM = SAuh9u7g2f7c2948634362
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC17a04y857979695759, WRceq816b3820106996, WTceq816b3820106996, WP1smcupu532048329953
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:470.0 y:159.0 w:36.0 h:20.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (488.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [66]: 
+ @Action ConcreteID = ACkkgmqg813236109864 AbstractID = AAkkgmqg813236109864
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1orn8m9803468486523
+ @State ConcreteID = SC1gkmbvh2fef1308180318 AbstractID = SRu6qvqd2d192450637678
+ ConcreteID CUSTOM = SC1y0ztz22fce1234121886 AbstractID CUSTOM = SA8zu2el2fcc2460143342
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCbgd5p9442097288773, WR52qhb2b3065858412, WTqjt26s102222301571, WPxnczz401303033800
+		ROLE = UIAListItem
+		TITLE = Index
+		SHAPE = Rect [x:864.0 y:221.0 w:42.0 h:20.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 5, 5]
+	DESCRIPTION = Left Click at 'Index'
+	TEXT = Compound Action =
+		Move mouse to (885.0, 231.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [67]: 
+ @Action ConcreteID = AC1o59ap0811661554411 AbstractID = AA1o59ap0811661554411
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1jgi9lh822798418674
+ @State ConcreteID = SC3dp1dw3c331788137990 AbstractID = SR1a701qg38921498777133
+ ConcreteID CUSTOM = SCg9ao2v3c302519130796 AbstractID CUSTOM = SA1ya7p773c383292546836
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1ubci08974101188486, WR52qhb2b3065858412, WTw333p4622836829171, WPsv40za932095016622
+		ROLE = UIAListItem
+		TITLE = caseRepositoryList(RepositoryList) - Method in class org.eclipse.oomph.p2.util.P2Switch
+		SHAPE = Rect [x:600.0 y:923.0 w:1059.0 h:13.0]
+		CHILDREN = 3
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 52, 6]
+	DESCRIPTION = Left Click at 'caseRepositoryList(RepositoryList) - Method in class org.eclipse.oomph.p2.util.P2Switch'
+	TEXT = Compound Action =
+		Move mouse to (1129.5, 929.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [68]: 
+ @Action ConcreteID = AC1cj3af2801841163297 AbstractID = AA1cj3af2801841163297
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1a35rql81313674649
+ @State ConcreteID = SC3dp1dw3c331788137990 AbstractID = SR1a701qg38921498777133
+ ConcreteID CUSTOM = SCg9ao2v3c302519130796 AbstractID CUSTOM = SA1ya7p773c383292546836
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCg6mhi0493270589404, WR52qhb2b3065858412, WT1uskjn515111692454, WPcsojyi453593740878
+		ROLE = UIAListItem
+		TITLE = Deprecated
+		SHAPE = Rect [x:778.0 y:191.0 w:74.0 h:20.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 4]
+	DESCRIPTION = Left Click at 'Deprecated'
+	TEXT = Compound Action =
+		Move mouse to (815.0, 201.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [69]: 
+ @Action ConcreteID = AC1loy7i3ee1146560073 AbstractID = AApg8m50d41329265395
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA2rajltd61390911739
+ @State ConcreteID = SCuvs2rt2e8a849692311 AbstractID = SR1dy910a2bfa40994556
+ ConcreteID CUSTOM = SC16ga4ks2e812708415689 AbstractID CUSTOM = SA1clw1782ea43194414667
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WCjn80684b768003139, WR4n9zi27465102038, WT1x3lxyj101680050856, WPel5nzi471704980933
+		ROLE = UIAText
+		TITLE = No Frames
+		SHAPE = Rect [x:738.0 y:565.0 w:60.0 h:14.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 15, 1, 0, 0]
+	DESCRIPTION = Type '\";alert('XSS');...' into 'No Frames
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (768.0, 572.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '\";alert('XSS');//'
+
+ExecutedAction [70]: 
+ @Action ConcreteID = AC7dy81l803919416155 AbstractID = AA7dy81l803919416155
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA3ltzpc803745963273
+ @State ConcreteID = SC7ddk0e2e4c1370358506 AbstractID = SRnswjbn2bc21459179482
+ ConcreteID CUSTOM = SCb4f1h92e44627061415 AbstractID CUSTOM = SAzxbidz2e6a2498358110
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1cs2k49492877829305, WR52qhb2b3065858412, WT1uskjn515111692454, WP19e4mkr453209505067
+		ROLE = UIAListItem
+		TITLE = Deprecated
+		SHAPE = Rect [x:783.0 y:191.0 w:76.0 h:22.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 4]
+	DESCRIPTION = Left Click at 'Deprecated'
+	TEXT = Compound Action =
+		Move mouse to (821.0, 202.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [71]: 
+ @Action ConcreteID = ACnw7mmw81917114401 AbstractID = AAnw7mmw81917114401
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmlo6gs803963956936
+ @State ConcreteID = SC1v8txvj2e364137471243 AbstractID = SRp483yi2bae1528581647
+ ConcreteID CUSTOM = SC1gitzw42e3037944962 AbstractID CUSTOM = SAp0l8eq2e552386398256
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCo3qwcu451292813800, WR52qhb2b3065858412, WTqggyre103914194717, WPnfl2qk41735085835
+		ROLE = UIAListItem
+		TITLE = Class
+		SHAPE = Rect [x:702.0 y:528.0 w:42.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 13, 2]
+	DESCRIPTION = Left Click at 'Class'
+	TEXT = Compound Action =
+		Move mouse to (723.0, 538.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [72]: 
+ @Action ConcreteID = AClc9ec3811066143403 AbstractID = AAlc9ec3811066143403
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAk1py5z803848482370
+ @State ConcreteID = SC1v8txvj2e364137471243 AbstractID = SRp483yi2bae1528581647
+ ConcreteID CUSTOM = SC1gitzw42e3037944962 AbstractID CUSTOM = SAp0l8eq2e552386398256
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1cs2k49492877829305, WR52qhb2b3065858412, WT1uskjn515111692454, WP19e4mkr453209505067
+		ROLE = UIAListItem
+		TITLE = Deprecated
+		SHAPE = Rect [x:783.0 y:191.0 w:76.0 h:22.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 4]
+	DESCRIPTION = Left Click at 'Deprecated'
+	TEXT = Compound Action =
+		Move mouse to (821.0, 202.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [73]: 
+ @Action ConcreteID = AC1ur60me814160965945 AbstractID = AA1ur60me814160965945
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1tgmkga80585919952
+ @State ConcreteID = SC1v8txvj2e364137471243 AbstractID = SRp483yi2bae1528581647
+ ConcreteID CUSTOM = SC1gitzw42e3037944962 AbstractID CUSTOM = SAp0l8eq2e552386398256
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1en9555203320000443, WR1h6ibpb92248851252, WT1gjqpmud2189653581, WPv6nsev1c2086175047
+		ROLE = UIAButton
+		TITLE = Back
+		SHAPE = Rect [x:1123.0 y:31.0 w:23.0 h:22.0]
+		CHILDREN = 0
+		PATH = [2, 0, 4, 0, 5]
+	DESCRIPTION = Left Click at 'Back'
+	TEXT = Compound Action =
+		Move mouse to (1134.5, 42.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [74]: 
+ @Action ConcreteID = AChe06z4803835132009 AbstractID = AAhe06z4803835132009
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1gj9l3l812143818849
+ @State ConcreteID = SC8kxd1z28d4826941898 AbstractID = SR841hyr26733287386042
+ ConcreteID CUSTOM = SCieu8ds28b1121742101 AbstractID CUSTOM = SAceew5h28b92161422985
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCd6hyki381015854445, WR4n4ygb71694219017, WT4n4ygb71694219017, WP18d5pcg341234732669
+		ROLE = UIAList
+		TITLE = 
+		SHAPE = Rect [x:600.0 y:342.0 w:1076.0 h:17.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 8]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1138.0, 350.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [75]: 
+ @Action ConcreteID = ACxyt4t4802208403082 AbstractID = AAxyt4t4802208403082
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAau63v581545011
+ @State ConcreteID = SCwyjf2328b11887543860 AbstractID = SR1wr62d126731271262382
+ ConcreteID CUSTOM = SCduhrdr28b02172641047 AbstractID CUSTOM = SA17qvkot28cf3045596412
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCbzv6b54a841408963, WR1ca707tc1438424989, WT1n88xr312918496297, WP1txfrfn462304313028
+		ROLE = UIAHyperLink
+		TITLE = Frames
+		SHAPE = Rect [x:685.0 y:565.0 w:41.0 h:14.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 15, 0, 0]
+	DESCRIPTION = Left Click at 'Frames'
+	TEXT = Compound Action =
+		Move mouse to (705.5, 572.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [76]: 
+ @Action ConcreteID = ACj724j2801093159841 AbstractID = AAj724j2801093159841
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA195bc1j81196541197
+ @State ConcreteID = SC2kz9u1262c2501209370 AbstractID = SRhm5tnx241b2255201200
+ ConcreteID CUSTOM = SColt1ey26241312095413 AbstractID CUSTOM = SA11ze1fy264a2135329224
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCj82i7a4630506466, WRceq816b3820106996, WTfb4ua5152357841351, WP12iil104243492426
+		ROLE = UIADataItem
+		TITLE = All topics
+		SHAPE = Rect [x:424.0 y:133.0 w:54.0 h:18.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4]
+	DESCRIPTION = Left Click at 'All topics'
+	TEXT = Compound Action =
+		Move mouse to (451.0, 142.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+I/O exception deleting <resources\output\temp\tmpsequence>
+Starting sequence 1 (output as: sequence306)
+
+ExecutedAction [1]: 
+ @Action ConcreteID = AC1egvrr8ba3081646119 AbstractID = AA1egvrr8ba3081646119
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1kxl3dsb91315845392
+ @State ConcreteID = SC1v8txvj2e364137471243 AbstractID = SRp483yi2bae1528581647
+ ConcreteID CUSTOM = SC1gitzw42e3037944962 AbstractID CUSTOM = SAp0l8eq2e552386398256
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1184.0, 375.6712791935383) To (1184.0, 517.3333333333333)
+	TEXT = Compound Action =
+		Move mouse to (1184.0, 375.6712791935383).
+		Press Mouse Button BUTTON1
+		Move mouse to (1184.0, 517.3333333333333).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [2]: 
+ @Action ConcreteID = ACy94b6f813803506020 AbstractID = AAy94b6f813803506020
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwykv0b80945538445
+ @State ConcreteID = SC1v8txvj2e364137471243 AbstractID = SRp483yi2bae1528581647
+ ConcreteID CUSTOM = SC1gitzw42e3037944962 AbstractID CUSTOM = SAp0l8eq2e552386398256
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCeplql237338136737, WR17qbaneb3904637586, WT162souxf3547793938, WP1dgr2dk333511876387
+		ROLE = UIAComboBox
+		TITLE = Run:
+		SHAPE = Rect [x:724.0 y:326.0 w:224.0 h:23.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 3, 2, 0, 0, 0, 6, 1, 5]
+	DESCRIPTION = Left Click at 'Run:'
+	TEXT = Compound Action =
+		Move mouse to (836.0, 337.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [3]: 
+ @Action ConcreteID = AC1nh8xrr813914647518 AbstractID = AA1nh8xrr813914647518
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1m6phln80867952439
+ @State ConcreteID = SC1v8txvj2e364137471243 AbstractID = SRp483yi2bae1528581647
+ ConcreteID CUSTOM = SC1gitzw42e3037944962 AbstractID CUSTOM = SAp0l8eq2e552386398256
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCfs0ial25813418654, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP12xsa3321384154300
+		ROLE = UIAButton
+		TITLE = Cancel
+		SHAPE = Rect [x:849.0 y:651.0 w:98.0 h:25.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 2, 1, 1]
+	DESCRIPTION = Left Click at 'Cancel'
+	TEXT = Compound Action =
+		Move mouse to (898.0, 663.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [4]: 
+ @Action ConcreteID = AC1662vzh802308808913 AbstractID = AA1662vzh802308808913
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA6a884u81314756313
+ @State ConcreteID = SC8kxd1z28d4826941898 AbstractID = SR841hyr26733287386042
+ ConcreteID CUSTOM = SCieu8ds28b1121742101 AbstractID CUSTOM = SAceew5h28b92161422985
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC18qstn14b3921183636, WRceq816b3820106996, WTceq816b3820106996, WP1pepr3z474048946740
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:1647.0 y:159.0 w:24.0 h:20.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 6]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1659.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [5]: 
+ @Action ConcreteID = ACte1t0g801496427215 AbstractID = AAte1t0g801496427215
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA69es2h813667424438
+ @State ConcreteID = SCwyjf2328b11887543860 AbstractID = SR1wr62d126731271262382
+ ConcreteID CUSTOM = SCduhrdr28b02172641047 AbstractID CUSTOM = SA17qvkot28cf3045596412
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC7y7h6s492314839329, WR52qhb2b3065858412, WTflfszr142140872545, WP1j9ip76451982361949
+		ROLE = UIAListItem
+		TITLE = No Frames
+		SHAPE = Rect [x:732.0 y:562.0 w:72.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 15, 1]
+	DESCRIPTION = Left Click at 'No Frames'
+	TEXT = Compound Action =
+		Move mouse to (768.0, 572.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [6]: 
+ @Action ConcreteID = AC70lacr801149465281 AbstractID = AA70lacr801149465281
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAwyuhv881236831341
+ @State ConcreteID = SC2kz9u1262c2501209370 AbstractID = SRhm5tnx241b2255201200
+ ConcreteID CUSTOM = SColt1ey26241312095413 AbstractID CUSTOM = SA11ze1fy264a2135329224
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC18kfg401e2794874248, WR1h6ibpb92248851252, WT1ukehihe2665448566, WP2rwwg21a487372740
+		ROLE = UIAButton
+		TITLE = Retry
+		SHAPE = Rect [x:932.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Retry'
+	TEXT = Compound Action =
+		Move mouse to (978.0, 540.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [7]: 
+ @Action ConcreteID = AC162nqoh803202117171 AbstractID = AA162nqoh803202117171
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAiy0pqi811031123018
+ @State ConcreteID = SCwyjf2328b11887543860 AbstractID = SR1wr62d126731271262382
+ ConcreteID CUSTOM = SCduhrdr28b02172641047 AbstractID CUSTOM = SA17qvkot28cf3045596412
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCbmxm4e433170609012, WR52qhb2b3065858412, WT1szx66he2035974948, WP1iu5v9o3f2335157798
+		ROLE = UIAListItem
+		TITLE = Use
+		SHAPE = Rect [x:744.0 y:528.0 w:34.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 13, 3]
+	DESCRIPTION = Left Click at 'Use'
+	TEXT = Compound Action =
+		Move mouse to (761.0, 538.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [8]: 
+ @Action ConcreteID = AC1vgumd3802850695126 AbstractID = AA1vgumd3802850695126
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA18c7lf481709097903
+ @State ConcreteID = SCwyjf2328b11887543860 AbstractID = SR1wr62d126731271262382
+ ConcreteID CUSTOM = SCduhrdr28b02172641047 AbstractID CUSTOM = SA17qvkot28cf3045596412
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC30zimy3d1780118670, WR1ca707tc1438424989, WT1ca707tc1438424989, WPwtlqp4393473863730
+		ROLE = UIAHyperLink
+		TITLE = 
+		SHAPE = Rect [x:968.0 y:191.0 w:1.0 h:1.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (968.5, 191.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [9]: 
+ @Action ConcreteID = AC6136og813083326499 AbstractID = AA6136og813083326499
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdzj6hc801571759272
+ @State ConcreteID = SC1vdmapd2ae42528593839 AbstractID = SR1rt72cu28793042222456
+ ConcreteID CUSTOM = SC1vipkxt2add1370313975 AbstractID CUSTOM = SA195dmlm2af4390460975
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1hpqc4570709762107, WR5quxi6b4097176690, WT1y4pxe2c4013979520, WP1hliipz6c229851045
+		ROLE = UIATreeItem
+		TITLE = Oomph P2 Management Documentation
+		SHAPE = Rect [x:130.0 y:303.0 w:251.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 13]
+	DESCRIPTION = Left Click at 'Oomph P2 Management Documentation'
+	TEXT = Compound Action =
+		Move mouse to (255.5, 312.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [10]: 
+ @Action ConcreteID = ACxvp8it7f3597939697 AbstractID = AAxvp8it7f3597939697
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1vc9gd5803452199781
+ @State ConcreteID = SC7e8zmx2712960582357 AbstractID = SR2r7ye624f9817399502
+ ConcreteID CUSTOM = SC1qoldhn27142345085004 AbstractID CUSTOM = SA1br0ljx2735194349480
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1tn5215464272469654, WR1ca707tc1438424989, WT1t5u3z3123271931671, WPa9v4or423213006821
+		ROLE = UIAHyperLink
+		TITLE = Scope:
+		SHAPE = Rect [x:374.0 y:134.0 w:50.0 h:16.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Scope:'
+	TEXT = Compound Action =
+		Move mouse to (399.0, 142.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [77]: 
+ @Action ConcreteID = AC1n86o76813728463382 AbstractID = AA1n86o76813728463382
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1gjhep5824150376016
+ @State ConcreteID = SCwyjf2328b11887543860 AbstractID = SR1wr62d126731271262382
+ ConcreteID CUSTOM = SCduhrdr28b02172641047 AbstractID CUSTOM = SA17qvkot28cf3045596412
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1jw8f0vad2838645914, WR52qhb2b3065858412, WTneang878644115952, WPnxoul9a92353480359
+		ROLE = UIAListItem
+		TITLE = Deprecated Methods
+
+ 
+
+
+Method and Description
+
+
+org.eclipse.oomph.p2.impl.P2FactoryImpl.getPackage()
+		SHAPE = Rect [x:600.0 y:404.0 w:1076.0 h:69.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 10, 0]
+	DESCRIPTION = Left Click at 'Deprecated Methods
+
+ 
+
+
+Method and Description
+
+
+org.eclipse.oomph.p2.impl.P2FactoryImpl.getPackage()'
+	TEXT = Compound Action =
+		Move mouse to (1138.0, 438.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [78]: 
+ @Action ConcreteID = AC1yu8q2ve63784237137 AbstractID = AAl6q6bkd53629999203
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA2t3aufd63424303948
+ @State ConcreteID = SCwyjf2328b11887543860 AbstractID = SR1wr62d126731271262382
+ ConcreteID CUSTOM = SCduhrdr28b02172641047 AbstractID CUSTOM = SA17qvkot28cf3045596412
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC79qtxb4924686749, WR4n9zi27465102038, WT1s134ibf3363928569, WPl3d1td451860048006
+		ROLE = UIAText
+		TITLE = Overview
+		SHAPE = Rect [x:586.0 y:194.0 w:51.0 h:14.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 0, 0, 0]
+	DESCRIPTION = Type '(｡◕ ∀ ◕｡)' into 'Overview
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (611.5, 201.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '(｡◕ ∀ ◕｡)'
+
+ExecutedAction [79]: 
+ @Action ConcreteID = AC1h9efmw813802934312 AbstractID = AA1h9efmw813802934312
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1p7uffs80147119267
+ @State ConcreteID = SC1vdmapd2ae42528593839 AbstractID = SR1rt72cu28793042222456
+ ConcreteID CUSTOM = SC1vipkxt2add1370313975 AbstractID CUSTOM = SA195dmlm2af4390460975
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1y8897x43862558980, WR4n4ygb71694219017, WT189undr113988509583, WPvcyvbz3f2391969076
+		ROLE = UIAList
+		TITLE = Navigation
+		SHAPE = Rect [x:580.0 y:683.0 w:363.0 h:22.0]
+		CHILDREN = 7
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 19]
+	DESCRIPTION = Left Click at 'Navigation'
+	TEXT = Compound Action =
+		Move mouse to (761.5, 694.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [80]: 
+ @Action ConcreteID = AC1la64827f4292544441 AbstractID = AA1la64827f4292544441
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAjpma3a803832239917
+ @State ConcreteID = SC7e8zmx2712960582357 AbstractID = SR2r7ye624f9817399502
+ ConcreteID CUSTOM = SC1qoldhn27142345085004 AbstractID CUSTOM = SA1br0ljx2735194349480
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1n0t3er4c1947241955, WR1ca707tc1438424989, WT1qmd8xe151522430996, WP8hyea948551882601
+		ROLE = UIAHyperLink
+		TITLE = Reference
+		SHAPE = Rect [x:617.0 y:281.0 w:61.0 h:15.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 2, 3, 0]
+	DESCRIPTION = Left Click at 'Reference'
+	TEXT = Compound Action =
+		Move mouse to (647.5, 288.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [81]: 
+ @Action ConcreteID = AC15a6k5681283687460 AbstractID = AA15a6k5681283687460
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1jp69vs803731898347
+ @State ConcreteID = SC1a0u61n27133906242937 AbstractID = SR2r7ye624f9817399502
+ ConcreteID CUSTOM = SC11ak11c27154079026173 AbstractID CUSTOM = SA1br0ljx2735194349480
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC18j0ucm491394384942, WR52qhb2b3065858412, WTz5alkx1b1829372459, WP1x3hsew453118322887
+		ROLE = UIAListItem
+		TITLE = Refresh the page
+		SHAPE = Rect [x:350.0 y:247.0 w:660.0 h:21.0]
+		CHILDREN = 1
+		PATH = [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2]
+	DESCRIPTION = Left Click at 'Refresh the page'
+	TEXT = Compound Action =
+		Move mouse to (680.0, 257.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [82]: 
+ @Action ConcreteID = AC1hbxy0ja222127000 AbstractID = AA1hbxy0ja222127000
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAkaf5eaa13157005335
+ @State ConcreteID = SC1ohw9cl24721815930093 AbstractID = SRc5sqnk227b1375529458
+ ConcreteID CUSTOM = SC20scx324673548807107 AbstractID CUSTOM = SA1sl5e5c2482101424705
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (1688.0, 225.0) To (1688.0, 931.0)
+	TEXT = Compound Action =
+		Move mouse to (1688.0, 225.0).
+		Press Mouse Button BUTTON1
+		Move mouse to (1688.0, 931.0).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [83]: 
+ @Action ConcreteID = AC1m6fynb813579414500 AbstractID = AA1m6fynb813579414500
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA12xol06801875334222
+ @State ConcreteID = SC1i2gbhj1f321438967915 AbstractID = SR1c2ii851d94912761828
+ ConcreteID CUSTOM = SCh06wwt1f271265386291 AbstractID CUSTOM = SAxc9xq81f4a2801082975
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1khppl2692764033005, WR5quxi6b4097176690, WT1ntpjjg264096273920, WP1972m8k65502041349
+		ROLE = UIATreeItem
+		TITLE = Java development user guide
+		SHAPE = Rect [x:130.0 y:203.0 w:187.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 3]
+	DESCRIPTION = Left Click at 'Java development user guide'
+	TEXT = Compound Action =
+		Move mouse to (223.5, 212.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [84]: 
- @Action ConcreteID = AC18011fj7f515320804 AbstractID = AA18011fj7f515320804
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA16m6dlr802710841711
- @State ConcreteID = SC17ft7z0ffe634271016 AbstractID = SR8l5dsf4e1595885918
- ConcreteID CUSTOM = SC1sefngb1012121054588 AbstractID CUSTOM = SA1p2tq8m1022849611641
+ @Action ConcreteID = AColdkk9801218421623 AbstractID = AAoldkk9801218421623
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1mosfej811763162913
+ @State ConcreteID = SCjy6zp71f0a3236121904 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1iaphnx1eff906348582 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCm1m7y3f640474618, WR5quxi6b4097176690, WT1bp6qj1a2860536671, WP5628ss3b2086213109
-		ROLE = UIATreeItem
-		TITLE = Local Debugging
-		SHAPE = Rect [x:885.0 y:422.0 w:94.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 5, 2, 0, 0, 3, 3, 3, 6, 1]
-	DESCRIPTION = Left Click at 'Local Debugging'
+		WIDGET = WC13gbai53c1293553302, WRceq816b3820106996, WTceq816b3820106996, WPfj2i7v381991126235
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:112.0 y:133.0 w:52.0 h:18.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (932.0, 431.0).
+		Move mouse to (138.0, 142.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [85]: 
- @Action ConcreteID = AC1lw2yqde23892764352 AbstractID = AA1fggsx3d43646923804
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbpa8b6d22733564351
- @State ConcreteID = SC1ll6r31e9e3170486921 AbstractID = SR1vb5rkddef2315384548
- ConcreteID CUSTOM = SCbpwnwke91684326907 AbstractID CUSTOM = SAfxcqz9ea8884798384
+ @Action ConcreteID = AC11vo1lze9306836789 AbstractID = AA14wjq1d4750059996
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAaoyp6bd62806858054
+ @State ConcreteID = SCktffy91f0a944227217 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCcv7tag1eff2635149348 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = ClickTypeInto
 	TARGET =
-		WIDGET = WC1as67rs1767163870, WR4n0dlj72701565195, WT4n0dlj72701565195, WPskqll6131280528131
-		ROLE = UIAEdit
-		TITLE = 
-		SHAPE = Rect [x:19.0 y:64.0 w:698.0 h:33.0]
+		WIDGET = WC1wtxnok6f1212958792, WR4n9zi27465102038, WT1ehke7a28543223850, WP1kfw0aa6b647425556
+		ROLE = UIAText
+		TITLE = Oomph P2 Management Documentation
+		SHAPE = Rect [x:150.0 y:303.0 w:229.0 h:19.0]
 		CHILDREN = 0
-		PATH = [0, 0, 0, 3]
-	DESCRIPTION = Type '-1#IND' into '
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 13, 1]
+	DESCRIPTION = Type '┬─┬ノ( º _ ºノ)' into 'Oomph P2 Management Documentation
 	TEXT = Compound Action =
 		Compound Action =
-		Move mouse to (368.0, 80.5).
+		Move mouse to (264.5, 312.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 		Press Key 17
 		Press Key 65
 		Release Key 65
 		Release Key 17
-		Type text '-1#IND'
+		Type text '┬─┬ノ( º _ ºノ)'
+
+ExecutedAction [11]: 
+ @Action ConcreteID = AC15s5llo82887096266 AbstractID = AA15s5llo82887096266
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1qi8fny811073038446
+ @State ConcreteID = SC1a0u61n27133906242937 AbstractID = SR2r7ye624f9817399502
+ ConcreteID CUSTOM = SC11ak11c27154079026173 AbstractID CUSTOM = SA1br0ljx2735194349480
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCz5aj7a512278703168, WR1ca707tc1438424989, WT1cg5s56203900255374, WP1wtc9z84d1980640489
+		ROLE = UIAHyperLink
+		TITLE = Forward to Reference
+		SHAPE = Rect [x:1654.0 y:431.0 w:32.0 h:32.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 4]
+	DESCRIPTION = Left Click at 'Forward to Reference'
+	TEXT = Compound Action =
+		Move mouse to (1670.0, 447.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [12]: 
+ @Action ConcreteID = ACjeu60x812471507527 AbstractID = AAjeu60x812471507527
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1105l6q80466925273
+ @State ConcreteID = SC1ohw9cl24721815930093 AbstractID = SRc5sqnk227b1375529458
+ ConcreteID CUSTOM = SC20scx324673548807107 AbstractID CUSTOM = SA1sl5e5c2482101424705
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCza1ar2572937893024, WRceq816b3820106996, WTceq816b3820106996, WP1kme0io534017045710
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:554.0 y:159.0 w:24.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (566.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [13]: 
+ @Action ConcreteID = AC1qemy6813799277701 AbstractID = AA1qemy6813799277701
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA9zatfh822513018460
+ @State ConcreteID = SC1iywvxv1f09758029537 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCfyav071efc2048932756 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCza1apc574182120230, WRceq816b3820106996, WTceq816b3820106996, WP1kme0gy533107317576
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:1623.0 y:159.0 w:24.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1635.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [14]: 
+ @Action ConcreteID = AC1cxo2eh802684727894 AbstractID = AA1cxo2eh802684727894
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA149a54q812443486858
+ @State ConcreteID = SCfzwxik1f0a2002036534 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1ti3cqt1efd4083328763 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCpwlvm5471121833189, WRceq816b3820106996, WT13m1tno131391978401, WPayp3gf432225939137
+		ROLE = UIADataItem
+		TITLE = Contents
+		SHAPE = Rect [x:112.0 y:951.0 w:395.0 h:21.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+	DESCRIPTION = Left Click at 'Contents'
+	TEXT = Compound Action =
+		Move mouse to (309.5, 961.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [15]: 
+ @Action ConcreteID = AC12b606k803025048134 AbstractID = AA12b606k803025048134
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14zknfo81545658530
+ @State ConcreteID = SCaaebet1f083396070749 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1gwdut1efe3257097927 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1d6i92f602822122405, WR5quxi6b4097176690, WT104j5wl1d108211561, WP1fg09px5c1973158985
+		ROLE = UIATreeItem
+		TITLE = EGit Documentation
+		SHAPE = Rect [x:130.0 y:263.0 w:136.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 9]
+	DESCRIPTION = Left Click at 'EGit Documentation'
+	TEXT = Compound Action =
+		Move mouse to (198.0, 272.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [16]: 
+ @Action ConcreteID = AC7exypa1114269253343 AbstractID = AA38i2l7d51098565757
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1kp3eryd6349515510
+ @State ConcreteID = SCfw84yl1f091702755203 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCvtciy81efe1943608418 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WCg1r5bu671834863657, WR4n9zi27465102038, WT1hkbw19211698532139, WPvl6w4s632413164146
+		ROLE = UIAText
+		TITLE = EclEmma Java Code Coverage
+		SHAPE = Rect [x:150.0 y:223.0 w:167.0 h:19.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5, 1]
+	DESCRIPTION = Type '"`'><script>\xE1...' into 'EclEmma Java Code Coverage
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (233.5, 232.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '"`'><script>\xE1\x9A\x80javascript:alert(1)</script>'
+
+ExecutedAction [17]: 
+ @Action ConcreteID = AC1vmjm4q10a2596415633 AbstractID = AAs9heyod54074940365
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAaoyp6bd62806858054
+ @State ConcreteID = SCfw84yl1f091702755203 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCvtciy81efe1943608418 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = ClickTypeInto
+	TARGET =
+		WIDGET = WC1wtxnok6f1212958792, WR4n9zi27465102038, WT1ehke7a28543223850, WP1kfw0aa6b647425556
+		ROLE = UIAText
+		TITLE = Oomph P2 Management Documentation
+		SHAPE = Rect [x:150.0 y:303.0 w:229.0 h:19.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 13, 1]
+	DESCRIPTION = Type '<img src=x onerr...' into 'Oomph P2 Management Documentation
+	TEXT = Compound Action =
+		Compound Action =
+		Move mouse to (264.5, 312.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '<img src=x onerror=\x12"javascript:alert(1)">'
+
+ExecutedAction [18]: 
+ @Action ConcreteID = AC1yo09y9803692884739 AbstractID = AA1yo09y9803692884739
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1l3uvsr821015381145
+ @State ConcreteID = SCktffy91f0a944227217 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCcv7tag1eff2635149348 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCza1aq7573053945313, WRceq816b3820106996, WTceq816b3820106996, WP1kme0ht534134826383
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:1647.0 y:159.0 w:24.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 4]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1659.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [19]: 
+ @Action ConcreteID = AC1jnerwy7f554399426 AbstractID = AA1jnerwy7f554399426
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAboefso811835922120
+ @State ConcreteID = SCktffy91f0a944227217 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCcv7tag1eff2635149348 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC9yk8gr6c88707119, WR5quxi6b4097176690, WT1txwd9v292551803471, WP19rv5bd6845138159
+		ROLE = UIATreeItem
+		TITLE = Eclipse Marketplace User Guide
+		SHAPE = Rect [x:130.0 y:243.0 w:199.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 7]
+	DESCRIPTION = Left Click at 'Eclipse Marketplace User Guide'
+	TEXT = Compound Action =
+		Move mouse to (229.5, 252.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
 
 ExecutedAction [86]: 
- @Action ConcreteID = ACrvtbhye12181617977 AbstractID = AA1yz2huid52249001135
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1a3bojzd33383315384
- @State ConcreteID = SC1ll6r31e9e3170486921 AbstractID = SR1vb5rkddef2315384548
- ConcreteID CUSTOM = SCbpwnwke91684326907 AbstractID CUSTOM = SAfxcqz9ea8884798384
+ @Action ConcreteID = AC1exqmfge0471642400 AbstractID = AA1catbcud63511374490
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAaoyp6bd62806858054
+ @State ConcreteID = SC1ehw0an1f092856651724 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCb6yxp51efd3504281295 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = ClickTypeInto
 	TARGET =
-		WIDGET = WC12hscpz3e1290817695, WR4n0dlj72701565195, WT1laoo6t131279339564, WPrusqid3a1561139697
-		ROLE = UIAEdit
-		TITLE = - 0 matches.
-		SHAPE = Rect [x:19.0 y:134.0 w:169.0 h:21.0]
-		CHILDREN = 1
-		PATH = [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
-	DESCRIPTION = Type 'COM3' into '- 0 matches.
+		WIDGET = WC1wtxnok6f1212958792, WR4n9zi27465102038, WT1ehke7a28543223850, WP1kfw0aa6b647425556
+		ROLE = UIAText
+		TITLE = Oomph P2 Management Documentation
+		SHAPE = Rect [x:150.0 y:303.0 w:229.0 h:19.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 13, 1]
+	DESCRIPTION = Type '""' into 'Oomph P2 Management Documentation
 	TEXT = Compound Action =
 		Compound Action =
-		Move mouse to (103.5, 144.5).
+		Move mouse to (264.5, 312.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 		Press Key 17
 		Press Key 65
 		Release Key 65
 		Release Key 17
-		Type text 'COM3'
+		Type text '""'
 
 ExecutedAction [87]: 
- @Action ConcreteID = AChklija7e726085767 AbstractID = AAhklija7e726085767
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1dmwpej7d2462069292
- @State ConcreteID = SCk09z1oe9e2451464868 AbstractID = SR1vb5rkddef2315384548
- ConcreteID CUSTOM = SCvtohdae911171234442 AbstractID CUSTOM = SAfxcqz9ea8884798384
+ @Action ConcreteID = AC8gd6kv1243510715664 AbstractID = AA1x0qwz9d54101333622
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1fg876wd62715452669
+ @State ConcreteID = SCfw84yl1f091702755203 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCvtciy81efe1943608418 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
-	ROLE = LeftClickAt
+	ROLE = ClickTypeInto
 	TARGET =
-		WIDGET = WC12qtkzs332802996869, WR1h6ibpb92248851252, WT19ol5bi201271121736, WP5h7c2e2f384579118
-		ROLE = UIAButton
-		TITLE = Show in external window
-		SHAPE = Rect [x:834.0 y:31.0 w:23.0 h:22.0]
+		WIDGET = WCpgufki5f2802188225, WR4n9zi27465102038, WT1o7o5mp193827426507, WPlzb6is5b1351759900
+		ROLE = UIAText
+		TITLE = EGit Documentation
+		SHAPE = Rect [x:150.0 y:263.0 w:114.0 h:19.0]
 		CHILDREN = 0
-		PATH = [0, 0, 4, 0, 0]
-	DESCRIPTION = Left Click at 'Show in external window'
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 9, 1]
+	DESCRIPTION = Type '<a href="\x0Ajav...' into 'EGit Documentation
 	TEXT = Compound Action =
-		Move mouse to (845.5, 42.0).
+		Compound Action =
+		Move mouse to (207.0, 272.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
+		Press Key 17
+		Press Key 65
+		Release Key 65
+		Release Key 17
+		Type text '<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>'
 
 ExecutedAction [88]: 
- @Action ConcreteID = AC10wwct37e2967944698 AbstractID = AA10wwct37e2967944698
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1wz7joc7d157302609
- @State ConcreteID = SCk09z1oe9e2451464868 AbstractID = SR1vb5rkddef2315384548
- ConcreteID CUSTOM = SCvtohdae911171234442 AbstractID CUSTOM = SAfxcqz9ea8884798384
+ @Action ConcreteID = ACpabi32801345691374 AbstractID = AApabi32801345691374
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbq63xk822964066676
+ @State ConcreteID = SCktffy91f0a944227217 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCcv7tag1eff2635149348 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1l0a12c2c2322345840, WR1h6ibpb92248851252, WT1u0b2tt193937611019, WPq60bzm281347365064
+		WIDGET = WCqeuxa41f1244623445, WR1h6ibpb92248851252, WT1vn7c8mf254897263, WP1xw4qr21b4237654197
 		ROLE = UIAButton
-		TITLE = Show in Contents
-		SHAPE = Rect [x:857.0 y:31.0 w:23.0 h:22.0]
+		TITLE = Choose
+		SHAPE = Rect [x:1030.0 y:528.0 w:92.0 h:25.0]
 		CHILDREN = 0
-		PATH = [0, 0, 4, 0, 1]
-	DESCRIPTION = Left Click at 'Show in Contents'
+		PATH = [0, 0, 3, 1]
+	DESCRIPTION = Left Click at 'Choose'
 	TEXT = Compound Action =
-		Move mouse to (868.5, 42.0).
+		Move mouse to (1076.0, 540.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [89]: 
- @Action ConcreteID = ACyvvmw7812967397335 AbstractID = AAyvvmw7812967397335
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1yjmkmm82957845631
- @State ConcreteID = SCwlzodj123f2512428729 AbstractID = SR1s9fams11521707916091
- ConcreteID CUSTOM = SC4462ky12591189003919 AbstractID CUSTOM = SA18evaf712441853500305
+ @Action ConcreteID = AC5bcivc81492955636 AbstractID = AA5bcivc81492955636
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA14zknfo81545658530
+ @State ConcreteID = SC1kl2vmc1f0a2372054468 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1rdu7j31eff1162446329 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCk3x1q9314100013248, WR1h6ibpb92248851252, WT493d5b122119396097, WPmkq5732d3803054188
-		ROLE = UIAButton
-		TITLE = Line down
-		SHAPE = Rect [x:1009.0 y:593.0 w:17.0 h:17.0]
-		CHILDREN = 0
-		PATH = [1, 0, 4, 2, 0, 0, 3, 0, 4]
-	DESCRIPTION = Left Click at 'Line down'
+		WIDGET = WC1d6i92f602822122405, WR5quxi6b4097176690, WT104j5wl1d108211561, WP1fg09px5c1973158985
+		ROLE = UIATreeItem
+		TITLE = EGit Documentation
+		SHAPE = Rect [x:130.0 y:263.0 w:136.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 9]
+	DESCRIPTION = Left Click at 'EGit Documentation'
 	TEXT = Compound Action =
-		Move mouse to (1017.5, 601.5).
+		Move mouse to (198.0, 272.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [90]: 
- @Action ConcreteID = ACd0rc86802173907349 AbstractID = AAd0rc86802173907349
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAqjy3s2812269232948
- @State ConcreteID = SCey4uh51ab93361769193 AbstractID = SRav9l9u1954929418141
- ConcreteID CUSTOM = SCmql3m51ae91509442663 AbstractID CUSTOM = SA145azuc1ab61666271108
+ @Action ConcreteID = AC1k16dgo803132088188 AbstractID = AA1k16dgo803132088188
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArqw2ji813211751863
+ @State ConcreteID = SC5zewcx1f0a1852255931 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC10icjy61efe507993020 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC1ql9m772d1387254322, WR5quxi6b4097176690, WT19ltmwr104207271625, WP1dyei9d29909398019
-		ROLE = UIATreeItem
-		TITLE = Legal
-		SHAPE = Rect [x:853.0 y:530.0 w:32.0 h:18.0]
-		CHILDREN = 0
-		PATH = [1, 0, 4, 2, 0, 0, 3, 24]
-	DESCRIPTION = Left Click at 'Legal'
+		WIDGET = WC1tn5215464272469654, WR1ca707tc1438424989, WT1t5u3z3123271931671, WPa9v4or423213006821
+		ROLE = UIAHyperLink
+		TITLE = Scope:
+		SHAPE = Rect [x:374.0 y:134.0 w:50.0 h:16.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Scope:'
 	TEXT = Compound Action =
-		Move mouse to (869.0, 539.0).
+		Move mouse to (399.0, 142.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [91]: 
- @Action ConcreteID = ACray5wb1102916478974 AbstractID = AA1ta3mnwd541049193
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1jc86q4d43536085968
- @State ConcreteID = SCt9ryx925971519909860 AbstractID = SRwnp1sx23743967012176
- ConcreteID CUSTOM = SC1hbbcq025923451405264 AbstractID CUSTOM = SAkfcajy25a3926718127
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC1jlhaq1612551627792, WR4n9zi27465102038, WTlr994y1b2141803465, WP11y1ldn5d3490466811
-		ROLE = UIAText
-		TITLE = Workbench User Guide
-		SHAPE = Rect [x:228.0 y:263.0 w:130.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1]
-	DESCRIPTION = Type '`"'><img src=xxx...' into 'Workbench User Guide
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (293.0, 272.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '`"'><img src=xxx:x \x09onerror=javascript:alert(1)>'
-
-ExecutedAction [92]: 
- @Action ConcreteID = ACsmzhql1092291378094 AbstractID = AA1jx5il4d43285124701
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA5bohrqd61914672820
- @State ConcreteID = SCyk7m3f24e1712880394 AbstractID = SR1q8r25l22d01496317889
- ConcreteID CUSTOM = SC11ckp2p24e64200430163 AbstractID CUSTOM = SA1hp39i324db1104239723
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC5r47ch5c3444274563, WR4n9zi27465102038, WT1sbmf5nf4272547371, WP16miirj581825153922
-		ROLE = UIAText
-		TITLE = Debugger
-		SHAPE = Rect [x:264.0 y:533.0 w:53.0 h:18.0]
-		CHILDREN = 0
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 5, 12, 1]
-	DESCRIPTION = Type '<img src\x13=x o...' into 'Debugger
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (290.5, 542.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<img src\x13=x onerror="javascript:alert(1)">'
-
-ExecutedAction [93]: 
- @Action ConcreteID = ACxnl8obde3027676905 AbstractID = AAdc06zqd4220546219
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1gcvlfzd4466771012
- @State ConcreteID = SCnwfo9p2689465744440 AbstractID = SRblk8h724591501905364
- ConcreteID CUSTOM = SC7zutxv26943697884693 AbstractID CUSTOM = SA3s7lpj268d990271130
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WCj59h4h581737377897, WR4n9zi27465102038, WT19mcrhhf1606450397, WPapxz3543258428336
-		ROLE = UIAText
-		TITLE = Concepts
-		SHAPE = Rect [x:246.0 y:342.0 w:49.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 4, 1]
-	DESCRIPTION = Type '%n' into 'Concepts
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (270.5, 351.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '%n'
-
-ExecutedAction [94]: 
- @Action ConcreteID = AChfqjss812982121532 AbstractID = AAhfqjss812982121532
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1b4a5s181613039003
- @State ConcreteID = SC161bu6x26c53739170263 AbstractID = SRmdw1dr2497283144084
- ConcreteID CUSTOM = SC1s1cazr26c62450976326 AbstractID CUSTOM = SA1knfgcn26cd1446414677
+ @Action ConcreteID = AC11ivhuu803763054568 AbstractID = AA11ivhuu803763054568
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1ivnfgo801927306590
+ @State ConcreteID = SC1dcd9dk21e72807349434 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA140c16522022923265363
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WC13uupy161518664802, WR5quxi6b4097176690, WT104j5wl1d108211561, WP130987f5d3079353886
-		ROLE = UIATreeItem
-		TITLE = EGit Documentation
-		SHAPE = Rect [x:208.0 y:784.0 w:136.0 h:19.0]
-		CHILDREN = 2
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 10]
-	DESCRIPTION = Left Click at 'EGit Documentation'
+		WIDGET = WCv2td4d451583452811, WRa3fnoge3263686876, WT1ugtpza1d1012605992, WP1k8v4tb413481342205
+		ROLE = UIARadioButton
+		TITLE = Show all topics
+		SHAPE = Rect [x:758.0 y:39.0 w:13.0 h:13.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'Show all topics'
 	TEXT = Compound Action =
-		Move mouse to (276.0, 793.5).
+		Move mouse to (764.5, 45.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [92]: 
+ @Action ConcreteID = AC14h2edea01277149018 AbstractID = AA14h2edea01277149018
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1mkj2uca01534316135
+ @State ConcreteID = SC1dcd9dk21e72807349434 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA140c16522022923265363
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (234.0, 636.0) To (949.0, 636.0)
+	TEXT = Compound Action =
+		Move mouse to (234.0, 636.0).
+		Press Mouse Button BUTTON1
+		Move mouse to (949.0, 636.0).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [93]: 
+ @Action ConcreteID = ACtleek282895842641 AbstractID = AAtleek282895842641
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfdlm6s823667065286
+ @State ConcreteID = SC1dcd9dk21e72807349434 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA140c16522022923265363
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCqeuxa41f1244623445, WR1h6ibpb92248851252, WT1vn7c8mf254897263, WP1xw4qr21b4237654197
+		ROLE = UIAButton
+		TITLE = Choose
+		SHAPE = Rect [x:1030.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 3, 1]
+	DESCRIPTION = Left Click at 'Choose'
+	TEXT = Compound Action =
+		Move mouse to (1076.0, 540.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [94]: 
+ @Action ConcreteID = AC1nliecb803604790201 AbstractID = AA1nliecb803604790201
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1gtmk45802747299973
+ @State ConcreteID = SC1ynjoco21e83004487935 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA1mqlbjx22013280262652
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC11wlmvg301627487319, WRceq816b3820106996, WTceq816b3820106996, WPeigt7e2c1229275967
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:754.0 y:55.0 w:300.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (904.0, 64.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [95]: 
- @Action ConcreteID = AClq5mwj124722410667 AbstractID = AA19jnzqmd53903920549
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1y5s23wd51429352750
- @State ConcreteID = SCxyt474265f1055821103 AbstractID = SRixgvtr2420950316749
- ConcreteID CUSTOM = SCf44e1w266d2556002574 AbstractID CUSTOM = SA13uzsxq2676235673108
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC7jq2bl642953893674, WR4n9zi27465102038, WT104ps3y171055983012, WP1o0jthr603799479727
-		ROLE = UIAText
-		TITLE = Remote Debugging
-		SHAPE = Rect [x:264.0 y:590.0 w:104.0 h:18.0]
-		CHILDREN = 0
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 5, 15, 1]
-	DESCRIPTION = Type '<a href="\x1Ejav...' into 'Remote Debugging
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (316.0, 599.0).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>'
-
-ExecutedAction [96]: 
- @Action ConcreteID = AC1u426mg803000737946 AbstractID = AA1u426mg803000737946
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1i71fje7f3360239821
- @State ConcreteID = SCedls0k26284008068356 AbstractID = SRs57d3s23ec3555251197
- ConcreteID CUSTOM = SC196hiz526332366438504 AbstractID CUSTOM = SAkw058i2632928704013
+ @Action ConcreteID = ACsedcu3823814826067 AbstractID = AAsedcu3823814826067
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1gvsik5822466201530
+ @State ConcreteID = SC1ynjoco21e83004487935 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA1mqlbjx22013280262652
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WClnfi8f5a1507053084, WR5quxi6b4097176690, WTw4iua5144252953513, WP1op1eo156120074736
-		ROLE = UIATreeItem
-		TITLE = Reference
-		SHAPE = Rect [x:226.0 y:667.0 w:75.0 h:19.0]
-		CHILDREN = 2
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 4, 9]
-	DESCRIPTION = Left Click at 'Reference'
+		WIDGET = WC1ob9ryn363577097853, WRceq816b3820106996, WTceq816b3820106996, WPe53dp932818435119
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:982.0 y:303.0 w:70.0 h:34.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
 	TEXT = Compound Action =
-		Move mouse to (263.5, 676.5).
+		Move mouse to (1017.0, 320.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [96]: 
+ @Action ConcreteID = ACcy1yzx801982705001 AbstractID = AAcy1yzx801982705001
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAfmgm91813806669197
+ @State ConcreteID = SCaaebet1f083396070749 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1gwdut1efe3257097927 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC13gbaj03c1409368023, WRceq816b3820106996, WTceq816b3820106996, WPfj2i8q381874140570
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:164.0 y:133.0 w:192.0 h:18.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (260.0, 142.0).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [97]: 
- @Action ConcreteID = AC33vz4i811434230815 AbstractID = AA33vz4i811434230815
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAdc304w80897043070
- @State ConcreteID = SC1epz8sz273a2432190846 AbstractID = SR14rnu8r25092503440928
- ConcreteID CUSTOM = SCb8zh5b2746321083675 AbstractID CUSTOM = SAmexymm27482181393637
+ @Action ConcreteID = AC8h9nve9e2553571590 AbstractID = AA8h9nve9e2553571590
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxko15l9d2753606718
+ @State ConcreteID = SCg3nu7h1f8a210646822 AbstractID = SR1mkghk21de03917025348
+ ConcreteID CUSTOM = SCnpa9ax1f75590351975 AbstractID CUSTOM = SA7glxzr1f9e27059260
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (234.0, 636.0) To (949.0, 636.0)
+	TEXT = Compound Action =
+		Move mouse to (234.0, 636.0).
+		Press Mouse Button BUTTON1
+		Move mouse to (949.0, 636.0).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [20]: 
+ @Action ConcreteID = AC1w1e9lf7f1054171553 AbstractID = AA1w1e9lf7f1054171553
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAo2dxh5811924392363
+ @State ConcreteID = SCktffy91f0a944227217 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCcv7tag1eff2635149348 AbstractID CUSTOM = SA1jfa5uo1f213883710875
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCz4iriw43832879892, WR5quxi6b4097176690, WTw6uim9262495984366, WP1uqlb1i3f2498047214
+		WIDGET = WC160sxji621458284228, WR5quxi6b4097176690, WTu1ph2e1f18879972, WPlauzh85e3844802344
 		ROLE = UIATreeItem
-		TITLE = Improving Java code quality
-		SHAPE = Rect [x:869.0 y:440.0 w:140.0 h:18.0]
-		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 19]
-	DESCRIPTION = Left Click at 'Improving Java code quality'
+		TITLE = Workbench User Guide
+		SHAPE = Rect [x:130.0 y:183.0 w:152.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+	DESCRIPTION = Left Click at 'Workbench User Guide'
 	TEXT = Compound Action =
-		Move mouse to (939.0, 449.0).
+		Move mouse to (206.0, 192.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [21]: 
+ @Action ConcreteID = AC40h4e3822626357169 AbstractID = AA40h4e3822626357169
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxz7c8q82552794917
+ @State ConcreteID = SC14hfaqz1f0a3572892544 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SCur7q051eff2722373858 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1rvlpcu5b4280812318, WR1ca707tc1438424989, WT1ca707tc1438424989, WP1t3a99o571267865444
+		ROLE = UIAHyperLink
+		TITLE = 
+		SHAPE = Rect [x:1589.0 y:159.0 w:32.0 h:20.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (1605.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [22]: 
+ @Action ConcreteID = AC8g8c1g814120008023 AbstractID = AA8g8c1g814120008023
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1d8hw0i813607291924
+ @State ConcreteID = SC1dcd9dk21e72807349434 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA140c16522022923265363
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC18kfg401e2794874248, WR1h6ibpb92248851252, WT1ukehihe2665448566, WP2rwwg21a487372740
+		ROLE = UIAButton
+		TITLE = Retry
+		SHAPE = Rect [x:932.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Retry'
+	TEXT = Compound Action =
+		Move mouse to (978.0, 540.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [23]: 
+ @Action ConcreteID = AC1h82xmc811342439218 AbstractID = AA1h82xmc811342439218
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmz8fma811922253425
+ @State ConcreteID = SC1dcd9dk21e72807349434 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA140c16522022923265363
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCobf2hq282288432120, WR1h6ibpb92248851252, WT1vjbvvdf3603144044, WP1y5hhv0243104932967
+		ROLE = UIAButton
+		TITLE = Cancel
+		SHAPE = Rect [x:898.0 y:670.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [2, 0, 0, 0, 1, 0, 0]
+	DESCRIPTION = Left Click at 'Cancel'
+	TEXT = Compound Action =
+		Move mouse to (944.0, 682.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [24]: 
+ @Action ConcreteID = AC1epcjae802054118441 AbstractID = AA1epcjae802054118441
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1w24gw8803905201823
+ @State ConcreteID = SC1dcd9dk21e72807349434 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA140c16522022923265363
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC11wlmvg301627487319, WRceq816b3820106996, WTceq816b3820106996, WPeigt7e2c1229275967
+		ROLE = UIADataItem
+		TITLE = 
+		SHAPE = Rect [x:754.0 y:55.0 w:300.0 h:19.0]
+		CHILDREN = 2
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+	DESCRIPTION = Left Click at ''
+	TEXT = Compound Action =
+		Move mouse to (904.0, 64.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [25]: 
+ @Action ConcreteID = AC1im44ona02746753777 AbstractID = AA1im44ona02746753777
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAbb6bxta03206837710
+ @State ConcreteID = SC1ynjoco21e83004487935 AbstractID = SR1ht5mu2201c3883818245
+ ConcreteID CUSTOM = SCo725w321c62952039812 AbstractID CUSTOM = SA1mqlbjx22013280262652
+
+	ROLE = LeftDrag
+	DESCRIPTION = Drag (234.0, 636.0) To (949.0, 636.0)
+	TEXT = Compound Action =
+		Move mouse to (234.0, 636.0).
+		Press Mouse Button BUTTON1
+		Move mouse to (949.0, 636.0).
+		Release Mouse Button BUTTON1
+
+ExecutedAction [26]: 
+ @Action ConcreteID = ACurizf680918324417 AbstractID = AAurizf680918324417
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAxfxmoa812725511205
+ @State ConcreteID = SCaaebet1f083396070749 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1gwdut1efe3257097927 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC1yb0fv05962902451, WRceq816b3820106996, WT13m1tno131391978401, WP1fjw75q55649447156
+		ROLE = UIADataItem
+		TITLE = Contents
+		SHAPE = Rect [x:122.0 y:160.0 w:56.0 h:18.0]
+		CHILDREN = 1
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	DESCRIPTION = Left Click at 'Contents'
+	TEXT = Compound Action =
+		Move mouse to (150.0, 169.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [27]: 
+ @Action ConcreteID = AC1owbuiq80353623952 AbstractID = AA1owbuiq80353623952
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AA1rkqhru812178636660
+ @State ConcreteID = SCaaebet1f083396070749 AbstractID = SR1wlwl701d6d3176586963
+ ConcreteID CUSTOM = SC1gwdut1efe3257097927 AbstractID CUSTOM = SA1jfa5uo1f213883710875
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCm3p3zk3f3683458930, WR1h6ibpb92248851252, WTzj701zb3273157652, WP1rytmjm3b1997734188
+		ROLE = UIAButton
+		TITLE = Go
+		SHAPE = Rect [x:357.0 y:133.0 w:17.0 h:18.0]
+		CHILDREN = 0
+		PATH = [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0]
+	DESCRIPTION = Left Click at 'Go'
+	TEXT = Compound Action =
+		Move mouse to (365.5, 142.0).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [28]: 
+ @Action ConcreteID = ACqj6yak7f1708892518 AbstractID = AAqj6yak7f1708892518
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmbbsjh7e1231616961
+ @State ConcreteID = SCg3nu7h1f8a210646822 AbstractID = SR1mkghk21de03917025348
+ ConcreteID CUSTOM = SCnpa9ax1f75590351975 AbstractID CUSTOM = SA7glxzr1f9e27059260
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WC18kfg401e2794874248, WR1h6ibpb92248851252, WT1ukehihe2665448566, WP2rwwg21a487372740
+		ROLE = UIAButton
+		TITLE = Retry
+		SHAPE = Rect [x:932.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Retry'
+	TEXT = Compound Action =
+		Move mouse to (978.0, 540.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [29]: 
+ @Action ConcreteID = AClwb4lm801680552095 AbstractID = AAlwb4lm801680552095
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAx6pa897f750105998
+ @State ConcreteID = SCg3nu7h1f8a210646822 AbstractID = SR1mkghk21de03917025348
+ ConcreteID CUSTOM = SCnpa9ax1f75590351975 AbstractID CUSTOM = SA7glxzr1f9e27059260
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCqeuxa41f1244623445, WR1h6ibpb92248851252, WT1vn7c8mf254897263, WP1xw4qr21b4237654197
+		ROLE = UIAButton
+		TITLE = Choose
+		SHAPE = Rect [x:1030.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [0, 0, 3, 1]
+	DESCRIPTION = Left Click at 'Choose'
+	TEXT = Compound Action =
+		Move mouse to (1076.0, 540.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [98]: 
- @Action ConcreteID = AC16o3bl51091446263975 AbstractID = AAkqp9i7d5287090564
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAvgbjkd53705014705
- @State ConcreteID = SCg600ze273b3926778710 AbstractID = SR14rnu8r25092503440928
- ConcreteID CUSTOM = SC18e25y027461074880356 AbstractID CUSTOM = SAmexymm27482181393637
-
-	ROLE = ClickTypeInto
-	TARGET =
-		WIDGET = WC7qb5iu612075839482, WR4n9zi27465102038, WTrvb3xx1a441187619, WP12tjfyc5d2096330809
-		ROLE = UIAText
-		TITLE = Mylyn Documentation
-		SHAPE = Rect [x:228.0 y:804.0 w:126.0 h:19.0]
-		CHILDREN = 0
-		PATH = [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 12, 1]
-	DESCRIPTION = Type '() { 0; }; touch...' into 'Mylyn Documentation
-	TEXT = Compound Action =
-		Compound Action =
-		Move mouse to (291.0, 813.5).
-		Press Mouse Button BUTTON1
-		Release Mouse Button BUTTON1
-		Press Key 17
-		Press Key 65
-		Release Key 65
-		Release Key 17
-		Type text '() { 0; }; touch /tmp/blns.shellshock1.fail;'
-
-ExecutedAction [99]: 
- @Action ConcreteID = ACfgsubh7f703325291 AbstractID = AAfgsubh7f703325291
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArq337m813259300821
- @State ConcreteID = SC9dez3w2375106327204 AbstractID = SR10vaglx217a3154290649
- ConcreteID CUSTOM = SC15gnwh23742956437742 AbstractID CUSTOM = SA18ap5bn23773710375689
+ @Action ConcreteID = ACqj6yak7f1708892518 AbstractID = AAqj6yak7f1708892518
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmbbsjh7e1231616961
+ @State ConcreteID = SCg3nu7h1f8a210646822 AbstractID = SR1mkghk21de03917025348
+ ConcreteID CUSTOM = SCnpa9ax1f75590351975 AbstractID CUSTOM = SA7glxzr1f9e27059260
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCz4iriw43832879892, WR5quxi6b4097176690, WTw6uim9262495984366, WP1uqlb1i3f2498047214
-		ROLE = UIATreeItem
-		TITLE = Improving Java code quality
-		SHAPE = Rect [x:869.0 y:440.0 w:140.0 h:18.0]
+		WIDGET = WCeukjkh1e1729673800, WR1h6ibpb92248851252, WT1ukehihe2665448566, WP18361vn1a3699533828
+		ROLE = UIAButton
+		TITLE = Retry
+		SHAPE = Rect [x:932.0 y:528.0 w:92.0 h:25.0]
 		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 19]
-	DESCRIPTION = Left Click at 'Improving Java code quality'
+		PATH = [1, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Retry'
 	TEXT = Compound Action =
-		Move mouse to (939.0, 449.0).
+		Move mouse to (978.0, 540.5).
+		Press Mouse Button BUTTON1
+		Release Mouse Button BUTTON1
+
+ExecutedAction [99]: 
+ @Action ConcreteID = ACqj6yak7f1708892518 AbstractID = AAqj6yak7f1708892518
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAmbbsjh7e1231616961
+ @State ConcreteID = SCg3nu7h1f8a210646822 AbstractID = SR1mkghk21de03917025348
+ ConcreteID CUSTOM = SCnpa9ax1f75590351975 AbstractID CUSTOM = SA7glxzr1f9e27059260
+
+	ROLE = LeftClickAt
+	TARGET =
+		WIDGET = WCeukjkh1e1729673800, WR1h6ibpb92248851252, WT1ukehihe2665448566, WP18361vn1a3699533828
+		ROLE = UIAButton
+		TITLE = Retry
+		SHAPE = Rect [x:932.0 y:528.0 w:92.0 h:25.0]
+		CHILDREN = 0
+		PATH = [1, 0, 3, 0]
+	DESCRIPTION = Left Click at 'Retry'
+	TEXT = Compound Action =
+		Move mouse to (978.0, 540.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
 ExecutedAction [100]: 
- @Action ConcreteID = ACoz2ekj813023873675 AbstractID = AAoz2ekj813023873675
- ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AArei6hg81151305326
- @State ConcreteID = SC1nc66il23753871009987 AbstractID = SR10vaglx217a3154290649
- ConcreteID CUSTOM = SC1pxs2ax23751121167794 AbstractID CUSTOM = SA18ap5bn23773710375689
+ @Action ConcreteID = AClwb4lm801680552095 AbstractID = AAlwb4lm801680552095
+ ConcreteID CUSTOM = ConcreteID CUSTOM not available AbstractID CUSTOM = AAx6pa897f750105998
+ @State ConcreteID = SCg3nu7h1f8a210646822 AbstractID = SR1mkghk21de03917025348
+ ConcreteID CUSTOM = SCnpa9ax1f75590351975 AbstractID CUSTOM = SA7glxzr1f9e27059260
 
 	ROLE = LeftClickAt
 	TARGET =
-		WIDGET = WCbz3jqv382878890577, WR5quxi6b4097176690, WT1atyt3q1c1539445525, WPh40ieh34137865956
-		ROLE = UIATreeItem
-		TITLE = Inspecting Values
-		SHAPE = Rect [x:901.0 y:242.0 w:95.0 h:18.0]
+		WIDGET = WC1vq42pp1f2342628757, WR1h6ibpb92248851252, WT1vn7c8mf254897263, WP1469u7j1b1025222517
+		ROLE = UIAButton
+		TITLE = Choose
+		SHAPE = Rect [x:1030.0 y:528.0 w:92.0 h:25.0]
 		CHILDREN = 0
-		PATH = [0, 0, 4, 2, 0, 0, 3, 8]
-	DESCRIPTION = Left Click at 'Inspecting Values'
+		PATH = [1, 0, 3, 1]
+	DESCRIPTION = Left Click at 'Choose'
 	TEXT = Compound Action =
-		Move mouse to (948.5, 251.0).
+		Move mouse to (1076.0, 540.5).
 		Press Mouse Button BUTTON1
 		Release Mouse Button BUTTON1
 
