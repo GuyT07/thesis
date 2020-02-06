@@ -3,7 +3,9 @@ del /Q /F resources\output\*.log
 del /Q /F resources\output\logs\\*.log
 del /Q /F resources\output\metrics\\*.csv
 for /d %%G in ("resources\output\scrshots\\*") do rd /s /q "%%~G"
-for /d %%G in ("resources\output\sequences*") do rd /s /q "%%~G"
+del /Q /F resources\output\sequences\\*
+del /Q /F resources\output\sequences_ok\\*
+del /Q /F resources\output\sequences_unexpectedclose\\*
 del /Q /F resources\output\temp\\*
 
 // clean root
