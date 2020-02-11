@@ -1,1 +1,0 @@
-xcopy %USERPROFILE%\workspace\thesis\ecj\target\ecj-26.jar %USERPROFILE%\Desktop\testar\ecj-26.jar /Y
