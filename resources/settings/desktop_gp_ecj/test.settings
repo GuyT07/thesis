@@ -23,7 +23,7 @@ Mode = Generate
 # The SUT must be manually started and closed.
 #################################################################
 SUTConnector = COMMAND_LINE
-SUTConnectorValue = C:\\Program Files\\VideoLAN\\VLC\\vlc.exe
+SUTConnectorValue = C:\\Users\\Guy\\eclipse\\java-2019-09\\eclipse\\eclipse.exe
 
 #################################################################
 # Java Swing applications & Access Bridge Enabled
@@ -51,7 +51,7 @@ SequenceLength = 10
 # Regular expression
 #################################################################
 
-SuspiciousTitles = .*[eE]rror.*
+SuspiciousTitles = .*[eE]clipse [eE]rror [rR]eporter.*
 
 #################################################################
 # Oracles based on Suspicious Outputs detected by Process Listeners
@@ -83,7 +83,7 @@ ProcessLogs = .*.*
 # these will be added to the protocol_filter.xml file.
 #################################################################
 
-ClickFilter = .*[sS]ystem.*|.*[eE]xit.*|.*[mM]inimi[zs]e.*|.*[cC]lose|.*[sS]ave.*|.*[pP]rint.*|.*[sS]ave.*[aA]s.*|.*[mM]aximi[zs]e.*|.*[qQ]uit.*|.*Open.*File.*|.*[aA]dd.*|.*[bB]rowse.*|.*Open.*Folder.*|.*Open.*Multiple.*Files.*|.*[mM]ore.*[iI]nformation.*|.*[iI]nstall.*|.*[rR]eset [pP]references.*|.*[fF]ullscreen.*|.*[aA]dd.*[iI]nterface.*|opensubtitles.org|addons.videolan.org|wiki|Introduction to VLC media player|How to play files with VLC media player|Streaming Documentation|knowledge base|shortcuts|FAQ|Forums|mailing-lists|VideoLAN|Help and join us!|Authors|License|Credits|About|Mini.*Interface|.*Create.*Folder.*|.*Add.*File.*|.*Add.*Folder.*
+ClickFilter = .*[sS]ystem.*|.*[cC]lose.*|.*[eE]xit.*|.*[mM]inimi[zs]e.*|.*[sS]ave.*|.*[pP]rint.*|.*[sS]ave [aA]s.*|.*[mM]aximi[zs]e.*|.*[aA]bout [eE]clipse.*|[bB]rowse.*|.*[iI]mport.*|.*[eE]xport.*|.*[tT]erms [oO]f [uU]se.*|.*[pP]rivacy [pP]olicy.*|.*[bB]y [eE]clipse [fF]oundation.*|.*[eE]xport CSV.*|.*[aA]dd [pP]rivate [kK]ey.*|.*[lL]oad [eE]xisting [kK]ey.*|.*[sS]ave [pP]rivate [kK]ey.*|.*[cC]reate an account.*|.*[eE]dit your account.*|.*[rR]ecover your password.*|.*[sS]earch.*|.*[fF]ile.*|.*[fF]older.*|.*[hH]elp.*|.*[aA]nt Home.*|.*[aA]dd [eE]xternal JARs.*|.*[aA]dd [fF]older.*|.*[LL]ocal File.*|.*[PP]roject Homepage.*|.*[PP]roject Manual.*|.*[FF]avorite us.*|.*[FF]ollow us.*|.*[dD]iscover new extensions.*|.*[fF]orum.*|.*[lL]icense.*|.*[lL]egal Info.*|.*[vV]iew Error Log.*|.*[aA]rchive.*|.*[eE]xport All.*|.*[dD]irectory.*|.*[nN]ew.*|.*[sS]elect file.*|.*[lL]earn more.*|.*[nN]ew Agent.*|.*[nN]ew Bundle Pool.*|.*[dD]ownload.*|.*[fF]ile System.*|.*[oO]pen File.*|.*[oO]pen Projects from File System.*|.*[cC]lose.*|.*[sS]witch Workspace.*|.*[rR]estart.*
 
 #################################################################
 # Processfilter
@@ -92,7 +92,7 @@ ClickFilter = .*[sS]ystem.*|.*[eE]xit.*|.*[mM]inimi[zs]e.*|.*[cC]lose|.*[sS]ave.
 # but that you do not want to test.
 #################################################################
 
-SUTProcesses = vlc.exe|MicrosoftEdge.exe|MicrosoftEdgeCP.exe
+SUTProcesses = .*eclipse.exe.*
 
 #################################################################
 # Protocolclass
